@@ -1,0 +1,21 @@
+project:
+  name: nofrills-news
+  description: >
+    A minimal news aggregation site that serves concise article summaries.
+    Articles are sourced from Google Alerts RSS feeds, extracted and summarized,
+    stored in SQLite, and served as a statically generated Astro site via GitHub Pages.
+  language: JavaScript/Python
+  tech_stack:
+    - Astro (static site generator)
+    - Python (article fetching/processing pipeline)
+    - SQLite (article storage)
+    - GitHub Actions (CI/CD)
+    - GitHub Pages (hosting)
+  conventions:
+    - Keep everything as simple and low-cost as possible
+    - No images or advertisements in the frontend
+    - Zero or minimal JavaScript shipped to the browser
+    - Feed configuration lives in feeds.config.json at the repo root
+    - Articles stored in data/articles.db (SQLite, committed to repo)
+    - Python scripts live in scripts/
+    - Astro site lives in site/
