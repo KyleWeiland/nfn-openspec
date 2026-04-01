@@ -7,6 +7,12 @@ on:
 
   # Allow manual trigger
   workflow_dispatch:
+    inputs:
+      skip_fetch:
+        description: 'Skip fetching new articles (rebuild only)'
+        required: false
+        type: boolean
+        default: false
 
 # Set permissions for GitHub Pages deployment and repo commits
 permissions:
@@ -47,6 +53,7 @@ jobs:
 
       # 4. Fetch articles from RSS feeds
       - name: Fetch articles
+        if: ${{ !inputs.skip_fetch }}
         run: python scripts/fetch_articles.py
 
       # 5. Export data to JSON for Astro
@@ -86,7 +93,16 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "chore: daily article update [skip ci]"
+            # Determine commit message based on trigger type and skip_fetch input
+            if [ "${{ github.event_name }}" = "schedule" ]; then
+              COMMIT_MSG="chore: daily article update [skip ci]"
+            elif [ "${{ inputs.skip_fetch }}" = "true" ]; then
+              COMMIT_MSG="chore: manual rebuild [skip ci]"
+            else
+              COMMIT_MSG="chore: manual article update [skip ci]"
+            fi
+
+            git commit -m "$COMMIT_MSG"
             git push
           fi
 
