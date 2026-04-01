@@ -5,9 +5,12 @@ import os
 import re
 import logging
 from datetime import datetime
+from pathlib import Path
 
 
-DB_PATH = "data/articles.db"
+# Get repository root (parent of scripts directory)
+REPO_ROOT = Path(__file__).parent.parent
+DB_PATH = REPO_ROOT / "data" / "articles.db"
 
 
 def init_database():
@@ -17,10 +20,10 @@ def init_database():
         sqlite3.Connection: Database connection object
     """
     # Ensure data directory exists
-    os.makedirs("data", exist_ok=True)
+    DB_PATH.parent.mkdir(parents=True, exist_ok=True)
 
     # Connect to database
-    conn = sqlite3.connect(DB_PATH)
+    conn = sqlite3.connect(str(DB_PATH))
     cursor = conn.cursor()
 
     # Create articles table

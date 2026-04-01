@@ -16,7 +16,9 @@
       "Bash(fi)",
       "Bash(openspec new:*)",
       "Bash(openspec instructions proposal:*)",
-      "Bash(npm create:*)"
+      "Bash(npm create:*)",
+      "Bash(python scripts/export_for_astro.py:*)",
+      "Bash(python:*)"
     ],
     "deny": [],
     "ask": []

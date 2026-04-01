@@ -3,68 +3,123 @@
 import sqlite3
 import json
 import os
+import sys
+import logging
+from pathlib import Path
 
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s'
+)
 
-DB_PATH = "data/articles.db"
-ARTICLES_JSON = "data/articles.json"
-CATEGORIES_JSON = "data/categories.json"
+# Get repository root (parent of scripts directory)
+REPO_ROOT = Path(__file__).parent.parent
+DB_PATH = REPO_ROOT / "data" / "articles.db"
+ARTICLES_JSON = REPO_ROOT / "data" / "articles.json"
+CATEGORIES_JSON = REPO_ROOT / "data" / "categories.json"
 
 
 def export_articles():
-    """Export all articles from SQLite to JSON, ordered by date descending."""
-    # Ensure data directory exists
-    os.makedirs("data", exist_ok=True)
+    """Export all articles from SQLite to JSON, ordered by date descending.
 
-    # Connect to database
-    conn = sqlite3.connect(DB_PATH)
-    conn.row_factory = sqlite3.Row  # Enable dict-like access
-    cursor = conn.cursor()
+    Returns:
+        List of article dictionaries, or None if export fails
+    """
+    try:
+        # Ensure data directory exists
+        DB_PATH.parent.mkdir(parents=True, exist_ok=True)
 
-    # Fetch all articles, ordered by published_date descending (newest first)
-    cursor.execute("""
-        SELECT id, title, source_url, summary, category, published_date, slug
-        FROM articles
-        ORDER BY published_date DESC
-    """)
+        # Check if database exists
+        if not DB_PATH.exists():
+            logging.error(f"Database file not found: {DB_PATH}")
+            return None
 
-    # Convert rows to dictionaries
-    articles = [dict(row) for row in cursor.fetchall()]
+        # Connect to database
+        conn = sqlite3.connect(str(DB_PATH))
+        conn.row_factory = sqlite3.Row  # Enable dict-like access
+        cursor = conn.cursor()
 
-    # Write to JSON
-    with open(ARTICLES_JSON, 'w', encoding='utf-8') as f:
-        json.dump(articles, f, indent=2, ensure_ascii=False)
+        # Fetch all articles, ordered by published_date descending (newest first)
+        cursor.execute("""
+            SELECT id, title, source_url, summary, category, published_date, slug
+            FROM articles
+            ORDER BY published_date DESC
+        """)
 
-    conn.close()
-    print(f"Exported {len(articles)} articles to {ARTICLES_JSON}")
-    return articles
+        # Convert rows to dictionaries
+        articles = [dict(row) for row in cursor.fetchall()]
+
+        # Write to JSON
+        try:
+            with ARTICLES_JSON.open('w', encoding='utf-8') as f:
+                json.dump(articles, f, indent=2, ensure_ascii=False)
+        except IOError as e:
+            logging.error(f"Failed to write {ARTICLES_JSON}: {e}")
+            conn.close()
+            return None
+
+        conn.close()
+        logging.info(f"Exported {len(articles)} articles to {ARTICLES_JSON}")
+        return articles
+
+    except sqlite3.Error as e:
+        logging.error(f"Database error during article export: {e}")
+        return None
+    except Exception as e:
+        logging.error(f"Unexpected error during article export: {e}")
+        return None
 
 
 def export_categories(articles):
-    """Export unique categories to JSON, sorted alphabetically."""
-    # Extract unique categories
-    categories = sorted(set(article['category'] for article in articles))
+    """Export unique categories to JSON, sorted alphabetically.
 
-    # Write to JSON
-    with open(CATEGORIES_JSON, 'w', encoding='utf-8') as f:
-        json.dump(categories, f, indent=2, ensure_ascii=False)
+    Args:
+        articles: List of article dictionaries
 
-    print(f"Exported {len(categories)} categories to {CATEGORIES_JSON}")
-    return categories
+    Returns:
+        List of category strings, or None if export fails
+    """
+    try:
+        # Extract unique categories
+        categories = sorted(set(article['category'] for article in articles))
+
+        # Write to JSON
+        try:
+            with CATEGORIES_JSON.open('w', encoding='utf-8') as f:
+                json.dump(categories, f, indent=2, ensure_ascii=False)
+        except IOError as e:
+            logging.error(f"Failed to write {CATEGORIES_JSON}: {e}")
+            return None
+
+        logging.info(f"Exported {len(categories)} categories to {CATEGORIES_JSON}")
+        return categories
+
+    except Exception as e:
+        logging.error(f"Error during category export: {e}")
+        return None
 
 
 def main():
     """Main export function."""
-    print("Exporting data from SQLite to JSON...")
+    logging.info("Exporting data from SQLite to JSON...")
 
     # Export articles
     articles = export_articles()
+    if articles is None:
+        logging.error("Article export failed. Exiting.")
+        sys.exit(1)
 
     # Export categories
     categories = export_categories(articles)
+    if categories is None:
+        logging.error("Category export failed. Exiting.")
+        sys.exit(1)
 
-    print("\nExport complete!")
-    print(f"  Articles: {len(articles)}")
-    print(f"  Categories: {', '.join(categories)}")
+    logging.info("Export complete!")
+    logging.info(f"  Articles: {len(articles)}")
+    logging.info(f"  Categories: {', '.join(categories)}")
+    sys.exit(0)
 
 
 if __name__ == "__main__":

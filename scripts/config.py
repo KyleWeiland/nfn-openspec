@@ -3,10 +3,13 @@
 import json
 import logging
 import os
+from pathlib import Path
 from url_extraction import is_valid_url
 
 
-CONFIG_PATH = "feeds.config.json"
+# Get repository root (parent of scripts directory)
+REPO_ROOT = Path(__file__).parent.parent
+CONFIG_PATH = REPO_ROOT / "feeds.config.json"
 
 
 def load_config():
@@ -16,13 +19,13 @@ def load_config():
         List of feed dictionaries with 'url' and 'category' keys, or None if loading fails
     """
     # Check if config file exists
-    if not os.path.exists(CONFIG_PATH):
+    if not CONFIG_PATH.exists():
         logging.error(f"Configuration file not found: {CONFIG_PATH}")
         return None
 
     try:
         # Load JSON
-        with open(CONFIG_PATH, 'r') as f:
+        with CONFIG_PATH.open('r') as f:
             config = json.load(f)
 
         # Validate structure
