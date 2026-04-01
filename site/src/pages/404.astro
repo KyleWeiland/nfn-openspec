@@ -1,0 +1,16 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Navbar from '../components/Navbar.astro';
+---
+
+<BaseLayout title="Page Not Found">
+  <Navbar slot="nav" />
+
+  <div class="error-page">
+    <h1>404</h1>
+    <p>Page not found. The article or page you're looking for doesn't exist.</p>
+    <p>
+      <a href="/">← Return to home page</a>
+    </p>
+  </div>
+</BaseLayout>

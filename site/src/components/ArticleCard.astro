@@ -1,0 +1,60 @@
+---
+interface Props {
+  article: {
+    id: number;
+    title: string;
+    source_url: string;
+    summary: string;
+    category: string;
+    published_date: string;
+    slug: string;
+  };
+}
+
+const { article } = Astro.props;
+
+// Format date
+function formatDate(dateString: string): string {
+  const date = new Date(dateString);
+  return date.toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'short',
+    day: 'numeric'
+  });
+}
+
+// Truncate summary to ~150 characters
+function truncateSummary(text: string, maxLength: number = 150): string {
+  if (text.length <= maxLength) return text;
+  return text.slice(0, maxLength).trim() + '...';
+}
+
+// Generate category class name
+function getCategoryClass(category: string): string {
+  return 'category-' + category
+    .toLowerCase()
+    .replace(/\s+/g, '-')
+    .replace(/[^\w-]+/g, '');
+}
+---
+
+<article class="article-card">
+  <div class="article-meta">
+    <span class={`category-badge ${getCategoryClass(article.category)}`}>
+      {article.category}
+    </span>
+    <time datetime={article.published_date}>
+      {formatDate(article.published_date)}
+    </time>
+  </div>
+
+  <h2>
+    <a href={`/article/${article.slug}`}>
+      {article.title}
+    </a>
+  </h2>
+
+  <p class="article-summary">
+    {truncateSummary(article.summary)}
+  </p>
+</article>

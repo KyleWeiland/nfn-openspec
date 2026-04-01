@@ -1,0 +1,90 @@
+---
+interface Props {
+  page: {
+    url: {
+      prev?: string;
+      next?: string;
+    };
+    currentPage: number;
+    lastPage: number;
+  };
+}
+
+const { page } = Astro.props;
+
+// Generate array of page numbers to display
+function getPageNumbers(current: number, last: number): (number | string)[] {
+  const pages: (number | string)[] = [];
+  const maxVisible = 7;
+
+  if (last <= maxVisible) {
+    // Show all pages if there are few enough
+    for (let i = 1; i <= last; i++) {
+      pages.push(i);
+    }
+  } else {
+    // Show first, last, current, and nearby pages
+    if (current <= 3) {
+      // Near the start
+      for (let i = 1; i <= 5; i++) {
+        pages.push(i);
+      }
+      pages.push('...');
+      pages.push(last);
+    } else if (current >= last - 2) {
+      // Near the end
+      pages.push(1);
+      pages.push('...');
+      for (let i = last - 4; i <= last; i++) {
+        pages.push(i);
+      }
+    } else {
+      // In the middle
+      pages.push(1);
+      pages.push('...');
+      for (let i = current - 1; i <= current + 1; i++) {
+        pages.push(i);
+      }
+      pages.push('...');
+      pages.push(last);
+    }
+  }
+
+  return pages;
+}
+
+const pageNumbers = getPageNumbers(page.currentPage, page.lastPage);
+
+// Get base URL (without page number)
+const currentUrl = Astro.url.pathname;
+const baseUrl = currentUrl.replace(/\/\d+\/?$/, '').replace(/\/$/, '') || '';
+---
+
+<nav class="pagination" aria-label="Pagination">
+  {page.url.prev && (
+    <a href={page.url.prev} rel="prev">
+      ← Previous
+    </a>
+  )}
+
+  {pageNumbers.map((pageNum) => {
+    if (pageNum === '...') {
+      return <span>...</span>;
+    } else if (pageNum === page.currentPage) {
+      return (
+        <span class="current" aria-current="page">
+          {pageNum}
+        </span>
+      );
+    } else {
+      const url = pageNum === 1 ? baseUrl + '/' : `${baseUrl}/${pageNum}`;
+      return <a href={url}>{pageNum}</a>;
+    }
+  })}
+
+  {page.url.next && (
+    <a href={page.url.next} rel="next">
+      Next →
+    </a>
+  )}
+</nav>

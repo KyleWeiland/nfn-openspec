@@ -1,0 +1,28 @@
+---
+import categories from '../../../data/categories.json';
+
+// Helper function to create URL-safe category slugs
+function slugify(text: string): string {
+  return text
+    .toLowerCase()
+    .replace(/\s+/g, '-')
+    .replace(/[^\w-]+/g, '');
+}
+---
+
+<div class="nav-container">
+  <div class="site-title">
+    <a href="/">NoFrills.news</a>
+  </div>
+  <div class="site-tagline">
+    Just the news, no frills
+  </div>
+  <nav class="category-nav">
+    <a href="/" class="category-link">All</a>
+    {categories.map((category) => (
+      <a href={`/category/${slugify(category)}/`} class="category-link">
+        {category}
+      </a>
+    ))}
+  </nav>
+</div>

@@ -1,0 +1,460 @@
+/* ===== CSS Custom Properties ===== */
+:root {
+  /* Colors - Light Mode */
+  --color-bg: #ffffff;
+  --color-text: #1a1a1a;
+  --color-text-muted: #666666;
+  --color-border: #e0e0e0;
+  --color-link: #0066cc;
+  --color-link-hover: #004999;
+  --color-accent: #f5f5f5;
+
+  /* Category Colors - Light Mode */
+  --category-autonomous-trucks: #d4e7f0;
+  --category-autonomous-vehicles: #d0f0d4;
+  --category-connected-car: #f0e4d4;
+  --category-cybersecurity: #f0d4d4;
+  --category-image-recognition: #e4d4f0;
+  --category-iot-cyber: #f0d4e4;
+  --category-quantum-computers: #d4f0f0;
+  --category-smart-cities: #f0f0d4;
+  --category-sim-racing: #f0dcd4;
+
+  /* Spacing */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+
+  /* Typography */
+  --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "SF Mono", Monaco, "Cascadia Code", "Roboto Mono", Consolas, "Courier New", monospace;
+
+  /* Layout */
+  --max-width: 70ch;
+  --content-width: 90%;
+}
+
+/* Dark Mode */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #1a1a1a;
+    --color-text: #e0e0e0;
+    --color-text-muted: #999999;
+    --color-border: #333333;
+    --color-link: #6699ff;
+    --color-link-hover: #99bbff;
+    --color-accent: #252525;
+
+    /* Category Colors - Dark Mode */
+    --category-autonomous-trucks: #2a4a5a;
+    --category-autonomous-vehicles: #2a4a2a;
+    --category-connected-car: #4a3a2a;
+    --category-cybersecurity: #4a2a2a;
+    --category-image-recognition: #3a2a4a;
+    --category-iot-cyber: #4a2a3a;
+    --category-quantum-computers: #2a4a4a;
+    --category-smart-cities: #4a4a2a;
+    --category-sim-racing: #4a3a2a;
+  }
+}
+
+/* ===== Base Styles ===== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-text);
+  background-color: var(--color-bg);
+  padding: 0;
+  margin: 0;
+}
+
+/* ===== Typography ===== */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: var(--space-md);
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+h4 {
+  font-size: 1.125rem;
+}
+
+h5, h6 {
+  font-size: 1rem;
+}
+
+p {
+  margin-bottom: var(--space-md);
+}
+
+/* ===== Links ===== */
+a {
+  color: var(--color-link);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--color-link-hover);
+  text-decoration: underline;
+}
+
+a:focus {
+  outline: 2px solid var(--color-link);
+  outline-offset: 2px;
+}
+
+/* ===== Layout ===== */
+main {
+  max-width: var(--max-width);
+  width: var(--content-width);
+  margin: 0 auto;
+  padding: var(--space-xl) var(--space-md);
+  min-height: calc(100vh - 200px);
+}
+
+/* ===== Navigation ===== */
+.navbar {
+  background-color: var(--color-accent);
+  border-bottom: 1px solid var(--color-border);
+  padding: var(--space-lg) var(--space-md);
+}
+
+.nav-container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.site-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: var(--space-xs);
+}
+
+.site-title a {
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.site-title a:hover {
+  color: var(--color-link);
+}
+
+.site-tagline {
+  color: var(--color-text-muted);
+  font-size: 0.875rem;
+  margin-bottom: var(--space-md);
+}
+
+.category-nav {
+  display: flex;
+  gap: var(--space-md);
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+  padding-bottom: var(--space-sm);
+}
+
+.category-nav::-webkit-scrollbar {
+  height: 4px;
+}
+
+.category-nav::-webkit-scrollbar-track {
+  background: var(--color-accent);
+}
+
+.category-nav::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 2px;
+}
+
+.category-link {
+  white-space: nowrap;
+  padding: var(--space-sm) var(--space-md);
+  background-color: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  font-size: 0.875rem;
+  transition: all 0.2s ease;
+}
+
+.category-link:hover {
+  background-color: var(--color-accent);
+  text-decoration: none;
+}
+
+/* Desktop navigation */
+@media (min-width: 768px) {
+  .category-nav {
+    flex-wrap: wrap;
+    overflow-x: visible;
+  }
+}
+
+/* ===== Footer ===== */
+footer {
+  text-align: center;
+  padding: var(--space-xl) var(--space-md);
+  color: var(--color-text-muted);
+  font-size: 0.875rem;
+  border-top: 1px solid var(--color-border);
+}
+
+/* ===== Article Cards ===== */
+.article-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.article-card {
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  padding: var(--space-lg);
+  margin-bottom: var(--space-lg);
+  transition: box-shadow 0.2s ease;
+}
+
+.article-card:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.article-card h2 {
+  font-size: 1.25rem;
+  margin-bottom: var(--space-sm);
+}
+
+.article-card h2 a {
+  color: var(--color-text);
+}
+
+.article-card h2 a:hover {
+  color: var(--color-link);
+}
+
+.article-meta {
+  display: flex;
+  gap: var(--space-md);
+  align-items: center;
+  margin-bottom: var(--space-sm);
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
+}
+
+.article-summary {
+  color: var(--color-text-muted);
+  line-height: 1.5;
+}
+
+/* ===== Category Badges ===== */
+.category-badge {
+  display: inline-block;
+  padding: var(--space-xs) var(--space-sm);
+  border-radius: 3px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Category-specific colors */
+.category-autonomous-trucks {
+  background-color: var(--category-autonomous-trucks);
+  color: #1a1a1a;
+}
+
+.category-autonomous-vehicles {
+  background-color: var(--category-autonomous-vehicles);
+  color: #1a1a1a;
+}
+
+.category-connected-car {
+  background-color: var(--category-connected-car);
+  color: #1a1a1a;
+}
+
+.category-cybersecurity {
+  background-color: var(--category-cybersecurity);
+  color: #1a1a1a;
+}
+
+.category-image-recognition {
+  background-color: var(--category-image-recognition);
+  color: #1a1a1a;
+}
+
+.category-iot-cyber {
+  background-color: var(--category-iot-cyber);
+  color: #1a1a1a;
+}
+
+.category-quantum-computers {
+  background-color: var(--category-quantum-computers);
+  color: #1a1a1a;
+}
+
+.category-smart-cities {
+  background-color: var(--category-smart-cities);
+  color: #1a1a1a;
+}
+
+.category-sim-racing {
+  background-color: var(--category-sim-racing);
+  color: #1a1a1a;
+}
+
+@media (prefers-color-scheme: dark) {
+  .category-badge {
+    color: #e0e0e0;
+  }
+}
+
+/* ===== Pagination ===== */
+.pagination {
+  display: flex;
+  gap: var(--space-sm);
+  justify-content: center;
+  align-items: center;
+  margin-top: var(--space-2xl);
+  padding: var(--space-lg) 0;
+}
+
+.pagination a,
+.pagination span {
+  padding: var(--space-sm) var(--space-md);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  min-width: 44px;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.pagination a:hover {
+  background-color: var(--color-accent);
+  text-decoration: none;
+}
+
+.pagination .current {
+  background-color: var(--color-link);
+  color: white;
+  border-color: var(--color-link);
+}
+
+/* ===== Article Page ===== */
+.article-full {
+  max-width: 65ch;
+}
+
+.article-full .article-header {
+  margin-bottom: var(--space-xl);
+}
+
+.article-full .article-title {
+  font-size: 2rem;
+  line-height: 1.2;
+  margin-bottom: var(--space-md);
+}
+
+.article-full .article-content {
+  font-size: 1.125rem;
+  line-height: 1.7;
+  margin-bottom: var(--space-xl);
+}
+
+.read-original {
+  display: inline-block;
+  padding: var(--space-md) var(--space-lg);
+  background-color: var(--color-link);
+  color: white;
+  border-radius: 4px;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+  min-height: 44px;
+}
+
+.read-original:hover {
+  background-color: var(--color-link-hover);
+  text-decoration: none;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: var(--space-lg);
+  color: var(--color-text-muted);
+}
+
+.back-link:hover {
+  color: var(--color-link);
+}
+
+/* ===== 404 Page ===== */
+.error-page {
+  text-align: center;
+  padding: var(--space-2xl) 0;
+}
+
+.error-page h1 {
+  font-size: 3rem;
+  margin-bottom: var(--space-lg);
+}
+
+/* ===== Responsive Typography ===== */
+@media (min-width: 768px) {
+  html {
+    font-size: 18px;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+  }
+}
+
+/* ===== Accessibility ===== */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Focus visible for keyboard navigation */
+:focus-visible {
+  outline: 2px solid var(--color-link);
+  outline-offset: 2px;
+}

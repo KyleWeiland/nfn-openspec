@@ -1,0 +1,37 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Navbar from '../components/Navbar.astro';
+import ArticleCard from '../components/ArticleCard.astro';
+import Pagination from '../components/Pagination.astro';
+import type { GetStaticPaths, Page } from 'astro';
+import articles from '../../../data/articles.json';
+
+export const getStaticPaths = (async ({ paginate }) => {
+  // Sort articles by published_date descending (newest first)
+  const sortedArticles = [...articles].sort((a, b) => {
+    return new Date(b.published_date).getTime() - new Date(a.published_date).getTime();
+  });
+
+  return paginate(sortedArticles, { pageSize: 20 });
+}) satisfies GetStaticPaths;
+
+interface Props {
+  page: Page;
+}
+
+const { page } = Astro.props;
+---
+
+<BaseLayout title="Home">
+  <Navbar slot="nav" />
+
+  <h1>Latest News</h1>
+
+  <div class="article-list">
+    {page.data.map((article) => (
+      <ArticleCard article={article} />
+    ))}
+  </div>
+
+  <Pagination page={page} />
+</BaseLayout>

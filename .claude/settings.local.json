@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(openspec instructions design:*)",
+      "Bash(openspec status:*)",
+      "Bash(openspec instructions specs:*)",
+      "Bash(openspec instructions tasks:*)",
+      "Bash(openspec instructions apply:*)",
+      "Bash(openspec list:*)",
+      "Bash(python3 -m pip install:*)",
+      "Bash(cat:*)",
+      "Bash(if [ -d \"openspec/changes/archive/2026-03-31-python-article-pipeline\" ])",
+      "Bash(then echo \"EXISTS\")",
+      "Bash(else echo \"OK\")",
+      "Bash(fi)",
+      "Bash(openspec new:*)",
+      "Bash(openspec instructions proposal:*)",
+      "Bash(npm create:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

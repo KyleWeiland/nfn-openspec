@@ -1,0 +1,40 @@
+{
+  "feeds": [
+    {
+      "url": "https://www.google.com/alerts/feeds/11972904907666576888/17444979244877637174",
+      "category": "Autonomous Trucks"
+    },
+    {
+      "url": "https://www.google.com/alerts/feeds/11972904907666576888/3530950066431444267",
+      "category": "Autonomous Vehicles"
+    },
+    {
+      "url": "https://www.google.com/alerts/feeds/11972904907666576888/3124506852170060911",
+      "category": "Connected Car"
+    },
+    {
+      "url": "https://www.google.com/alerts/feeds/11972904907666576888/7246630102530012839",
+      "category": "Cybersecurity"
+    },
+    {
+      "url": "https://www.google.com/alerts/feeds/11972904907666576888/15416176553512080579",
+      "category": "Image Recognition"
+    },
+    {
+      "url": "https://www.google.com/alerts/feeds/11972904907666576888/10755605972009859749",
+      "category": "IoT Cyber"
+    },
+    {
+      "url": "https://www.google.com/alerts/feeds/11972904907666576888/8812993043096085296",
+      "category": "Quantum Computers"
+    },
+    {
+      "url": "https://www.google.com/alerts/feeds/11972904907666576888/3863502170297743583",
+      "category": "Smart Cities"
+    },
+    {
+      "url": "https://www.google.com/alerts/feeds/11972904907666576888/2565507364486471546",
+      "category": "Sim Racing"
+    }
+  ]
+}

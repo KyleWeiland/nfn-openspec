@@ -1,0 +1,63 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Navbar from '../../../components/Navbar.astro';
+import ArticleCard from '../../../components/ArticleCard.astro';
+import Pagination from '../../../components/Pagination.astro';
+import type { GetStaticPaths, Page } from 'astro';
+import articles from '../../../../../data/articles.json';
+import categories from '../../../../../data/categories.json';
+
+export const getStaticPaths = (async ({ paginate }) => {
+  // Generate paths for each category
+  return categories.flatMap((category) => {
+    // Filter articles by category (case-insensitive)
+    const filteredArticles = articles.filter(
+      (article) => article.category.toLowerCase() === category.toLowerCase()
+    );
+
+    // Sort by published_date descending
+    const sortedArticles = [...filteredArticles].sort((a, b) => {
+      return new Date(b.published_date).getTime() - new Date(a.published_date).getTime();
+    });
+
+    // Create slugified category for URL
+    const categorySlug = category
+      .toLowerCase()
+      .replace(/\s+/g, '-')
+      .replace(/[^\w-]+/g, '');
+
+    return paginate(sortedArticles, {
+      params: { category: categorySlug },
+      pageSize: 20,
+      props: { categoryName: category }
+    });
+  });
+}) satisfies GetStaticPaths;
+
+interface Props {
+  page: Page;
+  categoryName: string;
+}
+
+const { page, categoryName } = Astro.props;
+---
+
+<BaseLayout title={categoryName}>
+  <Navbar slot="nav" />
+
+  <h1>{categoryName}</h1>
+
+  {page.data.length > 0 ? (
+    <>
+      <div class="article-list">
+        {page.data.map((article) => (
+          <ArticleCard article={article} />
+        ))}
+      </div>
+
+      <Pagination page={page} />
+    </>
+  ) : (
+    <p>No articles found in this category.</p>
+  )}
+</BaseLayout>

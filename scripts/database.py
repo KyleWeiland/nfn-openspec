@@ -1,0 +1,153 @@
+"""Database operations module for article storage."""
+
+import sqlite3
+import os
+import re
+import logging
+from datetime import datetime
+
+
+DB_PATH = "data/articles.db"
+
+
+def init_database():
+    """Initialize the database and create the articles table if it doesn't exist.
+
+    Returns:
+        sqlite3.Connection: Database connection object
+    """
+    # Ensure data directory exists
+    os.makedirs("data", exist_ok=True)
+
+    # Connect to database
+    conn = sqlite3.connect(DB_PATH)
+    cursor = conn.cursor()
+
+    # Create articles table
+    cursor.execute("""
+        CREATE TABLE IF NOT EXISTS articles (
+            id INTEGER PRIMARY KEY,
+            title TEXT NOT NULL,
+            source_url TEXT NOT NULL,
+            summary TEXT,
+            category TEXT NOT NULL,
+            published_date TEXT,
+            slug TEXT NOT NULL,
+            created_at TEXT NOT NULL
+        )
+    """)
+
+    conn.commit()
+    return conn
+
+
+def generate_slug(title):
+    """Generate a URL-friendly slug from a title.
+
+    Args:
+        title: The article title
+
+    Returns:
+        A slugified version of the title
+    """
+    # Convert to lowercase
+    slug = title.lower()
+
+    # Replace spaces and special characters with hyphens
+    slug = re.sub(r'[^\w\s-]', '', slug)
+    slug = re.sub(r'[-\s]+', '-', slug)
+
+    # Remove leading/trailing hyphens
+    slug = slug.strip('-')
+
+    return slug
+
+
+def normalize_title(title):
+    """Normalize a title for deduplication.
+
+    Args:
+        title: The article title
+
+    Returns:
+        Normalized title (lowercase, stripped whitespace)
+    """
+    return title.lower().strip()
+
+
+def is_duplicate(conn, title, source_url):
+    """Check if an article is a duplicate based on normalized title and source URL.
+
+    Args:
+        conn: Database connection
+        title: Article title
+        source_url: Article source URL
+
+    Returns:
+        True if the article is a duplicate, False otherwise
+    """
+    cursor = conn.cursor()
+    normalized = normalize_title(title)
+
+    # Check for exact source URL match (regardless of title)
+    cursor.execute(
+        "SELECT COUNT(*) FROM articles WHERE source_url = ?",
+        (source_url,)
+    )
+    url_count = cursor.fetchone()[0]
+    if url_count > 0:
+        return True
+
+    # Check for normalized title + source URL match
+    cursor.execute(
+        "SELECT COUNT(*) FROM articles WHERE LOWER(TRIM(title)) = ? AND source_url = ?",
+        (normalized, source_url)
+    )
+    count = cursor.fetchone()[0]
+
+    return count > 0
+
+
+def get_iso8601_timestamp():
+    """Generate an ISO 8601 formatted timestamp.
+
+    Returns:
+        Current UTC time in ISO 8601 format
+    """
+    return datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%S")
+
+
+def insert_article(conn, title, source_url, summary, category, published_date):
+    """Insert an article into the database.
+
+    Args:
+        conn: Database connection
+        title: Article title
+        source_url: Article source URL
+        summary: Article summary
+        category: Article category
+        published_date: Article published date
+
+    Returns:
+        True if insertion successful, False otherwise
+    """
+    try:
+        cursor = conn.cursor()
+
+        # Generate slug and timestamp
+        slug = generate_slug(title)
+        created_at = get_iso8601_timestamp()
+
+        # Insert article
+        cursor.execute("""
+            INSERT INTO articles (title, source_url, summary, category, published_date, slug, created_at)
+            VALUES (?, ?, ?, ?, ?, ?, ?)
+        """, (title, source_url, summary, category, published_date, slug, created_at))
+
+        conn.commit()
+        return True
+
+    except Exception as e:
+        logging.error(f"Error inserting article '{title}': {e}")
+        conn.rollback()
+        return False

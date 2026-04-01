@@ -1,0 +1,79 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Navbar from '../../components/Navbar.astro';
+import type { GetStaticPaths } from 'astro';
+import articles from '../../../../data/articles.json';
+
+export const getStaticPaths = (async () => {
+  return articles.map((article) => ({
+    params: { slug: article.slug },
+    props: { article }
+  }));
+}) satisfies GetStaticPaths;
+
+interface Props {
+  article: {
+    id: number;
+    title: string;
+    source_url: string;
+    summary: string;
+    category: string;
+    published_date: string;
+    slug: string;
+  };
+}
+
+const { article } = Astro.props;
+
+// Format date
+function formatDate(dateString: string): string {
+  const date = new Date(dateString);
+  return date.toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric'
+  });
+}
+
+// Generate category class name
+function getCategoryClass(category: string): string {
+  return 'category-' + category
+    .toLowerCase()
+    .replace(/\s+/g, '-')
+    .replace(/[^\w-]+/g, '');
+}
+---
+
+<BaseLayout title={article.title}>
+  <Navbar slot="nav" />
+
+  <a href="/" class="back-link">← Back to all articles</a>
+
+  <article class="article-full">
+    <header class="article-header">
+      <h1 class="article-title">{article.title}</h1>
+
+      <div class="article-meta">
+        <span class={`category-badge ${getCategoryClass(article.category)}`}>
+          {article.category}
+        </span>
+        <time datetime={article.published_date}>
+          {formatDate(article.published_date)}
+        </time>
+      </div>
+    </header>
+
+    <div class="article-content">
+      <p>{article.summary}</p>
+    </div>
+
+    <a
+      href={article.source_url}
+      target="_blank"
+      rel="noopener noreferrer"
+      class="read-original"
+    >
+      Read Original Article →
+    </a>
+  </article>
+</BaseLayout>
