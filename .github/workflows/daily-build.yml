@@ -1,0 +1,106 @@
+name: Daily Article Update and Deployment
+
+on:
+  # Daily at 6 AM UTC
+  schedule:
+    - cron: '0 6 * * *'
+
+  # Allow manual trigger
+  workflow_dispatch:
+
+# Set permissions for GitHub Pages deployment and repo commits
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+# Prevent concurrent deployments
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  fetch-and-build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Checkout repo with full history for push back
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # 2. Set up Python 3.11+ with pip caching
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+          cache-dependency-path: 'scripts/requirements.txt'
+
+      # 3. Install Python dependencies
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r scripts/requirements.txt
+
+      # 4. Fetch articles from RSS feeds
+      - name: Fetch articles
+        run: python scripts/fetch_articles.py
+
+      # 5. Export data to JSON for Astro
+      - name: Export data for Astro
+        run: python scripts/export_for_astro.py
+
+      # 6. Set up Node.js 20+ with npm caching
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: 'site/package-lock.json'
+
+      # 7. Install Astro dependencies
+      - name: Install Node dependencies
+        run: |
+          cd site
+          npm ci
+
+      # 8. Build Astro site
+      - name: Build Astro site
+        run: |
+          cd site
+          npm run build
+
+      # 9. Commit updated database and JSON files back to repo
+      - name: Commit updated data
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
+          # Add updated files
+          git add data/articles.db data/articles.json data/categories.json
+
+          # Check if there are changes to commit
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: daily article update [skip ci]"
+            git push
+          fi
+
+      # 10. Configure GitHub Pages
+      - name: Configure Pages
+        uses: actions/configure-pages@v4
+
+      # 11. Upload artifact for Pages deployment
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: 'site/dist'
+
+      # 12. Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
