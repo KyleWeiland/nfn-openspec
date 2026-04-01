@@ -13,6 +13,9 @@ interface Props {
 
 const { article } = Astro.props;
 
+// Get the base URL from Astro config
+const base = import.meta.env.BASE_URL;
+
 // Format date
 function formatDate(dateString: string): string {
   const date = new Date(dateString);
@@ -49,7 +52,7 @@ function getCategoryClass(category: string): string {
   </div>
 
   <h2>
-    <a href={`/article/${article.slug}`}>
+    <a href={`${base}article/${article.slug}`}>
       {article.title}
     </a>
   </h2>

@@ -1,6 +1,9 @@
 ---
 import categories from '../../../data/categories.json';
 
+// Get the base URL from Astro config
+const base = import.meta.env.BASE_URL;
+
 // Helper function to create URL-safe category slugs
 function slugify(text: string): string {
   return text
@@ -12,15 +15,15 @@ function slugify(text: string): string {
 
 <div class="nav-container">
   <div class="site-title">
-    <a href="/">NoFrills.news</a>
+    <a href={base}>NoFrills.news</a>
   </div>
   <div class="site-tagline">
     Just the news, no frills
   </div>
   <nav class="category-nav">
-    <a href="/" class="category-link">All</a>
+    <a href={base} class="category-link">All</a>
     {categories.map((category) => (
-      <a href={`/category/${slugify(category)}/`} class="category-link">
+      <a href={`${base}category/${slugify(category)}/`} class="category-link">
         {category}
       </a>
     ))}
