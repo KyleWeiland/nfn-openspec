@@ -1,4 +1,4 @@
-## ADDED Requirements
+## MODIFIED Requirements
 
 ### Requirement: RSS feed parsing
 The system SHALL use the gnews library to fetch articles by executing a search query for each configured feed.

@@ -1,39 +1,46 @@
 {
+  "gnews_settings": {
+    "language": "en",
+    "country": "US",
+    "max_results": 10,
+    "period": "1d"
+  },
+  "excluded_domains": ["youtube.com", "reddit.com"],
   "feeds": [
     {
-      "url": "https://www.google.com/alerts/feeds/11972904907666576888/17444979244877637174",
+      "query": "Autonomous Trucks",
       "category": "Autonomous Trucks"
     },
     {
-      "url": "https://www.google.com/alerts/feeds/11972904907666576888/3530950066431444267",
+      "query": "Autonomous Vehicles",
       "category": "Autonomous Vehicles"
     },
     {
-      "url": "https://www.google.com/alerts/feeds/11972904907666576888/3124506852170060911",
+      "query": "Connected Car",
       "category": "Connected Car"
     },
     {
-      "url": "https://www.google.com/alerts/feeds/11972904907666576888/7246630102530012839",
+      "query": "Cybersecurity",
       "category": "Cybersecurity"
     },
     {
-      "url": "https://www.google.com/alerts/feeds/11972904907666576888/15416176553512080579",
+      "query": "Image Recognition",
       "category": "Image Recognition"
     },
     {
-      "url": "https://www.google.com/alerts/feeds/11972904907666576888/10755605972009859749",
+      "query": "IoT Cyber",
       "category": "IoT Cyber"
     },
     {
-      "url": "https://www.google.com/alerts/feeds/11972904907666576888/8812993043096085296",
+      "query": "Quantum Computers",
       "category": "Quantum Computers"
     },
     {
-      "url": "https://www.google.com/alerts/feeds/11972904907666576888/3863502170297743583",
+      "query": "Smart Cities",
       "category": "Smart Cities"
     },
     {
-      "url": "https://www.google.com/alerts/feeds/11972904907666576888/2565507364486471546",
+      "query": "Sim Racing",
       "category": "Sim Racing"
     }
   ]

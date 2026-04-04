@@ -1,4 +1,4 @@
-## ADDED Requirements
+## MODIFIED Requirements
 
 ### Requirement: Article content download
 The system SHALL download and parse article content using Newspaper4k by creating a `newspaper.Article` instance configured with a 30-second timeout and a standard browser user agent.
@@ -54,3 +54,9 @@ The system SHALL store summaries as plain text without HTML markup.
 #### Scenario: Clean text summary
 - **WHEN** a summary is generated
 - **THEN** it MUST NOT contain HTML tags, scripts, or style elements
+
+## REMOVED Requirements
+
+### Requirement: Word counting
+**Reason**: Manual word counting was only needed for the word-truncation summary approach. Newspaper4k's NLP summary replaces this; the fallback truncation uses Python's `str.split()` inline without a dedicated word-count function.
+**Migration**: Remove any standalone word-count utility. Use `len(text.split())` inline if a word count is needed for the fallback truncation path.

@@ -1,4 +1,4 @@
-## ADDED Requirements
+## MODIFIED Requirements
 
 ### Requirement: Configuration file format
 The system SHALL use a JSON configuration file named `feeds.config.json` located at the repository root containing a top-level `gnews_settings` object, an `excluded_domains` array, and a `feeds` array of feed objects.
@@ -43,3 +43,9 @@ The system SHALL accept any non-empty string as a category name.
 #### Scenario: Empty category name
 - **WHEN** a feed has an empty category string
 - **THEN** the system MUST log an error and skip that feed
+
+## REMOVED Requirements
+
+### Requirement: Feed URL validation
+**Reason**: Feed entries no longer contain URLs. Feeds are now identified by a search query string, not an RSS URL. URL validation belongs to article-level processing, not feed config.
+**Migration**: Remove any URL validation logic from feed config parsing. Each feed entry uses a `query` field instead of a `url` field.

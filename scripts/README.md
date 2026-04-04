@@ -7,8 +7,10 @@ This directory contains the Python scripts for the NoFrills.news article fetchin
 Install the required dependencies:
 
 ```bash
-pip install -r ../requirements.txt
+pip install -r requirements.txt
 ```
+
+Newspaper4k requires the NLTK `punkt_tab` tokenizer for NLP summarization. The pipeline downloads it automatically on first run (silently, no action needed).
 
 ## Usage
 
@@ -21,12 +23,11 @@ python fetch_articles.py
 ```
 
 The script will:
-1. Load feed URLs from `feeds.config.json`
-2. Parse each RSS feed
-3. Extract article URLs from Google Alerts redirects
-4. Download and extract article content
-5. Generate summaries (200-300 words)
-6. Store articles in `data/articles.db` with deduplication
+1. Load feed queries and settings from `feeds.config.json`
+2. Fetch articles via gnews for each configured query
+3. Download and extract article content using Newspaper4k
+4. Generate NLP summaries
+5. Store articles in `data/articles.db` with deduplication
 
 ### Test the Modules
 
@@ -39,31 +40,42 @@ python test_modules.py
 This tests:
 - Slug generation
 - Title normalization
-- URL extraction from Google Alerts redirects
-- URL validation
 
 ## Configuration
 
-Edit `feeds.config.json` in the repository root to add or remove RSS feeds:
+Edit `feeds.config.json` in the repository root to add or remove feeds:
 
 ```json
 {
+  "gnews_settings": {
+    "language": "en",
+    "country": "US",
+    "max_results": 10,
+    "period": "1d"
+  },
+  "excluded_domains": ["youtube.com", "reddit.com"],
   "feeds": [
     {
-      "url": "https://www.google.com/alerts/feeds/...",
+      "query": "Technology",
       "category": "Technology"
     }
   ]
 }
 ```
 
+- `gnews_settings.period` — how far back to look (`"1d"`, `"7d"`, etc.)
+- `gnews_settings.max_results` — max articles returned per query
+- `excluded_domains` — domains to exclude from all queries
+- `feeds[].query` — search term passed to Google News
+- `feeds[].category` — category label stored with each article
+
 ## Module Overview
 
 - `fetch_articles.py` - Main pipeline script
 - `config.py` - Configuration file loading and validation
-- `article_fetching.py` - RSS feed parsing
-- `url_extraction.py` - Google Alerts redirect URL extraction
-- `article_processing.py` - Article download, extraction, and summarization
+- `article_fetching.py` - gnews-based article discovery
+- `article_processing.py` - Article download, extraction, and NLP summarization (Newspaper4k)
+- `url_extraction.py` - URL utilities
 - `database.py` - SQLite database operations
 - `test_modules.py` - Unit tests for core functions
 
@@ -91,12 +103,13 @@ The pipeline is designed to be resilient:
 - Network errors are logged and the pipeline continues
 - Duplicates are automatically skipped
 - Missing or malformed config causes immediate exit
+- Zero results for a query logs a warning and continues
 
 ## Logging
 
 All operations are logged to stdout with timestamps:
 - INFO: Successful operations
-- WARNING: Skipped entries
-- ERROR: Failed operations
+- WARNING: Skipped entries or non-fatal failures
+- ERROR: Fatal failures
 
 Check the logs to debug issues or monitor progress.
