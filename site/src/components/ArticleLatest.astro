@@ -1,0 +1,44 @@
+---
+import { formatRelativeTime, slugify } from '../utils/formatTime';
+
+interface Props {
+  article: {
+    title: string;
+    slug: string;
+    summary: string;
+    category: string;
+    published_date: string;
+    source_name?: string;
+  };
+}
+
+const { article } = Astro.props;
+const base = import.meta.env.BASE_URL;
+
+function truncateHook(text: string, max: number = 180): string {
+  if (!text || text.length <= max) return text || "";
+  const t = text.slice(0, max);
+  const last = t.lastIndexOf(" ");
+  return (last > 0 ? t.slice(0, last) : t) + "…";
+}
+---
+
+<article class="article-latest">
+  <h2 class="article-title">
+    <a href={`${base}article/${article.slug}`}>{article.title}</a>
+  </h2>
+  {article.summary && (
+    <p class="article-hook">{truncateHook(article.summary)}</p>
+  )}
+  <div class="article-meta">
+    <span class="category-label">{article.category}</span>
+    <span class="sep">&middot;</span>
+    <span>{formatRelativeTime(article.published_date)}</span>
+    {article.source_name && (
+      <>
+        <span class="sep">&middot;</span>
+        <span>via {article.source_name}</span>
+      </>
+    )}
+  </div>
+</article>

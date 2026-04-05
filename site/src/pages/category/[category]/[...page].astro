@@ -1,35 +1,29 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
-import Navbar from '../../../components/Navbar.astro';
-import ArticleCard from '../../../components/ArticleCard.astro';
+import ArticleItem from '../../../components/ArticleItem.astro';
 import Pagination from '../../../components/Pagination.astro';
+import { slugify } from '../../../utils/formatTime';
 import type { GetStaticPaths, Page } from 'astro';
 import articles from '../../../../../data/articles.json';
 import categories from '../../../../../data/categories.json';
 
 export const getStaticPaths = (async ({ paginate }) => {
-  // Generate paths for each category
   return categories.flatMap((category) => {
-    // Filter articles by category (case-insensitive)
     const filteredArticles = articles.filter(
       (article) => article.category.toLowerCase() === category.toLowerCase()
     );
 
-    // Sort by published_date descending
     const sortedArticles = [...filteredArticles].sort((a, b) => {
       return new Date(b.published_date).getTime() - new Date(a.published_date).getTime();
     });
 
-    // Create slugified category for URL
-    const categorySlug = category
-      .toLowerCase()
-      .replace(/\s+/g, '-')
-      .replace(/[^\w-]+/g, '');
-
     return paginate(sortedArticles, {
-      params: { category: categorySlug },
+      params: { category: slugify(category) },
       pageSize: 20,
-      props: { categoryName: category }
+      props: {
+        categoryName: category,
+        totalArticles: sortedArticles.length,
+      }
     });
   });
 }) satisfies GetStaticPaths;
@@ -37,21 +31,24 @@ export const getStaticPaths = (async ({ paginate }) => {
 interface Props {
   page: Page;
   categoryName: string;
+  totalArticles: number;
 }
 
-const { page, categoryName } = Astro.props;
+const { page, categoryName, totalArticles } = Astro.props;
 ---
 
-<BaseLayout title={categoryName}>
-  <Navbar slot="nav" />
+<BaseLayout title={categoryName} activeCategory={categoryName}>
 
-  <h1>{categoryName}</h1>
+  <div class="page-header">
+    <h1 class="page-title">{categoryName}</h1>
+    <p class="page-meta">{totalArticles} articles &middot; Page {page.currentPage} of {page.lastPage}</p>
+  </div>
 
   {page.data.length > 0 ? (
     <>
       <div class="article-list">
         {page.data.map((article) => (
-          <ArticleCard article={article} />
+          <ArticleItem article={article} />
         ))}
       </div>
 
@@ -60,4 +57,5 @@ const { page, categoryName } = Astro.props;
   ) : (
     <p>No articles found in this category.</p>
   )}
+
 </BaseLayout>
