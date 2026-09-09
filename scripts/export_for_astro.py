@@ -65,7 +65,8 @@ def export_articles():
 
         # Fetch all articles, ordered by published_date descending (newest first)
         cursor.execute("""
-            SELECT id, title, source_url, summary, category, published_date, slug
+            SELECT id, title, source_url, summary, category, published_date, slug,
+                   extraction_method
             FROM articles
             ORDER BY published_date DESC
         """)

@@ -12,6 +12,11 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).parent.parent
 DB_PATH = REPO_ROOT / "data" / "articles.db"
 
+# Identifies which extraction pipeline produced a row. Rows predating the
+# gnews/Newspaper4k migration are backfilled as "trafilatura".
+EXTRACTION_METHOD = "newspaper4k"
+LEGACY_EXTRACTION_METHOD = "trafilatura"
+
 
 def init_database():
     """Initialize the database and create the articles table if it doesn't exist.
@@ -36,9 +41,26 @@ def init_database():
             category TEXT NOT NULL,
             published_date TEXT,
             slug TEXT NOT NULL,
-            created_at TEXT NOT NULL
+            created_at TEXT NOT NULL,
+            extraction_method TEXT
         )
     """)
+
+    # Migrate pre-existing databases: the table above is only created once, so
+    # older databases need the column added and their rows attributed.
+    cursor.execute("PRAGMA table_info(articles)")
+    columns = {row[1] for row in cursor.fetchall()}
+    if "extraction_method" not in columns:
+        logging.info("Migrating database: adding extraction_method column")
+        cursor.execute("ALTER TABLE articles ADD COLUMN extraction_method TEXT")
+
+    # Attribute any unmarked rows to the legacy pipeline. Idempotent.
+    cursor.execute(
+        "UPDATE articles SET extraction_method = ? WHERE extraction_method IS NULL",
+        (LEGACY_EXTRACTION_METHOD,)
+    )
+    if cursor.rowcount > 0:
+        logging.info(f"Marked {cursor.rowcount} existing article(s) as {LEGACY_EXTRACTION_METHOD}")
 
     conn.commit()
     return conn
@@ -120,7 +142,8 @@ def get_iso8601_timestamp():
     return datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%S")
 
 
-def insert_article(conn, title, source_url, summary, category, published_date):
+def insert_article(conn, title, source_url, summary, category, published_date,
+                   extraction_method=EXTRACTION_METHOD):
     """Insert an article into the database.
 
     Args:
@@ -130,6 +153,7 @@ def insert_article(conn, title, source_url, summary, category, published_date):
         summary: Article summary
         category: Article category
         published_date: Article published date
+        extraction_method: Pipeline that produced this row (defaults to the current one)
 
     Returns:
         True if insertion successful, False otherwise
@@ -143,9 +167,10 @@ def insert_article(conn, title, source_url, summary, category, published_date):
 
         # Insert article
         cursor.execute("""
-            INSERT INTO articles (title, source_url, summary, category, published_date, slug, created_at)
-            VALUES (?, ?, ?, ?, ?, ?, ?)
-        """, (title, source_url, summary, category, published_date, slug, created_at))
+            INSERT INTO articles (title, source_url, summary, category, published_date, slug, created_at, extraction_method)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+        """, (title, source_url, summary, category, published_date, slug, created_at,
+              extraction_method))
 
         conn.commit()
         return True
