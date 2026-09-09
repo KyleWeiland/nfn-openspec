@@ -1,10 +1,10 @@
 # NoFrills.news
 
-A minimal news aggregation site that delivers articles without the clutter. No images, no ads, no JavaScript—just clean, readable content focused on tech topics like autonomous vehicles, cybersecurity, quantum computing, and smart cities.
+A minimal news aggregation site that delivers articles without the clutter. No images, no ads, no tracking, no client-side frameworks — just clean, readable content focused on tech topics like autonomous vehicles, cybersecurity, quantum computing, and smart cities.
 
 ## What is NoFrills.news?
 
-NoFrills.news automatically fetches articles from curated Google Alerts RSS feeds, extracts and summarizes the content, stores them in a SQLite database, and builds them into a fast, minimal static site deployed to GitHub Pages. The entire pipeline runs daily via GitHub Actions.
+NoFrills.news automatically searches Google News for a curated set of topics, extracts and summarizes each article, stores them in a SQLite database, and builds them into a fast, minimal static site deployed to GitHub Pages. The entire pipeline runs daily via GitHub Actions.
 
 **Live site:** https://kyleweiland.github.io/nfn-openspec/
 
@@ -12,15 +12,16 @@ NoFrills.news automatically fetches articles from curated Google Alerts RSS feed
 
 ```
 ┌─────────────────┐
-│  Google Alerts  │
-│   RSS Feeds     │
+│  Google News    │
+│  search queries │
+│  (via gnews)    │
 └────────┬────────┘
          │
          ▼
 ┌─────────────────┐
 │  Python Script  │
-│  feedparser +   │
-│  trafilatura    │
+│  gnews +        │
+│  Newspaper4k    │
 └────────┬────────┘
          │
          ▼
@@ -50,24 +51,32 @@ NoFrills.news automatically fetches articles from curated Google Alerts RSS feed
 ```
 
 **Data Flow:**
-1. **RSS Feeds** → Google Alerts provides RSS feeds for specific search topics
-2. **Python Pipeline** → Fetches articles, extracts content, generates summaries
+1. **Google News** → `gnews` runs one search query per configured category
+2. **Python Pipeline** → Downloads each article, extracts the text, generates an NLP summary
 3. **SQLite Storage** → Stores articles with deduplication (normalized title + source URL)
 4. **JSON Export** → Exports data for frontend consumption
-5. **Astro Build** → Generates static HTML pages (zero JavaScript shipped to browser)
+5. **Astro Build** → Generates static HTML pages
 6. **GitHub Pages** → Deploys and hosts the site
+
+No API key is required. `gnews` queries Google News directly and returns direct article URLs, so there are no redirect URLs to unwrap.
 
 ## Technology Stack
 
 - **Python 3.11+** — Backend pipeline
-  - `feedparser` — RSS feed parsing
-  - `trafilatura` — Article content extraction
+  - `gnews` — Google News search and article discovery
+  - `newspaper4k` — Article extraction and NLP summarization
+  - `googlenewsdecoder` — Resolves Google News wrapper URLs when they appear
+  - `lxml_html_clean` — HTML sanitization (Newspaper4k dependency)
   - `requests` — HTTP requests
 - **Node.js 20+** — Frontend tooling
-  - `Astro` — Static site generator
+  - `Astro` — Static site generator (static output mode)
 - **SQLite3** — Database (standard library, no separate installation)
 - **GitHub Actions** — CI/CD automation
 - **GitHub Pages** — Static site hosting
+
+### A note on JavaScript
+
+The site ships no client-side framework and no interactive components. The only JavaScript in the build is Astro's prefetch runtime (~17 KB total), enabled by `prefetch.prefetchAll` in `site/astro.config.mjs`, which preloads linked pages for instant navigation. Removing that option produces a build with zero JavaScript, at the cost of the instant navigation.
 
 ## Quick Start
 
@@ -92,6 +101,8 @@ cd site
 npm install
 cd ..
 ```
+
+Newspaper4k needs NLTK's `punkt_tab` tokenizer for summarization. The pipeline downloads it automatically on first run — no action needed.
 
 ### Run Locally
 
@@ -120,7 +131,7 @@ npm run dev
 
 ### Using Existing Data
 
-The repository includes a pre-populated `data/articles.db` with articles. You can immediately export and preview:
+The repository includes a pre-populated `data/articles.db`. You can immediately export and preview:
 
 ```bash
 python scripts/export_for_astro.py
@@ -129,18 +140,17 @@ cd site && npm run dev
 
 ### Fetching New Articles
 
-To fetch fresh articles from RSS feeds:
+To fetch fresh articles:
 
 ```bash
 python scripts/fetch_articles.py
 ```
 
 This will:
-- Read feed URLs from `feeds.config.json`
-- Fetch articles from each feed
-- Extract article URLs from Google Alerts redirects
-- Download and extract article content
-- Generate summaries (up to 300 words)
+- Read search queries and settings from `feeds.config.json`
+- Query Google News for each configured topic
+- Download each article and extract its text with Newspaper4k
+- Generate an NLP summary (falling back to a ~300-word truncation if NLP fails)
 - Store in `data/articles.db` with deduplication
 
 ### Building for Production
@@ -161,35 +171,52 @@ The production build outputs to `site/dist/`.
 
 ## Feed Management
 
-### Adding a New Feed
-
-Edit `feeds.config.json` and add a new feed entry:
+Feeds are plain Google News search queries. `feeds.config.json` in the repository root is the single control point.
 
 ```json
 {
+  "gnews_settings": {
+    "language": "en",
+    "country": "US",
+    "max_results": 10,
+    "period": "1d"
+  },
+  "excluded_domains": ["youtube.com", "reddit.com"],
   "feeds": [
     {
-      "url": "https://www.google.com/alerts/feeds/YOUR_FEED_ID_HERE",
-      "category": "Your Category Name"
+      "query": "Autonomous Trucks",
+      "category": "Autonomous Trucks"
     }
   ]
 }
 ```
 
-**Feed structure:**
-- `url` — Google Alerts RSS feed URL
-- `category` — Display name for categorizing articles on the site
+**Settings:**
+- `gnews_settings.language` / `country` — locale for the search
+- `gnews_settings.max_results` — max articles returned per query, per run
+- `gnews_settings.period` — how far back to look (`"1d"`, `"7d"`, and so on)
+- `excluded_domains` — domains filtered out of every query
+- `feeds[].query` — the search term sent to Google News
+- `feeds[].category` — display name used to group articles on the site
+
+### Adding a New Feed
+
+Add an entry to the `feeds` array with a `query` and a `category`. Nothing else needs to change — the site's categories are derived from the articles actually stored, so a new category appears after its first successful fetch.
 
 ### Removing a Feed
 
-Simply delete the corresponding entry from `feeds.config.json`.
+Delete the corresponding entry from `feeds.config.json`. Articles already collected under that category remain in the database and stay on the site.
 
-### How to Get Google Alerts RSS Feed URLs
+## Article Provenance
 
-1. Go to https://www.google.com/alerts
-2. Create an alert for your topic
-3. Set "Deliver to" → RSS feed
-4. Copy the RSS feed URL from the alert
+Articles carry an `extraction_method` field recording which pipeline produced them:
+
+- `trafilatura` — the original pipeline (Google Alerts RSS + feedparser + trafilatura), used through September 2026
+- `newspaper4k` — the current pipeline (Google News search + Newspaper4k)
+
+The two produce noticeably different summaries: the legacy pipeline truncated the article's opening to roughly 300 words, while Newspaper4k generates a shorter extractive summary. Legacy articles are labelled *archived summary* in the byline on their article page.
+
+`init_database()` migrates older databases in place, adding the column and backfilling unmarked rows as `trafilatura`. The migration is idempotent and safe to re-run.
 
 ## CI/CD Pipeline
 
@@ -238,7 +265,7 @@ The site updates automatically every day via GitHub Actions:
 You can manually trigger the workflow from the GitHub Actions UI:
 
 1. Go to **Actions** tab in the repository
-2. Select **Daily Build and Deploy** workflow
+2. Select **Daily Article Update and Deployment** workflow
 3. Click **Run workflow**
 4. Choose options:
    - **skip_fetch:** Check this to rebuild the site without fetching new articles (useful for frontend changes or fixing broken builds)
@@ -271,13 +298,15 @@ nfn-openspec/
 │   ├── articles.db              # SQLite database (version-controlled)
 │   ├── articles.json            # Exported data (generated)
 │   └── categories.json          # Exported categories (generated)
+├── docs/
+│   └── architecture-deep-dive.md
 ├── scripts/
 │   ├── fetch_articles.py        # Main pipeline script
 │   ├── export_for_astro.py      # JSON export for frontend
-│   ├── article_fetching.py      # RSS feed parsing
-│   ├── article_processing.py    # Content extraction & summarization
-│   ├── database.py              # SQLite operations
-│   ├── url_extraction.py        # Google Alerts redirect handling
+│   ├── article_fetching.py      # gnews search and URL decoding
+│   ├── article_processing.py    # Newspaper4k extraction & summarization
+│   ├── database.py              # SQLite operations and schema migration
+│   ├── url_extraction.py        # Legacy URL utilities (unused by the pipeline)
 │   ├── config.py                # Configuration loader
 │   ├── requirements.txt         # Python dependencies
 │   └── run_local.sh             # Local development convenience script
@@ -285,32 +314,29 @@ nfn-openspec/
 │   ├── src/
 │   │   ├── components/          # Astro components
 │   │   ├── layouts/             # Page layouts
-│   │   └── pages/               # Static pages and routes
+│   │   ├── pages/               # Static pages and routes
+│   │   ├── styles/              # global.css
+│   │   └── utils/               # formatTime.ts helpers
 │   ├── public/                  # Static assets
 │   ├── astro.config.mjs         # Astro configuration
 │   └── package.json             # Node.js dependencies
-├── feeds.config.json            # RSS feed URLs and categories
+├── openspec/                    # Specs and change proposals
+├── feeds.config.json            # Search queries and gnews settings
 ├── CLAUDE.md                    # AI assistant instructions
 └── README.md                    # This file
 ```
 
+## Known Limitations
+
+- **Repository size.** `data/articles.db` is committed on every run and is currently around 52 MB, past GitHub's 50 MB advisory threshold. At present growth it reaches the hard 100 MB per-file limit in roughly 6-12 months, at which point the daily push begins to fail. Pruning old articles or dropping the database from version control are the two obvious remedies.
+- **Slug collisions.** Slugs derive from the title alone, while deduplication keys on title *and* URL. A headline republished at a different URL produces a second row with the same slug, and only one of them gets a page. About 2% of stored articles are currently unreachable this way.
+- **Stale unit tests.** `scripts/test_modules.py` still exercises the retired Google Alerts redirect helpers. CI does not run it.
+
 ## Future Enhancements
 
-The following improvements are documented for potential future implementation. These are possibilities, not commitments—contributions welcome!
-
-### Content Aggregation Upgrade
-
-**Replace Google Alerts RSS with GNews API** for better quality control:
-- **Benefits:** Language filtering, date range control, country targeting, website exclusion
-- **Tradeoff:** Requires API key and rate limits, but filtering happens upstream vs. per-article checks
-- **Use case:** Filter out inaccessible articles, wrong language content, and low-quality sources before processing
+The following improvements are documented for potential future implementation. These are possibilities, not commitments — contributions welcome!
 
 ### Article Processing Improvements
-
-**Replace trafilatura with Newspaper4k:**
-- Current: trafilatura only extracts text
-- Upgrade: Newspaper4k provides built-in NLP summarization
-- Benefit: Higher quality summaries without manual extraction
 
 **HTML tag cleanup in article titles:**
 - Issue: Some titles currently include raw HTML tags
@@ -330,19 +356,10 @@ The following improvements are documented for potential future implementation. T
 - **Hybrid approach:** Use Newspaper4k first, fall back to Claude for failures
 - **Alternative:** Premium upgrade path when quality matters most
 
-### Frontend Redesign
-
-Visual polish while maintaining core tenets (no images/ads, zero JS):
-- Improved typography (font choices, sizing, line-height)
-- Better spacing and whitespace design
-- Refined color palette beyond basic styles
-- Enhanced card design (shadows, borders, hover states)
-- Category badge styling improvements
-- Dark mode support (user toggle)
-
 ### Additional Features
 
 - **Custom domain:** Use a custom domain instead of github.io
+- **Dark mode toggle:** The site already follows the OS setting via `prefers-color-scheme`; a manual override is not yet available
 - **Client-side search:** Add search functionality using lunr.js or similar
 - **RSS feed output:** Generate RSS feed of the site itself
 - **Category filtering:** Filter homepage by category

@@ -22,8 +22,13 @@ interface Props {
     category: string;
     published_date: string;
     slug: string;
+    extraction_method?: string;
   };
 }
+
+// Mirrors LEGACY_EXTRACTION_METHOD in scripts/database.py -- rows written by
+// the pre-migration feedparser/trafilatura pipeline.
+const LEGACY_EXTRACTION_METHOD = 'trafilatura';
 
 const { article } = Astro.props;
 const base = import.meta.env.BASE_URL;
@@ -65,6 +70,15 @@ const sortedArticles = [...articles]
             <>
               <span class="sep">&middot;</span>
               <span>via {article.source_name}</span>
+            </>
+          )}
+          {article.extraction_method === LEGACY_EXTRACTION_METHOD && (
+            <>
+              <span class="sep">&middot;</span>
+              <span
+                class="article-provenance"
+                title="Summarized by the original extraction pipeline, before the move to Newspaper4k. Length and wording may differ from newer articles."
+              >archived summary</span>
             </>
           )}
         </div>

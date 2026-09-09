@@ -552,6 +552,14 @@ main {
   color: var(--color-border);
 }
 
+/* Marks summaries produced by the pre-Newspaper4k pipeline. Deliberately
+   quiet -- provenance, not a warning. */
+.article-provenance {
+  font-style: italic;
+  border-bottom: 1px dotted var(--color-border);
+  cursor: help;
+}
+
 .article-body {
   font-size: 1.05rem;
   line-height: 1.75;

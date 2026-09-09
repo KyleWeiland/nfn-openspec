@@ -92,9 +92,16 @@ CREATE TABLE articles (
     category TEXT NOT NULL,
     published_date TEXT,
     slug TEXT NOT NULL,
-    created_at TEXT NOT NULL
+    created_at TEXT NOT NULL,
+    extraction_method TEXT
 );
 ```
+
+`extraction_method` records which pipeline produced the row. Articles fetched
+before the gnews/Newspaper4k migration are marked `trafilatura`; everything
+written since is marked `newspaper4k`. `init_database()` adds the column and
+backfills unmarked rows automatically, so an older database upgrades in place
+on the next run.
 
 ## Error Handling
 
