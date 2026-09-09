@@ -5,9 +5,6 @@ import logging
 from datetime import datetime
 from email.utils import parsedate_to_datetime
 
-import nltk
-nltk.download('punkt_tab', quiet=True)
-
 # Configure logging
 logging.basicConfig(
     level=logging.INFO,
@@ -25,6 +22,7 @@ def check_dependencies():
         import gnews
         import newspaper
         import googlenewsdecoder
+        import nltk
         return True
     except ImportError as e:
         logging.error(f"Missing dependency: {e}")
@@ -63,11 +61,15 @@ def main():
         sys.exit(1)
 
     # Import modules after dependency check
+    import nltk
     from gnews import GNews
     from config import load_config
     from database import init_database, is_duplicate, insert_article
     from article_fetching import fetch_articles_from_feed
     from article_processing import process_article
+
+    # Newspaper4k's summarizer needs this tokenizer. Cached after first download.
+    nltk.download('punkt_tab', quiet=True)
 
     # Load configuration
     logging.info("Loading configuration...")
