@@ -12,6 +12,48 @@ BROWSER_USER_AGENT = (
 )
 
 
+JUNK_PATTERNS = [
+    # Cookie / consent notices
+    "we use cookies",
+    "cookie policy",
+    "by continuing you agree",
+    "accept all cookies",
+    # Security walls
+    "establishing a secure connection",
+    "checking your browser",
+    "security service to protect",
+    "please wait while we verify",
+    # Privacy disclaimers
+    "your privacy is important",
+    "do not sell or share my personal",
+    "review our terms of service",
+    "we encourage you to review",
+    # CAPTCHA
+    "prove you are human",
+    "complete the captcha",
+    "verify you are not a robot",
+    "please verify you are a human",
+    # Paywall / subscription
+    "subscribe to continue reading",
+    "this content is for subscribers",
+    "create a free account to",
+]
+
+
+def is_junk_summary(summary):
+    """Detect summaries that contain non-article content.
+
+    Returns the matched pattern if junk, or None if valid.
+    """
+    if not summary:
+        return None
+    lower = summary.lower()
+    for pattern in JUNK_PATTERNS:
+        if pattern in lower:
+            return pattern
+    return None
+
+
 def process_article(url):
     """Download, extract, and summarize an article using Newspaper4k.
 
@@ -49,6 +91,21 @@ def process_article(url):
         # Fallback: truncate article text to ~300 words
         words = article.text.split()
         summary = ' '.join(words[:300])
+
+    # Check for junk summaries (cookie notices, security walls, etc.)
+    junk_pattern = is_junk_summary(summary)
+    if junk_pattern:
+        logging.warning(f"Junk summary detected for {url} (matched: '{junk_pattern}')")
+        # Fall back to truncated article text if available
+        if article.text:
+            words = article.text.split()
+            fallback = ' '.join(words[:300])
+            if not is_junk_summary(fallback):
+                summary = fallback
+            else:
+                summary = ''
+        else:
+            summary = ''
 
     if not summary:
         logging.warning(f"Could not generate summary for: {url}")

@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import Navbar from '../../components/Navbar.astro';
+import RelatedArticles from '../../components/RelatedArticles.astro';
+import { formatRelativeTime, slugify } from '../../utils/formatTime';
 import type { GetStaticPaths } from 'astro';
 import articles from '../../../../data/articles.json';
 
@@ -16,6 +17,7 @@ interface Props {
     id: number;
     title: string;
     source_url: string;
+    source_name?: string;
     summary: string;
     category: string;
     published_date: string;
@@ -24,11 +26,10 @@ interface Props {
 }
 
 const { article } = Astro.props;
-
-// Get the base URL from Astro config
 const base = import.meta.env.BASE_URL;
+const categorySlug = slugify(article.category);
 
-// Format date
+// Format date for display
 function formatDate(dateString: string): string {
   const date = new Date(dateString);
   return date.toLocaleDateString('en-US', {
@@ -38,45 +39,61 @@ function formatDate(dateString: string): string {
   });
 }
 
-// Generate category class name
-function getCategoryClass(category: string): string {
-  return 'category-' + category
-    .toLowerCase()
-    .replace(/\s+/g, '-')
-    .replace(/[^\w-]+/g, '');
-}
+// Get related articles from the same category (excluding current, max 4)
+const sortedArticles = [...articles]
+  .filter((a) => a.category === article.category && a.slug !== article.slug)
+  .sort((a, b) => new Date(b.published_date).getTime() - new Date(a.published_date).getTime())
+  .slice(0, 4);
 ---
 
-<BaseLayout title={article.title}>
-  <Navbar slot="nav" />
+<BaseLayout title={article.title} activeCategory={article.category}>
 
-  <a href={base} class="back-link">← Back to all articles</a>
+  <div class="back-nav">
+    <a href={`${base}category/${categorySlug}/`}>&larr; {article.category}</a>
+  </div>
 
-  <article class="article-full">
-    <header class="article-header">
-      <h1 class="article-title">{article.title}</h1>
+  <div class="article-layout">
+    <div class="article-reading-column">
+      <header class="article-header">
+        <div class="article-category">
+          <a href={`${base}category/${categorySlug}/`}>{article.category}</a>
+        </div>
+        <h1 class="article-detail-title">{article.title}</h1>
+        <div class="article-byline">
+          <span>{formatDate(article.published_date)}</span>
+          {article.source_name && (
+            <>
+              <span class="sep">&middot;</span>
+              <span>via {article.source_name}</span>
+            </>
+          )}
+        </div>
+      </header>
 
-      <div class="article-meta">
-        <span class={`category-badge ${getCategoryClass(article.category)}`}>
-          {article.category}
-        </span>
-        <time datetime={article.published_date}>
-          {formatDate(article.published_date)}
-        </time>
+      <div class="article-body">
+        {article.summary.split('\n').filter(p => p.trim()).map((paragraph) => (
+          <p>{paragraph}</p>
+        ))}
       </div>
-    </header>
 
-    <div class="article-content">
-      <p>{article.summary}</p>
+      <div class="source-link-container">
+        <div class="source-link-label">Read the original article</div>
+        <a
+          class="source-link"
+          href={article.source_url}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {article.source_name || article.source_url} &rarr;
+        </a>
+      </div>
     </div>
 
-    <a
-      href={article.source_url}
-      target="_blank"
-      rel="noopener noreferrer"
-      class="read-original"
-    >
-      Read Original Article →
-    </a>
-  </article>
+    <RelatedArticles
+      articles={sortedArticles}
+      categoryName={article.category}
+      categorySlug={categorySlug}
+    />
+  </div>
+
 </BaseLayout>

@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Theranos Playbook Is Quietly Returning — NoFrills.news — Article Page Mockup v1</title>
+<style>
+  :root {
+    --color-bg: #ffffff;
+    --color-text: #1a1a1a;
+    --color-text-muted: #5a5a5a;
+    --color-text-light: #888888;
+    --color-border: #d0d0d0;
+    --color-border-light: #e8e8e8;
+    --color-link: #0055aa;
+    --color-link-hover: #003d7a;
+    --color-accent-bg: #f7f7f5;
+    --color-section-rule: #1a1a1a;
+    --space-xs: 0.25rem;
+    --space-sm: 0.5rem;
+    --space-md: 1rem;
+    --space-lg: 1.5rem;
+    --space-xl: 2rem;
+    --space-2xl: 3rem;
+    --font-body: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    --font-headline: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    --max-width: 1200px;
+    --content-width: 94%;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --color-bg: #161616;
+      --color-text: #d8d8d8;
+      --color-text-muted: #a0a0a0;
+      --color-text-light: #707070;
+      --color-border: #333333;
+      --color-border-light: #282828;
+      --color-link: #5b9bd5;
+      --color-link-hover: #82b4e0;
+      --color-accent-bg: #1c1c1c;
+      --color-section-rule: #d8d8d8;
+    }
+  }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { font-size: 16px; }
+  @media (min-width: 768px) { html { font-size: 17px; } }
+  @media (min-width: 1024px) { html { font-size: 18px; } }
+  body {
+    font-family: var(--font-body);
+    line-height: 1.6;
+    color: var(--color-text);
+    background-color: var(--color-bg);
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: var(--color-link); text-decoration: none; transition: color 0.15s ease; }
+  a:hover { color: var(--color-link-hover); text-decoration: underline; }
+
+  .masthead { border-bottom: 3px solid var(--color-section-rule); padding: var(--space-lg) var(--space-md); }
+  .masthead-inner { max-width: var(--max-width); width: var(--content-width); margin: 0 auto; display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: var(--space-sm); }
+  .masthead-title { font-size: 1.75rem; font-weight: 800; letter-spacing: -0.03em; color: var(--color-text); }
+  .masthead-title a { color: inherit; text-decoration: none; }
+  .masthead-tagline { font-size: 0.8rem; color: var(--color-text-light); letter-spacing: 0.06em; text-transform: uppercase; }
+
+  .section-nav { border-bottom: 1px solid var(--color-border); padding: var(--space-sm) var(--space-md); }
+  .section-nav-inner { max-width: var(--max-width); width: var(--content-width); margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-xs) var(--space-md); }
+  .section-nav a { font-size: 0.72rem; font-weight: 600; color: var(--color-text-muted); text-transform: uppercase; letter-spacing: 0.04em; padding: var(--space-xs) 0; transition: color 0.15s ease; white-space: nowrap; }
+  .section-nav a:hover { color: var(--color-text); text-decoration: none; }
+  .section-nav a.active { color: var(--color-text); }
+  @media (min-width: 768px) {
+    .section-nav-inner { display: flex; flex-wrap: wrap; gap: 0; align-items: baseline; line-height: 2; }
+    .section-nav a { font-size: 0.7rem; padding: 0; }
+    .section-nav a + a::before { content: "·"; margin: 0 0.6em; color: var(--color-border); font-weight: 400; }
+  }
+
+  main { max-width: var(--max-width); width: var(--content-width); margin: 0 auto; padding: var(--space-xl) var(--space-md); }
+
+  /* Article reading column — constrained for readability within the wider page */
+  .article-reading-column {
+    max-width: 72ch;
+  }
+
+  /* Related section can go wider */
+  .related-section {
+    max-width: 100%;
+  }
+
+  /* Two-column layout on wide screens: article + related side by side */
+  @media (min-width: 1000px) {
+    .article-layout {
+      display: grid;
+      grid-template-columns: 1fr 340px;
+      gap: var(--space-2xl);
+      align-items: start;
+    }
+    .related-section {
+      border-top: none;
+      border-left: 2px solid var(--color-section-rule);
+      padding-top: 0;
+      padding-left: var(--space-xl);
+      position: sticky;
+      top: var(--space-xl);
+    }
+  }
+
+  /* Breadcrumb / back nav */
+  .back-nav {
+    font-size: 0.8rem;
+    color: var(--color-text-light);
+    margin-bottom: var(--space-xl);
+  }
+  .back-nav a { color: var(--color-text-muted); }
+  .back-nav a:hover { color: var(--color-link); }
+
+  /* Article header */
+  .article-header {
+    margin-bottom: var(--space-xl);
+    padding-bottom: var(--space-lg);
+    border-bottom: 1px solid var(--color-border-light);
+  }
+
+  .article-category {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--color-text-muted);
+    margin-bottom: var(--space-sm);
+  }
+  .article-category a { color: var(--color-text-muted); }
+  .article-category a:hover { color: var(--color-link); }
+
+  .article-title {
+    font-size: 1.75rem;
+    font-weight: 800;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    margin-bottom: var(--space-md);
+  }
+
+  .article-byline {
+    font-size: 0.8rem;
+    color: var(--color-text-light);
+    display: flex;
+    gap: var(--space-sm);
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .article-byline .sep { color: var(--color-border); }
+
+  /* Article body */
+  .article-body {
+    font-size: 1.05rem;
+    line-height: 1.75;
+    color: var(--color-text);
+    margin-bottom: var(--space-xl);
+  }
+  .article-body p {
+    margin-bottom: var(--space-lg);
+  }
+
+  /* Source link */
+  .source-link-container {
+    padding: var(--space-lg);
+    background-color: var(--color-accent-bg);
+    border-radius: 4px;
+    margin-bottom: var(--space-2xl);
+  }
+  .source-link-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--color-text-light);
+    margin-bottom: var(--space-xs);
+  }
+  .source-link {
+    font-size: 0.95rem;
+    font-weight: 600;
+    word-break: break-all;
+  }
+
+  /* Related articles */
+  .related-section {
+    border-top: 2px solid var(--color-section-rule);
+    padding-top: var(--space-lg);
+  }
+  .related-title {
+    font-size: 0.8rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--color-text-muted);
+    margin-bottom: var(--space-md);
+  }
+  .related-item {
+    padding: var(--space-sm) 0;
+    border-bottom: 1px solid var(--color-border-light);
+  }
+  .related-item:last-child { border-bottom: none; }
+  .related-item a {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--color-text);
+  }
+  .related-item a:hover { color: var(--color-link); }
+  .related-item .article-meta {
+    font-size: 0.72rem;
+    color: var(--color-text-light);
+    display: flex;
+    gap: var(--space-sm);
+    margin-top: 2px;
+  }
+  .related-item .sep { color: var(--color-border); }
+
+  footer {
+    max-width: var(--max-width);
+    width: var(--content-width);
+    margin: 0 auto;
+    text-align: center;
+    padding: var(--space-xl) var(--space-md);
+    color: var(--color-text-light);
+    font-size: 0.75rem;
+    border-top: 1px solid var(--color-border);
+    margin-top: var(--space-2xl);
+  }
+
+  .mockup-banner {
+    background: #fff3cd; color: #664d03;
+    text-align: center; padding: var(--space-sm) var(--space-md);
+    font-size: 0.75rem; font-weight: 600; border-bottom: 1px solid #e0c97a;
+  }
+  @media (prefers-color-scheme: dark) {
+    .mockup-banner { background: #3a3520; color: #e0c97a; border-bottom-color: #4a4530; }
+  }
+</style>
+</head>
+<body>
+
+<div class="mockup-banner">
+  MOCKUP v2 — NoFrills.news Frontend Redesign — Article Page (Wide Layout)
+</div>
+
+<header class="masthead">
+  <div class="masthead-inner">
+    <div class="masthead-title"><a href="homepage-v1.html">NoFrills.news</a></div>
+    <div class="masthead-tagline">No-frills tech news</div>
+  </div>
+</header>
+
+<nav class="section-nav" aria-label="Categories">
+  <div class="section-nav-inner">
+    <a href="#">Autonomous Trucks</a>
+    <a href="#">Autonomous Vehicles</a>
+    <a href="#">Connected Car</a>
+    <a href="#" class="active">Cybersecurity</a>
+    <a href="#">Image Recognition</a>
+    <a href="#">IoT Cyber</a>
+    <a href="#">Quantum Computers</a>
+    <a href="#">Sim Racing</a>
+    <a href="#">Smart Cities</a>
+  </div>
+</nav>
+
+<main>
+
+  <div class="back-nav">
+    <a href="category-page-v1.html">&larr; Cybersecurity</a>
+  </div>
+
+  <div class="article-layout">
+    <div class="article-reading-column">
+      <header class="article-header">
+        <div class="article-category"><a href="category-page-v1.html">Cybersecurity</a></div>
+        <h1 class="article-title">The Theranos Playbook Is Quietly Returning in Cybersecurity</h1>
+        <div class="article-byline">
+          <span>April 4, 2026</span>
+          <span class="sep">&middot;</span>
+          <span>via govinfosecurity.com</span>
+        </div>
+      </header>
+
+      <div class="article-body">
+        <p>Market Pressures Are Rewarding Storytelling More Than Validation, Operational Value. When health tech company Theranos collapsed, much of the attention focused on the personality of its founder Elizabeth Holmes and the scale of the deception.</p>
+
+        <p>Theranos emerged in an ecosystem where technological ambition, investor pressure and persuasive storytelling reinforced one another. That dynamic should feel uncomfortably familiar to anyone watching today's cybersecurity vendor landscape.</p>
+
+        <p>None of this suggests that cybersecurity vendors are committing fraud on the scale of Theranos. But the structural incentives share a troubling resemblance: markets that prioritize growth narratives over demonstrated outcomes, investors who lack the technical depth to evaluate claims, and buyers overwhelmed by complexity who default to brand recognition.</p>
+
+        <p>Markets that reward storytelling alone eventually produce something else.</p>
+      </div>
+
+      <div class="source-link-container">
+        <div class="source-link-label">Read the original article</div>
+        <a class="source-link" href="https://www.govinfosecurity.com/blogs/theranos-playbook-quietly-returning-in-cybersecurity-p-4081">govinfosecurity.com &rarr;</a>
+      </div>
+    </div>
+
+    <div class="related-section">
+      <div class="related-title">More in Cybersecurity</div>
+
+      <div class="related-item">
+        <a href="#">Manufacturing Cybersecurity Market Growth: Trends & Forecast to 2030</a>
+        <div class="article-meta">
+          <span>5h ago</span>
+          <span class="sep">&middot;</span>
+          <span>via marketsandmarkets.com</span>
+        </div>
+      </div>
+
+      <div class="related-item">
+        <a href="#">CISO Corner: Generative AI Is Reshaping How Security Teams Operate</a>
+        <div class="article-meta">
+          <span>8h ago</span>
+          <span class="sep">&middot;</span>
+          <span>via darkreading.com</span>
+        </div>
+      </div>
+
+      <div class="related-item">
+        <a href="#">Critical Vulnerability Found in Widely Used Enterprise VPN Software</a>
+        <div class="article-meta">
+          <span>14h ago</span>
+          <span class="sep">&middot;</span>
+          <span>via bleepingcomputer.com</span>
+        </div>
+      </div>
+
+      <div class="related-item">
+        <a href="#">Ransomware Attacks on Healthcare Sector Surge 47% in Q1 2026</a>
+        <div class="article-meta">
+          <span>1d ago</span>
+          <span class="sep">&middot;</span>
+          <span>via therecord.media</span>
+        </div>
+      </div>
+    </div>
+  </div><!-- /article-layout -->
+
+</main>
+
+<footer>
+  &copy; 2026 NoFrills.news
+</footer>
+
+</body>
+</html>

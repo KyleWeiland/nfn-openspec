@@ -6,5 +6,9 @@ export default defineConfig({
   base: '/nfn-openspec/',
   build: {
     assets: '_assets'
+  },
+  prefetch: {
+    prefetchAll: true,
+    defaultStrategy: 'viewport',
   }
 });

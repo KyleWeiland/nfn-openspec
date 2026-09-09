@@ -1,33 +1,35 @@
 ---
 import '../styles/global.css';
+import Navbar from '../components/Navbar.astro';
+import { ViewTransitions } from 'astro:transitions';
 
 interface Props {
   title: string;
+  activeCategory?: string;
 }
 
-const { title } = Astro.props;
+const { title, activeCategory } = Astro.props;
 const fullTitle = title ? `${title} | NoFrills.news` : 'NoFrills.news';
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="en" transition:animate="none">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Minimal news aggregation without the noise" />
     <title>{fullTitle}</title>
+    <ViewTransitions fallback="swap" />
   </head>
   <body>
-    <nav class="navbar">
-      <slot name="nav" />
-    </nav>
+    <Navbar activeCategory={activeCategory} />
 
     <main>
       <slot />
     </main>
 
     <footer>
-      <p>&copy; {new Date().getFullYear()} NoFrills.news • Just the news, no frills</p>
+      <p>&copy; {new Date().getFullYear()} NoFrills.news</p>
     </footer>
   </body>
 </html>
