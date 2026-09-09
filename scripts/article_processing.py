@@ -1,133 +1,117 @@
-"""Article processing module for downloading and extracting content."""
+"""Article processing module using Newspaper4k."""
 
-import requests
-import trafilatura
 import logging
+import newspaper
 
 
 DOWNLOAD_TIMEOUT = 30  # seconds
+BROWSER_USER_AGENT = (
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) '
+    'AppleWebKit/537.36 (KHTML, like Gecko) '
+    'Chrome/120.0.0.0 Safari/537.36'
+)
 
 
-def download_article(url):
-    """Download HTML content from an article URL.
+JUNK_PATTERNS = [
+    # Cookie / consent notices
+    "we use cookies",
+    "cookie policy",
+    "by continuing you agree",
+    "accept all cookies",
+    # Security walls
+    "establishing a secure connection",
+    "checking your browser",
+    "security service to protect",
+    "please wait while we verify",
+    # Privacy disclaimers
+    "your privacy is important",
+    "do not sell or share my personal",
+    "review our terms of service",
+    "we encourage you to review",
+    # CAPTCHA
+    "prove you are human",
+    "complete the captcha",
+    "verify you are not a robot",
+    "please verify you are a human",
+    # Paywall / subscription
+    "subscribe to continue reading",
+    "this content is for subscribers",
+    "create a free account to",
+]
 
-    Args:
-        url: The article URL
 
-    Returns:
-        HTML content as string, or None if download fails
+def is_junk_summary(summary):
+    """Detect summaries that contain non-article content.
+
+    Returns the matched pattern if junk, or None if valid.
     """
-    try:
-        response = requests.get(url, timeout=DOWNLOAD_TIMEOUT)
-
-        # Check for HTTP errors
-        if response.status_code == 404:
-            logging.error(f"Article not found (404): {url}")
-            return None
-        elif response.status_code == 403:
-            logging.error(f"Access forbidden (403): {url}")
-            return None
-        elif response.status_code >= 500:
-            logging.error(f"Server error ({response.status_code}): {url}")
-            return None
-        elif response.status_code != 200:
-            logging.error(f"HTTP error {response.status_code}: {url}")
-            return None
-
-        return response.text
-
-    except requests.exceptions.Timeout:
-        logging.error(f"Download timeout for {url}")
+    if not summary:
         return None
-    except requests.exceptions.RequestException as e:
-        logging.error(f"Network error downloading {url}: {e}")
-        return None
-
-
-def extract_content(html):
-    """Extract clean article text from HTML.
-
-    Args:
-        html: HTML content
-
-    Returns:
-        Extracted text, or None if extraction fails
-    """
-    try:
-        text = trafilatura.extract(html)
-
-        if not text:
-            logging.error("Trafilatura could not extract text from HTML")
-            return None
-
-        return text
-
-    except Exception as e:
-        logging.error(f"Error extracting content: {e}")
-        return None
-
-
-def count_words(text):
-    """Count words in text by splitting on whitespace.
-
-    Args:
-        text: The text to count words in
-
-    Returns:
-        Number of words
-    """
-    return len(text.split())
-
-
-def generate_summary(text, min_words=200, max_words=300):
-    """Generate a summary from article text.
-
-    Takes the first 200-300 words of the text.
-
-    Args:
-        text: The extracted article text
-        min_words: Minimum number of words for summary
-        max_words: Maximum number of words for summary
-
-    Returns:
-        Summary text (plain text, no HTML)
-    """
-    words = text.split()
-    word_count = len(words)
-
-    # If article is shorter than min_words, use entire text
-    if word_count <= min_words:
-        return text
-
-    # Take first max_words
-    summary_words = words[:max_words]
-    summary = ' '.join(summary_words)
-
-    return summary
+    lower = summary.lower()
+    for pattern in JUNK_PATTERNS:
+        if pattern in lower:
+            return pattern
+    return None
 
 
 def process_article(url):
-    """Download, extract, and summarize an article.
+    """Download, extract, and summarize an article using Newspaper4k.
 
     Args:
         url: The article URL
 
     Returns:
-        Dictionary with 'summary' key, or None if processing fails
+        Dictionary with 'summary' and 'publish_date' keys, or None if processing fails
     """
-    # Download HTML
-    html = download_article(url)
-    if not html:
+    try:
+        config = newspaper.Config()
+        config.request_timeout = DOWNLOAD_TIMEOUT
+        config.browser_user_agent = BROWSER_USER_AGENT
+
+        article = newspaper.Article(url, config=config)
+        article.download()
+        article.parse()
+
+    except Exception as e:
+        logging.warning(f"Failed to download/parse article {url}: {e}")
         return None
 
-    # Extract content
-    text = extract_content(html)
-    if not text:
+    if not article.text:
+        logging.warning(f"No text extracted from article: {url}")
         return None
 
-    # Generate summary
-    summary = generate_summary(text)
+    try:
+        article.nlp()
+        summary = article.summary
+    except Exception as e:
+        logging.warning(f"NLP failed for {url}: {e}")
+        summary = ''
+
+    if not summary and article.text:
+        # Fallback: truncate article text to ~300 words
+        words = article.text.split()
+        summary = ' '.join(words[:300])
+
+    # Check for junk summaries (cookie notices, security walls, etc.)
+    junk_pattern = is_junk_summary(summary)
+    if junk_pattern:
+        logging.warning(f"Junk summary detected for {url} (matched: '{junk_pattern}')")
+        # Fall back to truncated article text if available
+        if article.text:
+            words = article.text.split()
+            fallback = ' '.join(words[:300])
+            if not is_junk_summary(fallback):
+                summary = fallback
+            else:
+                summary = ''
+        else:
+            summary = ''
+
+    if not summary:
+        logging.warning(f"Could not generate summary for: {url}")
+        return None
 
     return {
-        'summary': summary
+        'summary': summary,
+        'publish_date': article.publish_date,
     }

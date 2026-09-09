@@ -1,0 +1,60 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ArticleLatest from '../components/ArticleLatest.astro';
+import ArticleCompact from '../components/ArticleCompact.astro';
+import { slugify } from '../utils/formatTime';
+import articles from '../../../data/articles.json';
+import categories from '../../../data/categories.json';
+
+// Sort articles by published_date descending (newest first)
+const sortedArticles = [...articles].sort((a, b) => {
+  return new Date(b.published_date).getTime() - new Date(a.published_date).getTime();
+});
+
+// Latest 5 articles for the top section
+const latestArticles = sortedArticles.slice(0, 5);
+
+// Group articles by category for the grid sections
+const base = import.meta.env.BASE_URL;
+---
+
+<BaseLayout title="Home">
+
+  <div class="section-header">
+    <span class="section-title">Latest</span>
+  </div>
+
+  <div class="latest-grid">
+    {latestArticles.map((article) => (
+      <ArticleLatest article={article} />
+    ))}
+  </div>
+
+  <div class="category-grid">
+    {categories.map((category) => {
+      const categoryArticles = sortedArticles
+        .filter((a) => a.category === category)
+        .slice(0, 3);
+
+      if (categoryArticles.length === 0) return null;
+
+      return (
+        <div class="category-section">
+          <div class="section-header">
+            <span class="section-title">{category}</span>
+            <a href={`${base}category/${slugify(category)}/`} class="section-link">
+              All articles &rarr;
+            </a>
+          </div>
+          {categoryArticles.map((article) => (
+            <ArticleCompact article={article} />
+          ))}
+          <a href={`${base}category/${slugify(category)}/`} class="view-all">
+            View all {category} &rarr;
+          </a>
+        </div>
+      );
+    })}
+  </div>
+
+</BaseLayout>

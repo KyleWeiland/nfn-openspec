@@ -2,33 +2,43 @@
 
 import json
 import logging
-import os
 from pathlib import Path
-from url_extraction import is_valid_url
 
 
 # Get repository root (parent of scripts directory)
 REPO_ROOT = Path(__file__).parent.parent
 CONFIG_PATH = REPO_ROOT / "feeds.config.json"
 
+REQUIRED_GNEWS_SETTINGS = ['language', 'country', 'max_results', 'period']
+
 
 def load_config():
     """Load and validate the feeds configuration file.
 
     Returns:
-        List of feed dictionaries with 'url' and 'category' keys, or None if loading fails
+        Dict with 'gnews_settings', 'excluded_domains', and 'feeds' keys,
+        or None if loading fails
     """
-    # Check if config file exists
     if not CONFIG_PATH.exists():
         logging.error(f"Configuration file not found: {CONFIG_PATH}")
         return None
 
     try:
-        # Load JSON
         with CONFIG_PATH.open('r') as f:
             config = json.load(f)
 
-        # Validate structure
+        # Validate gnews_settings
+        if 'gnews_settings' not in config:
+            logging.error("Configuration file missing 'gnews_settings' key")
+            return None
+
+        gnews_settings = config['gnews_settings']
+        for field in REQUIRED_GNEWS_SETTINGS:
+            if field not in gnews_settings:
+                logging.error(f"gnews_settings missing required field: {field}")
+                return None
+
+        # Validate feeds array
         if 'feeds' not in config:
             logging.error("Configuration file missing 'feeds' key")
             return None
@@ -37,6 +47,8 @@ def load_config():
             logging.error("Configuration 'feeds' must be an array")
             return None
 
+        excluded_domains = config.get('excluded_domains', [])
+
         # Validate each feed
         valid_feeds = []
         for i, feed in enumerate(config['feeds']):
@@ -44,30 +56,27 @@ def load_config():
                 logging.error(f"Feed {i} is not an object")
                 continue
 
-            # Check for required fields
-            if 'url' not in feed:
-                logging.error(f"Feed {i} missing 'url' field")
+            if 'query' not in feed:
+                logging.error(f"Feed {i} missing 'query' field")
                 continue
 
             if 'category' not in feed:
                 logging.error(f"Feed {i} missing 'category' field")
                 continue
 
-            url = feed['url']
+            query = feed['query']
             category = feed['category']
 
-            # Validate URL
-            if not isinstance(url, str) or not is_valid_url(url):
-                logging.error(f"Feed {i} has invalid URL: {url}")
+            if not isinstance(query, str) or not query.strip():
+                logging.error(f"Feed {i} has empty query")
                 continue
 
-            # Validate category
             if not isinstance(category, str) or not category.strip():
                 logging.error(f"Feed {i} has empty category")
                 continue
 
             valid_feeds.append({
-                'url': url,
+                'query': query,
                 'category': category
             })
 
@@ -76,7 +85,11 @@ def load_config():
             return None
 
         logging.info(f"Loaded {len(valid_feeds)} feed(s) from configuration")
-        return valid_feeds
+        return {
+            'gnews_settings': gnews_settings,
+            'excluded_domains': excluded_domains,
+            'feeds': valid_feeds
+        }
 
     except json.JSONDecodeError as e:
         logging.error(f"Invalid JSON in configuration file: {e}")

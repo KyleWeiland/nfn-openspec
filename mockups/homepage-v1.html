@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NoFrills.news — Frontend Mockup v1</title>
+<style>
+  /* ===== CSS Custom Properties ===== */
+  :root {
+    --color-bg: #ffffff;
+    --color-text: #1a1a1a;
+    --color-text-muted: #5a5a5a;
+    --color-text-light: #888888;
+    --color-border: #d0d0d0;
+    --color-border-light: #e8e8e8;
+    --color-link: #0055aa;
+    --color-link-hover: #003d7a;
+    --color-accent-bg: #f7f7f5;
+    --color-section-rule: #1a1a1a;
+
+    --space-xs: 0.25rem;
+    --space-sm: 0.5rem;
+    --space-md: 1rem;
+    --space-lg: 1.5rem;
+    --space-xl: 2rem;
+    --space-2xl: 3rem;
+
+    --font-body: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    --font-headline: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+    --max-width: 1200px;
+    --content-width: 94%;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --color-bg: #161616;
+      --color-text: #d8d8d8;
+      --color-text-muted: #a0a0a0;
+      --color-text-light: #707070;
+      --color-border: #333333;
+      --color-border-light: #282828;
+      --color-link: #5b9bd5;
+      --color-link-hover: #82b4e0;
+      --color-accent-bg: #1c1c1c;
+      --color-section-rule: #d8d8d8;
+    }
+  }
+
+  /* ===== Reset & Base ===== */
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { font-size: 16px; }
+  @media (min-width: 768px) { html { font-size: 17px; } }
+  @media (min-width: 1024px) { html { font-size: 18px; } }
+
+  body {
+    font-family: var(--font-body);
+    line-height: 1.6;
+    color: var(--color-text);
+    background-color: var(--color-bg);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  a {
+    color: var(--color-link);
+    text-decoration: none;
+    transition: color 0.15s ease;
+  }
+  a:hover {
+    color: var(--color-link-hover);
+    text-decoration: underline;
+  }
+
+  /* ===== Header / Masthead ===== */
+  .masthead {
+    border-bottom: 3px solid var(--color-section-rule);
+    padding: var(--space-lg) var(--space-md);
+  }
+
+  .masthead-inner {
+    max-width: var(--max-width);
+    width: var(--content-width);
+    margin: 0 auto;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: var(--space-sm);
+  }
+
+  .masthead-title {
+    font-family: var(--font-headline);
+    font-size: 1.75rem;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    color: var(--color-text);
+  }
+  .masthead-title a { color: inherit; text-decoration: none; }
+  .masthead-title a:hover { color: inherit; text-decoration: none; }
+
+  .masthead-tagline {
+    font-size: 0.8rem;
+    color: var(--color-text-light);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  /* ===== Category Nav ===== */
+  .section-nav {
+    border-bottom: 1px solid var(--color-border);
+    padding: var(--space-sm) var(--space-md);
+  }
+
+  .section-nav-inner {
+    max-width: var(--max-width);
+    width: var(--content-width);
+    margin: 0 auto;
+  }
+
+  /* Mobile: 2-column grid — all categories visible, good tap targets */
+  .section-nav-inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-xs) var(--space-md);
+  }
+
+  .section-nav a {
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: var(--color-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    padding: var(--space-xs) 0;
+    transition: color 0.15s ease;
+    white-space: nowrap;
+  }
+  .section-nav a:hover {
+    color: var(--color-text);
+    text-decoration: none;
+  }
+  .section-nav a.active {
+    color: var(--color-text);
+  }
+
+  /* Desktop: inline flow with middot separators */
+  @media (min-width: 768px) {
+    .section-nav-inner {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0;
+      align-items: baseline;
+      line-height: 2;
+    }
+    .section-nav a {
+      font-size: 0.7rem;
+      padding: 0;
+    }
+    /* Middot separators between items via CSS */
+    .section-nav a + a::before {
+      content: "·";
+      margin: 0 0.6em;
+      color: var(--color-border);
+      font-weight: 400;
+    }
+  }
+
+  /* ===== Main Content ===== */
+  main {
+    max-width: var(--max-width);
+    width: var(--content-width);
+    margin: 0 auto;
+    padding: var(--space-xl) var(--space-md);
+  }
+
+  /* ===== Section Headers ===== */
+  .section-header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    border-bottom: 2px solid var(--color-section-rule);
+    padding-bottom: var(--space-xs);
+    margin-bottom: var(--space-lg);
+    margin-top: var(--space-2xl);
+  }
+
+  .section-header:first-child {
+    margin-top: 0;
+  }
+
+  .section-title {
+    font-family: var(--font-headline);
+    font-size: 0.85rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--color-text);
+  }
+
+  .section-link {
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: var(--color-text-light);
+  }
+  .section-link:hover { color: var(--color-link); }
+
+  /* ===== Article Items — Latest Section (prominent) ===== */
+  .article-latest {
+    padding: var(--space-md) 0;
+    border-bottom: 1px solid var(--color-border-light);
+  }
+  .article-latest:last-child { border-bottom: none; }
+
+  .article-latest .article-title {
+    font-family: var(--font-headline);
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: var(--space-xs);
+  }
+  .article-latest .article-title a {
+    color: var(--color-text);
+  }
+  .article-latest .article-title a:hover {
+    color: var(--color-link);
+  }
+
+  .article-latest .article-hook {
+    font-size: 0.9rem;
+    color: var(--color-text-muted);
+    line-height: 1.5;
+    margin-bottom: var(--space-xs);
+  }
+
+  .article-meta {
+    font-size: 0.75rem;
+    color: var(--color-text-light);
+    display: flex;
+    gap: var(--space-sm);
+    align-items: center;
+  }
+
+  .article-meta .category-label {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--color-text-muted);
+  }
+
+  .article-meta .sep {
+    color: var(--color-border);
+  }
+
+  /* ===== Article Items — Category Section (compact) ===== */
+  .article-compact {
+    padding: var(--space-sm) 0;
+    border-bottom: 1px solid var(--color-border-light);
+  }
+  .article-compact:last-child { border-bottom: none; }
+
+  .article-compact .article-title {
+    font-size: 0.95rem;
+    font-weight: 600;
+    line-height: 1.35;
+    margin-bottom: 2px;
+  }
+  .article-compact .article-title a {
+    color: var(--color-text);
+  }
+  .article-compact .article-title a:hover {
+    color: var(--color-link);
+  }
+
+  .article-compact .article-meta {
+    font-size: 0.72rem;
+  }
+
+  /* ===== "View All" link ===== */
+  .view-all {
+    display: inline-block;
+    padding: var(--space-sm) 0;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--color-link);
+  }
+
+  /* ===== Footer ===== */
+  footer {
+    max-width: var(--max-width);
+    width: var(--content-width);
+    margin: 0 auto;
+    text-align: center;
+    padding: var(--space-xl) var(--space-md);
+    color: var(--color-text-light);
+    font-size: 0.75rem;
+    border-top: 1px solid var(--color-border);
+    margin-top: var(--space-2xl);
+  }
+
+  /* ===== Latest section: 2-column on wide screens ===== */
+  @media (min-width: 768px) {
+    .latest-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0 var(--space-2xl);
+    }
+    .latest-grid .article-latest {
+      padding: var(--space-md) 0;
+    }
+    /* First article spans full width as lead story */
+    .latest-grid .article-latest:first-child {
+      grid-column: 1 / -1;
+      border-bottom: 1px solid var(--color-border);
+      padding-bottom: var(--space-lg);
+      margin-bottom: var(--space-sm);
+    }
+    .latest-grid .article-latest:first-child .article-title {
+      font-size: 1.5rem;
+    }
+  }
+
+  /* ===== Category grid: responsive columns ===== */
+  @media (min-width: 768px) {
+    .category-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0 var(--space-2xl);
+    }
+    .category-section {
+      break-inside: avoid;
+    }
+  }
+  @media (min-width: 1100px) {
+    .category-grid {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+
+  /* ===== Mockup Annotation ===== */
+  .mockup-banner {
+    background: #fff3cd;
+    color: #664d03;
+    text-align: center;
+    padding: var(--space-sm) var(--space-md);
+    font-size: 0.75rem;
+    font-weight: 600;
+    border-bottom: 1px solid #e0c97a;
+  }
+  @media (prefers-color-scheme: dark) {
+    .mockup-banner {
+      background: #3a3520;
+      color: #e0c97a;
+      border-bottom-color: #4a4530;
+    }
+  }
+</style>
+</head>
+<body>
+
+<div class="mockup-banner">
+  MOCKUP v2 — NoFrills.news Frontend Redesign — Homepage (Wide Layout)
+</div>
+
+<!-- ===== MASTHEAD ===== -->
+<header class="masthead">
+  <div class="masthead-inner">
+    <div class="masthead-title"><a href="#">NoFrills.news</a></div>
+    <div class="masthead-tagline">No-frills tech news</div>
+  </div>
+</header>
+
+<!-- ===== SECTION NAV ===== -->
+<nav class="section-nav" aria-label="Categories">
+  <div class="section-nav-inner">
+    <a href="#">Autonomous Trucks</a>
+    <a href="#">Autonomous Vehicles</a>
+    <a href="#">Connected Car</a>
+    <a href="#">Cybersecurity</a>
+    <a href="#">Image Recognition</a>
+    <a href="#">IoT Cyber</a>
+    <a href="#">Quantum Computers</a>
+    <a href="#">Sim Racing</a>
+    <a href="#">Smart Cities</a>
+  </div>
+</nav>
+
+<!-- ===== MAIN CONTENT ===== -->
+<main>
+
+  <!-- LATEST SECTION -->
+  <div class="section-header">
+    <span class="section-title">Latest</span>
+  </div>
+
+  <div class="latest-grid">
+  <article class="article-latest">
+    <h2 class="article-title"><a href="#">The Theranos Playbook Is Quietly Returning in Cybersecurity</a></h2>
+    <p class="article-hook">Market pressures are rewarding storytelling more than validation. That dynamic should feel uncomfortably familiar to anyone watching today's cybersecurity vendor landscape.</p>
+    <div class="article-meta">
+      <span class="category-label">Cybersecurity</span>
+      <span class="sep">&middot;</span>
+      <span>2h ago</span>
+      <span class="sep">&middot;</span>
+      <span>via govinfosecurity.com</span>
+    </div>
+  </article>
+
+  <article class="article-latest">
+    <h2 class="article-title"><a href="#">Chinese Quantum Startup QBoson Bags $145 Million to Expand Chip, Computer Production</a></h2>
+    <p class="article-hook">QBoson has completed a Series B funding round worth $145 million to support technological breakthroughs and mass production of quantum computers and chips.</p>
+    <div class="article-meta">
+      <span class="category-label">Quantum Computers</span>
+      <span class="sep">&middot;</span>
+      <span>3h ago</span>
+      <span class="sep">&middot;</span>
+      <span>via yicaiglobal.com</span>
+    </div>
+  </article>
+
+  <article class="article-latest">
+    <h2 class="article-title"><a href="#">Alcatraz Raises $50 Million to Replace Badges with Facial Authentication</a></h2>
+    <p class="article-hook">The company develops an AI-enabled access control system designed to authenticate employees without storing facial images or other personally identifiable data.</p>
+    <div class="article-meta">
+      <span class="category-label">Image Recognition</span>
+      <span class="sep">&middot;</span>
+      <span>4h ago</span>
+      <span class="sep">&middot;</span>
+      <span>via securitysystemsnews.com</span>
+    </div>
+  </article>
+
+  <article class="article-latest">
+    <h2 class="article-title"><a href="#">Microsoft to Invest $10 Billion in Japan for AI, Cyber Defence Expansion</a></h2>
+    <p class="article-hook">The investment signals growing geopolitical importance of cybersecurity infrastructure in the Asia-Pacific region.</p>
+    <div class="article-meta">
+      <span class="category-label">IoT Cyber</span>
+      <span class="sep">&middot;</span>
+      <span>5h ago</span>
+      <span class="sep">&middot;</span>
+      <span>via economictimes.com</span>
+    </div>
+  </article>
+
+  <article class="article-latest">
+    <h2 class="article-title"><a href="#">Hong Kong Cybersecurity Threat Intelligence Report Reveals Dual Risk Dynamic</a></h2>
+    <p class="article-hook">Financially motivated ransomware groups drive operational disruption while state-aligned actors conduct sustained espionage campaigns.</p>
+    <div class="article-meta">
+      <span class="category-label">IoT Cyber</span>
+      <span class="sep">&middot;</span>
+      <span>5h ago</span>
+      <span class="sep">&middot;</span>
+      <span>via cyfirma.com</span>
+    </div>
+  </article>
+  </div><!-- /latest-grid -->
+
+  <!-- CATEGORY SECTIONS -->
+  <div class="category-grid">
+
+    <div class="category-section">
+      <div class="section-header">
+        <span class="section-title">Cybersecurity</span>
+        <a href="#" class="section-link">All articles &rarr;</a>
+      </div>
+      <article class="article-compact">
+        <h3 class="article-title"><a href="#">The Theranos Playbook Is Quietly Returning in Cybersecurity</a></h3>
+        <div class="article-meta">
+          <span>via govinfosecurity.com</span>
+          <span class="sep">&middot;</span>
+          <span>2h ago</span>
+        </div>
+      </article>
+      <article class="article-compact">
+        <h3 class="article-title"><a href="#">Manufacturing Cybersecurity Market Expected to Reach $17.39B by 2030</a></h3>
+        <div class="article-meta">
+          <span>via marketsandmarkets.com</span>
+          <span class="sep">&middot;</span>
+          <span>5h ago</span>
+        </div>
+      </article>
+      <article class="article-compact">
+        <h3 class="article-title"><a href="#">CISO Corner: Generative AI Is Reshaping How Security Teams Operate</a></h3>
+        <div class="article-meta">
+          <span>via darkreading.com</span>
+          <span class="sep">&middot;</span>
+          <span>8h ago</span>
+        </div>
+      </article>
+      <a href="#" class="view-all">View all Cybersecurity &rarr;</a>
+    </div>
+
+    <div class="category-section">
+      <div class="section-header">
+        <span class="section-title">Autonomous Vehicles</span>
+        <a href="#" class="section-link">All articles &rarr;</a>
+      </div>
+      <article class="article-compact">
+        <h3 class="article-title"><a href="#">Waymo Expands Robotaxi Service to New Cities Amid Regulatory Push</a></h3>
+        <div class="article-meta">
+          <span>via techcrunch.com</span>
+          <span class="sep">&middot;</span>
+          <span>1h ago</span>
+        </div>
+      </article>
+      <article class="article-compact">
+        <h3 class="article-title"><a href="#">Tesla's Full Self-Driving Faces New Scrutiny After NHTSA Investigation</a></h3>
+        <div class="article-meta">
+          <span>via reuters.com</span>
+          <span class="sep">&middot;</span>
+          <span>4h ago</span>
+        </div>
+      </article>
+      <article class="article-compact">
+        <h3 class="article-title"><a href="#">Mobileye Reports Strong Q1 Growth Driven by SuperVision Adoption</a></h3>
+        <div class="article-meta">
+          <span>via wired.com</span>
+          <span class="sep">&middot;</span>
+          <span>6h ago</span>
+        </div>
+      </article>
+      <a href="#" class="view-all">View all Autonomous Vehicles &rarr;</a>
+    </div>
+
+    <div class="category-section">
+      <div class="section-header">
+        <span class="section-title">Quantum Computers</span>
+        <a href="#" class="section-link">All articles &rarr;</a>
+      </div>
+      <article class="article-compact">
+        <h3 class="article-title"><a href="#">Chinese Quantum Startup QBoson Bags $145M to Expand Production</a></h3>
+        <div class="article-meta">
+          <span>via yicaiglobal.com</span>
+          <span class="sep">&middot;</span>
+          <span>3h ago</span>
+        </div>
+      </article>
+      <article class="article-compact">
+        <h3 class="article-title"><a href="#">IBM Unveils Next-Generation Quantum Processor with 1,000+ Qubits</a></h3>
+        <div class="article-meta">
+          <span>via ibm.com</span>
+          <span class="sep">&middot;</span>
+          <span>12h ago</span>
+        </div>
+      </article>
+      <article class="article-compact">
+        <h3 class="article-title"><a href="#">Google Quantum AI Demonstrates Error Correction Milestone</a></h3>
+        <div class="article-meta">
+          <span>via nature.com</span>
+          <span class="sep">&middot;</span>
+          <span>1d ago</span>
+        </div>
+      </article>
+      <a href="#" class="view-all">View all Quantum Computers &rarr;</a>
+    </div>
+
+    <div class="category-section">
+      <div class="section-header">
+        <span class="section-title">IoT Cyber</span>
+        <a href="#" class="section-link">All articles &rarr;</a>
+      </div>
+      <article class="article-compact">
+        <h3 class="article-title"><a href="#">Microsoft to Invest $10B in Japan for AI, Cyber Defence Expansion</a></h3>
+        <div class="article-meta">
+          <span>via economictimes.com</span>
+          <span class="sep">&middot;</span>
+          <span>5h ago</span>
+        </div>
+      </article>
+      <article class="article-compact">
+        <h3 class="article-title"><a href="#">Hong Kong Cybersecurity Threat Intelligence Report</a></h3>
+        <div class="article-meta">
+          <span>via cyfirma.com</span>
+          <span class="sep">&middot;</span>
+          <span>5h ago</span>
+        </div>
+      </article>
+      <article class="article-compact">
+        <h3 class="article-title"><a href="#">Managed Detection and Response Market Worth $19B by 2031</a></h3>
+        <div class="article-meta">
+          <span>via marketsandmarkets.com</span>
+          <span class="sep">&middot;</span>
+          <span>5h ago</span>
+        </div>
+      </article>
+      <a href="#" class="view-all">View all IoT Cyber &rarr;</a>
+    </div>
+
+    <div class="category-section">
+      <div class="section-header">
+        <span class="section-title">Image Recognition</span>
+        <a href="#" class="section-link">All articles &rarr;</a>
+      </div>
+      <article class="article-compact">
+        <h3 class="article-title"><a href="#">Alcatraz Raises $50M to Replace Badges with Facial Authentication</a></h3>
+        <div class="article-meta">
+          <span>via securitysystemsnews.com</span>
+          <span class="sep">&middot;</span>
+          <span>4h ago</span>
+        </div>
+      </article>
+      <article class="article-compact">
+        <h3 class="article-title"><a href="#">Computer Vision Market Projected to Hit $41.1 Billion by 2030</a></h3>
+        <div class="article-meta">
+          <span>via grandviewresearch.com</span>
+          <span class="sep">&middot;</span>
+          <span>1d ago</span>
+        </div>
+      </article>
+      <a href="#" class="view-all">View all Image Recognition &rarr;</a>
+    </div>
+
+    <div class="category-section">
+      <div class="section-header">
+        <span class="section-title">Smart Cities</span>
+        <a href="#" class="section-link">All articles &rarr;</a>
+      </div>
+      <article class="article-compact">
+        <h3 class="article-title"><a href="#">Global Elevator and Escalator Market Rising Fast as Cities Build Smarter</a></h3>
+        <div class="article-meta">
+          <span>via vocal.media</span>
+          <span class="sep">&middot;</span>
+          <span>2h ago</span>
+        </div>
+      </article>
+      <article class="article-compact">
+        <h3 class="article-title"><a href="#">Global Smart Locks Market Led by North America with Assa Abloy</a></h3>
+        <div class="article-meta">
+          <span>via openpr.com</span>
+          <span class="sep">&middot;</span>
+          <span>2h ago</span>
+        </div>
+      </article>
+      <a href="#" class="view-all">View all Smart Cities &rarr;</a>
+    </div>
+
+    <div class="category-section">
+      <div class="section-header">
+        <span class="section-title">Connected Car</span>
+        <a href="#" class="section-link">All articles &rarr;</a>
+      </div>
+      <article class="article-compact">
+        <h3 class="article-title"><a href="#">V2X Communication Standards Take Shape Across European Markets</a></h3>
+        <div class="article-meta">
+          <span>via automotive-iq.com</span>
+          <span class="sep">&middot;</span>
+          <span>6h ago</span>
+        </div>
+      </article>
+      <article class="article-compact">
+        <h3 class="article-title"><a href="#">5G-Connected Vehicle Fleet Trials Show Promising Latency Results</a></h3>
+        <div class="article-meta">
+          <span>via zdnet.com</span>
+          <span class="sep">&middot;</span>
+          <span>14h ago</span>
+        </div>
+      </article>
+      <a href="#" class="view-all">View all Connected Car &rarr;</a>
+    </div>
+
+    <div class="category-section">
+      <div class="section-header">
+        <span class="section-title">Autonomous Trucks</span>
+        <a href="#" class="section-link">All articles &rarr;</a>
+      </div>
+      <article class="article-compact">
+        <h3 class="article-title"><a href="#">Aurora Innovation Begins Commercial Autonomous Trucking on Texas Corridor</a></h3>
+        <div class="article-meta">
+          <span>via freightwaves.com</span>
+          <span class="sep">&middot;</span>
+          <span>3h ago</span>
+        </div>
+      </article>
+      <article class="article-compact">
+        <h3 class="article-title"><a href="#">Kodiak Robotics Partners with Bridgestone for Tire Monitoring System</a></h3>
+        <div class="article-meta">
+          <span>via truckinginfo.com</span>
+          <span class="sep">&middot;</span>
+          <span>1d ago</span>
+        </div>
+      </article>
+      <a href="#" class="view-all">View all Autonomous Trucks &rarr;</a>
+    </div>
+
+    <div class="category-section">
+      <div class="section-header">
+        <span class="section-title">Sim Racing</span>
+        <a href="#" class="section-link">All articles &rarr;</a>
+      </div>
+      <article class="article-compact">
+        <h3 class="article-title"><a href="#">iRacing Season 3 Update Brings Massive Physics Overhaul</a></h3>
+        <div class="article-meta">
+          <span>via traxion.gg</span>
+          <span class="sep">&middot;</span>
+          <span>8h ago</span>
+        </div>
+      </article>
+      <article class="article-compact">
+        <h3 class="article-title"><a href="#">Fanatec's New Direct Drive Wheel Targets Mid-Range Market</a></h3>
+        <div class="article-meta">
+          <span>via simracingsetup.com</span>
+          <span class="sep">&middot;</span>
+          <span>1d ago</span>
+        </div>
+      </article>
+      <a href="#" class="view-all">View all Sim Racing &rarr;</a>
+    </div>
+
+  </div><!-- /category-grid -->
+
+</main>
+
+<footer>
+  &copy; 2026 NoFrills.news
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+---
+import { formatRelativeTime } from '../utils/formatTime';
+
+interface Props {
+  articles: Array<{
+    title: string;
+    slug: string;
+    published_date: string;
+    source_name?: string;
+  }>;
+  categoryName: string;
+  categorySlug: string;
+}
+
+const { articles, categoryName, categorySlug } = Astro.props;
+const base = import.meta.env.BASE_URL;
+---
+
+{articles.length > 0 && (
+  <div class="related-section">
+    <div class="related-title">More in {categoryName}</div>
+    {articles.map((article) => (
+      <div class="related-item">
+        <a href={`${base}article/${article.slug}`}>{article.title}</a>
+        <div class="article-meta">
+          <span>{formatRelativeTime(article.published_date)}</span>
+          {article.source_name && (
+            <>
+              <span class="sep">&middot;</span>
+              <span>via {article.source_name}</span>
+            </>
+          )}
+        </div>
+      </div>
+    ))}
+  </div>
+)}

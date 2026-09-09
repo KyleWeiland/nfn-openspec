@@ -1,31 +1,31 @@
 ---
 import categories from '../../../data/categories.json';
+import { slugify } from '../utils/formatTime';
 
-// Get the base URL from Astro config
-const base = import.meta.env.BASE_URL;
-
-// Helper function to create URL-safe category slugs
-function slugify(text: string): string {
-  return text
-    .toLowerCase()
-    .replace(/\s+/g, '-')
-    .replace(/[^\w-]+/g, '');
+interface Props {
+  activeCategory?: string;
 }
+
+const { activeCategory } = Astro.props;
+const base = import.meta.env.BASE_URL;
 ---
 
-<div class="nav-container">
-  <div class="site-title">
-    <a href={base}>NoFrills.news</a>
+<header class="masthead">
+  <div class="masthead-inner">
+    <div class="masthead-title"><a href={base}>NoFrills.news</a></div>
+    <div class="masthead-tagline">No-frills tech news</div>
   </div>
-  <div class="site-tagline">
-    Just the news, no frills
-  </div>
-  <nav class="category-nav">
-    <a href={base} class="category-link">All</a>
+</header>
+
+<nav class="section-nav" aria-label="Categories">
+  <div class="section-nav-inner">
     {categories.map((category) => (
-      <a href={`${base}category/${slugify(category)}/`} class="category-link">
+      <a
+        href={`${base}category/${slugify(category)}/`}
+        class={activeCategory && slugify(activeCategory) === slugify(category) ? "active" : ""}
+      >
         {category}
       </a>
     ))}
-  </nav>
-</div>
+  </div>
+</nav>

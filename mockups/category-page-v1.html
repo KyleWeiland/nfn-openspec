@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cybersecurity — NoFrills.news — Category Page Mockup v1</title>
+<style>
+  :root {
+    --color-bg: #ffffff;
+    --color-text: #1a1a1a;
+    --color-text-muted: #5a5a5a;
+    --color-text-light: #888888;
+    --color-border: #d0d0d0;
+    --color-border-light: #e8e8e8;
+    --color-link: #0055aa;
+    --color-link-hover: #003d7a;
+    --color-accent-bg: #f7f7f5;
+    --color-section-rule: #1a1a1a;
+    --space-xs: 0.25rem;
+    --space-sm: 0.5rem;
+    --space-md: 1rem;
+    --space-lg: 1.5rem;
+    --space-xl: 2rem;
+    --space-2xl: 3rem;
+    --font-body: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    --font-headline: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    --max-width: 1200px;
+    --content-width: 94%;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --color-bg: #161616;
+      --color-text: #d8d8d8;
+      --color-text-muted: #a0a0a0;
+      --color-text-light: #707070;
+      --color-border: #333333;
+      --color-border-light: #282828;
+      --color-link: #5b9bd5;
+      --color-link-hover: #82b4e0;
+      --color-accent-bg: #1c1c1c;
+      --color-section-rule: #d8d8d8;
+    }
+  }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { font-size: 16px; }
+  @media (min-width: 768px) { html { font-size: 17px; } }
+  @media (min-width: 1024px) { html { font-size: 18px; } }
+  body {
+    font-family: var(--font-body);
+    line-height: 1.6;
+    color: var(--color-text);
+    background-color: var(--color-bg);
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: var(--color-link); text-decoration: none; transition: color 0.15s ease; }
+  a:hover { color: var(--color-link-hover); text-decoration: underline; }
+
+  .masthead { border-bottom: 3px solid var(--color-section-rule); padding: var(--space-lg) var(--space-md); }
+  .masthead-inner { max-width: var(--max-width); width: var(--content-width); margin: 0 auto; display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: var(--space-sm); }
+  .masthead-title { font-size: 1.75rem; font-weight: 800; letter-spacing: -0.03em; color: var(--color-text); }
+  .masthead-title a { color: inherit; text-decoration: none; }
+  .masthead-tagline { font-size: 0.8rem; color: var(--color-text-light); letter-spacing: 0.06em; text-transform: uppercase; }
+
+  .section-nav { border-bottom: 1px solid var(--color-border); padding: var(--space-sm) var(--space-md); }
+  .section-nav-inner { max-width: var(--max-width); width: var(--content-width); margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-xs) var(--space-md); }
+  .section-nav a { font-size: 0.72rem; font-weight: 600; color: var(--color-text-muted); text-transform: uppercase; letter-spacing: 0.04em; padding: var(--space-xs) 0; transition: color 0.15s ease; white-space: nowrap; }
+  .section-nav a:hover { color: var(--color-text); text-decoration: none; }
+  .section-nav a.active { color: var(--color-text); }
+  @media (min-width: 768px) {
+    .section-nav-inner { display: flex; flex-wrap: wrap; gap: 0; align-items: baseline; line-height: 2; }
+    .section-nav a { font-size: 0.7rem; padding: 0; }
+    .section-nav a + a::before { content: "·"; margin: 0 0.6em; color: var(--color-border); font-weight: 400; }
+  }
+
+  main { max-width: var(--max-width); width: var(--content-width); margin: 0 auto; padding: var(--space-xl) var(--space-md); }
+
+  .page-header {
+    margin-bottom: var(--space-xl);
+  }
+  .page-title {
+    font-size: 1.5rem;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    margin-bottom: var(--space-xs);
+  }
+  .page-meta {
+    font-size: 0.8rem;
+    color: var(--color-text-light);
+  }
+
+  /* Article list items — the workhorse */
+  .article-item {
+    padding: var(--space-lg) 0;
+    border-bottom: 1px solid var(--color-border-light);
+  }
+  .article-item:first-child {
+    padding-top: 0;
+  }
+  .article-item:last-child {
+    border-bottom: none;
+  }
+
+  .article-item .article-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: var(--space-xs);
+  }
+  .article-item .article-title a { color: var(--color-text); }
+  .article-item .article-title a:hover { color: var(--color-link); }
+
+  .article-item .article-hook {
+    font-size: 0.88rem;
+    color: var(--color-text-muted);
+    line-height: 1.5;
+    margin-bottom: var(--space-xs);
+    /* Limit to 2 lines */
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .article-meta {
+    font-size: 0.75rem;
+    color: var(--color-text-light);
+    display: flex;
+    gap: var(--space-sm);
+    align-items: center;
+  }
+  .article-meta .sep { color: var(--color-border); }
+
+  /* Article list: 2-column on wide screens */
+  @media (min-width: 900px) {
+    .article-list {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0 var(--space-2xl);
+    }
+    .article-item {
+      border-bottom: 1px solid var(--color-border-light);
+    }
+  }
+
+  /* Pagination */
+  .pagination {
+    display: flex;
+    gap: var(--space-xs);
+    justify-content: center;
+    align-items: center;
+    margin-top: var(--space-2xl);
+    padding: var(--space-lg) 0;
+  }
+  .pagination a, .pagination span {
+    padding: var(--space-sm) var(--space-md);
+    border: 1px solid var(--color-border-light);
+    border-radius: 3px;
+    min-width: 40px;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    color: var(--color-text-muted);
+    transition: all 0.15s ease;
+  }
+  .pagination a:hover {
+    background-color: var(--color-accent-bg);
+    border-color: var(--color-border);
+    text-decoration: none;
+    color: var(--color-text);
+  }
+  .pagination .current {
+    background-color: var(--color-text);
+    color: var(--color-bg);
+    border-color: var(--color-text);
+    font-weight: 700;
+  }
+  .pagination .ellipsis {
+    border: none;
+    min-width: auto;
+    padding: var(--space-sm) var(--space-xs);
+  }
+
+  footer {
+    max-width: var(--max-width);
+    width: var(--content-width);
+    margin: 0 auto;
+    text-align: center;
+    padding: var(--space-xl) var(--space-md);
+    color: var(--color-text-light);
+    font-size: 0.75rem;
+    border-top: 1px solid var(--color-border);
+    margin-top: var(--space-2xl);
+  }
+
+  .mockup-banner {
+    background: #fff3cd; color: #664d03;
+    text-align: center; padding: var(--space-sm) var(--space-md);
+    font-size: 0.75rem; font-weight: 600; border-bottom: 1px solid #e0c97a;
+  }
+  @media (prefers-color-scheme: dark) {
+    .mockup-banner { background: #3a3520; color: #e0c97a; border-bottom-color: #4a4530; }
+  }
+</style>
+</head>
+<body>
+
+<div class="mockup-banner">
+  MOCKUP v2 — NoFrills.news Frontend Redesign — Category Page (Wide Layout)
+</div>
+
+<header class="masthead">
+  <div class="masthead-inner">
+    <div class="masthead-title"><a href="homepage-v1.html">NoFrills.news</a></div>
+    <div class="masthead-tagline">No-frills tech news</div>
+  </div>
+</header>
+
+<nav class="section-nav" aria-label="Categories">
+  <div class="section-nav-inner">
+    <a href="#">Autonomous Trucks</a>
+    <a href="#">Autonomous Vehicles</a>
+    <a href="#">Connected Car</a>
+    <a href="#" class="active">Cybersecurity</a>
+    <a href="#">Image Recognition</a>
+    <a href="#">IoT Cyber</a>
+    <a href="#">Quantum Computers</a>
+    <a href="#">Sim Racing</a>
+    <a href="#">Smart Cities</a>
+  </div>
+</nav>
+
+<main>
+
+  <div class="page-header">
+    <h1 class="page-title">Cybersecurity</h1>
+    <p class="page-meta">247 articles &middot; Page 1 of 13</p>
+  </div>
+
+  <div class="article-list">
+  <article class="article-item">
+    <h2 class="article-title"><a href="article-page-v1.html">The Theranos Playbook Is Quietly Returning in Cybersecurity</a></h2>
+    <p class="article-hook">Market pressures are rewarding storytelling more than validation, operational value. When health tech company Theranos collapsed, much of the attention focused on the personality of its founder.</p>
+    <div class="article-meta">
+      <span>2h ago</span>
+      <span class="sep">&middot;</span>
+      <span>via govinfosecurity.com</span>
+    </div>
+  </article>
+
+  <article class="article-item">
+    <h2 class="article-title"><a href="#">Manufacturing Cybersecurity Market Growth: Trends & Forecast to 2030</a></h2>
+    <p class="article-hook">The global manufacturing cybersecurity market is on a strong growth trajectory, expected to expand from $10.97 billion in 2025 to $17.39 billion by 2030.</p>
+    <div class="article-meta">
+      <span>5h ago</span>
+      <span class="sep">&middot;</span>
+      <span>via marketsandmarkets.com</span>
+    </div>
+  </article>
+
+  <article class="article-item">
+    <h2 class="article-title"><a href="#">CISO Corner: Generative AI Is Reshaping How Security Teams Operate</a></h2>
+    <p class="article-hook">Security operations centers are increasingly integrating generative AI tools to augment threat detection, automate triage, and accelerate incident response workflows.</p>
+    <div class="article-meta">
+      <span>8h ago</span>
+      <span class="sep">&middot;</span>
+      <span>via darkreading.com</span>
+    </div>
+  </article>
+
+  <article class="article-item">
+    <h2 class="article-title"><a href="#">Critical Vulnerability Found in Widely Used Enterprise VPN Software</a></h2>
+    <p class="article-hook">Researchers disclosed a zero-day vulnerability affecting multiple enterprise VPN products that could allow remote code execution without authentication.</p>
+    <div class="article-meta">
+      <span>14h ago</span>
+      <span class="sep">&middot;</span>
+      <span>via bleepingcomputer.com</span>
+    </div>
+  </article>
+
+  <article class="article-item">
+    <h2 class="article-title"><a href="#">Ransomware Attacks on Healthcare Sector Surge 47% in Q1 2026</a></h2>
+    <p class="article-hook">A new report from threat intelligence firm Recorded Future shows ransomware attacks targeting healthcare organizations have increased significantly in the first quarter.</p>
+    <div class="article-meta">
+      <span>1d ago</span>
+      <span class="sep">&middot;</span>
+      <span>via therecord.media</span>
+    </div>
+  </article>
+
+  <article class="article-item">
+    <h2 class="article-title"><a href="#">NIST Updates Cybersecurity Framework with New Supply Chain Guidance</a></h2>
+    <p class="article-hook">The updated framework includes new controls specifically targeting software supply chain security, addressing growing concerns about third-party risk.</p>
+    <div class="article-meta">
+      <span>1d ago</span>
+      <span class="sep">&middot;</span>
+      <span>via nist.gov</span>
+    </div>
+  </article>
+
+  <article class="article-item">
+    <h2 class="article-title"><a href="#">EU Cyber Resilience Act Implementation Timeline Accelerated</a></h2>
+    <p class="article-hook">European regulators announced an accelerated timeline for the Cyber Resilience Act, pushing compliance deadlines forward for IoT device manufacturers.</p>
+    <div class="article-meta">
+      <span>2d ago</span>
+      <span class="sep">&middot;</span>
+      <span>via euractiv.com</span>
+    </div>
+  </article>
+
+  <article class="article-item">
+    <h2 class="article-title"><a href="#">State-Sponsored Threat Groups Increasingly Target Cloud Infrastructure</a></h2>
+    <p class="article-hook">Cloud misconfigurations remain the primary attack vector, with threat actors exploiting identity and access management weaknesses across major cloud providers.</p>
+    <div class="article-meta">
+      <span>2d ago</span>
+      <span class="sep">&middot;</span>
+      <span>via crowdstrike.com</span>
+    </div>
+  </article>
+  </div><!-- /article-list -->
+
+  <!-- Pagination -->
+  <nav class="pagination" aria-label="Pagination">
+    <span class="current">1</span>
+    <a href="#">2</a>
+    <a href="#">3</a>
+    <a href="#">4</a>
+    <a href="#">5</a>
+    <span class="ellipsis">&hellip;</span>
+    <a href="#">13</a>
+    <a href="#">Next &rarr;</a>
+  </nav>
+
+</main>
+
+<footer>
+  &copy; 2026 NoFrills.news
+</footer>
+
+</body>
+</html>

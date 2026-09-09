@@ -6,6 +6,7 @@ import os
 import sys
 import logging
 from pathlib import Path
+from urllib.parse import urlparse
 
 # Configure logging
 logging.basicConfig(
@@ -18,6 +19,28 @@ REPO_ROOT = Path(__file__).parent.parent
 DB_PATH = REPO_ROOT / "data" / "articles.db"
 ARTICLES_JSON = REPO_ROOT / "data" / "articles.json"
 CATEGORIES_JSON = REPO_ROOT / "data" / "categories.json"
+
+
+def extract_source_name(url):
+    """Extract a clean domain name from a URL, stripping www. prefix."""
+    try:
+        parsed = urlparse(url)
+        domain = parsed.hostname or ""
+        if domain.startswith("www."):
+            domain = domain[4:]
+        return domain
+    except Exception:
+        return ""
+
+
+def clean_title(title):
+    """Strip the ' - Source' suffix from article titles.
+
+    Uses the last ' - ' delimiter to avoid removing hyphens in the actual title.
+    """
+    if " - " in title:
+        return title.rsplit(" - ", 1)[0].strip()
+    return title
 
 
 def export_articles():
@@ -42,13 +65,19 @@ def export_articles():
 
         # Fetch all articles, ordered by published_date descending (newest first)
         cursor.execute("""
-            SELECT id, title, source_url, summary, category, published_date, slug
+            SELECT id, title, source_url, summary, category, published_date, slug,
+                   extraction_method
             FROM articles
             ORDER BY published_date DESC
         """)
 
-        # Convert rows to dictionaries
-        articles = [dict(row) for row in cursor.fetchall()]
+        # Convert rows to dictionaries, adding source_name and cleaning titles
+        articles = []
+        for row in cursor.fetchall():
+            article = dict(row)
+            article['source_name'] = extract_source_name(article['source_url'])
+            article['title'] = clean_title(article['title'])
+            articles.append(article)
 
         # Write to JSON
         try:

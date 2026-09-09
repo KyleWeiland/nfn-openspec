@@ -6,7 +6,7 @@ extracted/summarized, stored in SQLite, and built into a static Astro site deplo
 to GitHub Pages via GitHub Actions.
 
 ## Architecture
-- **Pipeline:** Python script (feedparser + trafilatura) → SQLite
+- **Pipeline:** Python script (gnews + Newspaper4k) → SQLite — no API key needed
 - **Frontend:** Astro static site generator, reads from exported JSON
 - **Storage:** SQLite database committed to repo at data/articles.db
 - **CI/CD:** GitHub Actions daily cron
@@ -16,21 +16,21 @@ to GitHub Pages via GitHub Actions.
 - `scripts/` — Python pipeline (fetch, extract, summarize, store, export)
 - `site/` — Astro project
 - `data/` — SQLite DB + exported JSON files
-- `feeds.config.json` — RSS feed URLs and category names (edit this to add/remove feeds)
+- `feeds.config.json` — Search queries, category names, and gnews settings (edit this to add/remove feeds)
 - `openspec/` — Specifications and change proposals
 
 ## Key Conventions
 - No images or ads in the frontend
 - Ship zero JS to the browser (Astro static mode)
-- All article data flows: RSS → Python → SQLite → JSON export → Astro build
+- All article data flows: gnews query → Python → SQLite → JSON export → Astro build
 - Deduplication: check normalized title + source URL before processing
-- Google Alerts RSS URLs contain redirects; extract actual article URL from the redirect
-- Summaries should be concise (200-300 words max)
+- gnews returns direct article URLs — no redirect parsing needed
+- Summaries generated via Newspaper4k NLP; fallback truncates to ~300 words
 - Pagination: 20 articles per page
 - Feed config is the single control point for adding/removing feeds
 
 ## Tech Stack
-- Python 3.11+ with feedparser, trafilatura
+- Python 3.11+ with gnews, Newspaper4k
 - Node.js 20+ with Astro
 - SQLite3 (standard library)
 - GitHub Actions for CI/CD

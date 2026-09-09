@@ -1,48 +1,52 @@
 ## ADDED Requirements
 
 ### Requirement: Article content download
-The system SHALL download article HTML content from the extracted URL using HTTP GET requests.
+The system SHALL download and parse article content using Newspaper4k by creating a `newspaper.Article` instance configured with a 30-second timeout and a standard browser user agent.
 
 #### Scenario: Successful download
 - **WHEN** an article URL is accessible
-- **THEN** the system retrieves the HTML content
+- **THEN** the system calls `article.download()` and `article.parse()` to retrieve and extract content
 
 #### Scenario: Network timeout
-- **WHEN** a download request times out after a reasonable period
-- **THEN** the system MUST log an error and skip that article
+- **WHEN** a download request times out after 30 seconds
+- **THEN** the system MUST log a warning and skip that article
 
 #### Scenario: HTTP error status
 - **WHEN** the server returns 404, 403, or 5xx status codes
-- **THEN** the system MUST log the error and skip that article
+- **THEN** the system MUST log a warning and skip that article
 
 ### Requirement: Content extraction
-The system SHALL use trafilatura to extract clean article text from HTML content.
+The system SHALL use Newspaper4k to extract clean article text from the downloaded HTML content.
 
 #### Scenario: Successful extraction
-- **WHEN** trafilatura successfully extracts text from HTML
-- **THEN** the system uses the extracted text for summarization
+- **WHEN** Newspaper4k successfully parses content from the URL
+- **THEN** the system uses `article.text` for NLP processing
 
 #### Scenario: Extraction failure
-- **WHEN** trafilatura cannot extract meaningful text
-- **THEN** the system MUST log an error and skip that article
+- **WHEN** Newspaper4k cannot extract meaningful text (article.text is empty)
+- **THEN** the system MUST log a warning and skip that article
 
 ### Requirement: Summary generation
-The system SHALL generate a summary by taking the first 200-300 words of the extracted article text.
+The system SHALL generate a summary using Newspaper4k's built-in NLP by calling `article.nlp()` and reading `article.summary`.
 
-#### Scenario: Article longer than 300 words
-- **WHEN** extracted text contains 500 words
-- **THEN** the system creates a summary of approximately 200-300 words from the beginning
+#### Scenario: NLP summary available
+- **WHEN** `article.nlp()` produces a non-empty `article.summary`
+- **THEN** the system uses `article.summary` as the stored summary
 
-#### Scenario: Article shorter than 200 words
-- **WHEN** extracted text contains 150 words
+#### Scenario: NLP summary empty with text available
+- **WHEN** `article.summary` is empty but `article.text` is non-empty
+- **THEN** the system truncates `article.text` to approximately 300 words and uses that as the summary
+
+#### Scenario: Article shorter than 300 words
+- **WHEN** extracted text contains fewer than 300 words
 - **THEN** the system uses the entire text as the summary
 
-### Requirement: Word counting
-The system SHALL count words by splitting text on whitespace.
+### Requirement: NLTK tokenizer availability
+The system SHALL ensure the NLTK `punkt_tab` tokenizer is available before calling `article.nlp()`.
 
-#### Scenario: Standard word counting
-- **WHEN** text is "The quick brown fox jumps"
-- **THEN** the system counts 5 words
+#### Scenario: Tokenizer downloaded at startup
+- **WHEN** the pipeline script starts
+- **THEN** the system calls `nltk.download('punkt_tab', quiet=True)` before processing any articles
 
 ### Requirement: Summary storage format
 The system SHALL store summaries as plain text without HTML markup.
