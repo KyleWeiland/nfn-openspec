@@ -6,7 +6,7 @@ A minimal news aggregation site that delivers articles without the clutter. No i
 
 NoFrills.news automatically searches Google News for a curated set of topics, extracts and summarizes each article, stores them in a SQLite database, and builds them into a fast, minimal static site deployed to GitHub Pages. The entire pipeline runs daily via GitHub Actions.
 
-**Live site:** https://kyleweiland.github.io/nfn-openspec/
+**Live site:** https://nofrills.news
 
 ## Architecture
 
