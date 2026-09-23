@@ -1,4 +1,10 @@
-## ADDED Requirements
+# Local Development Tooling Specification
+
+## Purpose
+
+Provides a local convenience script so contributors can export data and preview the site without running CI.
+
+## Requirements
 
 ### Requirement: Local development convenience script
 The system SHALL provide a convenience script at `scripts/run_local.sh` that automates the local development workflow.

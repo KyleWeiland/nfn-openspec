@@ -1,4 +1,10 @@
-## ADDED Requirements
+# Feed Config Specification
+
+## Purpose
+
+Defines feeds.config.json, the single control point for search queries, categories, gnews settings, and excluded domains.
+
+## Requirements
 
 ### Requirement: Configuration file format
 The system SHALL use a JSON configuration file named `feeds.config.json` located at the repository root containing a top-level `gnews_settings` object, an `excluded_domains` array, and a `feeds` array of feed objects.

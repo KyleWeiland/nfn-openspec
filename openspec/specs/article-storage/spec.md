@@ -1,4 +1,10 @@
-## ADDED Requirements
+# Article Storage Specification
+
+## Purpose
+
+Stores articles in the SQLite database with a fixed schema, stable slugs, and title-plus-URL deduplication so repeated pipeline runs never duplicate content.
+
+## Requirements
 
 ### Requirement: Database schema
 The system SHALL use an SQLite database at `data/articles.db` with an `articles` table containing: id (INTEGER PRIMARY KEY), title (TEXT NOT NULL), source_url (TEXT NOT NULL), summary (TEXT), category (TEXT NOT NULL), published_date (TEXT), slug (TEXT NOT NULL), created_at (TEXT NOT NULL).

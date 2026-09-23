@@ -1,4 +1,10 @@
-## ADDED Requirements
+# Automated Pipeline Specification
+
+## Purpose
+
+Defines the GitHub Actions workflow that runs the article pipeline daily or on demand, installs pinned dependencies, builds the site, and reports failures to maintainers.
+
+## Requirements
 
 ### Requirement: Daily automated execution
 The workflow SHALL execute automatically at 6 AM UTC daily using a cron schedule trigger.

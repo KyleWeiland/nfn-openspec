@@ -1,4 +1,10 @@
-## ADDED Requirements
+# Pipeline Orchestration Specification
+
+## Purpose
+
+Defines the main pipeline entry point that loads configuration, fetches, processes, and stores articles while isolating per-article failures.
+
+## Requirements
 
 ### Requirement: Main script location
 The system SHALL provide a main pipeline script at `scripts/fetch_articles.py` that can be executed directly with Python.

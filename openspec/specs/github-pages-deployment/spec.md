@@ -1,4 +1,10 @@
-## ADDED Requirements
+# GitHub Pages Deployment Specification
+
+## Purpose
+
+Defines how the built static site is packaged and deployed to GitHub Pages from the workflow, including permissions and failure behavior.
+
+## Requirements
 
 ### Requirement: GitHub Pages configuration
 The workflow SHALL configure GitHub Pages environment using the official configure-pages action.

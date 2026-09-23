@@ -1,4 +1,10 @@
-## ADDED Requirements
+# Data Persistence Specification
+
+## Purpose
+
+Defines how the workflow commits the updated database and exported JSON back to the repository so article history persists between runs.
+
+## Requirements
 
 ### Requirement: Database file persistence
 The workflow SHALL commit the updated articles.db file back to the repository after processing articles.

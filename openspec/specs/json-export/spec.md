@@ -1,4 +1,10 @@
-## ADDED Requirements
+# JSON Export Specification
+
+## Purpose
+
+Defines the export of stored articles and categories from SQLite into the JSON files that the Astro build reads.
+
+## Requirements
 
 ### Requirement: Articles JSON export
 The system SHALL export all articles from SQLite to `data/articles.json`.
