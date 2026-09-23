@@ -40,9 +40,15 @@ to GitHub Pages via GitHub Actions.
 
 ## Tech Stack
 - Python 3.11+ with gnews, Newspaper4k (NLTK `punkt_tab` downloads on first run)
+- Python deps: edit `scripts/requirements.in`; `scripts/requirements.txt` is a
+  pip-compile lock (exact pins, compiled on Linux/3.11, no hashes) and the only
+  file CI installs. Dependabot proposes weekly grouped upgrades; recompile command
+  is in scripts/README.md
 - Node.js 20+ with Astro
 - SQLite3 (standard library)
-- GitHub Actions for CI/CD
+- GitHub Actions for CI/CD. A failed daily run opens (or comments on) a
+  `pipeline-failure` issue mentioning @KyleWeiland and @Darthmaul; the next success
+  closes it
 - GitHub Pages for hosting
 
 ## Known Issues

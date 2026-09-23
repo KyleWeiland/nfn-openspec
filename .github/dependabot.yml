@@ -1,0 +1,17 @@
+version: 2
+updates:
+  # scripts/requirements.in is the source; Dependabot recompiles requirements.txt.
+  # dependency-check.yml import-tests each PR.
+  - package-ecosystem: "pip"
+    directory: "/scripts"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 2
+    commit-message:
+      prefix: "chore(deps)"
+    groups:
+      # One PR per week for version updates; security updates stay separate
+      python-dependencies:
+        applies-to: version-updates
+        patterns:
+          - "*"

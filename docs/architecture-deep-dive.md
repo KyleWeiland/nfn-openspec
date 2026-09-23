@@ -154,13 +154,21 @@ FATAL (pipeline halts):          GRACEFUL (skip & continue):
 Trigger: cron 0 6 * * * UTC  OR  manual dispatch (with optional skip_fetch flag)
     │
     ├── Setup Python 3.11 + pip cache
-    ├── pip install -r scripts/requirements.txt
+    ├── pip install -r scripts/requirements.txt  (pinned lock)
     ├── python scripts/fetch_articles.py  (skippable via manual input)
     ├── python scripts/export_for_astro.py
     ├── Setup Node 20 + npm cache
     ├── cd site && npm ci && npm run build
     ├── git commit data/ with [skip ci] tag  (only if changes)
     └── Deploy site/dist/ → GitHub Pages
+
+report-status job (after every non-cancelled run)
+    ├── failure → open a "pipeline-failure" issue mentioning the maintainers,
+    │             or comment on the one already open
+    └── success → comment on and close any open pipeline-failure issue
+
+Pull requests touching scripts/ or workflows → dependency-check.yml
+    └── install lock, pip check, import every pipeline module
 ```
 
 ## Directory Structure
@@ -177,7 +185,8 @@ nfn-openspec/
 │   ├── url_extraction.py             # URL parsing utilities (vestigial)
 │   ├── seed_data.py                  # Test data seeding
 │   ├── test_modules.py               # Unit tests
-│   └── requirements.txt              # Python dependencies
+│   ├── requirements.in               # Direct Python dependencies (edit this)
+│   └── requirements.txt              # Pinned lock compiled from requirements.in
 ├── site/                             # Astro frontend
 │   ├── src/
 │   │   ├── pages/                    # Route definitions
@@ -563,17 +572,25 @@ Extracts unique categories from the articles list, sorts alphabetically, writes 
 
 ---
 
-### requirements.txt — Dependencies
+### requirements.in / requirements.txt — Dependencies
+
+`requirements.in` holds the direct dependencies:
 
 ```
-gnews>=0.4.0              # Google News API wrapper
-newspaper4k>=0.9.0        # Article extraction + NLP
-lxml_html_clean>=0.1.0    # HTML sanitization (newspaper4k dep)
-googlenewsdecoder>=0.1.0  # Google News URL decoder
-requests>=2.28.0          # HTTP client (indirect dep)
+gnews>=0.4.0                        # Google News API wrapper
+newspaper4k[nlp]>=0.9.0             # Article extraction + NLP
+nltk>=3.6.6                         # Imported directly by fetch_articles.py
+lxml_html_clean>=0.1.0              # HTML sanitization (newspaper4k dep)
+googlenewsdecoder>=0.2.0,<0.3.0     # Google News URL decoder
+requests>=2.28.0                    # HTTP client
 ```
 
-**Transitive dependencies:** `nltk` (via newspaper4k), `lxml` (via newspaper4k).
+`requirements.txt` is compiled from it with `pip-compile` (Python 3.11, Linux) and pins
+every package, direct and transitive, to an exact version. CI installs only the lock,
+so an upstream release can't change what runs. That's how googlenewsdecoder 0.2.1
+broke the Sep 21–23, 2026 scheduled runs under the old floor-only pins. Dependabot
+proposes upgrades weekly, and `.github/workflows/dependency-check.yml` import-tests
+them on the PR. See `scripts/README.md` → Dependencies for the regenerate command.
 
 ---
 
