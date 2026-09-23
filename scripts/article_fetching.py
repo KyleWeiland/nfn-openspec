@@ -1,7 +1,7 @@
 """Article fetching module using gnews."""
 
 import logging
-from googlenewsdecoder import new_decoderv1
+from googlenewsdecoder import gnewsdecoder
 
 
 def decode_url(url):
@@ -16,8 +16,8 @@ def decode_url(url):
     if 'news.google.com' not in url:
         return url
     try:
-        result = new_decoderv1(url)
-        if result.get('status') and result.get('decoded_url'):
+        result = gnewsdecoder(url)
+        if result.get('success') and result.get('decoded_url'):
             return result['decoded_url']
     except Exception as e:
         logging.warning(f"Failed to decode Google News URL: {e}")
