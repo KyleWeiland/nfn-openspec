@@ -13,10 +13,10 @@
     "node": ">=20.0.0"
   },
   "dependencies": {
-    "astro": "4.16.19"
+    "astro": "7.3.3"
   },
   "devDependencies": {
-    "@astrojs/check": "0.9.8",
-    "typescript": "5.9.3"
+    "@astrojs/check": "0.9.10",
+    "typescript": "7.0.2"
   }
 }
