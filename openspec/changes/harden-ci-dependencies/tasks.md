@@ -6,6 +6,9 @@
 - [x] 1.2 Compile `scripts/requirements.txt` with pip-compile `--strip-extras` on Linux / Python 3.11 (Docker command from design D2), and verify every line is an exact `==` pin with a `# via` annotation, including `googlenewsdecoder==0.2.1`
 - [x] 1.3 In a clean Python 3.11 venv, run `pip install -r scripts/requirements.txt` and `pip check`, and verify both succeed and `pip freeze` matches the lock versions
 - [x] 1.4 Run `python scripts/fetch_articles.py` locally against the locked environment and verify it completes and stores articles
+- [x] 1.5 Pin every direct dependency in `scripts/requirements.in` with `==` at the version `scripts/requirements.txt` already locks, and verify each of the 6 pins matches its lock line so the compiled lock is unchanged
+- [x] 1.6 Pin `site/package.json` to the versions `site/package-lock.json` resolves (`astro 4.16.19`, `@astrojs/check 0.9.8`, `typescript 5.9.3`), add `site/.npmrc` with `save-exact=true`, sync the lock with `npm install --package-lock-only`, and verify the lock diff touches only the root spec strings
+- [x] 1.7 In `site/`, run `npm ci && npm run build` against the pinned lock, and verify the build succeeds
 
 ## 2. Single manifest location
 
@@ -19,6 +22,8 @@
 - [ ] 3.1 Add `.github/workflows/dependency-check.yml` (pull_request, paths `scripts/**` and `.github/workflows/**`; Python 3.11; install lock; `pip check`; import `config`, `database`, `article_fetching`, `article_processing`, `fetch_articles` and `export_for_astro` from `scripts/`, printing the failing module), and verify it passes on the PR for this change (verified locally in a python:3.11 container on 2026-09-23: all 9 imports pass; the PR run is still pending)
 - [ ] 3.2 Prove the check catches the incident: on a throwaway branch, keep `googlenewsdecoder==0.2.1` locked and restore the pre-`c52ce8e` `from googlenewsdecoder import new_decoderv1` in `scripts/article_fetching.py` (this reproduces the Sep 21–23 break), open a draft PR, verify the check fails and names `article_fetching`, then close it (reproduced locally on 2026-09-23: exit 1, `FAIL import article_fetching`, `ImportError: cannot import name 'new_decoderv1'`; the GitHub PR run is still pending)
 - [ ] 3.3 Add `.github/dependabot.yml` (pip, `/scripts`, weekly, one group matching `*`, `open-pull-requests-limit: 2`), and after merge verify that Insights → Dependency graph → Dependabot shows the pip manifest being monitored without errors
+- [ ] 3.4 Add an npm entry to `.github/dependabot.yml` (`/site`, weekly, one group matching `*`, `open-pull-requests-limit: 2`), and after merge verify that Dependabot shows the npm manifest being monitored without errors
+- [ ] 3.5 Add a `site-build` job to `dependency-check.yml` (add `site/**` to the paths filter; Node 20, `npm ci` and `npm run build` in `site/`), and verify it passes on the PR for this change (verified locally on 2026-09-23: `npm ci && npm run build` built 18,685 pages; the PR run is still pending)
 
 ## 4. Failure notification
 

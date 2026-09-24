@@ -574,15 +574,15 @@ Extracts unique categories from the articles list, sorts alphabetically, writes 
 
 ### requirements.in / requirements.txt — Dependencies
 
-`requirements.in` holds the direct dependencies:
+`requirements.in` holds the direct dependencies, pinned exactly:
 
 ```
-gnews>=0.4.0                        # Google News API wrapper
-newspaper4k[nlp]>=0.9.0             # Article extraction + NLP
-nltk>=3.6.6                         # Imported directly by fetch_articles.py
-lxml_html_clean>=0.1.0              # HTML sanitization (newspaper4k dep)
-googlenewsdecoder>=0.2.0,<0.3.0     # Google News URL decoder
-requests>=2.28.0                    # HTTP client
+gnews==0.8.2                        # Google News API wrapper
+newspaper4k[nlp]==0.9.6             # Article extraction + NLP
+nltk==3.10.3                        # Imported directly by fetch_articles.py
+lxml_html_clean==0.4.5              # HTML sanitization (newspaper4k dep)
+googlenewsdecoder==0.2.1            # Google News URL decoder
+requests==2.34.2                    # HTTP client
 ```
 
 `requirements.txt` is compiled from it with `pip-compile` (Python 3.11, Linux) and pins
@@ -721,8 +721,9 @@ export default defineConfig({
 ```
 
 **`package.json`:**
-- Runtime: `astro@^4.16.18`
-- Dev: `@astrojs/check`, `typescript@^5.6.3`
+- Runtime: `astro@4.16.19`
+- Dev: `@astrojs/check@0.9.8`, `typescript@5.9.3`
+- Exact pins (`site/.npmrc` sets `save-exact`); Dependabot proposes weekly upgrades
 - Build command: `astro check && astro build` (type-check, then build)
 - Engine: Node.js >= 20
 

@@ -44,7 +44,8 @@ to GitHub Pages via GitHub Actions.
   pip-compile lock (exact pins, compiled on Linux/3.11, no hashes) and the only
   file CI installs. Dependabot proposes weekly grouped upgrades; recompile command
   is in scripts/README.md
-- Node.js 20+ with Astro
+- Node.js 20+ with Astro. `site/package.json` pins exact versions (`site/.npmrc` sets
+  `save-exact`); Dependabot proposes weekly grouped npm upgrades too
 - SQLite3 (standard library)
 - GitHub Actions for CI/CD. A failed daily run opens (or comments on) a
   `pipeline-failure` issue mentioning @KyleWeiland and @Darthmaul; the next success

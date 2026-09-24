@@ -1,11 +1,13 @@
 name: Dependency Check
 
-# Catches dependency upgrades that break the pipeline before they merge, e.g.
-# googlenewsdecoder 0.2.1 removing new_decoderv1 (scheduled runs failed Sep 21-23, 2026).
+# Catches dependency upgrades that break the pipeline or the site before they merge,
+# e.g. googlenewsdecoder 0.2.1 removing new_decoderv1 (scheduled runs failed Sep 21-23,
+# 2026). Covers Dependabot's pip PRs (scripts/) and npm PRs (site/).
 on:
   pull_request:
     paths:
       - 'scripts/**'
+      - 'site/**'
       - '.github/workflows/**'
 
 permissions:
@@ -72,3 +74,28 @@ jobs:
               print(f"\n{len(failed)} import(s) failed: {', '.join(failed)}")
               sys.exit(1)
           EOF
+
+  # Builds the site from the committed data/*.json, the same way daily-build.yml does
+  # after export. `astro check` in the build script catches type breaks from npm bumps.
+  site-build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Same Node version as daily-build.yml
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: 'site/package-lock.json'
+
+      - name: Install locked dependencies
+        working-directory: site
+        run: npm ci
+
+      - name: Build site
+        working-directory: site
+        run: npm run build

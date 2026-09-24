@@ -27,7 +27,6 @@ See proposal.md for motivation.
 **Non-Goals:**
 - Pinning GitHub Actions to commit SHAs or adding Dependabot for the `github-actions`
   ecosystem. That's a reasonable follow-up, but it's a separate supply-chain concern.
-- Pinning Node dependencies. `site/package-lock.json` already does this through `npm ci`.
 - End-to-end testing of fetching or extraction on PRs. That needs network access to
   Google News, and the results change from day to day.
 - Adding a canary job that runs against unpinned "latest" versions (step 5 of the
@@ -38,8 +37,8 @@ See proposal.md for motivation.
 
 ### D1: pip-tools layout, `requirements.in` → `requirements.txt`
 
-`scripts/requirements.in` holds the direct dependencies with compatible ranges and the
-explanatory comments (such as the nltk note). `pip-compile` writes the fully pinned
+`scripts/requirements.in` holds the direct dependencies, each pinned exactly (see D7),
+and the explanatory comments (such as the nltk note). `pip-compile` writes the fully pinned
 `scripts/requirements.txt`, and every existing instruction and the workflow keep
 pointing at that path.
 
@@ -85,14 +84,16 @@ In practice, Dependabot will do most of the recompiling.
 
 Grouping means one PR a week, which keeps review light for a two-person project. The
 trade-off is that one bad package blocks the whole group. When that happens, the
-maintainer drops that package from the PR (or pins it in `requirements.in`) and merges
-the rest.
+maintainer drops that package from the PR and merges the rest.
 
 Dependabot security updates stay on their default (ungrouped, immediate).
 
+A second entry does the same for `package-ecosystem: npm`, `directory: /site`, with its
+own `npm-dependencies` group, so the site's pins (D7) move the same way.
+
 ### D4: `dependency-check.yml` PR workflow with an import smoke test
 
-A new workflow runs on `pull_request` with a paths filter on `scripts/**` and
+A new workflow runs on `pull_request` with a paths filter on `scripts/**`, `site/**` and
 `.github/workflows/**`. It sets up Python 3.11, installs `scripts/requirements.txt`, and
 from `scripts/` runs a short Python snippet that imports every pipeline module:
 `config`, `database`, `article_fetching`, `article_processing`, `fetch_articles`,
@@ -113,6 +114,13 @@ This check alone would have caught the `googlenewsdecoder` incident: the import 
 
 It doesn't catch behavioral changes where the import succeeds, like the
 `status` → `success` result-key rename. That's an accepted gap (see Risks).
+
+A second job, `site-build`, covers Dependabot's npm PRs. It sets up Node 20 (matching
+`daily-build.yml`), runs `npm ci` in `site/`, then `npm run build`, which runs
+`astro check` before `astro build`. It builds from the committed `data/*.json`, so it
+needs neither the pipeline nor network access. Both jobs run for any path in the
+filter. Splitting them by path would save about a minute on some PRs, which isn't
+worth a second workflow file.
 
 ### D5: A `report-status` job in `daily-build.yml` using `gh`
 
@@ -152,6 +160,26 @@ Nothing in CI, the scripts or the docs references the root copy. The only relati
 reference is `fetch_articles.py:29`'s hint (`pip install -r requirements.txt`), which
 gets corrected to `scripts/requirements.txt`. The docs already point at
 `scripts/requirements.txt`.
+
+### D7: Exact pins in the manifests, not just the locks
+
+The locks alone already fix what CI installs: `npm ci` ignores `package.json` ranges,
+and CI installs only `requirements.txt`. The manifests pin exactly anyway:
+`requirements.in` uses `==`, `site/package.json` has no `^`, and `site/.npmrc` sets
+`save-exact=true` so `npm install <pkg>` keeps it that way.
+
+Why: a range in a manifest still matters whenever someone re-resolves, such as a local
+`npm install`, `npm update`, or a `pip-compile` without `--upgrade-package`. Then any
+release inside the range can arrive unreviewed, which is the failure mode behind this
+change. With exact pins, the only way a version moves is an edit to the manifest,
+and Dependabot makes those edits as reviewable PRs.
+
+The pins were set to the versions the locks already resolved (for example
+`astro 4.16.19`, `googlenewsdecoder 0.2.1`), so no installed version changes.
+
+Trade-off: upgrades never happen on their own, including patch releases. That's the
+point, but it makes Dependabot the only way upgrades happen, so its PRs need to be
+merged regularly.
 
 ## Risks / Trade-offs
 

@@ -11,11 +11,13 @@ currently notifies only whoever last edited the workflow's cron line.
 
 ## What Changes
 
-- Split Python dependencies into a human-edited input file (direct dependencies with
-  loose ranges) and a compiled, fully pinned lock file covering every transitive
+- Split Python dependencies into a human-edited input file (direct dependencies, pinned
+  exactly) and a compiled, fully pinned lock file covering every transitive
   dependency. CI and local setup install from the lock file only.
-- Add Dependabot to propose dependency upgrades as grouped weekly pull requests, so
-  upgrades happen deliberately rather than at install time.
+- Pin the site's npm dependencies exactly in `site/package.json` too, at the versions
+  `package-lock.json` already resolves, so no installed version changes.
+- Add Dependabot for both pip and npm to propose dependency upgrades as grouped weekly
+  pull requests, so upgrades happen deliberately rather than at install time.
 - Add a pull-request check that installs the locked dependencies and imports every
   pipeline module. A dependency bump that breaks an import fails before merge instead
   of in production.
@@ -42,8 +44,9 @@ _None._
 ## Impact
 
 - **Files added:** `scripts/requirements.in`, `.github/dependabot.yml`,
-  `.github/workflows/dependency-check.yml`
+  `.github/workflows/dependency-check.yml`, `site/.npmrc`
 - **Files changed:** `scripts/requirements.txt` (becomes compiled output),
+  `site/package.json` and `site/package-lock.json` (exact pins),
   `.github/workflows/daily-build.yml` (issues permission, failure/recovery reporting
   job), `scripts/fetch_articles.py` (install hint path), `README.md`,
   `scripts/README.md`, `docs/architecture-deep-dive.md`, `CLAUDE.md`

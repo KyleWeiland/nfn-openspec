@@ -54,8 +54,19 @@ Any pull request that changes Python dependency files SHALL be validated by inst
 - **THEN** the validation check MUST pass
 
 #### Scenario: Unrelated pull request
-- **WHEN** a pull request does not touch Python dependency files or pipeline scripts
+- **WHEN** a pull request does not touch Python dependency files, pipeline scripts or the site
 - **THEN** the validation check MUST NOT be required to run
+
+### Requirement: Site dependency change validation
+Any pull request that changes the site or its npm dependency files SHALL be validated by installing the locked npm dependencies on the CI Node version and building the site before merge.
+
+#### Scenario: npm upgrade breaks the site build
+- **WHEN** a pull request changes site/package.json or site/package-lock.json to versions that fail type checking or the build
+- **THEN** the validation check MUST fail on that pull request
+
+#### Scenario: Compatible npm upgrade
+- **WHEN** a pull request changes the npm lock file and the site builds successfully
+- **THEN** the validation check MUST pass
 
 ### Requirement: Failure notification
 The daily workflow SHALL report any failed run as a GitHub issue so maintainers are notified without having to check the Actions tab.
