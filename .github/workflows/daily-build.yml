@@ -14,11 +14,12 @@ on:
         type: boolean
         default: false
 
-# Set permissions for GitHub Pages deployment and repo commits
+# Set permissions for GitHub Pages deployment, repo commits, and failure issues
 permissions:
   contents: write
   pages: write
   id-token: write
+  issues: write
 
 # Prevent concurrent deployments
 concurrency:
@@ -120,3 +121,50 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  # Report failures as a GitHub issue that mentions the maintainers, and close it
+  # on the next success. Runs even when fetch-and-build fails; skipped when cancelled.
+  report-status:
+    needs: fetch-and-build
+    if: ${{ always() && needs.fetch-and-build.result != 'cancelled' }}
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GH_REPO: ${{ github.repository }}
+      MAINTAINERS: '@KyleWeiland @Darthmaul'
+      LABEL: pipeline-failure
+      RESULT: ${{ needs.fetch-and-build.result }}
+      RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+      EVENT: ${{ github.event_name }}
+      SHA: ${{ github.sha }}
+
+    steps:
+      - name: Open, update, or close the pipeline-failure issue
+        run: |
+          gh label create "$LABEL" --color B60205 \
+            --description "Daily pipeline run failed" --force
+          ISSUE=$(gh issue list --label "$LABEL" --state open --limit 1 \
+            --json number --jq '.[0].number // empty')
+          DETAILS="- Run: $RUN_URL
+          - Trigger: \`$EVENT\`
+          - Commit: \`${SHA:0:7}\`"
+
+          if [ "$RESULT" = "success" ]; then
+            if [ -n "$ISSUE" ]; then
+              gh issue close "$ISSUE" --comment "Recovered: the pipeline succeeded.
+
+          $DETAILS"
+            fi
+          elif [ "$RESULT" = "failure" ]; then
+            if [ -n "$ISSUE" ]; then
+              gh issue comment "$ISSUE" --body "Failed again.
+
+          $DETAILS"
+            else
+              gh issue create --title "Daily pipeline failing" --label "$LABEL" --body "The daily article pipeline failed, so the site is not being updated.
+
+          $DETAILS
+
+          $MAINTAINERS: check the run log. This issue closes automatically on the next successful run."
+            fi
+          fi

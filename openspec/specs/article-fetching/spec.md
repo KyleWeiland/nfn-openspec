@@ -1,4 +1,10 @@
-## ADDED Requirements
+# Article Fetching Specification
+
+## Purpose
+
+Discovers articles for each configured query through Google News search, decodes Google News links to publisher URLs, and extracts the metadata the pipeline stores.
+
+## Requirements
 
 ### Requirement: RSS feed parsing
 The system SHALL use the gnews library to fetch articles by executing a search query for each configured feed.

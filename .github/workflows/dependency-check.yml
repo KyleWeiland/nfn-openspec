@@ -1,0 +1,101 @@
+name: Dependency Check
+
+# Catches dependency upgrades that break the pipeline or the site before they merge,
+# e.g. googlenewsdecoder 0.2.1 removing new_decoderv1 (scheduled runs failed Sep 21-23,
+# 2026). Covers Dependabot's pip PRs (scripts/) and npm PRs (site/).
+on:
+  pull_request:
+    paths:
+      - 'scripts/**'
+      - 'site/**'
+      - '.github/workflows/**'
+
+permissions:
+  contents: read
+
+jobs:
+  import-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Same Python version as daily-build.yml
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+          cache-dependency-path: 'scripts/requirements.txt'
+
+      - name: Install locked dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r scripts/requirements.txt
+
+      - name: Check for conflicting pins
+        run: pip check
+
+      # Pipeline modules import each other by bare name, so run from scripts/
+      - name: Import pipeline modules
+        working-directory: scripts
+        run: |
+          python - <<'EOF'
+          import sys
+          import traceback
+
+          checks = [
+              "import config",
+              "import database",
+              "import article_fetching",
+              "import article_processing",
+              "import fetch_articles",
+              "import export_for_astro",
+              # fetch_articles.py imports these inside functions, so importing
+              # the module alone does not exercise them
+              "from gnews import GNews",
+              "import nltk",
+              "import newspaper",
+          ]
+
+          failed = []
+          for stmt in checks:
+              try:
+                  exec(stmt, {})
+              except Exception:
+                  failed.append(stmt)
+                  print(f"FAIL  {stmt}")
+                  traceback.print_exc()
+              else:
+                  print(f"ok    {stmt}")
+
+          if failed:
+              print(f"\n{len(failed)} import(s) failed: {', '.join(failed)}")
+              sys.exit(1)
+          EOF
+
+  # Builds the site from the committed data/*.json, the same way daily-build.yml does
+  # after export. `astro check` in the build script catches type breaks from npm bumps.
+  site-build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Same Node version as daily-build.yml
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: 'site/package-lock.json'
+
+      - name: Install locked dependencies
+        working-directory: site
+        run: npm ci
+
+      - name: Build site
+        working-directory: site
+        run: npm run build

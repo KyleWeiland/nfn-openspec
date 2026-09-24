@@ -1,4 +1,10 @@
-## ADDED Requirements
+# Project Documentation Specification
+
+## Purpose
+
+Defines the documentation the repository must carry so contributors can understand, run, and extend the project.
+
+## Requirements
 
 ### Requirement: README existence and location
 The system SHALL have a comprehensive README.md file at the repository root.

@@ -1,0 +1,15 @@
+# Direct Python dependencies for the pipeline, pinned exactly. Edit this file, not
+# requirements.txt; Dependabot bumps the pins here and recompiles the lock.
+# requirements.txt is compiled from this file and pins every package; regenerate it
+# with the command in scripts/README.md ("Dependencies").
+
+gnews==0.8.2
+# nltk ships only under newspaper4k's 'nlp' extra, and article.nlp() needs it.
+# fetch_articles.py also imports nltk directly, so it is declared explicitly too.
+newspaper4k[nlp]==0.9.6
+nltk==3.10.3
+lxml_html_clean==0.4.5
+# 0.2.0 replaced new_decoderv1 with gnewsdecoder; upstream briefly published a 1.0.0,
+# so review any bump past 0.2.x before merging it.
+googlenewsdecoder==0.2.1
+requests==2.34.2

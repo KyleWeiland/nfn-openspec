@@ -1,4 +1,10 @@
-## ADDED Requirements
+# Astro Project Setup Specification
+
+## Purpose
+
+Defines how the Astro project in site/ is initialized and configured to produce a fully static build suitable for GitHub Pages.
+
+## Requirements
 
 ### Requirement: Astro project initialization
 The system SHALL create an Astro project in the `site/` directory at the repository root.

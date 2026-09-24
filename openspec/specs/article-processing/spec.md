@@ -1,4 +1,10 @@
-## ADDED Requirements
+# Article Processing Specification
+
+## Purpose
+
+Downloads each discovered article, extracts its main text, and produces the plain-text summary shown on the site, falling back to truncation when NLP summarization yields nothing.
+
+## Requirements
 
 ### Requirement: Article content download
 The system SHALL download and parse article content using Newspaper4k by creating a `newspaper.Article` instance configured with a 30-second timeout and a standard browser user agent.

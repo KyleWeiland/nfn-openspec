@@ -1,4 +1,10 @@
-## ADDED Requirements
+# Code Quality Assurance Specification
+
+## Purpose
+
+Sets the quality bar for the Python pipeline: error handling, logging, externalized configuration, robust paths, gitignore coverage, and end-to-end verification.
+
+## Requirements
 
 ### Requirement: Error handling verification
 All Python scripts SHALL have robust error handling for external operations (network, file I/O, subprocess calls).

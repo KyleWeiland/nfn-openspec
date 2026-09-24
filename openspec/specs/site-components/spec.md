@@ -1,4 +1,10 @@
-## ADDED Requirements
+# Site Components Specification
+
+## Purpose
+
+Defines the reusable Astro components (layout, navbar, article card, pagination) that the pages are built from.
+
+## Requirements
 
 ### Requirement: Base layout component
 The system SHALL provide a BaseLayout component for consistent page structure.

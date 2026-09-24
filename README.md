@@ -308,7 +308,8 @@ nfn-openspec/
 │   ├── database.py              # SQLite operations and schema migration
 │   ├── url_extraction.py        # Legacy URL utilities (unused by the pipeline)
 │   ├── config.py                # Configuration loader
-│   ├── requirements.txt         # Python dependencies
+│   ├── requirements.in          # Direct Python dependencies (edit this)
+│   ├── requirements.txt         # Pinned lock compiled from requirements.in
 │   └── run_local.sh             # Local development convenience script
 ├── site/
 │   ├── src/

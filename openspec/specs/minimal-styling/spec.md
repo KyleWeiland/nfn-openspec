@@ -1,4 +1,10 @@
-## ADDED Requirements
+# Minimal Styling Specification
+
+## Purpose
+
+Defines the site's minimal, readable visual design: one global stylesheet, theming via custom properties, dark mode, responsive layout, and no client-side JavaScript.
+
+## Requirements
 
 ### Requirement: Single global stylesheet
 The system SHALL use a single global.css file for all styling.

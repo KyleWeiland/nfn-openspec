@@ -26,7 +26,7 @@ def check_dependencies():
         return True
     except ImportError as e:
         logging.error(f"Missing dependency: {e}")
-        logging.error("Please install dependencies with: pip install -r requirements.txt")
+        logging.error("Please install dependencies with: pip install -r scripts/requirements.txt")
         return False
 
 

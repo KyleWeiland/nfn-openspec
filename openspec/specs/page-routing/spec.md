@@ -1,4 +1,10 @@
-## ADDED Requirements
+# Page Routing Specification
+
+## Purpose
+
+Defines the site's static routes: the paginated home page, per-category pages, individual article pages, and 404 handling.
+
+## Requirements
 
 ### Requirement: Home page with pagination
 The system SHALL provide a home page at `/` displaying all articles with pagination.
