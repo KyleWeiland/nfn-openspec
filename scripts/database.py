@@ -17,6 +17,9 @@ DB_PATH = REPO_ROOT / "data" / "articles.db"
 EXTRACTION_METHOD = "newspaper4k"
 LEGACY_EXTRACTION_METHOD = "trafilatura"
 
+# Upper bound on slug length in UTF-8 bytes (see generate_slug)
+MAX_SLUG_BYTES = 100
+
 
 def init_database():
     """Initialize the database and create the articles table if it doesn't exist.
@@ -84,6 +87,16 @@ def generate_slug(title):
 
     # Remove leading/trailing hyphens
     slug = slug.strip('-')
+
+    # Each slug becomes a directory name in the built site, and Linux caps
+    # those at 255 bytes. Cap well below that, at a word boundary, counting
+    # bytes because \w keeps non-ASCII letters that take 2-4 bytes each.
+    encoded = slug.encode('utf-8')
+    if len(encoded) > MAX_SLUG_BYTES:
+        slug = encoded[:MAX_SLUG_BYTES].decode('utf-8', errors='ignore')
+        if '-' in slug:
+            slug = slug.rsplit('-', 1)[0]
+        slug = slug.strip('-')
 
     return slug
 
