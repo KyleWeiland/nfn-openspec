@@ -41,6 +41,11 @@ Dependency upgrades SHALL arrive as pull requests that update the lock file, nev
 - **THEN** an automated pull request MUST be opened, at most weekly, updating the lock file
 - **THEN** related upgrades MUST be grouped into a single pull request rather than one per package
 
+#### Scenario: Major version released
+- **WHEN** a new major version of a locked Python or npm dependency is released
+- **THEN** the weekly automated pull request MUST NOT include it
+- **THEN** the upgrade MUST be made through its own planned change
+
 ### Requirement: Dependency change validation
 Any pull request that changes Python dependency files SHALL be validated by installing the locked dependencies on the CI Python version and importing every pipeline module before merge.
 

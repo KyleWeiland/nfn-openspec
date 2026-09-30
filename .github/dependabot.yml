@@ -9,6 +9,11 @@ updates:
     open-pull-requests-limit: 2
     commit-message:
       prefix: "chore(deps)"
+    # Majors skip the weekly group: they need their own planned change (e.g. the
+    # Astro 4 -> 7 migration) and would otherwise sit failing in the PR limit.
+    ignore:
+      - dependency-name: "*"
+        update-types: ["version-update:semver-major"]
     groups:
       # One PR per week for version updates; security updates stay separate
       python-dependencies:
@@ -25,6 +30,11 @@ updates:
     open-pull-requests-limit: 2
     commit-message:
       prefix: "chore(deps)"
+    # Majors skip the weekly group: they need their own planned change (e.g. the
+    # Astro 4 -> 7 migration) and would otherwise sit failing in the PR limit.
+    ignore:
+      - dependency-name: "*"
+        update-types: ["version-update:semver-major"]
     groups:
       npm-dependencies:
         applies-to: version-updates

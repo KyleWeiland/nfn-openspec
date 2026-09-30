@@ -88,6 +88,16 @@ maintainer drops that package from the PR and merges the rest.
 
 Dependabot security updates stay on their default (ungrouped, immediate).
 
+Both entries ignore `version-update:semver-major`. The first npm PR bundled astro
+4 → 7 and TypeScript 5 → 7 with a patch bump. TypeScript 7 is outside
+`@astrojs/check`'s peer range, so `npm ci` failed and blocked everything else in the
+group, and a three-major framework jump shouldn't ride along in a routine PR anyway.
+Ungrouped major PRs aren't a good fit either: with `open-pull-requests-limit: 2`, two
+failing majors would take both slots and stop the weekly group. Majors are planned as
+their own OpenSpec changes instead. Semver-0 packages still get "minor" bumps that
+break things (0.1.7 → 0.2.1 above), and `dependency-check.yml` is the gate for those.
+Security updates ignore this rule and still arrive for any version.
+
 A second entry does the same for `package-ecosystem: npm`, `directory: /site`, with its
 own `npm-dependencies` group, so the site's pins (D7) move the same way.
 
