@@ -23,6 +23,7 @@
 - [ ] 3.2 Prove the check catches the incident: on a throwaway branch, keep `googlenewsdecoder==0.2.1` locked and restore the pre-`c52ce8e` `from googlenewsdecoder import new_decoderv1` in `scripts/article_fetching.py` (this reproduces the Sep 21–23 break), open a draft PR, verify the check fails and names `article_fetching`, then close it (reproduced locally on 2026-09-23: exit 1, `FAIL import article_fetching`, `ImportError: cannot import name 'new_decoderv1'`; the GitHub PR run is still pending)
 - [ ] 3.3 Add `.github/dependabot.yml` (pip, `/scripts`, weekly, one group matching `*`, `open-pull-requests-limit: 2`), and after merge verify that Insights → Dependency graph → Dependabot shows the pip manifest being monitored without errors
 - [ ] 3.4 Add an npm entry to `.github/dependabot.yml` (`/site`, weekly, one group matching `*`, `open-pull-requests-limit: 2`), and after merge verify that Dependabot shows the npm manifest being monitored without errors
+- [x] 3.5 Ignore `version-update:semver-major` in both Dependabot entries so major upgrades don't block the weekly group (see D3); close the combined astro 7 / TypeScript 7 PR #5
 - [ ] 3.5 Add a `site-build` job to `dependency-check.yml` (add `site/**` to the paths filter; Node 20, `npm ci` and `npm run build` in `site/`), and verify it passes on the PR for this change (verified locally on 2026-09-23: `npm ci && npm run build` built 18,685 pages; the PR run is still pending)
 
 ## 4. Failure notification
