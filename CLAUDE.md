@@ -31,6 +31,11 @@ to GitHub Pages via GitHub Actions.
 - Every row records `extraction_method`: `newspaper4k` for current rows,
   `trafilatura` for rows predating the migration. `init_database()` adds the column
   and backfills older databases in place; the migration is idempotent
+- Slugs are unique (a UNIQUE index on `articles.slug`) and assigned once at insert,
+  never regenerated. The title-based slug is capped at 100 UTF-8 bytes; a clash takes
+  the next free `-2`, `-3` suffix. `init_database()` resolves duplicates in older
+  databases before adding the index, keeping each URL on the article Astro already
+  published there
 - Categories are derived from the articles actually stored, not from
   feeds.config.json — a new category only appears after its first successful fetch
 - Pagination: 20 articles per page
@@ -56,8 +61,6 @@ to GitHub Pages via GitHub Actions.
 - `data/articles.db` is committed every run and is ~52 MB, past GitHub's 50 MB
   advisory. It reaches the hard 100 MB per-file limit in roughly 6-12 months, after
   which the daily push fails
-- Slugs derive from the title alone while dedup keys on title + URL, so a headline
-  republished at a different URL collides and only one row gets a page (~2% of articles)
 - `scripts/url_extraction.py` is dead code from the Google Alerts era; only
   `scripts/test_modules.py` still imports it, and that test file still exercises the
   retired redirect path. CI does not run it

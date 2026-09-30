@@ -17,6 +17,13 @@ DB_PATH = REPO_ROOT / "data" / "articles.db"
 EXTRACTION_METHOD = "newspaper4k"
 LEGACY_EXTRACTION_METHOD = "trafilatura"
 
+# Upper bound on slug length in UTF-8 bytes, before any "-2" suffix
+# (see generate_slug)
+MAX_SLUG_BYTES = 100
+
+# Used when a title has no letters or digits to build a slug from
+FALLBACK_SLUG = "article"
+
 
 def init_database():
     """Initialize the database and create the articles table if it doesn't exist.
@@ -62,8 +69,52 @@ def init_database():
     if cursor.rowcount > 0:
         logging.info(f"Marked {cursor.rowcount} existing article(s) as {LEGACY_EXTRACTION_METHOD}")
 
+    # Slugs are unique. Older databases hold duplicates, so resolve those before
+    # adding the index. Idempotent: skipped once the index exists.
+    cursor.execute(
+        "SELECT 1 FROM sqlite_master WHERE type = 'index' AND name = 'idx_articles_slug'"
+    )
+    if cursor.fetchone() is None:
+        renamed = dedupe_slugs(cursor)
+        if renamed:
+            logging.info(f"Gave {renamed} article(s) with a duplicate slug a unique one")
+        cursor.execute("CREATE UNIQUE INDEX idx_articles_slug ON articles (slug)")
+
     conn.commit()
     return conn
+
+
+def dedupe_slugs(cursor):
+    """Give every article that shares a slug a unique one.
+
+    Astro builds one page per slug, and when slugs repeat the last article in
+    export order (published_date DESC, see export_for_astro.py) gets it. That
+    article keeps the slug so no published URL changes; the others, which never
+    had a page, get the next free "-2", "-3" suffix in id order.
+
+    Args:
+        cursor: Database cursor
+
+    Returns:
+        Number of articles given a new slug
+    """
+    cursor.execute("SELECT id, slug FROM articles ORDER BY published_date DESC")
+    groups = {}
+    for article_id, slug in cursor.fetchall():
+        groups.setdefault(slug, []).append(article_id)
+
+    to_rename = []
+    for slug, ids in groups.items():
+        # The last id is the article currently published at this slug
+        to_rename.extend((article_id, slug) for article_id in ids[:-1])
+
+    for article_id, slug in sorted(to_rename):
+        cursor.execute(
+            "UPDATE articles SET slug = ? WHERE id = ?",
+            (unique_slug(cursor, slug), article_id)
+        )
+
+    return len(to_rename)
 
 
 def generate_slug(title):
@@ -85,7 +136,37 @@ def generate_slug(title):
     # Remove leading/trailing hyphens
     slug = slug.strip('-')
 
-    return slug
+    # Each slug becomes a directory name in the built site, and Linux caps
+    # those at 255 bytes. Cap well below that, at a word boundary, counting
+    # bytes because \w keeps non-ASCII letters that take 2-4 bytes each.
+    encoded = slug.encode('utf-8')
+    if len(encoded) > MAX_SLUG_BYTES:
+        slug = encoded[:MAX_SLUG_BYTES].decode('utf-8', errors='ignore')
+        if '-' in slug:
+            slug = slug.rsplit('-', 1)[0]
+        slug = slug.strip('-')
+
+    return slug or FALLBACK_SLUG
+
+
+def unique_slug(cursor, slug):
+    """Return slug, or slug with the lowest free "-2", "-3"... suffix if taken.
+
+    Args:
+        cursor: Database cursor
+        slug: Slug from generate_slug()
+
+    Returns:
+        A slug no existing article uses
+    """
+    candidate = slug
+    suffix = 2
+    while cursor.execute(
+        "SELECT 1 FROM articles WHERE slug = ?", (candidate,)
+    ).fetchone():
+        candidate = f"{slug}-{suffix}"
+        suffix += 1
+    return candidate
 
 
 def normalize_title(title):
@@ -161,8 +242,9 @@ def insert_article(conn, title, source_url, summary, category, published_date,
     try:
         cursor = conn.cursor()
 
-        # Generate slug and timestamp
-        slug = generate_slug(title)
+        # Generate slug and timestamp. A slug is assigned once and never
+        # regenerated, so published URLs stay stable.
+        slug = unique_slug(cursor, generate_slug(title))
         created_at = get_iso8601_timestamp()
 
         # Insert article
