@@ -96,7 +96,9 @@ Ungrouped major PRs aren't a good fit either: with `open-pull-requests-limit: 2`
 failing majors would take both slots and stop the weekly group. Majors are planned as
 their own OpenSpec changes instead. Semver-0 packages still get "minor" bumps that
 break things (0.1.7 → 0.2.1 above), and `dependency-check.yml` is the gate for those.
-Security updates ignore this rule and still arrive for any version.
+It's undocumented whether `ignore` also filters security updates. If it does, a
+vulnerability fixed only in a new major would get an alert but no PR, and it's handled
+when the alert appears.
 
 A second entry does the same for `package-ecosystem: npm`, `directory: /site`, with its
 own `npm-dependencies` group, so the site's pins (D7) move the same way.
