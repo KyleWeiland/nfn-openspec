@@ -1,5 +1,16 @@
 [
   {
+    "id": 18985,
+    "title": "About the Collection | Incremental learning by applied soft computing",
+    "source_url": "https://www.nature.com/collections/fiieegjbgi/about-the-collection",
+    "summary": "This Collection is open for submissions from all authors on the condition that the manuscripts fall within the scope of the Collection and of Scientific Reports more generally.\nNarrative review articles are also welcomed, to our sister journal Scientific Reviews.\nAll manuscripts will be considered for publication according to the editorial policies of the specific journal through which they are submitted, namely Scientific Reports and Scientific Reviews.\nWhen submitting your manuscript to Scientific Reports or Scientific Reviews via our online submission system, please choose the appropriate Collection title from the drop-down menu on the submission form.\nPlease ensure that your manuscript is submitted before midnight GMT on the listed deadline date.",
+    "category": "Image Recognition",
+    "published_date": "2027-06-09T00:00:00",
+    "slug": "about-the-collection-incremental-learning-by-applied-soft-computing-nature",
+    "extraction_method": "newspaper4k",
+    "source_name": "nature.com"
+  },
+  {
     "id": 18901,
     "title": "We’re Learning to Live with Waymos. It’s Going Weird",
     "source_url": "https://www.newyorker.com/magazine/2026/10/19/were-learning-to-live-with-waymos-its-going-weird",
@@ -9,6 +20,567 @@
     "slug": "were-learning-to-live-with-waymos-its-going-weird-the-new-yorker",
     "extraction_method": "newspaper4k",
     "source_name": "newyorker.com"
+  },
+  {
+    "id": 18989,
+    "title": "Attackers Heat French Supermarket Fridges Up to 50°C by Hijacking Danfoss Controllers",
+    "source_url": "https://thehackernews.com/2026/10/attackers-heat-french-supermarket.html",
+    "summary": "CERT-FR, the French government's computer emergency response team, said in an alert published in French on October 12 that it is aware of numerous compromises affecting two Danfoss controller series, the AK-SM and the AK-SC.\nNeither French authorities nor Danfoss has so far said who carried out the attack or how the attackers got into the controllers.\nController Status, According to Danfoss Advice From CERT-FR and Danfoss AK-SM 800 End of life since May 2021.\nDanfoss told Cooling Post it was working with customers on \"firmware updates where available, stronger network protections and removing direct internet exposure where applicable.\"\nThe Inquiry and Reports From Other Countries The Paris prosecutor's office has opened an inquiry on its own initiative, it told AFP.",
+    "category": "IoT Cyber",
+    "published_date": "2026-10-13T14:18:00+05:30",
+    "slug": "attackers-heat-french-supermarket-fridges-up-to-50c-by-hijacking-danfoss-controllers-the-hacker-news",
+    "extraction_method": "newspaper4k",
+    "source_name": "thehackernews.com"
+  },
+  {
+    "id": 18971,
+    "title": "Hyundai Bayon Unveiled In India Ahead Of October 26 Launch",
+    "source_url": "https://www.etvbharat.com/en/technology/hyundai-bayon-unveiled-ahead-of-october-26-launch-enn26101303371",
+    "summary": "Tarun Garg, Managing Director and CEO of Hyundai India, said the Bayon is designed to place \"technology and convenience at the heart of the customer experience.\"\nDeliveries will begin during the upcoming festive season, and Hyundai will share exact dates at launch.\nGenerative AI voice assistant The Bayon's biggest new feature will be a generative AI voice assistant, the first of its kind from the South Korean automaker in India.\nIt will use intelligence from Perplexity and voice technology from SoundHound AI.\n70+ Bluelink features The Bayon will receive over 70 connected features via Hyundai's connected car technology, Bluelink.",
+    "category": "Connected Car",
+    "published_date": "2026-10-13T14:16:19+05:30",
+    "slug": "hyundai-bayon-unveiled-in-india-ahead-of-october-26-launch-etv-bharat",
+    "extraction_method": "newspaper4k",
+    "source_name": "etvbharat.com"
+  },
+  {
+    "id": 18983,
+    "title": "Police considering use of facial recognition on Scottish football fans, chief says",
+    "source_url": "https://www.thenational.scot/news/26632367.police-consider-using-facial-recognition-scottish-football-games/",
+    "summary": "The meeting was held on August 20, the day after Craig Naylor, His Majesty’s Chief Inspector of Constabulary in Scotland (HMICS), went public with calls for facial recognition technology to be used to monitor who is attending football matches.\nPolice Scotland has never deployed facial recognition technology, although it is controversially used south of the Border.\nThe minutes of the meeting between the Scottish Government and Police Scotland in August state: “The Cabinet Secretary invited views on HMICS's recent comments regarding the potential use of Live Facial Recognition technology to help tackle football-related disorder.\n“The Chief Constable noted that the technology is already used by a number of police forces elsewhere in the UK, as well as by Border Force in England and Wales.\nThe minutes add: “The Chief Constable … advised that work to implement the new arrangements was underway.",
+    "category": "Image Recognition",
+    "published_date": "2026-10-13T13:31:44+00:00",
+    "slug": "police-considering-use-of-facial-recognition-on-scottish-football-fans-chief-says-the-national-scot",
+    "extraction_method": "newspaper4k",
+    "source_name": "thenational.scot"
+  },
+  {
+    "id": 19013,
+    "title": "A Free Sim Racing Course With 34 Videos",
+    "source_url": "https://boxthislap.org/a-free-sim-racing-course-with-34-videos/",
+    "summary": "This page runs a brief security check to confirm you are not a bot.\nThe verification is automatic and typically completes within a few seconds.\nNo action is required on your part.\nCookies must be enabled for this site: the result of the check is stored in one.",
+    "category": "Sim Racing",
+    "published_date": "2026-10-13T13:06:42",
+    "slug": "a-free-sim-racing-course-with-34-videos-boxthislap",
+    "extraction_method": "newspaper4k",
+    "source_name": "boxthislap.org"
+  },
+  {
+    "id": 18974,
+    "title": "Cybersecurity governance is a board priority for nonprofits",
+    "source_url": "https://rsmus.com/insights/industries/nonprofit/cybersecurity-governance-board-priority-nonprofits.html",
+    "summary": "For nonprofit organizations, cybersecurity is more than a back-office technology concern.\nThe organization may be highly dependent on technology, but not adequately prepared to manage nonprofit cybersecurity risk.\nBoards should ask practical questions such as the following: Who in the organization owns cybersecurity risk?\nThey are designed to clarify ownership, strengthen nonprofit board cybersecurity oversight and create a common understanding of cybersecurity risk management.\nWhere nonprofits should focus Nonprofits do not have to solve every cybersecurity problem at once.",
+    "category": "Cybersecurity",
+    "published_date": "2026-10-13T13:05:14",
+    "slug": "cybersecurity-governance-is-a-board-priority-for-nonprofits-rsm-us-llp",
+    "extraction_method": "newspaper4k",
+    "source_name": "rsmus.com"
+  },
+  {
+    "id": 18972,
+    "title": "Hyundai Motor India Unveils India-Spec Hyundai Bayon Redefining Intelligent Mobility Through “Intelligence That Moves”",
+    "source_url": "https://www.hyundai.com/in/en/hyundai-story/media-center/press-release/hmil-unveils-india-spec-hyundai-bayon-redefining-intelligent-mobility-through-intelligence-that-moves",
+    "summary": "Gurugram | October 12, 2026: Hyundai Motor India Limited (HMIL) is ushering in the next era of intelligent mobility with the India-spec Hyundai BAYON, an Intelligent Utility Vehicle engineered around the philosophy of “Intelligence That Moves.”\nHyundai BAYON brings intelligence into the everyday driving experience by seamlessly integrating AI, connected technology and advanced graphics & digital interfaces.\nWhat is Unique About HMIL’s First Generative AI Voice Assistant in Hyundai BAYON?\nRecognising India’s linguistic diversity, Hyundai BAYON offers a multi-language interface supporting 10 regional and 2 international languages.\nHyundai BAYON will be launched in India on 26 October 2026.",
+    "category": "Connected Car",
+    "published_date": "2026-10-13T13:05:09",
+    "slug": "hyundai-motor-india-unveils-india-spec-hyundai-bayon-redefining-intelligent-mobility-through",
+    "extraction_method": "newspaper4k",
+    "source_name": "hyundai.com"
+  },
+  {
+    "id": 18961,
+    "title": "Arrive AI and Rivo Collaborate on Autonomous Delivery Solutions for Golf & Luxury Hospitality",
+    "source_url": "https://natlawreview.com/press-releases/arrive-ai-and-rivo-collaborate-autonomous-delivery-solutions-golf-luxury",
+    "summary": "The companies are integrating Arrive Points&trade; into Rivo's autonomous solutions platform, beginning with a proof-of-concept program for secure autonomous delivery at golf properties Arrive AI (NASDAQ), a physical AI and autonomous logistics infrastructure company enabling drones, robots, autonomous mobile robots (AMRs), autonomous vehicles (AVs) and human couriers to securely exchange goods, today announced a collaboration with Rivo, an autonomous solutions platform for luxury hospitality, to integrate Arrive Points™ into Rivo's autonomous delivery ecosystem.\nArrive AI and Rivo are evaluating how secure, autonomous delivery of food, beverages, merchandise and other items can be deployed across large hospitality properties.\nAbout Arrive AI Arrive AI (NASDAQ:ARAI) is building the infrastructure for autonomous logistics through a network of intelligent delivery endpoints that enable secure, asynchronous exchange of goods.\nAbout Rivo Rivo is building an autonomous solutions platform for luxury hospitality properties.\nMedia Contact Tasha Jones, Marketing Communications Manager, Arrive AI, media@arriveai.com Investor Contact Alliance Advisors IR, ARAI.IR@allianceadvisors.com SOURCE: Arrive AI, Inc.",
+    "category": "Autonomous Vehicles",
+    "published_date": "2026-10-13T13:04:49",
+    "slug": "arrive-ai-and-rivo-collaborate-on-autonomous-delivery-solutions-for-golf-luxury-hospitality-the",
+    "extraction_method": "newspaper4k",
+    "source_name": "natlawreview.com"
+  },
+  {
+    "id": 18959,
+    "title": "Uber autonomous mobility chief Sarfraz Maredia to depart",
+    "source_url": "https://qz.com/uber-autonomous-mobility-head-departing-101326",
+    "summary": "The departure is the latest in a series of executive exits from Uber 's autonomous division.\nGuy Peterson, who led business development for autonomous partnerships, joined Rivian $RIVN Automotive's bike spinoff, Also, as chief business officer this month, according to Bloomberg.\nThe executive churn coincides with a turbulent stretch for Uber 's autonomous division, which saw its alliances with Alphabet $GOOGL's Waymo and Serve Robotics fall apart, according to Bloomberg.\nThose efforts span cities in the U.S., the Middle East, and Europe, though most remain limited in scale.\nUber 's autonomous division leadership changes come against a broader backdrop of cost-cutting at the company.",
+    "category": "Autonomous Vehicles",
+    "published_date": "2026-10-13T13:02:11.641000+00:00",
+    "slug": "uber-autonomous-mobility-chief-sarfraz-maredia-to-depart-quartz-africa",
+    "extraction_method": "newspaper4k",
+    "source_name": "qz.com"
+  },
+  {
+    "id": 18993,
+    "title": "Australia tops IoT & OT cyberattack list, says report",
+    "source_url": "https://securitybrief.com.au/story/australia-tops-iot-ot-cyberattack-list-says-report",
+    "summary": "Australia was the most targeted country for IoT and OT cyberattacks in Nozomi Networks Labs' latest threat intelligence report, up from third place in the previous edition.\nThreat actors Nozomi also examined activity attributed to threat actors.\nScattered Spider's prominence also underscores the role of social engineering in attacks on industrial and connected environments.\nThe repeated use of these basic methods suggests that many connected industrial and IoT environments remain exposed through longstanding weaknesses rather than highly specialised intrusion techniques.\nIt also urged defenders to focus on the behaviours and indicators left by threat actors and to keep detection logic updated as new intelligence emerges.",
+    "category": "IoT Cyber",
+    "published_date": "2026-10-13T12:40:00+13:00",
+    "slug": "australia-tops-iot-ot-cyberattack-list-says-report-securitybrief-australia",
+    "extraction_method": "newspaper4k",
+    "source_name": "securitybrief.com.au"
+  },
+  {
+    "id": 18979,
+    "title": "Space sector faces satellite cybersecurity blind spots, calls for stronger threat intelligence and information sharing",
+    "source_url": "https://industrialcyber.co/critical-infrastructure/space-sector-faces-satellite-cybersecurity-blind-spots-calls-for-stronger-threat-intelligence-and-information-sharing/",
+    "summary": "Space security once relied on obscurity, but new space, COTS, digitalisation, and big data disrupted that model.\nThe result is greater availability of information about satellite systems, limited CTI, and lower barriers to attack, which creates insecurity-by-transparency.\nPoirier identified why space cybersecurity requires greater transparency and collaboration.\nAttackers have growing access to enabling information about space technologies, while defenders still lack cyber threat intelligence and systematic information sharing.\nPoirier said the space industry has begun adapting traditional cyber threat intelligence tools to the constraints of space systems.",
+    "category": "Cybersecurity",
+    "published_date": "2026-10-13T12:36:12+00:00",
+    "slug": "space-sector-faces-satellite-cybersecurity-blind-spots-calls-for-stronger-threat-intelligence-and",
+    "extraction_method": "newspaper4k",
+    "source_name": "industrialcyber.co"
+  },
+  {
+    "id": 19015,
+    "title": "Project Motor Racing’s World Endurance Pack adds 11 cars and historic Fuji track",
+    "source_url": "https://traxion.gg/project-motor-racings-world-endurance-pack-adds-11-cars-and-historic-fuji-track/",
+    "summary": "Project Motor Racing’s latest DLC pack has been unveiled.\nLaunching on 10th November, the World Endurance Pack adds 11 new cars to the vehicle roster alongside the Fuji Speedway track.\nThe new cars are spread across four classes, from the historic IMSA GTP to the modern LMP2 EVO.\nThe fictional Olivera P2-13, seemingly inspired by Zytek, and P2-26 EVO (based on the Oreca 07) join the LMP2 and LMP2 EVO classes, respectively.\nRounding out the new vehicles are six historic cars from the US IMSA GTP series: the 1986 BMW March GTP, 1986 Chevrolet Corvette C4 GTP, 1986 Ford Probe GTP, 1988 Jaguar XJR 9 GTP, 1988 Nissan GTP ZX-Turbo and the 1988 Porsche 962 GTP.",
+    "category": "Sim Racing",
+    "published_date": "2026-10-13T12:00:00+00:00",
+    "slug": "project-motor-racings-world-endurance-pack-adds-11-cars-and-historic-fuji-track-traxiongg",
+    "extraction_method": "newspaper4k",
+    "source_name": "traxion.gg"
+  },
+  {
+    "id": 18977,
+    "title": "How much of an organization's attack surface can you map with a single #AI prompt? Watch Jake AI from WhoisXML API map a domain's attack surface by uncovering subdomains, resolving infrastructure, analyzing DNS and TLS certificate data, and connectin",
+    "source_url": "https://www.linkedin.com/posts/the-cyber-security-hub_ai-jakeai-aicybersecurity-activity-7515740981783158784-E0qy",
+    "summary": "How much of an organization's attack surface can you map with a single #AI prompt?\nWatch Jake AI from WhoisXML API map a domain's attack surface by uncovering subdomains, resolving infrastructure, analyzing DNS and TLS certificate data, and connecting the findings to surface relationships, patterns, and areas worth investigating further.\nOne prompt brings together multiple layers of Internet intelligence and turns them into investigation-ready context.\nSee how Jake AI connects the dots across Internet intelligence.\nGet FREE Instant Access >> https://lnkd.in/eTsSrsCP #JakeAI #AICybersecurity #AttackSurfaceManagement #ASM #CyberSecurity #OSINT",
+    "category": "Cybersecurity",
+    "published_date": "2026-10-13T11:51:25.771000+00:00",
+    "slug": "how-much-of-an-organizations-attack-surface-can-you-map-with-a-single-ai-prompt-watch-jake-ai-from",
+    "extraction_method": "newspaper4k",
+    "source_name": "linkedin.com"
+  },
+  {
+    "id": 19003,
+    "title": "Scientists recreate a bizarre quantum effect that stops a particle cold",
+    "source_url": "http://www.sciencedaily.com/releases/2026/10/261011211554.htm",
+    "summary": "A Strange Quantum Effect Predicted in 1959 In everyday physics, a charged particle responds to the electric and magnetic fields it encounters.\nSuch models are particularly important in particle physics and high-energy physics, where scientists study the basic particles and interactions that make up the universe.\n\"Rather than having matter evolve in a fixed background, the matter and gauge field become part of the same quantum dynamics.\"\nA Quantum Effect That Stops Particle Motion With their simulated loop in place, the scientists examined how a matter particle moved between locations through a process known as quantum tunneling.\nThe particle had two possible paths around the loop, but the magnetic flux changed their relative quantum phases.",
+    "category": "Quantum Computers",
+    "published_date": "2026-10-13T11:27:38+00:00",
+    "slug": "scientists-recreate-a-bizarre-quantum-effect-that-stops-a-particle-cold-science-daily",
+    "extraction_method": "newspaper4k",
+    "source_name": "sciencedaily.com"
+  },
+  {
+    "id": 19009,
+    "title": "Arunachal Is Northeast’s Only State With Two Smart Cities, Here’s How It Happened",
+    "source_url": "https://northeastlivetv.com/around-ne/arunachalpradesh/arunachal-is-northeasts-only-state-with-two-smart-cities-heres-how-it-happened/",
+    "summary": "“The primary rule of thumb for any Smart City project was that every state’s capital would be declared a Smart City, and if any other parameters matched, then it would be considered.\nHowever, CM Khandu said he pushed for two Smart Cities in Arunachal Pradesh and took up the proposal with the Centre.\n“But I thought I would get two Smart Cities in Arunachal, and I proposed this to the Centre.\nSo this is how Arunachal is the only state in the Northeast with two Smart Cities,” CM Khandu said.\nThe Smart Cities Mission is implemented by the Union Ministry of Housing and Urban Affairs (MoHUA) to promote urban development through improved infrastructure and services.",
+    "category": "Smart Cities",
+    "published_date": "2026-10-13T11:16:07+00:00",
+    "slug": "arunachal-is-northeasts-only-state-with-two-smart-cities-heres-how-it-happened-northeast-live",
+    "extraction_method": "newspaper4k",
+    "source_name": "northeastlivetv.com"
+  },
+  {
+    "id": 18978,
+    "title": "DigiFlight Appoints Melody Berry to Lead Cybersecurity and Compliance Readiness Engagements",
+    "source_url": "https://www.cybersecurity-insiders.com/digiflight-appoints-melody-berry-to-lead-cybersecurity-and-compliance-readiness-engagements/",
+    "summary": "DigiFlight, Inc., a provider of aerospace, cybersecurity, engineering, and training solutions for government and commercial organizations, has appointed industry veteran Melody Berry as manager of cybersecurity and compliance.\nIn her new role, Berry will help oversee cybersecurity, assessment, and compliance programs for DigiFlight and its affiliated cybersecurity company, Camelot Secure.\nBerry will also lead Cybersecurity Maturity Model Certification (CMMC) readiness engagements for DigiFlight and Camelot Secure customers.\nBefore joining DigiFlight and Camelot Secure, Berry worked as a lead CMMC assessor at CyberRx, a CMMC C3PAO.\nI also look forward to supporting the broader DigiFlight and Camelot Secure security and compliance programs.”",
+    "category": "Cybersecurity",
+    "published_date": "2026-10-13T11:12:51+00:00",
+    "slug": "digiflight-appoints-melody-berry-to-lead-cybersecurity-and-compliance-readiness-engagements",
+    "extraction_method": "newspaper4k",
+    "source_name": "cybersecurity-insiders.com"
+  },
+  {
+    "id": 19016,
+    "title": "Best Mobile Rally Games for iOS and Android (2026)",
+    "source_url": "https://racinggames.gg/article/the-best-mobile-rally-games-that-deliver-big-racing-thrills-on-the-go",
+    "summary": "Primary Subject: The Best Rally Games on Mobile Key Update: A curated list highlights four standout indie mobile rally titles offering distinct physics, career modes, and accessible controls.\nStatus: Confirmed Last Verified: October 13, 2026 Quick Answer: Top mobile rally games include Rush Rally 3, N3Rally, Rally One: Race to Glory, and art of rally, offering realistic simulation to casual arcade racing.\nWhile some gamers may look down on mobile games, it’s an undeniable fact that mobile gaming fills a huge niche compared to traditional gaming platforms like console or PC: it’s mobile.\nRally One: Race to Glory Rally One: Race to Glory is an incredibly accessible rally game.\nDiamonds in the rough While most mobile games get a bad rep, these games prove that some gems are just buried deep beneath the ground.",
+    "category": "Sim Racing",
+    "published_date": "2026-10-13T11:06:00+00:00",
+    "slug": "best-mobile-rally-games-for-ios-and-android-2026-racing-games",
+    "extraction_method": "newspaper4k",
+    "source_name": "racinggames.gg"
+  },
+  {
+    "id": 18994,
+    "title": "Self-replicating AI models may target smart devices",
+    "source_url": "https://cybernews.com/news/self-replicating-ai-anthropic/",
+    "summary": "Key takeaways 01 Anthropic warns small open AI models may eventually copy themselves across everyday smart devices.\nAnthropic claims that small open AI models may be months away from autonomously replicating across everyday internet-connected devices and potentially creating an independent AI botnet.\nThe debate over closed vs open AI models is heating up with the latest warning from Claude's developer.\n\"It’s uncertain exactly what form autonomous AI replication will take.\nIn 2025, Cybernews reported on a massive botnet, Kimwolf, that included more than 1.8 million Android devices.",
+    "category": "IoT Cyber",
+    "published_date": "2026-10-13T11:05:41+00:00",
+    "slug": "self-replicating-ai-models-may-target-smart-devices-cybernews",
+    "extraction_method": "newspaper4k",
+    "source_name": "cybernews.com"
+  },
+  {
+    "id": 18991,
+    "title": "Anthropic: AI May Soon Be Able to ‘Self-Replicate’ on IoT",
+    "source_url": "https://aimagazine.com/news/anthropic-ai-may-soon-be-capable-of-self-replicating-on-iot",
+    "summary": "Anthropic’s experiments suggest that small AI models may be months away from being capable enough to self-replicate on commercial internet-of-things (IoT) devices, like smart ovens and off-brand Android TV boxes.\n\"They include the risk of losing control of AI systems, misuse of AI for cyberattacks and bioterrorism and serious economic disruption.\nThe pair suggest that AI researchers’ prior work has already shown that AI agents can act like one: scanning their network, executing an exploit and copying model weights to a target machine across a GPU cluster.\nThe capabilities that make AI models generally powerful coding agents also generalise to cyber tasks, including autonomous replication.\n“It’s uncertain exactly what form autonomous AI replication will take,” they write.",
+    "category": "IoT Cyber",
+    "published_date": "2026-10-13T10:49:10+00:00",
+    "slug": "anthropic-ai-may-soon-be-able-to-self-replicate-on-iot-ai-magazine",
+    "extraction_method": "newspaper4k",
+    "source_name": "aimagazine.com"
+  },
+  {
+    "id": 18990,
+    "title": "3 Cybersecurity Stocks Retail Investors Are Watching As AI Safety Risks Rise",
+    "source_url": "https://simplywall.st/stocks/jp/software/tse-3762/techmatrix-shares/news/3-cybersecurity-stocks-retail-investors-are-watching-as-ai-s",
+    "summary": "AI safety fears have jumped from sci-fi talking point to front-page risk, and that shift is pulling cybersecurity and IoT security stocks into the spotlight.\nAI safety concerns are drawing more attention to vendors that secure networks and connected devices.\nGMO internet group matters here because it sits where internet plumbing, built in security and AI heavy services meet, and that mix is exactly what rising AI safety concerns are pushing investors toward.\nInvestors tracking cybersecurity demand may find that the key variable is how security led projects interact with stricter AI governance budgets.\nSeeking Alternatives Beyond Cybersecurity Plays Fresh themes are gaining breakout momentum while most eyes stay glued to headline AI risks.",
+    "category": "IoT Cyber",
+    "published_date": "2026-10-13T10:32:10.100000+00:00",
+    "slug": "3-cybersecurity-stocks-retail-investors-are-watching-as-ai-safety-risks-rise-simply-wall-street",
+    "extraction_method": "newspaper4k",
+    "source_name": "simplywall.st"
+  },
+  {
+    "id": 19002,
+    "title": "Oratomic Raises $775M to Develop Fault-Tolerant Quantum Computers",
+    "source_url": "https://www.citybiz.co/article/917254/oratomic-raises-775m-to-develop-fault-tolerant-quantum-computers/",
+    "summary": "Pasadena, Calif.-based quantum computing startup Oratomic has raised $775 million since its March 2026 launch, bringing substantial investor backing to its effort to build fault-tolerant quantum computers, the company said last week.\nFounded by researchers and engineers working in fault-tolerant quantum computing and neutral-atom technology, Oratomic is developing systems built around reconfigurable arrays of neutral atoms.\nBluvstein is a physicist and quantum computing researcher whose academic work has focused on quantum computation using reconfigurable arrays of atoms.\nBluvstein also served as a visiting associate professor of physics at the California Institute of Technology (Caltech) in late 2025 before moving to lead Oratomic’s efforts to develop fault-tolerant quantum computers.\nOratomic has pointed to research with scientists at the California Institute of Technology (Caltech) suggesting utility-scale quantum computers may require far fewer resources than previously estimated.",
+    "category": "Quantum Computers",
+    "published_date": "2026-10-13T10:19:36+00:00",
+    "slug": "oratomic-raises-775m-to-develop-fault-tolerant-quantum-computers-citybiz",
+    "extraction_method": "newspaper4k",
+    "source_name": "citybiz.co"
+  },
+  {
+    "id": 18976,
+    "title": "GIANT website and app down after 'cybersecurity incident'",
+    "source_url": "https://www.wgal.com/article/giant-website-app-down-cybersecurity-incident-pa/74117343",
+    "summary": "CARLISLE, Pa. — The GIANT Company's website and mobile app are down after a \"cybersecurity incident\" prompted parent company Ahold Delhaize to take some computer systems offline as a precaution.\nOn Oct. 12, Ahold Delhaize said it was experiencing a \"security issue\" within its network.\n\"This includes taking some systems offline to help protect them,\" Ahold Delhaize said in a statement.\nWhat GIANT customers should know The GIANT Company, which is headquartered in Carlisle, Pennsylvania, notified customers that its website and app were unavailable while crews worked to restore service.\nCustomers with unfulfilled orders placed through Giantfoodstores.com or the GIANT app will receive refunds, according to a company notice.",
+    "category": "Cybersecurity",
+    "published_date": "2026-10-13T10:13:00+00:00",
+    "slug": "giant-website-and-app-down-after-cybersecurity-incident-wgal",
+    "extraction_method": "newspaper4k",
+    "source_name": "wgal.com"
+  },
+  {
+    "id": 18954,
+    "title": "GM Defense Turns A Chevrolet Silverado Into A Driverless Logistics Truck",
+    "source_url": "https://www.motor1.com/news/811745/gm-defense-silverado-military-ugv/",
+    "summary": "GM Defense just showed up to the Army's biggest trade show with a driverless Silverado.\nThe Army's planned Infantry Squad Vehicle fleet has jumped from an initial 649 units to nearly 12,000 vehicles.\nGM Defense Expands The Infantry Squad Vehicle Program GM Defense Infantry Squad Vehicle (ISV) Photo by: GM Defense The Infantry Squad Vehicle and its heavier sibling, the ISV-Heavy, both trace their roots to existing Chevrolet truck platforms.\nChevrolet Silverado 3500HD Anchors GM Defense's UGV Concept GM Defense ISV - Heavy Photo by: GM Defense The unmanned ground vehicle GM Defense displayed at AUSA uses a dual-rear-wheel skateboard architecture based on the Silverado 3500HD, stripped down to drive-by-wire controls, onboard and export power, and open interfaces for modular payloads.\n\"The modern defense landscape demands advanced capability, rapid fielding and sustainable scale,\" said Steve duMont, president of GM Defense.",
+    "category": "Autonomous Trucks",
+    "published_date": "2026-10-13T09:55:56+00:00",
+    "slug": "gm-defense-turns-a-chevrolet-silverado-into-a-driverless-logistics-truck-motor1com",
+    "extraction_method": "newspaper4k",
+    "source_name": "motor1.com"
+  },
+  {
+    "id": 18951,
+    "title": "Bot Auto Selects Lenovo AD1 built on NVIDIA Hyperion to Scale Driverless Trucking",
+    "source_url": "https://www.prnewswire.com/news-releases/bot-auto-selects-lenovo-ad1-built-on-nvidia-hyperion-to-scale-driverless-trucking-302906575.html",
+    "summary": "Bot Auto now moves approximately 350 loads per month and grew revenue 270% between May and August 2026.\nThe deployment adds Bot Auto to Lenovo's list of autonomous trucking customers in the United States.\n\"With Lenovo's AD1 built on NVIDIA Hyperion, Bot Auto is laying the foundation to expand driverless freight operations and improve the economics of moving goods.\"\nBot Auto and Lenovo will showcase the collaboration at CES 2027 in Las Vegas in January.\nAbout Bot Auto Bot Auto is an L4 autonomous trucking company offering Transportation as a Service (TaaS) through its AI-driven fleet.",
+    "category": "Autonomous Trucks",
+    "published_date": "2026-10-13T09:00:00-04:00",
+    "slug": "bot-auto-selects-lenovo-ad1-built-on-nvidia-hyperion-to-scale-driverless-trucking-pr-newswire",
+    "extraction_method": "newspaper4k",
+    "source_name": "prnewswire.com"
+  },
+  {
+    "id": 18998,
+    "title": "US identifies 8 priority applications for fault-tolerant quantum computers",
+    "source_url": "https://www.innovationnewsnetwork.com/us-8-priority-applications-fault-tolerant-quantum-computers/74637/",
+    "summary": "The United States Department of Energy (DOE) has identified eight scientific applications to guide the development of fault-tolerant quantum computers.\nWhat are fault-tolerant quantum computers?\nFault-tolerant quantum computers are systems designed to perform reliable computations despite errors that can occur during quantum operations.\nUnlike conventional computers, which process information using bits, quantum computers use quantum bits, or qubits, to represent and manipulate information according to quantum mechanics.\nThe eight priorities will provide a framework for assessing progress and identifying where fault-tolerant quantum computers could offer capabilities beyond those achievable with today’s leading supercomputers.",
+    "category": "Quantum Computers",
+    "published_date": "2026-10-13T08:59:29+00:00",
+    "slug": "us-identifies-8-priority-applications-for-fault-tolerant-quantum-computers-innovation-news-network",
+    "extraction_method": "newspaper4k",
+    "source_name": "innovationnewsnetwork.com"
+  },
+  {
+    "id": 18992,
+    "title": "What is Beyond Zero? The latest Google-backed security trend explained",
+    "source_url": "https://www.itpro.com/security/what-is-beyond-zero-the-latest-google-backed-security-trend-explained",
+    "summary": "The Zero Trust cybersecurity paradigm gained huge momentum during the COVID-19 pandemic with the rise of remote working.\nThis creates the need for a new security paradigm that is capable of defending against these new threats.\"\nBlended static and dynamic security: Heightened security measures are applied during high-risk or complex scenarios by pairing dynamic controls with granular static policies.\nEach action must be compliant with access principles – and conventional Zero Trust principles simply won't cut it.\nToday, that environment includes cloud infrastructure, APIs, automated systems, and increasingly autonomous AI agents operating across multiple platforms.",
+    "category": "IoT Cyber",
+    "published_date": "2026-10-13T07:00:00+00:00",
+    "slug": "what-is-beyond-zero-the-latest-google-backed-security-trend-explained-it-pro",
+    "extraction_method": "newspaper4k",
+    "source_name": "itpro.com"
+  },
+  {
+    "id": 18982,
+    "title": "Peppermill Casino Facial Recognition Made 12 False Matches in One Shift, Ex-Guard Claims",
+    "source_url": "https://www.casino.org/news/peppermill-casino-facial-recognition-made-12-false-matches-in-one-shift-ex-guard-claims/",
+    "summary": "A former security officer at Reno’s Peppermill Casino claims its facial recognition technology routinely misidentified customers, sometimes producing as many as 12 false matches with 100% confidence in a single shift.\n‘Twelve Times in a Single Shift’ Gamino worked as a Peppermill security officer from October 2024 until July 2026, according to his August 28 declaration.\nHe claims the casino’s facial recognition technology frequently produced erroneous matches, including alerts assigning 100% similarity to people who clearly did not resemble those in its database.\nIn a separate declaration, he said he had never previously known the Peppermill’s facial recognition system to make an incorrect identification.\nThe ACLU and Innocence Project argue that facial recognition matches alone cannot establish probable cause for an arrest.",
+    "category": "Image Recognition",
+    "published_date": "2026-10-13T06:43:00-05:00",
+    "slug": "peppermill-casino-facial-recognition-made-12-false-matches-in-one-shift-ex-guard-claims-casinoorg",
+    "extraction_method": "newspaper4k",
+    "source_name": "casino.org"
+  },
+  {
+    "id": 18960,
+    "title": "Valeo and KE:SAI Launch a Franco-German Open-Source Initiative to Build Generalist Autonomous Driving Systems",
+    "source_url": "https://www.valeo.com/en/valeo-and-kesai-launch-a-franco-german-open-source-initiative-to-build-generalist-autonomous-driving-systems/",
+    "summary": "Marc Vrecko, CEO of Valeo Brain, commented: “This open-science collaboration with KE:SAI marks a strategic milestone for Valeo and the broader European automotive ecosystem.\nAndreas Geiger, CEO of KE:SAI, commented: “For language models, open source compressed years of progress into months, yet frontier physical AI is still largely closed.\nThis partnership aims to push open source autonomous driving research towards the frontier as we have seen players achieve in the LLM space.\nAbout Valeo Valeo is a leading global technology company creating innovative solutions and systems for automotive and technology partners worldwide.\nKE:SAI has been co-founded by Andreas Geiger, Bernhard Schölkopf, Kashyap Chitta, Daniel Dauner and Bernhard Jaeger, a team of world-leading researchers in computer vision, robotics and machine learning.",
+    "category": "Autonomous Vehicles",
+    "published_date": "2026-10-13T06:32:11+00:00",
+    "slug": "valeo-and-kesai-launch-a-franco-german-open-source-initiative-to-build-generalist-autonomous",
+    "extraction_method": "newspaper4k",
+    "source_name": "valeo.com"
+  },
+  {
+    "id": 19011,
+    "title": "Smart Life Week draws record crowds as Seoul showcases AI urban future",
+    "source_url": "https://www.koreatimes.co.kr/amp/lifestyle/people-events/20261013/smart-life-week-draws-record-crowds-as-seoul-showcases-ai-urban-future",
+    "summary": "Smart Life Week 2026 was held from Oct. 6 to 8 at Coex in Gangnam District.\nThe city said the turnout reflected strong public interest in AI and robot technology that could change daily life and the future of cities.\nAt the Smart Life Week Showroom, visitors saw how Seoul plans to use AI in public administration, safety, care services, transportation and education.\nThe Seoul AI Robot Show featured humanoid, four-legged, wearable and service robots, along with robot performances, sports and hands-on robot controls.\n“Smart Life Week was where Seoul answered the question of who technology should serve, with people-centered innovation,” Seoul Mayor Oh Se-hoon said.",
+    "category": "Smart Cities",
+    "published_date": "2026-10-13T06:05:03+00:00",
+    "slug": "smart-life-week-draws-record-crowds-as-seoul-showcases-ai-urban-future-the-korea-times",
+    "extraction_method": "newspaper4k",
+    "source_name": "koreatimes.co.kr"
+  },
+  {
+    "id": 19006,
+    "title": "AI CityXchange - ST Engineering aim to build trust in autonomous platforms",
+    "source_url": "https://www.smartcitiesworld.net/ai-cityxchange/st-engineering-aims-to-build-trust-in-autonomous-platforms",
+    "summary": "“As AI becomes embedded in critical systems, trust can no longer be assumed.\nIt must be engineered, tested and assured,” said Goh Eng Choon, president, cyber, ST Engineering.\nOur Transparency Centre will provide independent assurance and rigorous cybersecurity validation to help customers verify that their autonomous platforms and cyber-physical systems are secure, resilient and ready for their intended operational use.”\nThese measures include implementing stronger hardware roots of trust for systems handling sensitive data and enhancing encryption across storage and communications, helping organisations operate their autonomous platforms with greater resilience and confidence.\nST Engineering is showcasing the services offered at its Transparency Centre at GovWare 2026, taking place in Singapore from 13 to 15 October 2026.",
+    "category": "Smart Cities",
+    "published_date": "2026-10-13T05:53:00+00:00",
+    "slug": "ai-cityxchange-st-engineering-aim-to-build-trust-in-autonomous-platforms-smart-cities-world",
+    "extraction_method": "newspaper4k",
+    "source_name": "smartcitiesworld.net"
+  },
+  {
+    "id": 18962,
+    "title": "AI in Autonomous Vehicles Market Size, Share, Trends and Growth Forecast to Reach $6.7 Billion by 2030",
+    "source_url": "https://www.einpresswire.com/article/948992959/ai-in-autonomous-vehicles-market-size-share-trends-and-growth-forecast-to-reach-6-7-billion-by-2030",
+    "summary": "Let’s explore the current market valuation, key drivers, regional trends, and future prospects shaping AI in autonomous vehicles.\nMarket Size and Projected Growth in the AI in Autonomous Vehicles Industry The market for artificial intelligence in autonomous vehicles has experienced impressive growth recently.\nKey Factors Supporting Growth of AI in Autonomous Vehicles The expanding use of advanced driver assistance systems is a primary force propelling the AI in autonomous vehicles market.\nThis widespread penetration highlights how ADAS is accelerating the need for AI technologies that enable smarter, safer autonomous driving systems.\nRegional Market Highlights for AI in Autonomous Vehicles In 2025, North America held the largest share of the AI in autonomous vehicles market.",
+    "category": "Autonomous Vehicles",
+    "published_date": "2026-10-13T05:22:03+00:00",
+    "slug": "ai-in-autonomous-vehicles-market-size-share-trends-and-growth-forecast-to-reach-67-billion-by-2030",
+    "extraction_method": "newspaper4k",
+    "source_name": "einpresswire.com"
+  },
+  {
+    "id": 18981,
+    "title": "The Image Recognition Market is Projected to Grow Rapidly at a 19% CAGR Until 2030",
+    "source_url": "https://www.einpresswire.com/article/948980033/the-image-recognition-market-is-projected-to-grow-rapidly-at-a-19-cagr-until-2030",
+    "summary": "Market Size and Projected Growth in the Image Recognition Market Forecasts indicate that the image recognition market will surpass $148 billion by 2030.\nLeading Segments Within the Image Recognition Market The image recognition market is categorized by techniques such as QR or barcode recognition, object recognition, facial recognition, pattern recognition, and optical character recognition (OCR).\nMarket Share Distribution Among Leading Image Recognition Companies The image recognition market remains fairly fragmented, with the top ten companies accounting for just 10% of total revenue in 2025.\nFrequently Asked Questions about the Image Recognition Market Q: What is the anticipated CAGR of the image recognition market?\nLearn More About The Business Research Company The Business Research Company (www.thebusinessresearchcompany.com) is a leading market intelligence firm renowned for its expertise in company, market, and consumer research.",
+    "category": "Image Recognition",
+    "published_date": "2026-10-13T05:21:59+00:00",
+    "slug": "the-image-recognition-market-is-projected-to-grow-rapidly-at-a-19-cagr-until-2030-ein-presswire",
+    "extraction_method": "newspaper4k",
+    "source_name": "einpresswire.com"
+  },
+  {
+    "id": 18953,
+    "title": "Briefly: Kodiak partners with Charger for Laredo-Dallas freight deliveries",
+    "source_url": "https://www.truckersnews.com/news/article/15837058/briefly-kodiak-partners-with-charger-for-laredodallas-freight-deliveries",
+    "summary": "Kodiak AI, Inc., a leading provider of Physical AI-powered autonomous driving technology, and Charger USA, a cross-border carrier serving the United States and Mexico, recently announced a collaboration for autonomous freight delivery.\nKodiak and Charger completed their first delivery Sept. 8.\nA safety case is a structured, evidence-backed argument that the Kodiak Driver is acceptably safe to operate in a specific domain.\nCharger operates across North America as an asset-based carrier, with temperature-controlled transport freight among its core service lines.\nThe companies expect to expand the collaboration to additional lanes in Charger’s network over time as Charger integrates the Kodiak Driver into its own fleet.",
+    "category": "Autonomous Trucks",
+    "published_date": "2026-10-13T05:17:00+00:00",
+    "slug": "briefly-kodiak-partners-with-charger-for-laredo-dallas-freight-deliveries-truckers-news",
+    "extraction_method": "newspaper4k",
+    "source_name": "truckersnews.com"
+  },
+  {
+    "id": 18997,
+    "title": "Day 13 | IoT Forensics: Your Smart Devices Know More Than You Think",
+    "source_url": "https://the420.in/day-13-iot-forensics-connected-devices-digital-evidence/",
+    "summary": "IoT forensics is the process of identifying, collecting and analysing digital evidence from Internet of Things (IoT) devices and their connected systems.\nIoT forensics examines information from these devices, their applications, connected phones, network records and cloud services.\nFCRF Launches CP-FRM to Build India’s Next Generation of Fraud Risk Professionals How Can Criminals Exploit IoT Devices?\nOrganisations should maintain an inventory of connected devices, change default credentials, segment IoT devices from critical systems and monitor unusual network activity.\nDay 13 — IoT Forensics 31 Days | 31 Key Topics | October 2026 A Cybersecurity Awareness Month Knowledge Initiative Created by Centre for Police Technology (CPT) (CPT).",
+    "category": "IoT Cyber",
+    "published_date": "2026-10-13T04:31:32+00:00",
+    "slug": "day-13-iot-forensics-your-smart-devices-know-more-than-you-think-the420in",
+    "extraction_method": "newspaper4k",
+    "source_name": "the420.in"
+  },
+  {
+    "id": 18996,
+    "title": "Anthropic Warns Small AI Models Could Reach Self-Replication on IoT Devices Within Months",
+    "source_url": "https://finance.biggo.com/news/aafaa533-6ac5-44fc-801e-415ad74c8176",
+    "summary": "According to the research team, a 9-billion-parameter (9B) model was able to run inference on eight of the nine hardware types tested.\nUnlike traditional malware, AI-embedded replication programs can independently figure out how to operate on unfamiliar hardware.\nComputing resources available for model inference—both inside and outside data centers—continue to grow.\nLightweight agents are likely to devote more effort than human attackers to compromising the vast numbers of IoT devices scattered worldwide.\nAn increase in slow self-replicating programs could be a harbinger of more aggressive, faster-propagating replication programs approaching—programs potentially capable of breaching well-defended machines or efficiently stealing API keys.",
+    "category": "IoT Cyber",
+    "published_date": "2026-10-13T03:55:31+00:00",
+    "slug": "anthropic-warns-small-ai-models-could-reach-self-replication-on-iot-devices-within-months-biggo",
+    "extraction_method": "newspaper4k",
+    "source_name": "finance.biggo.com"
+  },
+  {
+    "id": 19005,
+    "title": "Ada Lovelace Day - being a woman in a quantum world preparing for lift off",
+    "source_url": "https://diginomica.com/ada-lovelace-day-being-woman-quantum-world-preparing-lift",
+    "summary": "Quantum computers may be at least five years away from \"commercial usefulness\" but anticipation that a breakthrough could be imminent is growing within the sector.\nThe second is computation, which is where quantum computers come in.\nSuperconducting machines, on the other hand, although most advanced in engineering terms, require massive refrigeration systems for cooling, which means they score low for \"commercial value\", Mooter believes.\nSandhu decided to enter a quantum world, which is even more heavily male-dominated than the wider tech space, for various reasons.\nSandhu believes her dad's love of science and willingness to nurture her own love of it made a big difference for her here.",
+    "category": "Quantum Computers",
+    "published_date": "2026-10-13T03:15:01-07:00",
+    "slug": "ada-lovelace-day-being-a-woman-in-a-quantum-world-preparing-for-lift-off-diginomica",
+    "extraction_method": "newspaper4k",
+    "source_name": "diginomica.com"
+  },
+  {
+    "id": 18966,
+    "title": "AI Meets Blockchain: New Shield for Connected Car Networks",
+    "source_url": "https://bioengineer.org/ai-meets-blockchain-new-shield-for-connected-car-networks/",
+    "summary": "The first is an off-chain intrusion detection system that prioritizes speed, because in vehicular environments milliseconds matter.\nThe MLPNN’s role is to make the final judgment call: given a standardized, feature-enhanced snapshot of network traffic, is this communication legitimate or hostile?\nOnce the intrusion detection system identifies and verifies a security event, the framework’s blockchain layer takes over.\nThis design choice addresses one of the most underappreciated problems in vehicular security: evidentiary integrity.\nSubject of Research: AI-powered intrusion detection and blockchain trust management for securing vehicular V2X wireless networks Article Title: Enhanced cyber security system for vehicular wireless network using AI-powered blockchain security structures based on intrusion detection systems Article References: Enhanced cyber security system for vehicular wireless network using AI-powered blockchain security structures based on intrusion detection systems.",
+    "category": "Connected Car",
+    "published_date": "2026-10-13T02:31:49+01:00",
+    "slug": "ai-meets-blockchain-new-shield-for-connected-car-networks-bioengineerorg",
+    "extraction_method": "newspaper4k",
+    "source_name": "bioengineer.org"
+  },
+  {
+    "id": 18964,
+    "title": "Tesla Faces Probe Over Claim of Robotaxis Speeding in School Zones",
+    "source_url": "https://www.claimsjournal.com/news/national/2026/10/13/340683.htm",
+    "summary": "Tesla Inc. is facing scrutiny from U.S. auto-safety regulators over whether its driverless taxis exceed posted speed limits near schools, a new hurdle for the automaker’s slow-growing robotaxi service.\nThe National Highway Traffic Safety Administration said it’s evaluating the claim that Tesla Cybercab and Model Y vehicles using automated systems drive too fast in active school zones.\nThe Pressure Is Working The preliminary probe covers an estimated 1,000 vehicles from the 2026 model year, NHTSA said.\nThe agency has not yet decided whether to grant or deny the petitioner’s request for a full investigation.\nComplaints over conduct in school zones are recall issues that Waymo, the leading robotaxi operator, has had involving school buses.",
+    "category": "Autonomous Vehicles",
+    "published_date": "2026-10-13T00:00:00",
+    "slug": "tesla-faces-probe-over-claim-of-robotaxis-speeding-in-school-zones-claims-journal",
+    "extraction_method": "newspaper4k",
+    "source_name": "claimsjournal.com"
+  },
+  {
+    "id": 18967,
+    "title": "Explainer-Could hackers get inside my fridge?",
+    "source_url": "https://kelo.com/2026/10/13/explainer-could-hackers-get-inside-my-fridge/",
+    "summary": "In many cases, attackers are more interested in stealing data, disrupting services or using connected devices as a way into a larger network.\nRouters, not appliances, account for more than three-quarters of all attacks on connected devices, according to security-industry data.\nOnce inside a device, a hacker can generally do one of two things: gather information or take control of the device.\nHackers who take control of a device can switch it on ​or off, change settings or lock users out of their accounts.\nThe simplest rule is often the most effective: the fewer connected devices you have, the fewer potential entry points exist for attackers.",
+    "category": "Connected Car",
+    "published_date": "2026-10-13T00:00:00",
+    "slug": "explainer-could-hackers-get-inside-my-fridge-kelo-am",
+    "extraction_method": "newspaper4k",
+    "source_name": "kelo.com"
+  },
+  {
+    "id": 18973,
+    "title": "Microsoft Digital Defense 2026 Report Highlights New Cybersecurity Challenges Amid Rapid AI Adoption",
+    "source_url": "https://news.microsoft.com/source/asia/2026/10/13/microsoft-digital-defense-2026-report-highlights-new-cybersecurity-challenges-amid-rapid-ai-adoption/",
+    "summary": "Microsoft’s 2026 Digital Defense Report reveals that cyber threats are becoming more complex as AI adoption grows and digital identities, cloud services, software supply chains, and critical infrastructure become increasingly interconnected.\nAI holds tremendous potential to drive progress in Indonesia, but realizing that potential requires trust that systems, data, and identities are protected.\nWhile attackers’ methods and targets have remained largely unchanged, AI and increasingly interconnected digital systems are making attacks faster, more scalable, and more effective.\nAt the same time, AI systems themselves are becoming targets, including the data and infrastructure supporting them.\nHow AI is Changing Cyber Attacks and Defense AI is shifting the speed, scale, and sophistication of cyberattacks.",
+    "category": "Cybersecurity",
+    "published_date": "2026-10-13T00:00:00",
+    "slug": "microsoft-digital-defense-2026-report-highlights-new-cybersecurity-challenges-amid-rapid-ai",
+    "extraction_method": "newspaper4k",
+    "source_name": "news.microsoft.com"
+  },
+  {
+    "id": 18975,
+    "title": "Hannaford’s parent company taking precautions following ‘cybersecurity incident’",
+    "source_url": "https://www.wabi.tv/2026/10/13/hannafords-parent-company-taking-precautions-following-cybersecurity-incident/",
+    "summary": "Maine (WABI) - Hannaford’s parent company, Ahold Delhaize, is experiencing a security issue within its network, resulting in some stores’ digital network being down.\nAhold Delhaize said its teams are taking steps to assess and mitigate the issue.\nCompany statement Ahold Delhaize released the following statement: “Ahold Delhaize is experiencing a security issue within its network.\nWebsite and app message The following message currently appears on the Hannaford website and app: “Our Hannaford website and app are currently unavailable.\nAny unfulfilled orders placed through Hannaford.com or the Hannaford app will be refunded.",
+    "category": "Cybersecurity",
+    "published_date": "2026-10-13T00:00:00",
+    "slug": "hannafords-parent-company-taking-precautions-following-cybersecurity-incident-wabi",
+    "extraction_method": "newspaper4k",
+    "source_name": "wabi.tv"
+  },
+  {
+    "id": 18980,
+    "title": "Be a good AI ancestor: Cybersecurity already gave us the playbook",
+    "source_url": "https://www.helpnetsecurity.com/2026/10/13/cybersecurity-ai-safety-red-lines/",
+    "summary": "After nearly 30 years in technology, including my career at Intel, I believe AI safety requires the same approach.\nOur objective is to help establish boundaries for autonomous AI systems and advance those boundaries toward practical implementation.\nI believe the next phase of AI safety requires a shift in leadership and execution.\nFrom responsible AI principles to enforceable Red Lines The International AI Safety Red Lines initiative is focused on a fundamental question: What capabilities and behaviors should increasingly autonomous AI systems never be permitted to exhibit?\nThe Global Council for Responsible AI’s International AI Safety Red Lines initiative is one contribution to that broader effort.",
+    "category": "Cybersecurity",
+    "published_date": "2026-10-13T00:00:00",
+    "slug": "be-a-good-ai-ancestor-cybersecurity-already-gave-us-the-playbook-help-net-security",
+    "extraction_method": "newspaper4k",
+    "source_name": "helpnetsecurity.com"
+  },
+  {
+    "id": 18999,
+    "title": "Creating the Technology of the Future: Quantum Chemistry Unlocks New Possibilities",
+    "source_url": "https://www.newswise.com/articles/creating-the-technology-of-the-future-quantum-chemistry-unlocks-new-possibilities/?ad2f=1&aid=856445",
+    "summary": "Many types of materials are currently being considered for use in quantum technology, but most can only hold a stable quantum state when chilled to extreme temperatures.\nThis is just one way that PPPL continues to advance strategic national priorities, such as creating the technology of the future.\nThe oxygen-based defects Martirez is studying shine blue, while the boron-based defects emit an ultraviolet light.\nResearch could allow quantum chemistry to enrich itself When Martirez thinks about the future of his field, he said it’s interesting to note that quantum chemistry may help develop tools to “enrich itself” in the decades to come.\nMartirez said a practical multi-qubit system would vastly improve the level of accuracy of quantum chemistry calculations.",
+    "category": "Quantum Computers",
+    "published_date": "2026-10-13T00:00:00",
+    "slug": "creating-the-technology-of-the-future-quantum-chemistry-unlocks-new-possibilities-newswise",
+    "extraction_method": "newspaper4k",
+    "source_name": "newswise.com"
+  },
+  {
+    "id": 19000,
+    "title": "DARPA Just Revealed the 2 Best Quantum Computing Stocks to Buy Now",
+    "source_url": "https://www.fool.com/investing/2026/10/13/darpa-just-revealed-the-2-best-quantum-computing-s/",
+    "summary": "The Defense Advanced Research Projects Agency (DARPA), the segment of the U.S. Department of Defense responsible for advancing technological innovations, recently announced which quantum computing companies had advanced to Stage C of its Quantum Benchmarking Initiative (QBI).\nFor investors, the focus should be on IonQ and IBM, which now have a leg up on other publicly traded quantum computing companies.\nIonQ IonQ being chosen to advance to Stage C of DARPA's QBI is not surprising.\nWith the highest accuracy so far and plans to become a complete quantum ecosystem player, IonQ is one of the best bets in the quantum computing space today.\nIBM is far from being a pure-play quantum computing company, but its future is tied to the technology.",
+    "category": "Quantum Computers",
+    "published_date": "2026-10-13T00:00:00",
+    "slug": "darpa-just-revealed-the-2-best-quantum-computing-stocks-to-buy-now-the-motley-fool",
+    "extraction_method": "newspaper4k",
+    "source_name": "fool.com"
+  },
+  {
+    "id": 19001,
+    "title": "Alice & Bob Decodes LDPC-Cat Codes on GPUs With NVIDIA NVQLink",
+    "source_url": "https://thequantuminsider.com/2026/10/13/alice-bob-decodes-ldpc-cat-codes-on-gpus-with-nvidia-nvqlink/",
+    "summary": "Insider Link Alice & Bob demonstrated GPU decoding of its LDPC-cat error-correction codes using NVIDIA NVQLink and synthetic data, a step toward scalable error correction for cat-qubit quantum computers.\nThe demonstration did not achieve real-time decoding, and Alice & Bob plans to optimize data transfer and processing to keep pace with its quantum computers.\nPRESS RELEASE — Alice & Bob, a leader in fault-tolerant quantum computing, today shared results from implementing GPUs to decode its LDPC-cat architecture using NVIDIA NVQLink.\nLDPC-cat codes were developed by Alice & Bob for its cat-qubit architecture and first introduced in the paper “LDPC-cat codes for low-overhead quantum computing in 2D” published in January 2025.\nShowing that our LDPC-cat codes can be decoded on NVIDIA GPUs with existing tools is encouraging for scaling, because it means decoding capacity can grow with the machine.",
+    "category": "Quantum Computers",
+    "published_date": "2026-10-13T00:00:00",
+    "slug": "alice-bob-decodes-ldpc-cat-codes-on-gpus-with-nvidia-nvqlink-the-quantum-insider",
+    "extraction_method": "newspaper4k",
+    "source_name": "thequantuminsider.com"
+  },
+  {
+    "id": 19010,
+    "title": "Smart Waste Management Market to Expand at 16.75% CAGR as Smart Cities Accelerate Intelligent Waste Management Adoption",
+    "source_url": "https://www.manilatimes.net/2026/10/13/tmt-newswire/plentisoft/smart-waste-management-market-to-expand-at-1675-cagr-as-smart-cities-accelerate-intelligent-waste-management-adoption/2444648",
+    "summary": "The Smart Waste Management Market is projected to reach USD 11,437.25 million by 2035, growing at a 16.75% CAGR, driven by IoT, AI, smart cities, and sustainable waste solutions.\n-- The Smart Waste Management Market is gaining momentum as rapid urbanization, increasing waste generation, and growing environmental concerns encourage cities and industries to adopt intelligent waste collection technologies.\nSmart Waste Management Market Segmentation by Type The market is segmented into Fleet Management, Remote Monitoring, and Analytics.\nApplication Analysis The Smart Waste Management Market is divided into Industrial Waste and Residential Waste.\nCompetitive Landscape The Smart Waste Management Market includes environmental service providers, technology manufacturers, and specialized digital waste solution developers.",
+    "category": "Smart Cities",
+    "published_date": "2026-10-13T00:00:00",
+    "slug": "smart-waste-management-market-to-expand-at-1675-cagr-as-smart-cities-accelerate-intelligent-waste",
+    "extraction_method": "newspaper4k",
+    "source_name": "manilatimes.net"
+  },
+  {
+    "id": 18988,
+    "title": "Brent Venables given major recognition for Oklahoma’s Red River Rivalry win over Texas",
+    "source_url": "https://sports.yahoo.com/articles/brent-venables-given-major-recognition-233101830.html",
+    "summary": "Brent Venables given major recognition for Oklahoma's Red River Rivalry win over Texas appeared first on ClutchPoints.\nOklahoma football entered the Cotton Bowl unranked and written off ahead of facing No.\nNow coach Brent Venables earned a major award after outcoaching Steve Sarkisian.\nOklahoma turned to a familiar blueprint to topple Texas: Venables' area of expertise defense.\nCourtland Guillory snatched the last Manning pass to hand Oklahoma its chance to score the winning points.",
+    "category": "Image Recognition",
+    "published_date": "2026-10-12T23:31:01+00:00",
+    "slug": "brent-venables-given-major-recognition-for-oklahomas-red-river-rivalry-win-over-texas-yahoo-sports",
+    "extraction_method": "newspaper4k",
+    "source_name": "sports.yahoo.com"
+  },
+  {
+    "id": 18970,
+    "title": "UK council measures speed with data not radar",
+    "source_url": "https://www.itsinternational.com/uk-council-measures-speed-with-data-not-radar/",
+    "summary": "The UK’s Surrey County Council is measuring vehicle speeds at 1,339 sites using connected vehicle data instead of radar and automatic traffic counters.\nUsing connected vehicle data provided by Compass IoT, Surrey has removed the physical constraint of installing hardware, retrieving it and processing the data.\nThese vehicle speeds are taken across the full road segment rather than a single point, capturing driver variations.\nA recurring survey from the connected vehicle data source shows how speeds change over a month and gives a more accurate before-and-after picture when something changes.\nFounded in 2018, Compass IoT is a connected vehicle data aggregator with clients across Australia, New Zealand, North America and Europe.",
+    "category": "Connected Car",
+    "published_date": "2026-10-12T23:07:56+00:00",
+    "slug": "uk-council-measures-speed-with-data-not-radar-its-international",
+    "extraction_method": "newspaper4k",
+    "source_name": "itsinternational.com"
+  },
+  {
+    "id": 18984,
+    "title": "New AI Defense MAPLE Cleans Adversarial Images and Reshapes Decision Boundaries",
+    "source_url": "https://bioengineer.org/new-ai-defense-maple-cleans-adversarial-images-and-reshapes-decision-boundaries/",
+    "summary": "The second is a Margin Calibration Classifier, or MCC, which begins as a copy of the target classifier that the defender wants to protect.\nThe SPN now processes adversarial examples and hands the resulting purified images to the Margin Calibration Classifier, which uses them to recalibrate its own decision geometry.\nThe evaluation focused on transferable adversarial attacks, the most realistic threat model for black-box defense.\nSubject of Research: Black-box adversarial defense for deep neural networks using joint image purification and decision margin calibration Article Title: MAPLE: manifold-aligned purification with logit-edge calibration for robust black-box adversarial defense Article References: Zhou, N., & Yi, P. (2026).\nMAPLE: manifold-aligned purification with logit-edge calibration for robust black-box adversarial defense.",
+    "category": "Image Recognition",
+    "published_date": "2026-10-12T22:08:40+01:00",
+    "slug": "new-ai-defense-maple-cleans-adversarial-images-and-reshapes-decision-boundaries-bioengineerorg",
+    "extraction_method": "newspaper4k",
+    "source_name": "bioengineer.org"
+  },
+  {
+    "id": 18950,
+    "title": "California Driverless Truck Rules Face Legal Challenge",
+    "source_url": "https://www.legalexaminer.com/transportation/trucking-accidents/teamsters-sue-california-over-new-driverless-truck-regulations/",
+    "summary": "Key Takeaways A labor union has sued California state agencies over new regulations for heavy-duty autonomous trucks.\nCrashes involving autonomous trucks may require investigators to examine electronic records, vehicle software, and the roles of multiple companies to determine responsibility.\nWhat Are California's New Autonomous Truck Regulations?\nThe report also suggested that some drivers could shift into shorter routes, transporting trailers between local destinations and autonomous truck hubs.\nFor people seriously injured in an autonomous truck accident, identifying the potentially responsible parties may require examining records held by several companies.",
+    "category": "Autonomous Trucks",
+    "published_date": "2026-10-12T21:26:16+00:00",
+    "slug": "california-driverless-truck-rules-face-legal-challenge-the-legal-examiner",
+    "extraction_method": "newspaper4k",
+    "source_name": "legalexaminer.com"
+  },
+  {
+    "id": 19014,
+    "title": "This Week in iRacing | October 13th to October 19th, 2026",
+    "source_url": "https://www.iracing.com/this-week-in-iracing-october-13th-to-october-19th-2026/",
+    "summary": "Welcome back to This Week in iRacing, your guide to the daily, even hourly racing that members can get into, based on where their license level is at.\nHere are a few of the highlighted series taking place this week — 2026 Season 4, Week 5 — from October 13th to October 19th in 2026. iRACING SPECIAL EVENTS iRacing’s Special Event calendar features a selection of the world’s most compelling races across numerous disciplines.\niRACING INDY 8 HR The next special event on the 2026 iRacing Special Event calendar is the iRacing Indy 8 Hour presented by PC’s by THOMAS.\nFrom NASCAR to the Whelen Modifieds, from Formula 1 to INDYCAR, and even some weekly local dirt track racing, iRacing offers many special series to jump in an compete in!\nNASCAR iRACING SERIES Back again in 2026, the NASCAR iRacing Series (Open Setup and Fixed Setup) follows the NASCAR Cup Series schedule for a 36-week racing season.",
+    "category": "Sim Racing",
+    "published_date": "2026-10-12T21:00:46+00:00",
+    "slug": "this-week-in-iracing-october-13th-to-october-19th-2026-iracingcom",
+    "extraction_method": "newspaper4k",
+    "source_name": "iracing.com"
+  },
+  {
+    "id": 18968,
+    "title": "World Automotive Intelligent Antenna Module - Market Analysis, Forecast, Size, Trends and Insights",
+    "source_url": "https://www.indexbox.io/blog/automotive-intelligent-antenna-module-market-to-accelerate-through-2035-on-software-defined-vehicle-demand/",
+    "summary": "The global Automotive Intelligent Antenna Module market is undergoing a strategic transformation from a commoditized component to a critical enabler of software-defined vehicles.\nAutonomous & Shared Mobility (estimated share: 3%) The autonomous and shared mobility segment represents a small but strategically important end-use sector for intelligent antenna modules.\nMarket Outlook (2026-2035) In the baseline scenario, IndexBox estimates a 6.5% compound annual growth rate for the global automotive intelligent antenna module market over 2026-2035, bringing the market index to roughly 187 by 2035 (2025=100).\nThis report is an independent strategic market study that provides a structured, commercially grounded analysis of the global market for Automotive Intelligent Antenna Module.\nWhat this report is about At its core, this report explains how the market for Automotive Intelligent Antenna Module actually functions.",
+    "category": "Connected Car",
+    "published_date": "2026-10-12T20:01:05+02:00",
+    "slug": "world-automotive-intelligent-antenna-module-market-analysis-forecast-size-trends-and-insights",
+    "extraction_method": "newspaper4k",
+    "source_name": "indexbox.io"
   },
   {
     "id": 18910,
@@ -22,6 +594,50 @@
     "source_name": "zigwheels.com"
   },
   {
+    "id": 18955,
+    "title": "Innovative Partnership Boosts Driverless Yard Trucks",
+    "source_url": "https://www.worktruckonline.com/news/holman-and-isee-partner-to-expand-autonomous-yard-truck-operations",
+    "summary": "“Robotics and industrial automation continue to transform how companies do business, boosting efficiency and reducing expenses, and yard movement is an area where many organizations can enhance operations by embracing autonomous solutions,” said Joe Foster, Vice President of Robotics, Holman.\n“Our partnership with ISEE, along with Holman’s strategic investment in the company, reflects our confidence in the future of autonomous yard operations and our commitment to helping customers accelerate adoption of proven automation technology.\nRetrofitting Existing Yard Trucks for Autonomous Operations A key component of the partnership is the ability to retrofit existing yard vehicles with ISEE's autonomous driving technology rather than requiring businesses to purchase replacement equipment.\nThe approach is intended to address several challenges associated with adopting autonomous yard equipment, including upfront costs, technical integration, and managing multiple vendors.\nISEE's autonomous driving technology is designed for congested, mixed-traffic environments where yard trucks operate alongside other vehicles, equipment, and workers.",
+    "category": "Autonomous Trucks",
+    "published_date": "2026-10-12T18:43:22.699000+00:00",
+    "slug": "innovative-partnership-boosts-driverless-yard-trucks-work-truck-online",
+    "extraction_method": "newspaper4k",
+    "source_name": "worktruckonline.com"
+  },
+  {
+    "id": 18965,
+    "title": "Face-lifted Next Gen Chevy Bolt Back in 2027 Under $30K One of Cheapest EVs 315 mi-range +NACS",
+    "source_url": "https://www.autoconnectedcar.com/2026/10/face-lifted-next-gen-chevy-bolt-in-back-in-2027-under-30k-one-of-cheapest-evs-262-mi-range/",
+    "summary": "General Motors is reviving the compact electric hatchback Chevy Bolt that helped define the affordable end of the EV market.\nProduction of the first-generation Bolt ended, but the demand did not, according to Scott Bell, vice president of Global Chevrolet.\nRange, Charging and the Move to NACS The 2027 Bolt carries an EPA-estimated range of 262 miles.\nWhen paired with a GM Energy Home System, GM says, the vehicle can supply power to a properly equipped home during an outage.\nGoogle Maps is embedded with vehicle systems, so route planning automatically accounts for battery range.",
+    "category": "Connected Car",
+    "published_date": "2026-10-12T18:12:18-07:00",
+    "slug": "face-lifted-next-gen-chevy-bolt-back-in-2027-under-30k-one-of-cheapest-evs-315-mi-range-nacs-auto",
+    "extraction_method": "newspaper4k",
+    "source_name": "autoconnectedcar.com"
+  },
+  {
+    "id": 18995,
+    "title": "Anthropic Red Team Says Small AI Models May Soon Replicate on IoT Devices",
+    "source_url": "https://www.unite.ai/anthropic-red-team-says-small-ai-models-may-soon-replicate-on-iot-devices/",
+    "summary": "The team reports the setup served 0.39 tokens per second, and writes that a distributed botnet of cheap, typically poorly defended IoT devices could provide enough compute to run a capable model.\nThe researchers largely excluded the cyber-exploit stages, citing earlier papers including CyberGym, ExploitBench, and work on adaptive worms as showing that small models are already capable of cyber exploits, and focused on inference setup, which they describe as the least studied and possibly most challenging stage for small models.\nThe representative threat model is Kimwolf, a botnet the post identifies as having infected more than two million devices, primarily off-brand Android TVs.\nIn a local replication of Meta’s CyberSecEval 3 spear-phishing evaluation, small models scored at levels the post characterizes as very poor to poor when normalized to human raters, which the team cites as evidence that social engineering lags agentic cyber capability in small models.\nUnlike hard-coded botnets such as Kimwolf, which target specific device types, an AI botnet is not tied to particular hardware, the post states, pointing to small models setting up inference on machines from a Jetson Nano to a Mac.",
+    "category": "IoT Cyber",
+    "published_date": "2026-10-12T15:41:10-04:00",
+    "slug": "anthropic-red-team-says-small-ai-models-may-soon-replicate-on-iot-devices-uniteai",
+    "extraction_method": "newspaper4k",
+    "source_name": "unite.ai"
+  },
+  {
+    "id": 18969,
+    "title": "CARUSO Publishes Connected Vehicle Field Test 5.0 Report on EU Data Act Implementation",
+    "source_url": "https://www.einpresswire.com/article/947949995/caruso-publishes-connected-vehicle-field-test-5-0-report-on-eu-data-act-implementation",
+    "summary": "One year after the EU Data Act became applicable, CARUSO's CVFT 5.0 report finds major gaps in how vehicle manufacturers share connected car data.\nThe CVFT report delivers insights based on a systematic evaluation of how vehicle manufacturers are implementing the EU Data Act.\nThe EU Data Act became applicable on September 12, 2025, as a horizontal regulation to foster the use of machine generated data in mobile devices.\nFrom September 2025 to July 2026, CARUSO systematically evaluated the EU Data Act solutions of all major vehicle manufacturers.\nThe key findings are as follows: • Highly heterogeneous Data Act implementation by the vehicle manufacturers While some vehicle manufacturers implemented measures to comply with the EU Data Act already in September 2025, others followed a few months later, and some vehicle manufacturers still do not offer solutions for drivers to share their data.",
+    "category": "Connected Car",
+    "published_date": "2026-10-12T15:00:00+00:00",
+    "slug": "caruso-publishes-connected-vehicle-field-test-50-report-on-eu-data-act-implementation-ein-presswire",
+    "extraction_method": "newspaper4k",
+    "source_name": "einpresswire.com"
+  },
+  {
     "id": 18898,
     "title": "GNSS Receivers Market Forecast 2035: 7.2% CAGR Backed by Autonomous Vehicles and Drones - News and Statistics",
     "source_url": "https://www.indexbox.io/blog/gnss-receivers-market-to-reach-7-2-cagr-by-2035-as-autonomous-vehicles-and-drones-drive-high-precision-demand/",
@@ -31,6 +647,28 @@
     "slug": "gnss-receivers-market-forecast-2035-72-cagr-backed-by-autonomous-vehicles-and-drones-news-and",
     "extraction_method": "newspaper4k",
     "source_name": "indexbox.io"
+  },
+  {
+    "id": 18956,
+    "title": "Kodiak is set to pull the driver in its autonomous trucks",
+    "source_url": "https://interestingengineering.com/videos/kodiak-is-set-to-pull-the-driver-in-its-autonomous-trucks",
+    "summary": "Before the year is out, Kodiak AI plans to pull the driver.\nA big rig hauling IKEA freight across Texas, with nobody in the cab.\nThe route is 219 miles of Interstate 45, between Kodiak’s Dallas-area hub and Houston, the highway leg of an IKEA delivery run.\nKodiak has hauled IKEA freight for four years, over 750,000 autonomous miles, with a safety observer on board.\nSince August, it has run this lane daily, and Kodiak says deliveries now consistently finish without anyone stepping in.",
+    "category": "Autonomous Trucks",
+    "published_date": "2026-10-12T14:03:18+00:00",
+    "slug": "kodiak-is-set-to-pull-the-driver-in-its-autonomous-trucks-interesting-engineering",
+    "extraction_method": "newspaper4k",
+    "source_name": "interestingengineering.com"
+  },
+  {
+    "id": 18987,
+    "title": "‘Starving for Innovation’ Finds Lessons in Construction's Waste",
+    "source_url": "https://www.enr.com/articles/63870-starving-for-innovation-finds-lessons-in-constructions-waste",
+    "summary": "The connection between construction waste and energy production also explains the book's broader ambitions.\nFor contractors, project managers and construction technology developers, those accounts offer the book's clearest value.\nIn an Oct. 9 interview with ENR, Thomas discussed the industry's skepticism toward new technology, the economics of waste recovery and lessons learned from Woodchuck's early setbacks.\n* * * ENR | What separates useful construction AI from the AI hype?\nENR | How does Woodchuck's approach reduce construction waste costs?",
+    "category": "Image Recognition",
+    "published_date": "2026-10-12T13:55:00-04:00",
+    "slug": "starving-for-innovation-finds-lessons-in-constructions-waste-engineering-news-record",
+    "extraction_method": "newspaper4k",
+    "source_name": "enr.com"
   },
   {
     "id": 18948,
@@ -176,6 +814,28 @@
     "source_name": "osce.org"
   },
   {
+    "id": 18986,
+    "title": "Tarrant County Filmmakers — and Driving Instructors — Earn Recognition at NYC’s Urbanworld Festival",
+    "source_url": "https://fwtx.com/culture/fort-worth-filmmakers-shift-happens-screening/",
+    "summary": "We can only imagine the loads of material a driving school in Texas could supply visual storytellers.\nAnd fortunately for us, local filmmakers Arthur and Fatimah Muhammad pounced on the chance to spin their tales of running a Tarrant County driving school into a comedy feature film.\nAptly titled “Shift Happens,” their new comedy film over the matter will have its first screening at the 30th Annual Urbanworld Film Festival on Thursday, Oct. 15.\nThe Annual Urbanworld Film Festival is based in New York and is “the world’s largest internationally competitive multicultural film festival and an Academy Award-qualifying event.”\nThe couple are also the forces behind The Reel Coffeehouse, a cinema-themed café in the Arlington area, as well as Sweet Chariot Driving School.",
+    "category": "Image Recognition",
+    "published_date": "2026-10-12T11:56:24.930568",
+    "slug": "tarrant-county-filmmakers-and-driving-instructors-earn-recognition-at-nycs-urbanworld-festival-fort",
+    "extraction_method": "newspaper4k",
+    "source_name": "fwtx.com"
+  },
+  {
+    "id": 19007,
+    "title": "3 Sun Belt mayors seek more public transportation as their cities grow",
+    "source_url": "https://www.smartcitiesdive.com/news/apta-mayors-transit-sun-belt/832639/",
+    "summary": "Three mayors of Southern, car-centric cities discussed their efforts to improve public transportation during an Oct. 5 panel at an American Public Transportation Association conference in Chicago.\nThe authority is now looking to reorient its services around post-pandemic travel patterns and population growth while adding services including light rail.\nThe common threads among these cities have been population growth and migration toward downtowns.\n“I can build a whole lot of so-called affordable housing, but it's not really affordable unless I also fix the transportation system around that,” he said.\nHolt said “a historic transportation initiative for 2027” is underway to prepare for population growth and the traffic congestion that could come with that.",
+    "category": "Smart Cities",
+    "published_date": "2026-10-12T11:55:00",
+    "slug": "3-sun-belt-mayors-seek-more-public-transportation-as-their-cities-grow-smart-cities-dive",
+    "extraction_method": "newspaper4k",
+    "source_name": "smartcitiesdive.com"
+  },
+  {
     "id": 18920,
     "title": "IonQ is buying cybersecurity firm Elisity for up to $1.3 billion",
     "source_url": "https://qz.com/ionq-buying-elisity-cybersecurity-acquisition-101226",
@@ -218,6 +878,17 @@
     "slug": "porsche-esports-supercup-2026-title-rivals-collide-in-penultimate-round-traxiongg",
     "extraction_method": "newspaper4k",
     "source_name": "traxion.gg"
+  },
+  {
+    "id": 18952,
+    "title": "Werner backs autonomous trucks, but economic and liability hurdles remain",
+    "source_url": "https://www.truckingdive.com/news/werner-backs-autonomous-trucks-but-economic-and-liability-hurdles-remain/832549/",
+    "summary": "Dive Brief: Werner Enterprises is working with several autonomous trucking developers and brokering freight to them, CFO Christopher Wikoff said at Morgan Stanley’s Laguna Conference Sept. 15.\nDive Insight: Werner has long positioned itself as an early adopter of autonomous technology.\nIt also began working with Kodiak AI in 2022 to create an autonomous trucking lane.\nWerner remains uncertain about how soon, and at what scale autonomous trucks can be deployed in its operations.\nOnce those questions are resolved, Werner sees autonomous as a way to add capacity rather than replace its workforce, Wikoff said.",
+    "category": "Autonomous Trucks",
+    "published_date": "2026-10-12T10:07:00",
+    "slug": "werner-backs-autonomous-trucks-but-economic-and-liability-hurdles-remain-trucking-dive",
+    "extraction_method": "newspaper4k",
+    "source_name": "truckingdive.com"
   },
   {
     "id": 18934,
@@ -493,6 +1164,50 @@
     "slug": "the-force-feedback-wheel-that-broke-a-wrist-how-sim-rig-nerdbot",
     "extraction_method": "newspaper4k",
     "source_name": "nerdbot.com"
+  },
+  {
+    "id": 18957,
+    "title": "MN: St. Paul City Council president seeks rules around Waymo",
+    "source_url": "https://www.masstransitmag.com/alt-mobility/autonomous-vehicles/news/55410990/mn-st-paul-city-council-president-seeks-rules-around-waymo",
+    "summary": "If and when Waymo comes to the capital city, the driverless “robotaxi” car network may find way more regulations than it counted on.\nCity Council President Rebecca Noecker has authored a resolution, to be considered on Wednesday’s council agenda, that calls for a wide-ranging study of “autonomous vehicle labor and community protections” in advance of any future robotaxi roll-outs in St. Paul.\nThe resolution states that the city “should establish these standards proactively, before autonomous vehicle companies begin commercial operations in the city, so that the city can thoughtfully determine the appropriate role of autonomous vehicles while protecting workers, residents and the public.”\nIn the San Francisco Bay Area, Waymo has partnered with the public transit provider Caltrain to set up dedicated parking spaces for its cars.\nCommercial autonomous vehicle companies include Tesla’s Cybercab, which operates exclusively for now in Austin, Texas, and Amazon’s Zoox, which is currently active in Las Vegas and San Francisco.",
+    "category": "Autonomous Vehicles",
+    "published_date": "2026-10-12T00:00:00",
+    "slug": "mn-st-paul-city-council-president-seeks-rules-around-waymo-mass-transit",
+    "extraction_method": "newspaper4k",
+    "source_name": "masstransitmag.com"
+  },
+  {
+    "id": 18963,
+    "title": "American Rheinmetall at AUSA 2026: Lynx XM30, Furientis interceptors and autonomous vehicles",
+    "source_url": "https://www.zona-militar.com/en/2026/10/12/american-rheinmetall-at-ausa-2026-lynx-xm30-furientis-interceptors-and-autonomous-vehicles/",
+    "summary": "The company’s display focuses on technologies supporting U.S. Army modernization, including the Lynx XM30 combat vehicle, the HX tactical truck configured for autonomous launcher operations and several robotic platforms intended for logistics and combat support.\nAt booth #2825, American Rheinmetall is presenting systems developed across the company’s international industrial network, highlighting its work in ground combat, tactical mobility, autonomy and precision effects.\nOne of the principal systems associated with the display is the Lynx XM30, American Rheinmetall’s candidate for the U.S. Army’s XM30 Combat Vehicle program, which aims to replace the M2 Bradley infantry fighting vehicle.\nThe company’s unmanned ground vehicle portfolio provides another major component of the display, covering platforms designed for resupply, casualty evacuation, electronic warfare and counter-unmanned aircraft system missions.\nThe medium-class MUSKOX unmanned ground vehicle combines a hybrid-electric chassis with autonomous navigation and AI-driven controls for logistics, sustainment and combat support.",
+    "category": "Autonomous Vehicles",
+    "published_date": "2026-10-12T00:00:00",
+    "slug": "american-rheinmetall-at-ausa-2026-lynx-xm30-furientis-interceptors-and-autonomous-vehicles-zona",
+    "extraction_method": "newspaper4k",
+    "source_name": "zona-militar.com"
+  },
+  {
+    "id": 19004,
+    "title": "Quantum computer maker IonQ to buy cybersecurity startup Elisity for $1.3B",
+    "source_url": "https://siliconangle.com/2026/10/12/quantum-computer-maker-ionq-to-buy-cybersecurity-startup-elisity-for-1-3b/",
+    "summary": "IonQ Inc., a publicly traded supplier of quantum computers, today announced plans to acquire Elisity Inc. for $1.3 billion.\nIonQ’s flagship product is a 256-qubit quantum computer called Superion 256 that debuted last month.\nLast year, it bought a Swiss startup called ID Quantique that developed a series of physical data encryption devices.\nIonQ plans to extend Elisity’s vulnerability detection features after the acquisition closes.\nIt’s believed that a hypothetical large-scale quantum computer would be capable of bypassing those algorithms.",
+    "category": "Quantum Computers",
+    "published_date": "2026-10-12T00:00:00",
+    "slug": "quantum-computer-maker-ionq-to-buy-cybersecurity-startup-elisity-for-13b-siliconangle",
+    "extraction_method": "newspaper4k",
+    "source_name": "siliconangle.com"
+  },
+  {
+    "id": 19012,
+    "title": "How these simulation racing centers help drivers train for professional races",
+    "source_url": "https://www.kjct8.com/2026/10/12/how-these-simulation-racing-centers-help-drivers-train-professional-races/",
+    "summary": "PORTLAND, Ore. (InvestigateTV) — A new racing simulator center has opened in Portland, giving drivers access to technology used to train professional racers.\nDriving a racing simulator is harder than it looks, but in the e-sports industry, people who master sim racing are turning the skill into a career.\nE-sports, or competitive video gaming, has grown in popularity over the years, with sim racing gaining an engaged fan base.\n“Sim racing and racing in general is something I want to do.\nAnd I mean, there’s a bunch of different opportunities within the sim world, but the sim world can also lead to opportunities in the real world,” Thomas said.",
+    "category": "Sim Racing",
+    "published_date": "2026-10-12T00:00:00",
+    "slug": "how-these-simulation-racing-centers-help-drivers-train-for-professional-races-kjct",
+    "extraction_method": "newspaper4k",
+    "source_name": "kjct8.com"
   },
   {
     "id": 18906,
@@ -20117,6 +20832,17 @@
     "slug": "imsa-resilient-racers-240-esports-charity-race-set-for-indianapolis-imsa",
     "extraction_method": "newspaper4k",
     "source_name": "imsa.com"
+  },
+  {
+    "id": 19008,
+    "title": "AI for Smart Cities: From Connected Infrastructure to Intelligent Urban Services",
+    "source_url": "https://appinventiv.com/blog/ai-in-smart-cities-australia/",
+    "summary": "10 Most Important AI Use Cases Transforming Smart Cities The highest-value AI applications in smart cities address persistent operational problems rather than chasing isolated technology demonstrations.\nAI for Climate Resilience and Environmental Monitoring Environmental monitoring is another important use of AI in smart cities.\nThe Emerging Shift: From AI-Powered Cities to AI-Native Urban Infrastructure AI-native urban infrastructure is not defined by the number of models deployed.\nStarting with a broad “smart city AI strategy” often produces a large technology agenda without a clear business case.\nHow Appinventiv Supports AI-Powered Urban Infrastructure Building AI-powered urban infrastructure requires more than an application layer.",
+    "category": "Smart Cities",
+    "published_date": "2026-09-10T00:00:00",
+    "slug": "ai-for-smart-cities-from-connected-infrastructure-to-intelligent-urban-services-appinventiv",
+    "extraction_method": "newspaper4k",
+    "source_name": "appinventiv.com"
   },
   {
     "id": 17134,
@@ -208305,6 +209031,17 @@
     "slug": "are-the-costs-of-defending-cybersecurity-starting-to-outweigh-the-risks-incomms",
     "extraction_method": "newspaper4k",
     "source_name": "incomms.com"
+  },
+  {
+    "id": 18958,
+    "title": "We Think We Love Driving (But We Don’t)",
+    "source_url": "https://www.psychologytoday.com/us/blog/mindfulness-insights/202511/we-think-we-love-driving-but-we-dont",
+    "summary": "What about in your friend's car when she was driving?\nThe research I present below suggests our attachment to driving has more to do with fear of change than real enjoyment.\nFear of losing control explained resistance more than preference for driving.\nSimilarly, Robinson-Tay and Peng (2024) showed people who think they like driving are often expressing fear of uncertainty.\nKnowledge and familiarity directly reduce fear and increase intent to use AVs; trust seemed to beget acceptance.",
+    "category": "Autonomous Vehicles",
+    "published_date": "2025-11-30T16:23:41-05:00",
+    "slug": "we-think-we-love-driving-but-we-dont-psychology-today",
+    "extraction_method": "newspaper4k",
+    "source_name": "psychologytoday.com"
   },
   {
     "id": 18497,
