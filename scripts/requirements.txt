@@ -35,7 +35,7 @@ feedparser-sgmllib==2.1.0
     # via feedparser
 filelock==4.0.1
     # via tldextract
-gnews==0.8.2
+gnews==0.8.3
     # via -r requirements.in
 googlenewsdecoder==0.2.1
     # via -r requirements.in
