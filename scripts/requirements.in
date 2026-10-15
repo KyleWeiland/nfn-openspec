@@ -3,7 +3,7 @@
 # requirements.txt is compiled from this file and pins every package; regenerate it
 # with the command in scripts/README.md ("Dependencies").
 
-gnews==0.8.2
+gnews==0.8.3
 # nltk ships only under newspaper4k's 'nlp' extra, and article.nlp() needs it.
 # fetch_articles.py also imports nltk directly, so it is declared explicitly too.
 newspaper4k[nlp]==0.9.6
