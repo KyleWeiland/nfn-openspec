@@ -22,6 +22,336 @@
     "source_name": "newyorker.com"
   },
   {
+    "id": 19216,
+    "title": "Security fears in Norway as Chinese smart cars record sensitive military data",
+    "source_url": "https://www.scmp.com/news/world/europe/article/3371243/security-fears-norway-chinese-smart-cars-record-sensitive-military-data",
+    "summary": "During a security exercise at Oslo airport on September 14 to 18, waiting soldiers tapping on their vehicle’s screen discovered videos recorded by the on-board cameras, the Dagens Naeringsliv newspaper revealed.\nThe recordings showed who was getting in and out of the cars, the routes taken and even the codes used to open gates or doors to military facilities.",
+    "category": "Connected Car",
+    "published_date": "2026-10-17T15:08:23+08:00",
+    "slug": "security-fears-in-norway-as-chinese-smart-cars-record-sensitive-military-data-south-china-morning",
+    "extraction_method": "newspaper4k",
+    "source_name": "scmp.com"
+  },
+  {
+    "id": 19248,
+    "title": "Mayor Shin Sangjin Forges Sister-City Ties with Bologna, Italy... Opens New Horizons for Cooperation in Europe's Advanced Industries",
+    "source_url": "https://www.asiae.co.kr/en/article/social-general/2026101714014074356",
+    "summary": "Seongnam, Gyeonggi Province, has established a sister-city relationship with Bologna, Italy, and will expand cooperation in advanced industries, including artificial intelligence (AI), smart cities and digital content.\nSeongnam Mayor Shin Sang-jin said the city signed a sister-city agreement with Bologna at Bologna City Hall in Italy on October 16 (local time).\nThis is the first time Bologna has established a sister-city relationship with a South Korean city.\nIt is also Seongnam's first sister-city relationship with an Italian city.\nThe signing ceremony was attended by delegations from both cities, Bologna city council members and Choi Tae-ho, South Korea's consul general in Milan.",
+    "category": "Smart Cities",
+    "published_date": "2026-10-17T14:01:40+09:00",
+    "slug": "mayor-shin-sangjin-forges-sister-city-ties-with-bologna-italy-opens-new-horizons-for-cooperation-in",
+    "extraction_method": "newspaper4k",
+    "source_name": "asiae.co.kr"
+  },
+  {
+    "id": 19258,
+    "title": "Assetto Corsa EVO - New Free Roam Feature to Launch on December 9th",
+    "source_url": "https://www.gamespress.com/en-US/Assetto-Corsa-EVO---New-Free-Roam-Feature-to-Launch-on-December-9th",
+    "summary": "Representing the most ambitious content update since the start of Early Access, Version 0.10 introduces the long-awaited Free Roam experience.\nFeaturing an extensive open-world environment with roads, country routes, and off-road paths to explore, the free roam map will continue to grow through future updates.\nSee the new free roam release date video: ACE - Free Roam Release Date Announcement A New Way to Experience Assetto Corsa EVO Free Roam marks a major evolution for Assetto Corsa EVO, expanding beyond circuit-based motorsport simulation to offer players the freedom to drive, explore and discover at their own pace.\nTaking viewers on a journey beyond the circuit itself, Nürburgring expert and racing driver Misha Charoudin explores Assetto Corsa EVO's Free Roam mode, stopping at several iconic landmarks and hidden gems from across the Eifel region.\nFeaturing dedicated VR support, community creation tools, a growing roster of real world tracks and dozens of road and track vehicles, this Early Access racer continues to evolve with every new update.",
+    "category": "Sim Racing",
+    "published_date": "2026-10-17T09:52:22",
+    "slug": "assetto-corsa-evo-new-free-roam-feature-to-launch-on-december-9th-games-press",
+    "extraction_method": "newspaper4k",
+    "source_name": "gamespress.com"
+  },
+  {
+    "id": 19254,
+    "title": "Asetek GT Nova Revealed: €299.99 and March 2027 Launch",
+    "source_url": "https://boxthislap.org/asetek-gt-nova-steering-wheel/",
+    "summary": "This page runs a brief security check to confirm you are not a bot.\nThe verification is automatic and typically completes within a few seconds.\nNo action is required on your part.\nCookies must be enabled for this site: the result of the check is stored in one.",
+    "category": "Sim Racing",
+    "published_date": "2026-10-17T09:52:14",
+    "slug": "asetek-gt-nova-revealed-29999-and-march-2027-launch-boxthislap",
+    "extraction_method": "newspaper4k",
+    "source_name": "boxthislap.org"
+  },
+  {
+    "id": 19243,
+    "title": "Mythos 5 Solves Critical Quantum Computing Breakthrough – Major Quantum Problem Cracked",
+    "source_url": "https://eu.36kr.com/en/p/4029231447446152",
+    "summary": "Quantum computers, by contrast, use \"qubits\".\nHowever, current quantum computers have major flaws.\nBut quantum computers are superpositions of all possible outcomes, so they must include all operations for both Route A and Route B in every single run.\nAn automatic evaluation program checked the correctness of the design and gave it a \"score\" (number of qubits used × number of quantum gates).\nBut quantum computers cannot discard drafts!",
+    "category": "Quantum Computers",
+    "published_date": "2026-10-17T09:51:36",
+    "slug": "mythos-5-solves-critical-quantum-computing-breakthrough-major-quantum-problem-cracked-36-kr",
+    "extraction_method": "newspaper4k",
+    "source_name": "eu.36kr.com"
+  },
+  {
+    "id": 19218,
+    "title": "Engineering the future, yesterday and today: GM’s spirit of innovation",
+    "source_url": "https://news.gm.com/home.detail.html/Pages/topic/us/en/2026/oct/1016-engineering-future-innovation.html",
+    "summary": "The 2004 Cadillac XLR introduced GM’s first iteration of radar-based adaptive cruise control, which could automatically maintain a driver-set following distance to the car ahead.\nIt’s a feature that’s now available in many GM vehicles.\nAs the 1980s dawned, GM vehicles started using microprocessors in a big way.\nAlways pay attention while driving and when using Super Cruise.\nAlways use Super Cruise in accordance with local laws.",
+    "category": "Connected Car",
+    "published_date": "2026-10-17T09:50:41",
+    "slug": "engineering-the-future-yesterday-and-today-gms-spirit-of-innovation-general-motors",
+    "extraction_method": "newspaper4k",
+    "source_name": "news.gm.com"
+  },
+  {
+    "id": 19213,
+    "title": "How General Motors is simulating its way to autonomous driving",
+    "source_url": "https://www.vindy.com/news/business-news/2026/10/how-general-motors-is-simulating-its-way-to-autonomous-driving/",
+    "summary": "Here, GM is testing a human driver's response in vehicles just as much as it's testing the vehicle tech itself.\nThat simulation is how GM -- and other automakers -- are testing future iterations of their advanced driver assistance systems.\nAutomakers with the best tech will get more consumers to subscribe to those capabilities, making automated driving a lucrative play for the industry.\nOther automakers racing to advanced technology Hands-off technology is being deployed by many automakers today; Ford's BlueCruise is among the more notable examples.\nFar smaller rollouts of sophisticated light-duty driving systems from various auto companies have been available in limited markets in recent years, but have been discontinued.",
+    "category": "Autonomous Vehicles",
+    "published_date": "2026-10-17T09:49:53",
+    "slug": "how-general-motors-is-simulating-its-way-to-autonomous-driving-the-vindicator",
+    "extraction_method": "newspaper4k",
+    "source_name": "vindy.com"
+  },
+  {
+    "id": 19236,
+    "title": "Inside the connected store: sensors, computer vision and real-time data",
+    "source_url": "https://www.iotinsider.com/industries/smart-world/inside-the-connected-store-sensors-computer-vision-and-real-time-data/",
+    "summary": "Connected sensors, Bluetooth beacons and electronic shelf labels can help businesses identify gaps on shelves, reveal how customers move through stores and inform inventory and merchandising decisions.\nTurning that data into actionable insights across multiple locations, however, requires reliable integration between connected devices and retail systems.\nHow IoT in retail powers the connected store In brick-and-mortar settings, IoT lets you sense and respond to activity across the zones you instrument.\nEmbedded sensors capture shopper behaviour, real-time data pipelines feed those signals into merchandising decisions and connected displays act on the results.\nUse shopper movement data to rework store layout Before redistributing anything, you need to know how people actually move through the aisles.",
+    "category": "IoT Cyber",
+    "published_date": "2026-10-17T08:00:54+00:00",
+    "slug": "inside-the-connected-store-sensors-computer-vision-and-real-time-data-iot-insider",
+    "extraction_method": "newspaper4k",
+    "source_name": "iotinsider.com"
+  },
+  {
+    "id": 19206,
+    "title": "Waymo is coming to Toronto. Will its self-driving cars be winter-ready?",
+    "source_url": "https://www.cbc.ca/news/business/waymo-toronto-winter-self-driving-9.7384550",
+    "summary": "That's for good reason, according to Waslander, who says running autonomous cars in the snow comes with all kinds of extra challenges.\nAutonomous cars rely on cameras, radar and lidar systems — which map the 3D environment using light — to situate themselves.\nAdverse weather conditions can pose a challenge for all of those systems, says Krzysztof Czarnecki, an engineering professor at the University of Waterloo.\nWhat's needed are engineering solutions, including more data gathered by driving cars in poor weather which the Waymo system can be trained on.\nAside from the data, Waymo uses heaters and mini windshield wipers to keep its cameras clear and sensors ice-free.",
+    "category": "Autonomous Trucks",
+    "published_date": "2026-10-17T08:00:00+00:00",
+    "slug": "waymo-is-coming-to-toronto-will-its-self-driving-cars-be-winter-ready-cbc",
+    "extraction_method": "newspaper4k",
+    "source_name": "cbc.ca"
+  },
+  {
+    "id": 19256,
+    "title": "Watch: Marco Massarutto explains Assetto Corsa EVO’s next steps",
+    "source_url": "https://traxion.gg/watch-marco-massarutto-explains-assetto-corsa-evos-next-steps/",
+    "summary": "Marco Massarutto, Co-Founder and Executive Manager at Kunos Simulazioni, speaks to Traxion about Assetto Corsa EVO’s free-roam mode, as well as modding and important serious multiplayer racing features.\nEndurance races?\nFree roam multiplayer races?\nModding using new free roam tools?\nWatch the interview now on our YouTube channel and let us know your thoughts in the comments.",
+    "category": "Sim Racing",
+    "published_date": "2026-10-17T07:23:36+00:00",
+    "slug": "watch-marco-massarutto-explains-assetto-corsa-evos-next-steps-traxiongg",
+    "extraction_method": "newspaper4k",
+    "source_name": "traxion.gg"
+  },
+  {
+    "id": 19229,
+    "title": "When AI Can Frame Anyone: The Coming Collapse of Cyber Attribution",
+    "source_url": "https://www.cybersecurity-insiders.com/when-ai-can-frame-anyone-the-coming-collapse-of-cyber-attribution/",
+    "summary": "As Christiaan Beek, Rapid7’s Vice President of Cyber Threat Intelligence, noted, an operation that resembles ransomware is likely to be treated as cybercrime before investigators recognize the involvement of a nation-state.\nAttribution shapes more than threat intelligence reporting, it influences incident response, legal obligations, government notification requirements, intelligence sharing, and in some cases, diplomatic or military decisions.\nGovernments are placing greater emphasis on offensive cyber operations, coordinated responses, and public attribution of malicious activity.\nIf attribution can be manufactured on demand, who’s actually deciding what happens next: the analyst, or the actor who scripted the frame?\nHe currently works as an Information Security Analyst at EXL, where he focuses on threat intelligence, supporting proactive vulnerability remediation, OSINT, and incident response.",
+    "category": "Cybersecurity",
+    "published_date": "2026-10-17T06:53:43+00:00",
+    "slug": "when-ai-can-frame-anyone-the-coming-collapse-of-cyber-attribution-cybersecurity-insiders",
+    "extraction_method": "newspaper4k",
+    "source_name": "cybersecurity-insiders.com"
+  },
+  {
+    "id": 19240,
+    "title": "QuIC Publishes Position Paper Calling for Harmonized EU Dual-Use Controls on Quantum Technologies",
+    "source_url": "https://quantumcomputingreport.com/quic-publishes-position-paper-calling-for-harmonized-eu-dual-use-controls-on-quantum-technologies/amp/",
+    "summary": "The European Quantum Industry Consortium (QuIC) has published a position paper titled “Optimising Dual-Use Controls for European Quantum Technologies,” addressing the European Commission’s open consultation on the evaluation of the EU Dual-Use Regulation (Regulation (EU) 2021/821).\nFollowing the November 2025 integration of quantum computers, cryogenic amplifiers, and wafer probers into Annex I of the EU dual-use control list, QuIC warns that fragmented national implementation across the 27 EU Member States is imposing severe administrative friction, delayed shipments, and lost international revenue for European startups and scale-ups.\nCoordinated by lead authors David Morcuende (QuIC) and Ulrich Mans (QuantWare)—with contributions from industry leaders including Pasqal, planqc, IQM, Qblox, Bluefors, Qilimanjaro, and Indra—the paper emphasizes that export controls must align with the upcoming EU Quantum Act to ensure European commercial competitiveness without introducing uncoordinated trade barriers.\nReview the full position paper on the QuIC Portal here and download the complete policy document from QuIC Publications here.\nOctober 17, 2026",
+    "category": "Quantum Computers",
+    "published_date": "2026-10-17T06:29:23+00:00",
+    "slug": "quic-publishes-position-paper-calling-for-harmonized-eu-dual-use-controls-on-quantum-technologies",
+    "extraction_method": "newspaper4k",
+    "source_name": "quantumcomputingreport.com"
+  },
+  {
+    "id": 19259,
+    "title": "eNASCAR Coca-Cola iRacing Championship Series: Steven Wilson takes third title at NASCAR Hall of Fame",
+    "source_url": "https://traxion.gg/enascar-coca-cola-iracing-championship-series-steven-wilson-takes-third-title/",
+    "summary": "It’s become tradition that the finale of the eNASCAR Coca-Cola iRacing Championship Series takes place at NASCAR’s Hall of Fame in Charlotte, North Carolina, and this year was no different.\nThe NASCAR Cup Series has moved away from the previous playoff format due to heavy criticism in recent years, but for eNASCAR it remains, with four drivers and one race to settle the championship.\nSteven Wilson was among those four, and as the pace car pulled in an overtime finish, it felt like a familiar dash for the cash at the end of a championship.\nWilson restarted second, but on the outside line, allowing title rival Connor Yeroschak to get alongside into turns one and two.\nIt was a special moment for Wilson to once again do it in front of his family in Charlotte, and these moments for friends and family are something these eNASCAR finales are so good at.",
+    "category": "Sim Racing",
+    "published_date": "2026-10-17T05:50:33+00:00",
+    "slug": "enascar-coca-cola-iracing-championship-series-steven-wilson-takes-third-title-at-nascar-hall-of",
+    "extraction_method": "newspaper4k",
+    "source_name": "traxion.gg"
+  },
+  {
+    "id": 19232,
+    "title": "Smart traps and AI baits: The high-tech push to target Australia’s foxes",
+    "source_url": "https://www.smh.com.au/politics/federal/smart-traps-and-ai-baits-the-high-tech-push-to-target-australia-s-foxes-20261017-p613n0.html",
+    "summary": "The draft national threat abatement plan says AI-powered bait stations, image-recognition traps, thermal cameras and remotely monitored devices could make fox control more targeted and effective.\nOne system, known as a sentinel bait station, uses AI to distinguish between target and non-target animals and restrict access to bait.\nAdvertisement Invasive Species Council rewilding manager Rob Brewster said the new strategy was an opportunity to bring Australia’s approach to fox control into line with advances in conservation science.\n“Foxes have helped drive native animals to extinction and continue to prey on threatened mammals, birds and reptiles across huge areas of the country,” he said.\nGovernments need to invest in co-ordinated, sustained fox control across the landscapes where our most vulnerable native animals still survive.”",
+    "category": "Image Recognition",
+    "published_date": "2026-10-17T05:00:00+00:00",
+    "slug": "smart-traps-and-ai-baits-the-high-tech-push-to-target-australias-foxes-smhcomau",
+    "extraction_method": "newspaper4k",
+    "source_name": "smh.com.au"
+  },
+  {
+    "id": 19250,
+    "title": "CM Murad seeks Chinese expertise in smart-city planning for Karachi",
+    "source_url": "https://www.dawn.com/news/2037690",
+    "summary": "KARACHI: Sindh Chief Minister Syed Murad Ali Shah on Friday discussed stronger city-to-city cooperation with Shanghai Mayor Zhu Zhongming, proposing a sister-city relationship between Karachi and Shanghai and seeking Chinese expertise in smart-city planning, urban development and digital governance.\nCM meets mayor of Shanghai; visits Huawei’s Research and Development Centre Mr Shah highlighted urban development initiatives being pursued in Karachi, including the Karachi Circular Railway and the development of technology and IT-related infrastructure.\nHe invited Shanghai to share its experience in integrated urban planning, public transport, digital services and smart-city management with Karachi.\nThe centre integrates corporate offices, research and development, technology incubation and production-support facilities.\nThe chief minister said Sindh was already pursuing digital governance initiatives, including the provincial e-Portal and a broader cloud and digital transformation agenda.",
+    "category": "Smart Cities",
+    "published_date": "2026-10-17T04:57:05+05:00",
+    "slug": "cm-murad-seeks-chinese-expertise-in-smart-city-planning-for-karachi-dawn",
+    "extraction_method": "newspaper4k",
+    "source_name": "dawn.com"
+  },
+  {
+    "id": 19228,
+    "title": "As AI Supercharges Hackers, Cybersecurity Stocks Split Into Platforms and Point Solutions",
+    "source_url": "https://finance.yahoo.com/technology/ai/articles/ai-supercharges-hackers-cybersecurity-stocks-042000800.html",
+    "summary": "Attacks carried out by artificial intelligence (AI)-powered hackers jumped 89% last year.\nMost investors think they missed the AI boat because they didn't buy Nvidia in 2005.\nShould you buy stock in Fortinet right now?\nSee the 10 stocks » *Stock Advisor returns as of October 17, 2026.\nAs AI Supercharges Hackers, Cybersecurity Stocks Split Into Platforms and Point Solutions was originally published by The Motley Fool",
+    "category": "Cybersecurity",
+    "published_date": "2026-10-17T04:20:00+00:00",
+    "slug": "as-ai-supercharges-hackers-cybersecurity-stocks-split-into-platforms-and-point-solutions-yahoo",
+    "extraction_method": "newspaper4k",
+    "source_name": "finance.yahoo.com"
+  },
+  {
+    "id": 19244,
+    "title": "Anthropic unveils quantum computing breakthrough: Claude autonomously designs circuits 17x more efficient than best human designs",
+    "source_url": "https://finance.biggo.com/news/4ba42604-f22b-455e-b624-7bfb7b7e3d4c",
+    "summary": "The scoring metric was the number of qubits occupied multiplied by the number of quantum gates.\nOn classical computers, this operation is typically performed using the divsteps algorithm, but that algorithm has never been successfully ported to quantum circuits.\nRebuilding Google's algorithm architecture The second major breakthrough came in the quantum optimization algorithm DQI (Decoded Quantum Interferometry).\nAfter analysis, Claude determined that this algorithm was mismatched with the operating model of quantum circuits and decisively replaced the core engine with the Berlekamp-Massey algorithm.\nThe significance of this discovery extends beyond mere algorithm optimization.",
+    "category": "Quantum Computers",
+    "published_date": "2026-10-17T03:55:25+00:00",
+    "slug": "anthropic-unveils-quantum-computing-breakthrough-claude-autonomously-designs-circuits-17x-more",
+    "extraction_method": "newspaper4k",
+    "source_name": "finance.biggo.com"
+  },
+  {
+    "id": 19231,
+    "title": "Dermatologic Surgery Textbooks Show Skin of Colour in Under 9 Percent of Images",
+    "source_url": "https://bioengineer.org/dermatologic-surgery-textbooks-show-skin-of-colour-in-under-9-percent-of-images/",
+    "summary": "A systematic image analysis of seven widely adopted dermatologic surgery textbooks has found that fewer than one in ten clinical images depict skin of colour, a gap that researchers say may reinforce diagnostic blind spots and perpetuate disparities in surgical outcomes for patients with richly pigmented skin.\nThe study, published in Archives of Dermatological Research, examined 3,334 figures and found that only 8.7 percent showed skin classified as Fitzpatrick skin types IV through VI, the range encompassing moderately brown to deeply pigmented skin.\nImages depicting skin of colour were scarcest in Mohs micrographic surgery, the tissue-sparing technique for skin cancer removal, where they accounted for just 1.5 percent of figures.\nSubject of Research: Representation of skin of colour in dermatologic surgery textbook imagery Article Title: Skin of colour representation in dermatologic surgery textbooks: an image analysis Article References: Wang, O. J. E., Stewart, Q., & Shi, J.\nSkin of colour representation in dermatologic surgery textbooks: an image analysis.",
+    "category": "Image Recognition",
+    "published_date": "2026-10-17T02:01:46+01:00",
+    "slug": "dermatologic-surgery-textbooks-show-skin-of-colour-in-under-9-percent-of-images-bioengineerorg",
+    "extraction_method": "newspaper4k",
+    "source_name": "bioengineer.org"
+  },
+  {
+    "id": 19208,
+    "title": "BHP to cut 300 Pilbara iron ore jobs as unions impose sellout deals",
+    "source_url": "https://www.wsws.org/en/articles/2026/10/17/hefh-o17.html",
+    "summary": "The job cuts in the Pilbara come as unemployment continues to rise nationwide.\nThe state Labor government tacitly endorsed the job cuts and signalled its commitment to ensuring they go smoothly.\nBHP workers cannot defend their jobs through appeals to the company’s “Australian values.”\nRecent cuts include: Gina Rinehart’s Hancock Iron Ore cut 300–500 jobs across its Pilbara operations in June.\nBHP and other mining workers need to build rank-and-file committees, democratically controlled by workers themselves and independent of the unions.",
+    "category": "Autonomous Trucks",
+    "published_date": "2026-10-17T00:00:00",
+    "slug": "bhp-to-cut-300-pilbara-iron-ore-jobs-as-unions-impose-sellout-deals-world-socialist-web-site",
+    "extraction_method": "newspaper4k",
+    "source_name": "wsws.org"
+  },
+  {
+    "id": 19239,
+    "title": "Anthropic’s Claude Designs Leaner Quantum Circuits, Reducing Resources Needed for Key Calculations",
+    "source_url": "https://thequantuminsider.com/2026/10/17/anthropics-claude-designs-leaner-quantum-circuits-reducing-resources-needed-for-key-calculations/",
+    "summary": "Insider Brief Anthropic and Harvard researchers used Claude to design more efficient quantum circuits across eight tasks, reducing estimated computing resources for key routines used in quantum algorithms.\nReducing the Cost of Quantum Computation A quantum circuit is a sequence of operations applied to qubits, the units that store quantum information.\nBut translating an efficient conventional algorithm into a quantum circuit introduces constraints that can consume much of the original advantage.\nIt is a central operation in elliptic-curve calculations used in quantum algorithms relevant to cryptography.\nGeneral quantum circuits can be much harder to simulate, limiting how broadly the same process can be applied.",
+    "category": "Quantum Computers",
+    "published_date": "2026-10-17T00:00:00",
+    "slug": "anthropics-claude-designs-leaner-quantum-circuits-reducing-resources-needed-for-key-calculations",
+    "extraction_method": "newspaper4k",
+    "source_name": "thequantuminsider.com"
+  },
+  {
+    "id": 19226,
+    "title": "Federal CISO’s Four Priorities to Strengthen Cybersecurity",
+    "source_url": "https://govciomedia.com/federal-cisos-four-priorities-to-strengthen-cybersecurity/",
+    "summary": "Acting Federal CISO Michael Duffy outlined four priorities his council is focused on to strengthen federal cybersecurity as agencies confront rapidly evolving threats and emerging artificial intelligence capabilities.\nThose priorities reflect a shift away from a reactive approach to cybersecurity toward anticipating threats and taking action before incidents disrupt government services.\nIntegrating AI and Securing Modernization The third priority is incorporating advanced AI capabilities into federal cybersecurity tools and operations.\nDuffy said cybersecurity must be embedded in modernization efforts rather than treated as a separate function.\nUltimately, Duffy said, the council’s priorities are intended to translate federal cybersecurity strategy into measurable operational outcomes.",
+    "category": "Cybersecurity",
+    "published_date": "2026-10-16T20:53:32+00:00",
+    "slug": "federal-cisos-four-priorities-to-strengthen-cybersecurity-govcio-media-research",
+    "extraction_method": "newspaper4k",
+    "source_name": "govciomedia.com"
+  },
+  {
+    "id": 19245,
+    "title": "Claude solves quantum memory bottleneck with 17x leaner circuit",
+    "source_url": "https://interestingengineering.com/ai-robotics/claude-quantum-circuit-design",
+    "summary": "Anthropic’s Claude Mythos 5 has developed a quantum circuit design that uses 17 times fewer gates than an earlier approach.\nThe findings suggest automated circuit design could accelerate progress toward practical quantum computing.\nRethinking quantum circuit design Quantum computers process information through qubits, which can represent combinations of states through superposition.\nEngineers must therefore make quantum circuits as efficient as possible.\nClassical computers can efficiently execute this method, but translating it into quantum circuits creates a major storage problem.",
+    "category": "Quantum Computers",
+    "published_date": "2026-10-16T19:40:40+00:00",
+    "slug": "claude-solves-quantum-memory-bottleneck-with-17x-leaner-circuit-interesting-engineering",
+    "extraction_method": "newspaper4k",
+    "source_name": "interestingengineering.com"
+  },
+  {
+    "id": 19207,
+    "title": "Help HDT Find Trucking’s Top Products",
+    "source_url": "https://www.truckinginfo.com/news/help-hdt-find-truckings-top-products",
+    "summary": "What new or improved trucking product caught your attention this year?\nNominations are now open for HDT’s 2027 Top 20 Products Awards, and the deadline is November 9, 2026.\nHDT’s editors review new products throughout the year, but we don’t want to overlook a good candidate.\nWe welcome nominations from fleet managers, suppliers, dealers, and manufacturers — including companies nominating their own products.\nWinners will be featured in HDT’s digital and magazine coverage and receive a display trophy and the right to use the Top 20 Products logo in their promotions.",
+    "category": "Autonomous Trucks",
+    "published_date": "2026-10-16T18:57:33.852000+00:00",
+    "slug": "help-hdt-find-truckings-top-products-heavy-duty-trucking",
+    "extraction_method": "newspaper4k",
+    "source_name": "truckinginfo.com"
+  },
+  {
+    "id": 19211,
+    "title": "Could Waymo accept riders in New Orleans? See proposed rules for the robotaxis",
+    "source_url": "https://www.nola.com/news/politics/new-orleans-waymo-robotaxi-regulations-jp-morrell/article_5c23e837-3ccf-47f7-96c4-e6e59c56e77a.amp.html",
+    "summary": "The proposal, from New Orleans City Council President JP Morrell, represents the first city effort to regulate robotaxi companies.\n\"You can't give them an advantage simply because they're a new technology,” Morrell said of the robotaxis.\nBut Waymo, a California-based self-driving vehicle company, has spent a year in New Orleans already, putting human test-drivers behind the wheel of its autonomous cars in preparation for its launch.\nBut he’s “pretty confident” the city can regulate robotaxis, just like it regulates Ubers, Lyfts and regular taxicabs.\nThe City Council may not have the authority to bar Waymo from the streets, Morrell added.",
+    "category": "Autonomous Trucks",
+    "published_date": "2026-10-16T18:49:00-05:00",
+    "slug": "could-waymo-accept-riders-in-new-orleans-see-proposed-rules-for-the-robotaxis-nolacom",
+    "extraction_method": "newspaper4k",
+    "source_name": "nola.com"
+  },
+  {
+    "id": 19234,
+    "title": "Monaco Reports 9% Drop in Street Crime as Security Debate Turns to Facial Recognition",
+    "source_url": "https://www.nicematin.com/en/community/politics/monaco-reports-9-drop-in-street-crime-as-security-debate-turns-to-facial-recognition-10741851",
+    "summary": "His remarks gave Lionel Beffre, Minister of Interior, an opportunity to present the figures for the year so far.\nStreet crime, including highly visible offenses such as theft and assault, is down 9% since the start of the year.\n\"Putting it on the agenda has become a necessity,\" Minister of State Christophe Mirmand said during the October 7 budget session.\nThat commitment was reiterated during the public session after Nicolas Croesi relayed concerns from residents about the lack of visible police presence on the streets.\nSeven new positions were included in the 2026 supplementary budget, in addition to nine included in the initial 2026 budget.",
+    "category": "Image Recognition",
+    "published_date": "2026-10-16T18:15:06+00:00",
+    "slug": "monaco-reports-9-drop-in-street-crime-as-security-debate-turns-to-facial-recognition-nice-matin",
+    "extraction_method": "newspaper4k",
+    "source_name": "nicematin.com"
+  },
+  {
+    "id": 19246,
+    "title": "IEEE Offers More Services to Cities That Want to Be Smarter",
+    "source_url": "https://spectrum.ieee.org/ieee-smart-cities-new-services",
+    "summary": "To help solve those and other challenges, the IEEE Smart Cities Technical Community (formerly the IEEE Smart Cities Initiative) was launched in 2013 by IEEE Future Directions, which incubates emerging technologies and new applications of current ones.\nThanks to volunteers’ dedication and determination, IEEE Smart Cities launched several services.\nTo address the situation, the IEEE Technical Activities Board (TAB) created the second-generation technical community ad hoc committee, also in 2021.\nIt was a pilot program whereby IEEE Smart Cities formed a board of governors to oversee the community’s operations and leadership, and created a policies and procedures manual.\nIEEE Smart Cities volunteers are working on launching journals.",
+    "category": "Smart Cities",
+    "published_date": "2026-10-16T18:00:03+00:00",
+    "slug": "ieee-offers-more-services-to-cities-that-want-to-be-smarter-ieee-spectrum",
+    "extraction_method": "newspaper4k",
+    "source_name": "spectrum.ieee.org"
+  },
+  {
+    "id": 19241,
+    "title": "Designing more efficient quantum circuits with Claude",
+    "source_url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
+    "summary": "Such improvements substantially reduce the quantum resources that useful applications require, so practical quantum computers could arrive sooner than previously anticipated.\n(Similar to ordinary computers, quantum computers work by applying a long sequence of simple operations, called gates, to their qubits.\nAt one extreme, a quantum circuit can uncompute intermediate results as soon as they have been used.\nThis is what makes quantum circuit design an especially interesting test of Claude’s capabilities.\nSo, we asked Claude to design a more efficient quantum circuit for the decoding step.",
+    "category": "Quantum Computers",
+    "published_date": "2026-10-16T17:29:00+00:00",
+    "slug": "designing-more-efficient-quantum-circuits-with-claude-anthropic",
+    "extraction_method": "newspaper4k",
+    "source_name": "anthropic.com"
+  },
+  {
+    "id": 19223,
+    "title": "Agencies grapple with accelerating cybersecurity landscape",
+    "source_url": "https://federalnewsnetwork.com/federal-insights/2026/10/agencies-grapple-with-accelerating-cybersecurity-landscape/",
+    "summary": "Artificial intelligence is accelerating cybersecurity threats, while AI adoption is posing urgent risks around data, identity, trust and operational decision-making.\nAgencies grappling with those challenges are exploring how to securely adopt AI for both general purpose use and cyber defense.\nThomas Edgar, the chief cybersecurity scientist at Pacific Northwest National Laboratory, said PNNL’s research explores both the risks and opportunities posed by advanced AI models.\nComplex and sensitive workflows, such as cybersecurity tasks, might require more consistent check-ins compared to less sensitive tasks.\n“We know how to vet and validate our data processes.",
+    "category": "Cybersecurity",
+    "published_date": "2026-10-16T17:21:06+00:00",
+    "slug": "agencies-grapple-with-accelerating-cybersecurity-landscape-federal-news-network",
+    "extraction_method": "newspaper4k",
+    "source_name": "federalnewsnetwork.com"
+  },
+  {
+    "id": 19219,
+    "title": "Two connected to Fresno carjacking found in the city of Stockton",
+    "source_url": "https://kmph.com/news/local/two-connected-to-fresno-carjacking-found-in-the-city-of-stockton",
+    "summary": "Two people were arrested in connection with a strong-armed carjacking in Fresno, police said.\nFresno Police responded to the area of East McKinley Avenue and North Peach Avenue regarding a strong-armed carjacking on October 2nd.\nPolice used an Automated License Plate Reader and located the victim's car.\n[RELATED] Man leaving NAS Lemoore killed when other driver ran a red light, CHP says Officers were also able to use the ALPR to locate the suspects' car in Stockton on October 7th.\nThey were arrested and taken to the San Joaquin County Jail, but the Fresno County Sheriff’s Office extradited them to Fresno.",
+    "category": "Connected Car",
+    "published_date": "2026-10-16T16:47:19-07:00",
+    "slug": "two-connected-to-fresno-carjacking-found-in-the-city-of-stockton-kmph-fox-26",
+    "extraction_method": "newspaper4k",
+    "source_name": "kmph.com"
+  },
+  {
+    "id": 19227,
+    "title": "Sell-Off In Cybersecurity Stocks Intensifies Amid Palo Alto Vulnerability",
+    "source_url": "https://www.investors.com/news/technology/cybersecurity-stocks-sell-off-amid-palo-alto-vulnerability/",
+    "summary": "Information in Investor’s Business Daily is for informational and educational purposes only and should not be construed as an offer, recommendation, solicitation, or rating to buy or sell securities.\nWe make no representations or warranties regarding the advisability of investing in any particular securities or utilizing any specific investment strategies.\n*Real-time prices by Nasdaq Last Sale.\nIBD, IBD Digital, IBD Live, IBD Weekly, Investor's Business Daily, Leaderboard, MarketDiem, MarketSurge and other marks are trademarks owned by Investor's Business Daily, LLC.\n©2026 Investor’s Business Daily, LLC.",
+    "category": "Cybersecurity",
+    "published_date": "2026-10-16T16:43:04+00:00",
+    "slug": "sell-off-in-cybersecurity-stocks-intensifies-amid-palo-alto-vulnerability-investors-business-daily",
+    "extraction_method": "newspaper4k",
+    "source_name": "investors.com"
+  },
+  {
     "id": 19175,
     "title": "TV, Wallpad, Rocheng, and everywhere is a hacking channel...IoT Security Blind Spot 'Concerned'",
     "source_url": "https://www.mk.co.kr/en/business/12177952",
@@ -31,6 +361,39 @@
     "slug": "tv-wallpad-rocheng-and-everywhere-is-a-hacking-channeliot-security-blind-spot-concerned-매일경제",
     "extraction_method": "newspaper4k",
     "source_name": "mk.co.kr"
+  },
+  {
+    "id": 19255,
+    "title": "Fanatec and Trak Racer showcase new hardware at SimRacing Expo 2026",
+    "source_url": "https://www.kitguru.net/gaming/matthew-wilson/fanatec-and-trak-racer-showcase-new-hardware-at-simracing-expo-2026/",
+    "summary": "Fanatec and Trak Racer are showing new hardware at SimRacing Expo 2026, including early looks at upcoming steering wheels, licensed cockpits and new pedal options.\nFanatec is preparing a home‑user version of the ClubSport Formula Cockpit, previously used at Formula 1 FanZone and Paddock Club events.\nTrak Racer’s lineup includes two TRZ Motorcycle Simulators, licensed racing cockpits from Porsche, Alpine and Aston Martin, and several Hot Wheels‑branded setups.\nFanatec is also showing the ClubSport F1 Racing System, combining the PlayStation‑licensed ClubSport DD+ wheel base with a Formula V3‑based wheel and paddle module.\nKitGuru says: Are you keeping an eye out for new hardware at this year's SimRacing Expo?",
+    "category": "Sim Racing",
+    "published_date": "2026-10-16T16:30:32+01:00",
+    "slug": "fanatec-and-trak-racer-showcase-new-hardware-at-simracing-expo-2026-kitguru",
+    "extraction_method": "newspaper4k",
+    "source_name": "kitguru.net"
+  },
+  {
+    "id": 19251,
+    "title": "Roadways Intelligent Transportation System Market To 2035: Growth Driven by Smart City and Safety Mandates - News and Statistics",
+    "source_url": "https://www.indexbox.io/blog/roadways-intelligent-transportation-system-market-forecast-to-2035-demand-accelerates-on-urban-congestion-and-safety-mandates/",
+    "summary": "Currently, highway agencies are deploying advanced traffic management systems (ATMS) that integrate sensors, cameras, and variable message signs to monitor conditions and respond to incidents in real time.\nCurrent trend: Growing adoption of advanced traffic management systems (ATMS) and real-time monitoring on highways.\nUrban Traffic Control (estimated share: 25%) Urban traffic control is a dynamic and fast-growing segment, driven by the escalating challenges of congestion, pollution, and safety in metropolitan areas.\nThe European Green Deal and smart mobility strategies will accelerate deployment of V2I and urban traffic control systems, with strong public-private collaboration.\nLatin America (estimated share: 10%) Latin America is gradually adopting ITS, with Brazil and Mexico leading in tolling and urban traffic management.",
+    "category": "Smart Cities",
+    "published_date": "2026-10-16T15:41:03+02:00",
+    "slug": "roadways-intelligent-transportation-system-market-to-2035-growth-driven-by-smart-city-and-safety",
+    "extraction_method": "newspaper4k",
+    "source_name": "indexbox.io"
+  },
+  {
+    "id": 19217,
+    "title": "How advanced vehicle technology creates new challenges for dealers",
+    "source_url": "https://www.cbtnews.com/advanced-technology/",
+    "summary": "From advanced headlights to connected-car data collection, new vehicle technology is creating more opportunities for dealers to educate customers before and after a sale.\nDuring the conversation, Fix first addressed that advanced headlight systems are creating expensive repair bills that dealers should explain to customers before a problem occurs.\nFix notes that some newer lighting systems are costly to replace, so dealership teams should explain both the benefits and potential ownership costs of advanced equipment.\nThen, Fix urged dealers to approach extended service contracts carefully, particularly when discussing expensive components such as headlights.\nClear communication about vehicle technology, data settings and financial documents can help dealers build trust and ensure customers understand what they are agreeing to.",
+    "category": "Connected Car",
+    "published_date": "2026-10-16T14:22:09-04:00",
+    "slug": "how-advanced-vehicle-technology-creates-new-challenges-for-dealers-cbt-news",
+    "extraction_method": "newspaper4k",
+    "source_name": "cbtnews.com"
   },
   {
     "id": 19193,
@@ -44,6 +407,94 @@
     "source_name": "autonews.gasgoo.com"
   },
   {
+    "id": 19235,
+    "title": "Retail Trust partners with AI tech firm to help protect store workers",
+    "source_url": "https://www.conveniencestore.co.uk/news/retail-trust-partners-with-ai-tech-firm-to-help-protect-store-workers/724871.article",
+    "summary": "Retail Trust partners with tech company that uses AI and facial recognition to better predict staff abuse Registration is quick and easy and provides access to: Unlimited ConvenienceStore.co.uk articles Our great range of newsletters Content you’ve saved for later via the ‘my library’ feature And much more…",
+    "category": "Image Recognition",
+    "published_date": "2026-10-16T14:17:00+00:00",
+    "slug": "retail-trust-partners-with-ai-tech-firm-to-help-protect-store-workers-convenience-store",
+    "extraction_method": "newspaper4k",
+    "source_name": "conveniencestore.co.uk"
+  },
+  {
+    "id": 19209,
+    "title": "Autonomous Solutions, Inc. to increase autonomous vehicle testing in Fort Worth with expansion",
+    "source_url": "https://communityimpact.com/keller-roanoke-northeast-fort-worth/business/autonomous-solutions-inc-to-increase-autonomous-vehicle-testing-in-fort-worth-with-expansion/",
+    "summary": "Autonomous Solutions, Inc., or ASI, will expand its footprint and advance autonomous technology testing in the Alliance area of Fort Worth.\nASI tests its equipment at the Alliance Test Center, located north of SH 114.\nAccording to previous reporting, TuSimple brought self-driving semitrucks to the area in 2022 and TORC opened its autonomous truck hub in 2025.\nIn November 2025, the Alliance Logistics District was created, a partnership among Burlington Northern Santa Fe Railway, Hillwood, a real estate development company, and the city of Fort Worth.\n240, Fort Worth www.asirobots.com",
+    "category": "Autonomous Trucks",
+    "published_date": "2026-10-16T14:00:00+00:00",
+    "slug": "autonomous-solutions-inc-to-increase-autonomous-vehicle-testing-in-fort-worth-with-expansion",
+    "extraction_method": "newspaper4k",
+    "source_name": "communityimpact.com"
+  },
+  {
+    "id": 19215,
+    "title": "Autonomous vehicles",
+    "source_url": "https://www.popville.com/category/transit/autonomous-vehicles/",
+    "summary": "Ward 4 Councilmember and the presumptive next Mayor Janeese Lewis George wrote yesterday on her X: “DC is facing a jobs crisis.\nRushing the legalization of autonomous vehicles is irresponsible given the anticipated AI-related job displacement and disruptions that put countless workers at risk.\nDC must be a leader in welcoming new technology while supporting workers and prioritizing safety.\nLet’s get this right and not rush Waymo legislation this year.”\nStay tuned…",
+    "category": "Autonomous Vehicles",
+    "published_date": "2026-10-16T13:45:42-04:00",
+    "slug": "autonomous-vehicles-popville",
+    "extraction_method": "newspaper4k",
+    "source_name": "popville.com"
+  },
+  {
+    "id": 19257,
+    "title": "Fanatec and Trak Racer Showcase the Future of Simulation at SimRacing Expo",
+    "source_url": "https://www.techpowerup.com/353793/fanatec-and-trak-racer-showcase-the-future-of-simulation-at-simracing-expo",
+    "summary": "Fanatec and Trak Racer, both part of the Corsair family of brands, are showcasing an extensive range of new simulation hardware at SimRacing Expo 2026.\nProject Obsidian brings together technologies and design experience developed across generations of Fanatec steering wheels in an all-new platform.\nTrak Racer expands its simulation lineup Trak Racer is bringing an extensive range of simulation hardware to Frankfurt, led by two TRZ Motorcycle Simulators.\nVisitors can also see a range of Hot Wheels-branded simulation products, including the HW5 Racing Simulator Cockpit, HW3 Compact Racing Simulator Cockpit, and HW2 Racing Simulator Wheel Stand.\nRelated News 1 Comment on Fanatec and Trak Racer Showcase the Future of Simulation at SimRacing Expo #1 theglaze My first time seeing the TRZ Motorbike Racing Simulator, and the FAQ address most concerns.",
+    "category": "Sim Racing",
+    "published_date": "2026-10-16T13:22:46+00:00",
+    "slug": "fanatec-and-trak-racer-showcase-the-future-of-simulation-at-simracing-expo-techpowerup",
+    "extraction_method": "newspaper4k",
+    "source_name": "techpowerup.com"
+  },
+  {
+    "id": 19221,
+    "title": "Clarios Connected Services Now Supports Approximately 20 Commercial Fleets as Adoption Accelerates",
+    "source_url": "https://finance.yahoo.com/technology/articles/clarios-connected-services-now-supports-124100137.html",
+    "summary": "Nearly 2,000 connected commercial vehicles in North America are using battery intelligence to support uptime, maintenance planning and operational efficiency.\nClarios Connected Services: Driving Fleet Efficiency CHARLOTTE, N.C., October 16, 2026, Oct. 16, 2026 (GLOBE NEWSWIRE) -- Clarios, a global leader in advanced low-voltage battery technologies, today announced that its Connected Services solutions now support approximately 20 commercial fleets, with nearly 2,000 connected commercial vehicles in North America.\nClarios Connected Services turns battery and charging-system data into predictive insights that help fleets identify developing issues and take the appropriate action before they lead to downtime.\nThey need actionable intelligence that helps them make better decisions,\" said Cagatay Topcu, Vice President, Connected Services at Clarios.\n\"The growing adoption of Connected Services reflects the increasing value fleets place on battery intelligence and predictive insights.",
+    "category": "Connected Car",
+    "published_date": "2026-10-16T12:41:00+00:00",
+    "slug": "clarios-connected-services-now-supports-approximately-20-commercial-fleets-as-adoption-accelerates",
+    "extraction_method": "newspaper4k",
+    "source_name": "finance.yahoo.com"
+  },
+  {
+    "id": 19252,
+    "title": "Shanghai International City and Architecture Expo 2026 to Open on Oct. 29",
+    "source_url": "https://finance.yahoo.com/technology/articles/shanghai-international-city-architecture-expo-121100999.html",
+    "summary": "Shanghai Coordination Center of World Cities Day SHANGHAI, Oct. 16, 2026 (GLOBE NEWSWIRE) -- The Shanghai International City and Architecture Expo 2026 will be held from October 29 to 31 at the Shanghai World EXPO Exhibition & Convention Center.\nAs one of the key supporting events of World Cities Day, the expo is jointly held by the UN-Habitat and the Shanghai Municipal Commission of Housing, Urban-Rural Development and Management, co-organized by the Shanghai Coordination Center of World Cities Day and undertaken by the Shanghai Green Building Council.\nThe expo displays Shanghai's landmark high-quality urban construction achievements, offering replicable Chinese practices for global urban sustainable development.\nThe World Cities Day exhibition area presents the outcomes of international public goods including the Global Award for Sustainable Development in Cities (Shanghai Award) and the Shanghai Manual: A Guide for Sustainable Urban Development in the 21st Century.\nThe four industry development exhibition areas focus on green, low-carbon and ecological construction, urban renewal for resilient and livable cities, intelligent construction and digital cities, and urban environment and urban safety.",
+    "category": "Smart Cities",
+    "published_date": "2026-10-16T12:11:00+00:00",
+    "slug": "shanghai-international-city-and-architecture-expo-2026-to-open-on-oct-29-yahoo-finance",
+    "extraction_method": "newspaper4k",
+    "source_name": "finance.yahoo.com"
+  },
+  {
+    "id": 19233,
+    "title": "ROC joins AVPA as it expands facial age estimation business",
+    "source_url": "https://www.biometricupdate.com/202610/roc-joins-avpa-as-it-expands-facial-age-estimation-business",
+    "summary": "ROC has become a member of the Age Verification Providers Association (AVPA) as it expands its commercial facial age estimation business.\nAVPA is a trade body representing more than 35 organizations providing age verification, age estimation, age inference, and supporting services.\nROC’s Age Estimation API allows developers to submit a biometric facial image and receive an estimated age for use in their own access rules and safeguards.\nBusinesses can use the estimated age to grant access, apply age-appropriate restrictions or direct users to a stronger verification method.\n“We first noticed ROC through strong performance in NIST evaluations of their facial age estimation technology, which is an important, inclusive, and convenient option in the rapidly expanding and innovative sector we represent,” says Iain Corby, executive director of AVPA.",
+    "category": "Image Recognition",
+    "published_date": "2026-10-16T11:57:45-04:00",
+    "slug": "roc-joins-avpa-as-it-expands-facial-age-estimation-business-biometric-update",
+    "extraction_method": "newspaper4k",
+    "source_name": "biometricupdate.com"
+  },
+  {
+    "id": 19261,
+    "title": "Sim Lab unveils GTSL Ultimate steering wheel at SimRacing Expo Frankfurt",
+    "source_url": "https://traxion.gg/sim-lab-unveils-gtsl-ultimate-steering-wheel-at-simracing-expo-frankfurt/",
+    "summary": "Sim-Lab has revealed the bigger brother to its GTSL Pro Sim Racing Steering Wheel at SimRacing Expo Frankfurt.\nThe GTSL Ultimate features a similar inverted D-shaped chassis and triple-paddle arrangement to the Pro, but it now includes a full LED screen at its centre, plus a trio of backlit rotary knobs and obligatory LED shift lights.\nThe Ultimate also retains the two seven-way thumb switches from its progenitor, with a 300mm-wide aluminium chassis fronted by a carbon fibre faceplate.",
+    "category": "Sim Racing",
+    "published_date": "2026-10-16T11:42:18+00:00",
+    "slug": "sim-lab-unveils-gtsl-ultimate-steering-wheel-at-simracing-expo-frankfurt-traxiongg",
+    "extraction_method": "newspaper4k",
+    "source_name": "traxion.gg"
+  },
+  {
     "id": 19201,
     "title": "FIA teams up with Track Titan to support driver development with a focus on simracing and Esports",
     "source_url": "https://www.fia.com/news/fia-teams-track-titan-support-driver-development-focus-simracing-and-esports",
@@ -55,6 +506,28 @@
     "source_name": "fia.com"
   },
   {
+    "id": 19222,
+    "title": "China-nexus espionage actor targets BeyondTrust support tool in zero-day campaign",
+    "source_url": "https://www.cybersecuritydive.com/news/china-espionage-beyondtrust-zero-day-hacker/833240/",
+    "summary": "A suspected China-nexus hacker has exploited a zero-day vulnerability in BeyondTrust Remote Support since late August as part of an espionage campaign, according to a report released Thursday by Google Threat Intelligence Group.\nThe critical vulnerability, tracked as CVE-2026-102764, is related to internal components of Remote Support not being able to confirm the origin of a message.\nSelf-hosted customers should immediately do a manual upgrade if they have not previously signed up for automatic upgrades, BeyondTrust said.\nThe agency said the patch affects BeyondTrust Remote Support versions 26.2.3, however noted that the upgrade only works for supported versions 24.3.1 and later.\nSelf-hosted BeyondTrust customers using older versions must upgrade first to a supported version and then apply the patch.",
+    "category": "Cybersecurity",
+    "published_date": "2026-10-16T11:01:39",
+    "slug": "china-nexus-espionage-actor-targets-beyondtrust-support-tool-in-zero-day-campaign-cybersecurity-dive",
+    "extraction_method": "newspaper4k",
+    "source_name": "cybersecuritydive.com"
+  },
+  {
+    "id": 19220,
+    "title": "After 100 round trips, I finally found which Android Auto setup works for me",
+    "source_url": "https://www.androidpolice.com/after-100-round-trips-i-found-which-android-auto-setup-works-for-me/",
+    "summary": "After 100 round trips, I finally found which Android Auto setup works for me, and here is why I'll stick with it.\nI've finally ditched wireless Android Auto And I couldn't be happier Wireless Android Auto is convenient, and I don't think any car owner would disagree.\nSince wireless Android Auto depends on Bluetooth and Wi-Fi, these two technologies may also be at fault, not just Google.\nA wired Android Auto connection has more benefits than better reliability I'm sticking with a wired Android Auto connection instead My car supports both.\nIf this is an issue, a wired Android Auto setup isn't for you.",
+    "category": "Connected Car",
+    "published_date": "2026-10-16T11:00:13+00:00",
+    "slug": "after-100-round-trips-i-finally-found-which-android-auto-setup-works-for-me-android-police",
+    "extraction_method": "newspaper4k",
+    "source_name": "androidpolice.com"
+  },
+  {
     "id": 19164,
     "title": "Advantech and DEKRA Sign MOU to Advance Industrial Cybersecurity Compliance",
     "source_url": "https://www.prnewswire.com/apac/news-releases/advantech-and-dekra-sign-mou-to-advance-industrial-cybersecurity-compliance-302911145.html",
@@ -64,6 +537,39 @@
     "slug": "advantech-and-dekra-sign-mou-to-advance-industrial-cybersecurity-compliance-pr-newswire",
     "extraction_method": "newspaper4k",
     "source_name": "prnewswire.com"
+  },
+  {
+    "id": 19249,
+    "title": "North Carolina passenger rail line to get $550M from US DOT",
+    "source_url": "https://www.smartcitiesdive.com/news/usdot-north-carolina-550m-passenger-rail-s-line/833204/",
+    "summary": "Dive Brief: The U.S. Department of Transportation said Thursday it has obligated $550 million for a new passenger rail line in North Carolina.\nPortions of the route will allow train speeds of up to 110 mph, according to the North Carolina DOT.\nThe North Carolina DOT received a nearly $1.1 billion grant under the Biden administration for the project.\nThe Federal Railroad Administration obligated the funds, a step that includes a written, project-specific agreement between the US DOT and North Carolina DOT.\n“Through close collaboration, we are delivering vital investments that will modernize passenger rail and create a new Golden Age of Rail for the people of North Carolina.”",
+    "category": "Smart Cities",
+    "published_date": "2026-10-16T10:50:00",
+    "slug": "north-carolina-passenger-rail-line-to-get-550m-from-us-dot-smart-cities-dive",
+    "extraction_method": "newspaper4k",
+    "source_name": "smartcitiesdive.com"
+  },
+  {
+    "id": 19237,
+    "title": "AI models breached OT networks and moved industrial equipment in 16 minutes, tests find",
+    "source_url": "https://www.iotinsider.com/industries/security/ai-models-breached-ot-networks-and-moved-industrial-equipment-in-16-minutes-tests-find/",
+    "summary": "AI models breached industrial control networks and moved a robotic arm within minutes during tests by Booz Allen Hamilton, highlighting the potential for increasingly capable AI to turn cyber intrusions into physical actions.\nIn one controlled scenario, the models took just over 16 minutes to progress from compromising a network perimeter to taking action inside an industrial control network.\n“In our testing, frontier super intelligence navigated unfamiliar industrial systems, adapted when blocked, and moved physical equipment within minutes,” Booz Allen said.\nThe findings raise questions about whether industrial operators have enough time to detect and contain cyber attacks as AI models become more capable of navigating unfamiliar networks and adapting their tactics.\nA successful intrusion into OT systems can have consequences beyond data theft or business disruption, potentially affecting machinery and industrial processes.",
+    "category": "IoT Cyber",
+    "published_date": "2026-10-16T10:41:45+00:00",
+    "slug": "ai-models-breached-ot-networks-and-moved-industrial-equipment-in-16-minutes-tests-find-iot-insider",
+    "extraction_method": "newspaper4k",
+    "source_name": "iotinsider.com"
+  },
+  {
+    "id": 19247,
+    "title": "What it takes to become a climate haven",
+    "source_url": "https://www.smartcitiesdive.com/news/what-it-takes-to-become-a-climate-haven/833228/",
+    "summary": "SMART CITIES DIVE: What makes a place a genuine climate haven as opposed to simply a place that has fewer hazards than somewhere else?\nDuring the interview process [for the research paper], someone said you could call some random place in Saskatchewan a climate haven, but there's no real economy there.\nJust calling themselves a climate haven doesn't help.\nAnd then water resilience — water scarcity issues or maybe too much water.\nIs it fair to say climate haven is more of a process — something that needs to be actively worked on — than a geographic designation?",
+    "category": "Smart Cities",
+    "published_date": "2026-10-16T10:27:21",
+    "slug": "what-it-takes-to-become-a-climate-haven-smart-cities-dive",
+    "extraction_method": "newspaper4k",
+    "source_name": "smartcitiesdive.com"
   },
   {
     "id": 19203,
@@ -275,6 +781,17 @@
     "source_name": "abc7news.com"
   },
   {
+    "id": 19210,
+    "title": "Trucking leaders roll into Charlotte for ATA’s 2026 MCE",
+    "source_url": "https://www.thetrucker.com/trucking-news/business/trucking-leaders-roll-into-charlotte-for-atas-2026-mce",
+    "summary": "New leadership, industry challenges and emerging technologies will take center stage during this year’s Management Conference & Exhibition, Oct. 17-20.\nCHARLOTTE, N.C. — Trucking industry leaders will gather in Charlotte Oct. 17-20 for the American Trucking Associations’ (ATA) 2026 Management Conference & Exhibition (MCE), featuring discussions on freight markets, regulatory priorities, emerging technologies and the challenges facing motor carriers.\nColson, currently president and CEO of the Alabama Trucking Association, will officially assume his new role Dec. 1.\nThe conference will also recognize industry achievements, including honors for professional drivers, safety leaders and trucking organizations.\nRegistration information Registration remains available at mce.trucking.org/register, with rates varying by membership status.",
+    "category": "Autonomous Trucks",
+    "published_date": "2026-10-16T06:00:26-07:00",
+    "slug": "trucking-leaders-roll-into-charlotte-for-atas-2026-mce-thetruckercom",
+    "extraction_method": "newspaper4k",
+    "source_name": "thetrucker.com"
+  },
+  {
     "id": 19174,
     "title": "Advantech Partners with DEKRA, Signing MOU to Strengthen Global Industrial Cybersecurity Compliance in Response to EU CRA",
     "source_url": "https://www.tradingview.com/news/prnewswire:b75ae01f71433:0-advantech-partners-with-dekra-signing-mou-to-strengthen-global-industrial-cybersecurity-compliance-in-response-to-eu-cra/",
@@ -396,6 +913,72 @@
     "source_name": "intlbm.com"
   },
   {
+    "id": 19212,
+    "title": "Above the Fold: Supply Chain Logistics News (October 16, 2026)",
+    "source_url": "https://talkinglogistics.com/2026/10/16/above-the-fold-supply-chain-logistics-news-october-16-2026/",
+    "summary": "req’d) Cass Transportation Index Report September 2026 It’s Not Just Diesel: Why Trucking Costs Keep Rising The rise in diesel prices continues to dominate the headlines.\n“As a result, J.B. Hunt is turning to price increases to recoup costs, executives said on an [October 15] analyst call.”\nJ.B. Hunt is not alone in experiencing these cost increases.\nExcluding fuel, costs increased 4.2%, outpacing general inflation.\nThey should prepare for higher transportation rates in 2027, potentially significantly higher in some segments.",
+    "category": "Autonomous Trucks",
+    "published_date": "2026-10-16T00:00:00",
+    "slug": "above-the-fold-supply-chain-logistics-news-october-16-2026-talking-logistics-with-adrian-gonzalez",
+    "extraction_method": "newspaper4k",
+    "source_name": "talkinglogistics.com"
+  },
+  {
+    "id": 19214,
+    "title": "Saginaw, Mich., Gets $4M From State to Study Autonomous Tech",
+    "source_url": "https://www.govtech.com/transportation/saginaw-mich-gets-4m-from-state-to-study-autonomous-tech",
+    "summary": "(TNS) — Saginaw Transit Authority Regional Services (STARS) received four state grants totaling $4 million to explore autonomous vehicle technology in Saginaw’s medical diamond corridor and add route services to MBS International Airport.\nA fourth grant will add regional transportation services for military veterans in collaboration with Flint Mass Transportation Authority, Greater Lapeer Transportation Authority and Shiawassee Area Transportation Authority.\nThe agency’s fleet of 80 vehicles provide an average of 41,000 rides each month, STARS officials said.\nSTARS officials said 72% of fixed route service takes place within the City of Saginaw, while 28% operates outside city limits.\nSTARS also receives support from Frankenmuth to operate a seasonal route, allowing Saginaw residents to travel between the STARS HQ in Saginaw and Frankenmuth.",
+    "category": "Autonomous Vehicles",
+    "published_date": "2026-10-16T00:00:00",
+    "slug": "saginaw-mich-gets-4m-from-state-to-study-autonomous-tech-govtech",
+    "extraction_method": "newspaper4k",
+    "source_name": "govtech.com"
+  },
+  {
+    "id": 19224,
+    "title": "Anne Arundel County, Md., Investigates Cybersecurity Incident",
+    "source_url": "https://www.govtech.com/security/anne-arundel-county-md-investigates-cybersecurity-incident",
+    "summary": "(TNS) — Anne Arundel County is investigating a cybersecurity incident discovered in August, according to a news release.\nIn the separate incident, the county detected irregular activity on a limited number of systems this summer on Aug. 28.\nThe August incident did not disrupt county operations, and officials said they do not expect any impact on essential services.\nThe county said it has found no indication that files from the August incident have been used to commit consumer fraud or identity theft, or that the incident was related to any previous cybersecurity incident.\nCybersecurity specialists are reviewing the files to determine what information they contain and whether anyone’s personal information was affected.",
+    "category": "Cybersecurity",
+    "published_date": "2026-10-16T00:00:00",
+    "slug": "anne-arundel-county-md-investigates-cybersecurity-incident-govtech",
+    "extraction_method": "newspaper4k",
+    "source_name": "govtech.com"
+  },
+  {
+    "id": 19230,
+    "title": "MBZUAI and Inception42 Introduce Jais 3 and Arabic Speech Recognition Model",
+    "source_url": "https://www.hpcwire.com/aiwire/2026/10/16/mbzuai-and-inception42-introduce-jais-3-and-arabic-speech-recognition-model/",
+    "summary": "All are built on top of K2 Horizon, IFM’s latest fleet of fully open-source foundation models launched last month.\nPaired with the language models, Jais Speech lets Jais 3 take spoken instructions in Arabic or English and act on them.\nJais 3 was created by the Institute of Foundation Models (IFM) at MBZUAI and Inception42, in collaboration with Cerebras Systems.\nJais 3 and Jais Speech are available today on Hugging Face, with deployment support for vLLM and SGLang.\nAbout the Institute of Foundation Models The Institute of Foundation Models (IFM) is a global AI research lab dedicated to open and independent development of frontier-class foundation models.",
+    "category": "Image Recognition",
+    "published_date": "2026-10-16T00:00:00",
+    "slug": "mbzuai-and-inception42-introduce-jais-3-and-arabic-speech-recognition-model-hpcwire",
+    "extraction_method": "newspaper4k",
+    "source_name": "hpcwire.com"
+  },
+  {
+    "id": 19242,
+    "title": "Satoshi-era bitcoin faces a bigger quantum threat after Google’s new Willow breakthrough",
+    "source_url": "https://www.coindesk.com/tech/2026/10/16/satoshi-era-bitcoin-faces-a-bigger-quantum-threat-after-google-s-new-willow-breakthrough",
+    "summary": "Google says its Willow quantum chip has cut errors about 40-fold when preparing special states used in quantum calculations, tackling a costly step toward building machines powerful enough to crack bitcoin wallets.\nSpending typically reveals the public key, while some payment types expose it from the start.\nSome later payment formats hide the public key behind a hash, a digital fingerprint, until the owner spends.\nThose units then need the digital equivalent of fuel to run certain operations, specially prepared quantum states that researchers call “magic states.”\nIn a quantum computer, hardware devoted to producing magic states is hardware that cannot be assigned to other work.",
+    "category": "Quantum Computers",
+    "published_date": "2026-10-16T00:00:00",
+    "slug": "satoshi-era-bitcoin-faces-a-bigger-quantum-threat-after-googles-new-willow-breakthrough-coindesk",
+    "extraction_method": "newspaper4k",
+    "source_name": "coindesk.com"
+  },
+  {
+    "id": 19253,
+    "title": "Altair Semiconductor Integrates Iridium Satellite Connectivity into Cellular IoT Chipsets",
+    "source_url": "https://iotbusinessnews.com/2026/10/16/altair-semiconductor-integrates-iridium-satellite-connectivity-into-cellular-iot-chipsets/",
+    "summary": "With terrestrial cellular IoT and Iridium satellite connectivity on a single chipset, device manufacturers, module makers and mobile network operators (MNOs) will be able to extend IoT connectivity beyond the reach of terrestrial networks through the Iridium satellite network, without adding a separate satellite modem to their designs.\nExtending Cellular IoT Connectivity Beyond Terrestrial Networks The partnership combines Altair’s cellular IoT chipset technology, among the most highly integrated low-power connectivity solutions available, with Iridium’s 3GPP standards-based non-terrestrial network (NTN) service, giving device manufacturers another chipset option for products that need connectivity beyond terrestrial cellular coverage.\n“As a market leader in satellite IoT, Iridium is offering device manufacturers a powerful new way to develop connected products.\n“With Iridium’s truly global LEO satellite connectivity alongside terrestrial cellular, device manufacturers can more easily develop solutions that will reliably work anywhere they’re deployed.”\nAltair joins a growing ecosystem of partners bringing the Iridium NTN Direct service to market.",
+    "category": "Smart Cities",
+    "published_date": "2026-10-16T00:00:00",
+    "slug": "altair-semiconductor-integrates-iridium-satellite-connectivity-into-cellular-iot-chipsets-iot",
+    "extraction_method": "newspaper4k",
+    "source_name": "iotbusinessnews.com"
+  },
+  {
     "id": 19144,
     "title": "US No Longer Embraces Innovation: China Does",
     "source_url": "https://www.policyarena.org/p/us-no-longer-embraces-innovation",
@@ -449,6 +1032,17 @@
     "slug": "minnesota-twins-brooks-lee-earns-recognition-for-defensive-excellence-after-changing-positions",
     "extraction_method": "newspaper4k",
     "source_name": "sports.yahoo.com"
+  },
+  {
+    "id": 19260,
+    "title": "\"Assetto Corsa\" looks almost real in stunning fan-made graphics overhaul",
+    "source_url": "https://www.motorsport.com/culture/news/assetto-corsa-looks-almost-real-in-stunning-fan-made-graphics-overhaul/10865486/",
+    "summary": "A fan-made graphics mod has sim racers convinced that a decade-old PC game now looks sharper than the real thing.\nAssetto Corsa has no official DLSS 5 support from Nvidia or from Kunos, the studio that built it, so what's circulating is the work of community modders.\nKunos developed Assetto Corsa as a PC racing simulator in 2014, maintaining its player base through extensive community modifications, particularly the widely used Custom Shaders Patch.\nSo this is a community mod, not actually Nvidia's technology bolted onto Kunos's game, and it comes with the usual caveats.\nNot exactly a ringing endorsement, though it doesn't seem to be affecting how impressed people are by these graphics.",
+    "category": "Sim Racing",
+    "published_date": "2026-10-15T21:01:09+00:00",
+    "slug": "assetto-corsa-looks-almost-real-in-stunning-fan-made-graphics-overhaul-motorsportcom",
+    "extraction_method": "newspaper4k",
+    "source_name": "motorsport.com"
   },
   {
     "id": 19111,
@@ -200497,6 +201091,17 @@
     "source_name": "hackaday.com"
   },
   {
+    "id": 19238,
+    "title": "New Masjesu Botnet Targets Routers and IoT Systems Globally",
+    "source_url": "https://www.techjuice.pk/this-botnet-deliberately-avoids-detection-to-keep-its-ddos-business-running/",
+    "summary": "Cybersecurity researchers have exposed a stealthy botnet called Masjesu that has been operating as a DDoS-for-hire service since it first surfaced in 2023.\nThe botnet is marketed on Telegram and targets a wide range of IoT devices including routers and gateways across multiple hardware architectures.\nThe most recent iteration tracked by Trellix shows Masjesu now markets the ability to carry out volumetric DDoS attacks against content delivery networks, game servers and enterprises.\nAttacks mounted by the botnet primarily originate from Vietnam, Ukraine, Iran, Brazil, Kenya and India, with Vietnam accounting for nearly 50% of the observed traffic.\nOne notable addition to its list of targets is Realtek routers, which it scans on port 52869, a port associated with the Realtek SDK’s miniigd daemon.",
+    "category": "IoT Cyber",
+    "published_date": "2026-04-09T08:04:34+00:00",
+    "slug": "new-masjesu-botnet-targets-routers-and-iot-systems-globally-techjuice",
+    "extraction_method": "newspaper4k",
+    "source_name": "techjuice.pk"
+  },
+  {
     "id": 855,
     "title": "Don't Call It A Tesla Semi: China's Windrose Delivers First EV <b>Truck</b> In The U.S.",
     "source_url": "https://insideevs.com/news/792435/windrose-electric-truck-semi-first-delivery/",
@@ -211198,6 +211803,17 @@
     "slug": "cars-trucks-fox-news",
     "extraction_method": "newspaper4k",
     "source_name": "foxnews.com"
+  },
+  {
+    "id": 19225,
+    "title": "Sweden sweeps the winning title of the European Cybersecurity Challenge",
+    "source_url": "https://www.enisa.europa.eu/news/sweden-sweeps-the-winning-title-of-the-european-cybersecurity-challenge",
+    "summary": "For the first time, an international cybersecurity challenge for women took place in Dublin earlier this summer.\nENISA directly supported the participation of the female Team Europe in the Women’s International Cybersecurity Challenge 2026 (WICC2026), in close partnership with the European Cybersecurity Competence Centre (ECCC) and the European Commission.\nNext upcoming events The next European Cybersecurity Challenge will be hosted by Denmark next year.\nAbout the European Cybersecurity Challenge (ECSC) The European Cybersecurity Challenge (ECSC) is an initiative supported by the European Union Agency for Cybersecurity (ENISA) and aims to enhance cybersecurity talent across Europe and connect high potentials with industry leading organisations.\nAbout the International Cybersecurity Challenge (ICC) As a global Capture the Flag event (CTF), the International Cybersecurity Challenge (ICC) is designed to encourage the development of cybersecurity skills and to foster international cooperation.",
+    "category": "Cybersecurity",
+    "published_date": "2022-09-19T03:00:00+03:00",
+    "slug": "sweden-sweeps-the-winning-title-of-the-european-cybersecurity-challenge-enisa",
+    "extraction_method": "newspaper4k",
+    "source_name": "enisa.europa.eu"
   },
   {
     "id": 18445,
