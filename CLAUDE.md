@@ -61,12 +61,12 @@ to GitHub Pages via GitHub Actions.
 - `data/articles.db` is committed every run and is ~52 MB, past GitHub's 50 MB
   advisory. It reaches the hard 100 MB per-file limit in roughly 6-12 months, after
   which the daily push fails
-- `scripts/url_extraction.py` is dead code from the Google Alerts era; only
-  `scripts/test_modules.py` still imports it, and that test file still exercises the
-  retired redirect path. CI does not run it
 
 ## Testing
 - Test pipeline locally before pushing: `python scripts/fetch_articles.py`
+- Unit tests: `python -m pytest scripts/test_pipeline.py -q` (slugs, the slug
+  migration, dedupe, junk detection, dates, config). CI runs them in the
+  `import-check` job on every PR touching `scripts/`
 - After a dependency change, run `python smoke_test.py` from `scripts/` (or
   `--offline` for just the tokenizer and summarizer). CI runs it as the
   `pipeline-smoke` job in dependency-check.yml on every PR touching `scripts/`

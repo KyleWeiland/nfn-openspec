@@ -182,9 +182,10 @@ nfn-openspec/
 │   ├── database.py                   # SQLite operations
 │   ├── export_for_astro.py           # JSON export for frontend
 │   ├── config.py                     # Configuration loading & validation
-│   ├── url_extraction.py             # URL parsing utilities (vestigial)
-│   ├── seed_data.py                  # Test data seeding
-│   ├── test_modules.py               # Unit tests
+│   ├── test_pipeline.py              # Unit tests (pytest, run in CI)
+│   ├── smoke_test.py                 # Runtime smoke test (run in CI)
+│   ├── compare_dist.py               # Diff two site builds
+│   ├── fixtures/smoke_article.html   # Fixture for the smoke test
 │   ├── requirements.in               # Direct Python dependencies (edit this)
 │   └── requirements.txt              # Pinned lock compiled from requirements.in
 ├── site/                             # Astro frontend
@@ -223,8 +224,7 @@ Autonomous Trucks, Autonomous Vehicles, Connected Car, Cybersecurity, Image Reco
 
 - **GNews rate limits** — No API key, so you're on Google's good graces. 9 feeds x 10 results = ~90 queries/day is fine; scaling feeds significantly may hit limits.
 - **NLTK download on cold start** — `nltk.download('punkt_tab')` runs at import time. Cached in Actions via pip cache, but first run on a new machine needs internet.
-- **`url_extraction.py` is vestigial** — Google Alerts redirect parsing kept as a safety net but unused in the gnews flow. Could be pruned.
-- **No automated tests in CI** — `test_modules.py` exists but isn't wired into the Actions workflow.
+- **Tests run on PRs, not on the daily run** — `test_pipeline.py` and `smoke_test.py` run in `dependency-check.yml` for any PR touching `scripts/`; a direct push to `main` skips them.
 - **SQL injection safe** — All queries use parameterized statements in `database.py`.
 
 ---
@@ -546,29 +546,23 @@ Extracts unique categories from the articles list, sorts alphabetically, writes 
 
 ---
 
-### url_extraction.py — URL Utilities (Vestigial)
+### test_pipeline.py — Unit Tests
 
-**Purpose:** Parse Google Alerts redirect URLs to extract actual article URLs. Largely unused post-gnews migration but kept as a safety net.
+**Coverage:** `generate_slug()` (basic cases, HTML tag and entity stripping, fallback slug, 100-byte cap at a word boundary, CJK byte counting), `unique_slug()` suffixing, the `init_database()` migration on a temporary legacy database (duplicate slugs resolved so the published article keeps its URL, `extraction_method` backfilled, unique index added, idempotent), `insert_article()`, `is_duplicate()`, `is_junk_summary()`, `resolve_published_date()`, `clean_title()`, `extract_source_name()` and `load_config()`.
 
-| Function | Signature | Purpose |
-|---|---|---|
-| `is_google_alerts_redirect(url)` | `str -> bool` | Checks for `https://www.google.com/url` prefix |
-| `extract_actual_url(redirect_url)` | `str -> str \| None` | Parses `?url=` query parameter, URL-decodes it |
-| `is_valid_url(url)` | `str -> bool` | Checks scheme is http/https and netloc exists |
-| `get_article_url(url)` | `str -> str \| None` | Dispatcher: redirect detection → extraction → validation |
+**Execution:** `python -m pytest scripts/test_pipeline.py -q`. Runs in the `import-check` job of `dependency-check.yml`. No network, never touches `data/articles.db`.
 
 ---
 
-### test_modules.py — Unit Tests
+### smoke_test.py — Runtime Smoke Test
 
-**Coverage:**
-- Slug generation (4 cases: normal, special chars, multiple spaces, edge cases)
-- Title normalization (4 cases: case conversion, whitespace stripping)
-- URL redirect detection (3 cases: Google redirect, normal URL, http variant)
-- URL validation (5 cases: https, http, ftp, garbage, empty string)
-- URL extraction (2 cases: with `url` param, without)
+Exercises what an import cannot: the NLTK tokenizer download, Newspaper4k summarization of `fixtures/smoke_article.html` offline, then one gnews search, one Google News URL decode and one real extraction. Runs in the `pipeline-smoke` job of `dependency-check.yml`; `--offline` skips the network half.
 
-**Execution:** `python test_modules.py` — prints results with pass/fail indicators. Not wired into CI.
+---
+
+### compare_dist.py — Build Comparison
+
+Compares two `site/dist/` folders, or builds two git refs in temporary worktrees, and reports page-path differences, asset sizes, visible-text differences and markup differences grouped by cause. The review tool for Astro upgrades and template changes; see `scripts/README.md`.
 
 ---
 

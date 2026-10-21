@@ -1,6 +1,7 @@
 """Database operations module for article storage."""
 
 import sqlite3
+import html
 import os
 import re
 import logging
@@ -126,8 +127,10 @@ def generate_slug(title):
     Returns:
         A slugified version of the title
     """
-    # Convert to lowercase
-    slug = title.lower()
+    # Drop HTML tags and entities first. Google Alerts titles carried <b>...</b>
+    # search-term highlighting, which left stray letters in slugs such as
+    # "bsim-racingb-rig-costs" (issue #6). Existing slugs are never regenerated.
+    slug = html.unescape(re.sub(r'<[^>]+>', '', title)).lower()
 
     # Replace spaces and special characters with hyphens
     slug = re.sub(r'[^\w\s-]', '', slug)

@@ -25,6 +25,7 @@
 - [ ] 3.4 Add an npm entry to `.github/dependabot.yml` (`/site`, weekly, one group matching `*`, `open-pull-requests-limit: 2`), and after merge verify that Dependabot shows the npm manifest being monitored without errors
 - [x] 3.5 Ignore `version-update:semver-major` in both Dependabot entries so major upgrades don't block the weekly group (see D3); close the combined astro 7 / TypeScript 7 PR #5
 - [x] 3.6 Add a `pipeline-smoke` job to `dependency-check.yml` running `scripts/smoke_test.py` (tokenizer download, offline summarization of `scripts/fixtures/smoke_article.html`, one gnews search, one URL decode, one real extraction), and verify it passes on the PR for this change (verified in a python:3.11 container on 2026-10-21: all 4 checks pass; exits 1 with `FAIL` lines when a check breaks)
+- [x] 3.8 Add `scripts/test_pipeline.py` (pytest: slug generation and cap, `unique_slug()`, the `dedupe_slugs()` migration on a temporary legacy database, dedupe, junk detection, date resolution, title cleaning, config loading) and run it in the `import-check` job; delete the dead `test_modules.py` and `url_extraction.py` (verified in a python:3.11 container on 2026-10-21: 56 passed; removing the slug length cap fails the cap tests)
 - [ ] 3.7 Add a `site-build` job to `dependency-check.yml` (add `site/**` to the paths filter; Node 20, `npm ci` and `npm run build` in `site/`), and verify it passes on the PR for this change (verified locally on 2026-09-23: `npm ci && npm run build` built 18,685 pages; the PR run is still pending)
 
 ## 4. Failure notification

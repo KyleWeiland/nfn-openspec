@@ -113,17 +113,21 @@ The script will:
 4. Generate NLP summaries
 5. Store articles in `data/articles.db` with deduplication
 
-### Test the Modules
+### Unit tests
 
-To run basic unit tests on the pipeline modules:
+`test_pipeline.py` covers the pure functions and the database migration: slug
+generation (length cap, byte counting, tag stripping, fallback), `unique_slug()`
+suffixing, the `dedupe_slugs()` migration on a temporary database (the published
+article keeps its URL; a second run changes nothing), deduplication, junk-summary
+detection, published-date resolution, title cleaning and config loading. It needs
+no network and never touches `data/articles.db`.
 
 ```bash
-python test_modules.py
+pip install pytest
+python -m pytest scripts/test_pipeline.py -q
 ```
 
-This tests:
-- Slug generation
-- Title normalization
+CI runs it in the `import-check` job of `dependency-check.yml`.
 
 ## Configuration
 
@@ -159,9 +163,11 @@ Edit `feeds.config.json` in the repository root to add or remove feeds:
 - `config.py` - Configuration file loading and validation
 - `article_fetching.py` - gnews-based article discovery
 - `article_processing.py` - Article download, extraction, and NLP summarization (Newspaper4k)
-- `url_extraction.py` - URL utilities
-- `database.py` - SQLite database operations
-- `test_modules.py` - Unit tests for core functions
+- `database.py` - SQLite database operations and schema migration
+- `export_for_astro.py` - JSON export for the Astro site
+- `test_pipeline.py` - Unit tests (pytest, run in CI)
+- `smoke_test.py` - Runtime smoke test for dependency changes (run in CI)
+- `compare_dist.py` - Diff two site builds (review tool for renderer changes)
 
 ## Database Schema
 

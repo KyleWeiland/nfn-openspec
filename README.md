@@ -306,8 +306,10 @@ nfn-openspec/
 │   ├── article_fetching.py      # gnews search and URL decoding
 │   ├── article_processing.py    # Newspaper4k extraction & summarization
 │   ├── database.py              # SQLite operations and schema migration
-│   ├── url_extraction.py        # Legacy URL utilities (unused by the pipeline)
 │   ├── config.py                # Configuration loader
+│   ├── test_pipeline.py         # Unit tests (pytest, run in CI)
+│   ├── smoke_test.py            # Runtime smoke test for dependency PRs
+│   ├── compare_dist.py          # Diff two site builds
 │   ├── requirements.in          # Direct Python dependencies (edit this)
 │   ├── requirements.txt         # Pinned lock compiled from requirements.in
 │   └── run_local.sh             # Local development convenience script
@@ -331,7 +333,6 @@ nfn-openspec/
 
 - **Repository size.** `data/articles.db` is committed on every run and is currently around 52 MB, past GitHub's 50 MB advisory threshold. At present growth it reaches the hard 100 MB per-file limit in roughly 6-12 months, at which point the daily push begins to fail. Pruning old articles or dropping the database from version control are the two obvious remedies.
 - **Slug collisions.** Slugs derive from the title alone, while deduplication keys on title *and* URL. A headline republished at a different URL produces a second row with the same slug, and only one of them gets a page. About 2% of stored articles are currently unreachable this way.
-- **Stale unit tests.** `scripts/test_modules.py` still exercises the retired Google Alerts redirect helpers. CI does not run it.
 
 ## Future Enhancements
 
