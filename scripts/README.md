@@ -52,10 +52,25 @@ bumps the pins in `requirements.in` and recompiles `requirements.txt`, plus sepa
 PRs for security fixes. It does the same for the site's npm packages, which are also
 pinned exactly (`site/.npmrc` sets `save-exact`, so `npm install <pkg>` stays exact).
 On each PR that touches `scripts/` or `site/`, the **Dependency check** workflow
-installs the Python lock and imports every pipeline module, and builds the site with
-`npm ci` and `npm run build`. A green check means the upgrade loads and builds, not
-that its behavior is unchanged, so skim the changelogs of any major or 0.x bumps
-before merging.
+installs the Python lock and imports every pipeline module, runs `smoke_test.py`
+(below), and builds the site with `npm ci` and `npm run build`. A green check means
+the upgrade loads, summarizes and builds, not that its behavior is unchanged in
+every case, so skim the changelogs of any major or 0.x bumps before merging.
+
+### Smoke test
+
+`smoke_test.py` exercises the runtime paths that an import cannot: it downloads the
+NLTK `punkt_tab` tokenizer, extracts and summarizes `fixtures/smoke_article.html`
+offline, then runs one gnews search, decodes one Google News URL and extracts one
+real article. Run it from `scripts/` after any dependency change:
+
+```bash
+python smoke_test.py            # all checks
+python smoke_test.py --offline  # tokenizer and summarizer only, no network
+```
+
+The network checks depend on Google News being reachable, so a failure there is
+worth one re-run before blaming the upgrade.
 
 ## Usage
 
