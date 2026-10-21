@@ -72,6 +72,30 @@ python smoke_test.py --offline  # tokenizer and summarizer only, no network
 The network checks depend on Google News being reachable, so a failure there is
 worth one re-run before blaming the upgrade.
 
+### Comparing two site builds
+
+`compare_dist.py` is the regression check for anything that changes the renderer
+(an Astro upgrade, a template edit). It compares two `site/dist/` folders, or
+builds two git refs in temporary worktrees first:
+
+```bash
+python scripts/compare_dist.py site/dist-before site/dist-after
+python scripts/compare_dist.py --build main HEAD            # ~2 min per ref
+python scripts/compare_dist.py --build main HEAD --sample 2000 --strict
+```
+
+It reports, in order: pages present in only one build; asset sizes (hashes
+normalised) with totals per extension; visible-text differences; markup
+differences grouped by cause, so a template change across 18,000 article pages
+shows as one group with a sample diff; and the set of distinct inline scripts and
+styles. Hashed asset names, Astro's scoped-style hashes and relative timestamps
+("3h ago") are normalised before comparing.
+
+Exit status is 1 when page paths or visible text differ. Markup, asset and
+inline-code differences are reported but only fail with `--strict`. For an Astro
+major, the expectation is: identical paths, identical text, and every markup group
+explained by the changelog.
+
 ## Usage
 
 ### Run the Pipeline

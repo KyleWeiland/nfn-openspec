@@ -70,6 +70,9 @@ to GitHub Pages via GitHub Actions.
 - After a dependency change, run `python smoke_test.py` from `scripts/` (or
   `--offline` for just the tokenizer and summarizer). CI runs it as the
   `pipeline-smoke` job in dependency-check.yml on every PR touching `scripts/`
+- Before merging anything that changes the renderer (Astro upgrades, template
+  edits), run `python scripts/compare_dist.py --build main HEAD`. Paths and visible
+  text must be identical; every markup group it reports must be explained
 - Export and preview: `./scripts/run_local.sh`, or `python scripts/export_for_astro.py`
   then `cd site && npm run dev`
 - The committed `data/articles.db` is already populated, so no seed data is needed
