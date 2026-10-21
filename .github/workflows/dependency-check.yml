@@ -75,6 +75,14 @@ jobs:
               sys.exit(1)
           EOF
 
+      # Pure-function and migration tests: slugs, dedupe, junk detection, dates,
+      # config loading. pytest is test tooling only, so it is pinned here rather
+      # than in the pipeline's requirements.
+      - name: Run unit tests
+        run: |
+          pip install pytest==9.1.1
+          python -m pytest scripts/test_pipeline.py -q
+
   # Exercises what import-check cannot: the NLTK tokenizer download, Newspaper4k
   # summarization on a bundled fixture (offline), then one gnews search, one Google
   # News URL decode and one real extraction (network). A Google outage fails the
