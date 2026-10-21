@@ -11,6 +11,17 @@
     "source_name": "nature.com"
   },
   {
+    "id": 19510,
+    "title": "Einride expands Nvidia partnership to deploy AI reasoning model for self-driving trucks",
+    "source_url": "https://www.channelnewsasia.com/business/einride-expands-nvidia-partnership-deploy-ai-reasoning-model-self-driving-trucks-6478721",
+    "summary": "Oct 21 : Self-driving truck company Einride said on Wednesday it would broaden its partnership with Nvidia by testing the chipmaker's AI reasoning model, Alpamayo, in its self-driving vehicles, aiming to speed up the expansion of autonomous freight services while lowering development costs.\nAlpamayo is Nvidia's vision language action model, which can interpret driving environments, recommend vehicle actions and explain its reasoning.\n• The Swedish company said it plans to become the first trucking operator to deploy Alpamayo, adapting the model using data collected from its commercial freight operations • Einride said the technology could help shorten development cycles and make it easier to extend autonomous driving capabilities to new vehicle types and routes, with a live road evaluation planned for the second half of 2027 • The partnership builds on a broader Nvidia tie-up announced in September covering autonomous driving, safety systems and AI model training • The companies will initially test Alpamayo in \"shadow mode\", where the model runs alongside existing systems without controlling the vehicle, allowing its decisions to be compared with those of Einride's driving software and human driver • The announcement follows Einride's September rollout of what it said was the first cab-less autonomous truck operating in regular service on public roads in Germany, transporting goods for supermarket chain Lidl • Einride was among several European mobility companies highlighted by Nvidia on Wednesday as showcasing autonomous vehicle applications on the Nvidia Hyperion platform, alongside Mercedes-Benz, Volkswagen Commercial Vehicles and Bolt",
+    "category": "Autonomous Trucks",
+    "published_date": "2026-10-21T18:56:35+08:00",
+    "slug": "einride-expands-nvidia-partnership-to-deploy-ai-reasoning-model-for-self-driving-trucks-cna",
+    "extraction_method": "newspaper4k",
+    "source_name": "channelnewsasia.com"
+  },
+  {
     "id": 19480,
     "title": "New AI Tool Uses Facial Photos To Predict Cancer Patients’ Survival Risk",
     "source_url": "https://www.healthandme.com/health-wellness/ai-tool-uses-facial-photos-to-estimate-biological-age-and-predict-cancer-patients-survival-risk-article-156376862",
@@ -20,6 +31,61 @@
     "slug": "new-ai-tool-uses-facial-photos-to-predict-cancer-patients-survival-risk-health-and-me",
     "extraction_method": "newspaper4k",
     "source_name": "healthandme.com"
+  },
+  {
+    "id": 19528,
+    "title": "SimRacing Expo Frankfurt Sees Record Attendance",
+    "source_url": "https://www.dlh.net/en/news/90970/simracing-expo-frankfurt-sees-record-attendance.html",
+    "summary": "SimRacing Expo Frankfurt sees record attendance after a huge weekend of virtual racing and flying Thousands attended the world's biggest event dedicated to simulation racing, which returns in 2027 FRANKFURT, Germany, October 21, 2026 - The 2026 SimRacing Expo saw a record attendance of 29,580 people over three days at Frankfurt Messe.\nEvery single one of you helped us take the SimRacing Expo to a whole new level.\nKeep up to date with all things SimRacing Expo at SimRacingExpo.de, follow SimRacing Expo on Instagram, Facebook, and X.\nAbout SimRacing Expo The SimRacing Expo has grown into the world's largest consumer and trade show dedicated to virtual racing and flying, uniting fans, developers, and hardware innovators under one roof.\nThe SimRacing Expo perfectly reflects the growth of the SimRacing industry.",
+    "category": "Sim Racing",
+    "published_date": "2026-10-21T12:58:20",
+    "slug": "simracing-expo-frankfurt-sees-record-attendance-dlhnet",
+    "extraction_method": "newspaper4k",
+    "source_name": "dlh.net"
+  },
+  {
+    "id": 19527,
+    "title": "Racing into reality",
+    "source_url": "https://collegian.tccd.edu/56677/feature/racing-into-reality/",
+    "summary": "Over the last six years, NW student Jacob Wilkerson has immersed himself in the world of professional simulation racing.\n“Ever since I was a little kid back in my childhood, I was always into NASCAR gaming and NASCAR racing in general,” Wilkerson said.\nUnlike casual racing games, simulation e-racing replicates real-world racetracks down to the very last detail.\n“The simulation racing community is extremely tight to the real-life side, specifically NASCAR,” Garza said.\nHe hopes the simulation racing experience will give his son experience that will help him pursue a career in programming or car mechanics.",
+    "category": "Sim Racing",
+    "published_date": "2026-10-21T12:58:15",
+    "slug": "racing-into-reality-tarrant-county-college",
+    "extraction_method": "newspaper4k",
+    "source_name": "collegian.tccd.edu"
+  },
+  {
+    "id": 19529,
+    "title": "PlayStation and Xbox Gamers Can Upgrade Their Driving Experience for Less as Logitech Racing Wheel and Pedals Hit a Record Low",
+    "source_url": "https://kotaku.com/playstation-and-xbox-gamers-can-upgrade-their-driving-experience-for-less-as-logitech-racing-wheel-and-pedals-hit-a-record-low-2000748078",
+    "summary": "The Logitech G29/G290 racing wheel is a huge step up from just using your console’s standard controller.\nThere are two different versions of this Logitech racing wheel and pedals kit, and you should pick which one based on the console you plan on racing with.\nThe Logitech G29 is designed for use with PS5 and PS4, while the Logitech G290 is designed for use with Xbox Series X|S and Xbox One.\nThis racing wheel is made with premium materials and is covered in a high-quality hand-stitched leather casing.\nThe racing wheel is able to complete a full 900-degree rotation, locking in place at either end of the full two and half turns of the wheel.",
+    "category": "Sim Racing",
+    "published_date": "2026-10-21T11:45:28+00:00",
+    "slug": "playstation-and-xbox-gamers-can-upgrade-their-driving-experience-for-less-as-logitech-racing-wheel",
+    "extraction_method": "newspaper4k",
+    "source_name": "kotaku.com"
+  },
+  {
+    "id": 19508,
+    "title": "Einride expands Nvidia partnership to deploy AI reasoning model for self-driving trucks",
+    "source_url": "https://live.euronext.com/en/financial-news/einride-expands-nvidia-partnership-deploy-ai-reasoning-model-self-driving-trucks",
+    "summary": "Oct 21 (Reuters) - Self-driving truck company Einride said on Wednesday it would broaden its partnership with Nvidia by testing the chipmaker's AI reasoning model, Alpamayo, in its self-driving vehicles, aiming to speed up the expansion of autonomous freight services while lowering development costs.\nAlpamayo is Nvidia's vision language action model, which can interpret driving environments, recommend vehicle actions and explain its reasoning.\n• The Swedish company said it plans to become the first trucking operator to deploy Alpamayo, adapting the model using data collected from its commercial freight operations • Einride said the technology could help shorten development cycles and make it easier to extend autonomous driving capabilities to new vehicle types and routes, with a live road evaluation planned for the second half of 2027 • The partnership builds on a broader Nvidia tie-up announced in September covering autonomous driving, safety systems and AI model training • The companies will initially test Alpamayo in \"shadow mode\", where the model runs alongside existing systems without controlling the vehicle, allowing its decisions to be compared with those of Einride's driving software and human driver • The announcement follows Einride's September rollout of what it said was the first cab-less autonomous truck operating in regular service on public roads in Germany, transporting goods for supermarket chain Lidl • Einride was among several European mobility companies highlighted by Nvidia on Wednesday as showcasing autonomous vehicle applications on the Nvidia Hyperion platform, alongside Mercedes-Benz, Volkswagen Commercial Vehicles and Bolt (Reporting by Prathik Jayaprakash in Bengaluru; Editing by Shilpi Majumdar)",
+    "category": "Autonomous Trucks",
+    "published_date": "2026-10-21T10:56:35+00:00",
+    "slug": "einride-expands-nvidia-partnership-to-deploy-ai-reasoning-model-for-self-driving-trucks-euronext",
+    "extraction_method": "newspaper4k",
+    "source_name": "live.euronext.com"
+  },
+  {
+    "id": 19509,
+    "title": "Einride expands Nvidia partnership to deploy AI reasoning model for self-driving trucks",
+    "source_url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N4670R4:0-einride-expands-nvidia-partnership-to-deploy-ai-reasoning-model-for-self-driving-trucks/",
+    "summary": "Read the full article Get unlimited access to articles from Reuters and every other news source on TradingView.",
+    "category": "Autonomous Trucks",
+    "published_date": "2026-10-21T10:52:33+00:00",
+    "slug": "einride-expands-nvidia-partnership-to-deploy-ai-reasoning-model-for-self-driving-trucks-tradingview",
+    "extraction_method": "newspaper4k",
+    "source_name": "tradingview.com"
   },
   {
     "id": 19501,
@@ -66,6 +132,28 @@
     "source_name": "nvidianews.nvidia.com"
   },
   {
+    "id": 19525,
+    "title": "Sensing4D AI, AI-Driven 3D Vision Solutions Provider, Files for Nasdaq Capital Market IPO",
+    "source_url": "https://www.tradingview.com/news/tradingview:8096ba41ef59a:0-sensing4d-ai-ai-driven-3d-vision-solutions-provider-files-for-nasdaq-capital-market-ipo/",
+    "summary": "2 min read Sensing4D AI, a China-based developer of AI-driven 3D vision software and solutions, filed an F-1 for an initial public offering.\nThe company has applied to list on the Nasdaq Capital Market but has not yet been assigned a ticker or price range.\nBusiness Description Sensing4D AI develops and commercializes AI-driven 3D vision software and integrated solutions that digitally reconstruct real-world environments and enable intelligent, interactive virtual experiences.\nSensing4D AI highlights technology depth (NeRF, 3DGS, dynamic scene reconstruction), a growing IP portfolio (32 invention patents and 36 software copyrights), and partnerships that extend its reach.\nOriginal SEC Filing: Sensing4D AI Ltd - F-1 - Oct. 21, 2026 Disclaimer This is an AI-powered summary.",
+    "category": "Smart Cities",
+    "published_date": "2026-10-21T10:27:00+00:00",
+    "slug": "sensing4d-ai-ai-driven-3d-vision-solutions-provider-files-for-nasdaq-capital-market-ipo-tradingview",
+    "extraction_method": "newspaper4k",
+    "source_name": "tradingview.com"
+  },
+  {
+    "id": 19516,
+    "title": "Cyberr and ICTC Join Forces to Help Close the Cybersecurity Skills Gap",
+    "source_url": "https://www.cybersecurity-insiders.com/cyberr-and-ictc-join-forces-to-help-close-the-cybersecurity-skills-gap/",
+    "summary": "Cyberr, a global professional network for cybersecurity talent, has announced a partnership with Canada’s Information and Communications Technology Council (ICTC) to support cybersecurity workforce development and help aspiring professionals transition from education into employment.\nThe collaboration will provide graduates of ICTC’s cybersecurity programs with access to Cyberr’s international network of security professionals, mentors and employers.\nThe partnership seeks to address these barriers by combining ICTC’s workforce development initiatives with Cyberr’s cybersecurity community and employer network.\nThe initiative also aims to strengthen ties between cybersecurity talent in Canada and Europe, supporting cross-border collaboration and giving employers access to a wider pool of emerging professionals.\nFor more information, read the official partnership announcement and Cyberr’s blog on why cybersecurity careers require more than technical skills.",
+    "category": "Cybersecurity",
+    "published_date": "2026-10-21T10:24:51+00:00",
+    "slug": "cyberr-and-ictc-join-forces-to-help-close-the-cybersecurity-skills-gap-cybersecurity-insiders",
+    "extraction_method": "newspaper4k",
+    "source_name": "cybersecurity-insiders.com"
+  },
+  {
     "id": 19475,
     "title": "Fleet Launches New AI Governance Capabilities for Enterprise Devices",
     "source_url": "https://www.cybersecurity-insiders.com/fleet-launches-new-ai-governance-capabilities-for-enterprise-devices/",
@@ -75,6 +163,28 @@
     "slug": "fleet-launches-new-ai-governance-capabilities-for-enterprise-devices-cybersecurity-insiders",
     "extraction_method": "newspaper4k",
     "source_name": "cybersecurity-insiders.com"
+  },
+  {
+    "id": 19522,
+    "title": "From brain science to quantum computing: Israeli entrepreneurs take the stage at the Peres Center",
+    "source_url": "https://www.i24news.tv/en/news/innov-nation/artc-from-brain-science-to-quantum-computing-israeli-entrepreneurs-take-the-stage-at-the-peres-center",
+    "summary": "These are the challenges being tackled by three entrepreneurs who joined i24NEWS for a special panel at the Innovation Expo at the Peres Center for Peace and Innovation in Tel Aviv-Jaffa.\nWhile quantum computing has yet to deliver its full commercial promise, Fried believes the industry is approaching a crucial phase.\nThe entrepreneurs presented their work at the Innovation Expo, part of the Peres Center’s Israeli Innovation Center, which showcases Israeli startups and technological developments to visitors from Israel and around the world.\nAll three entrepreneurs are also part of the Peres Center’s Innovation Dream Team, a community that connects innovators with new audiences, potential investors and collaborators.\nUltimately, the Innovation Expo is about more than showcasing new technologies.",
+    "category": "Quantum Computers",
+    "published_date": "2026-10-21T10:10:00+00:00",
+    "slug": "from-brain-science-to-quantum-computing-israeli-entrepreneurs-take-the-stage-at-the-peres-center",
+    "extraction_method": "newspaper4k",
+    "source_name": "i24news.tv"
+  },
+  {
+    "id": 19517,
+    "title": "EU cybersecurity team says unpatched PHP sites may need to go offline",
+    "source_url": "https://thenextweb.com/news/php-vulnerability-cert-eu-websites-offline",
+    "summary": "Organisations that cannot quickly patch two critical flaws in PHP should consider taking their websites offline, the EU’s cybersecurity response team has warned.\nPHP runs on web servers and powers pages on sites built with WordPress, Drupal, Joomla and Magento.\nAttackers have used its flaws before: in 2019, a bug in PHP 7 let hackers take over web servers.\nBoth are rated 9.2 out of 10 on CVSS, a standard scale for how serious a security bug is, the PHP security team said.\nThe PHP security team told users to prepare now and to “upgrade as soon as the release is available.”",
+    "category": "Cybersecurity",
+    "published_date": "2026-10-21T10:01:41+00:00",
+    "slug": "eu-cybersecurity-team-says-unpatched-php-sites-may-need-to-go-offline-the-next-web",
+    "extraction_method": "newspaper4k",
+    "source_name": "thenextweb.com"
   },
   {
     "id": 19492,
@@ -165,6 +275,17 @@
     "source_name": "industrialcyber.co"
   },
   {
+    "id": 19511,
+    "title": "Volkswagen Group Builds Physical AI Data Flywheel for Autonomous Vehicle Development with Integrations from Voxel51, NVIDIA, and Microsoft",
+    "source_url": "https://www.prnewswire.com/news-releases/volkswagen-group-builds-physical-ai-data-flywheel-for-autonomous-vehicle-development-with-integrations-from-voxel51-nvidia-and-microsoft-302914915.html",
+    "summary": "It brings its connected fleet, real-world driving data, vehicle platform, and system requirements to build a faster development loop for advanced driving systems.\nThe data layer turns raw driving logs into better physical AI models Automotive is one of the clearest proving grounds for physical AI.\nEach stage runs as a job on Microsoft Azure, where the Volkswagen Group manages its fleet data.\nA common data model lets driving data and scenarios created in one project carry forward across vehicle programs, software releases, and brands.\nAbout Voxel51 Voxel51 is an end-to-end data platform for physical AI, helping teams turn complex multimodal datasets into better AI models.",
+    "category": "Autonomous Vehicles",
+    "published_date": "2026-10-21T07:30:00-04:00",
+    "slug": "volkswagen-group-builds-physical-ai-data-flywheel-for-autonomous-vehicle-development-with",
+    "extraction_method": "newspaper4k",
+    "source_name": "prnewswire.com"
+  },
+  {
     "id": 19472,
     "title": "Rider students place second in coastwide cybersecurity competition",
     "source_url": "https://theridernews.com/rider-students-place-second-in-coastwide-cybersecurity-competition/",
@@ -174,6 +295,17 @@
     "slug": "rider-students-place-second-in-coastwide-cybersecurity-competition-the-rider-news",
     "extraction_method": "newspaper4k",
     "source_name": "theridernews.com"
+  },
+  {
+    "id": 19526,
+    "title": "Dubai Keynote Speaker and Futurist | Hire #1 Scott Steinberg",
+    "source_url": "https://www.futuristsspeakers.com/dubai-keynote-speaker-and-futurist-ai-it/",
+    "summary": "What’s the future of work – and which trends and technologies will most define tomorrow’s business world?\nDiscover 10 trends that will reshape the future of commerce, customer experience, and business operations today.",
+    "category": "Smart Cities",
+    "published_date": "2026-10-21T06:59:23-04:00",
+    "slug": "dubai-keynote-speaker-and-futurist-hire-1-scott-steinberg-wwwfuturistsspeakerscom",
+    "extraction_method": "newspaper4k",
+    "source_name": "futuristsspeakers.com"
   },
   {
     "id": 19478,
@@ -238,6 +370,17 @@
     "category": "Sim Racing",
     "published_date": "2026-10-21T04:14:29+00:00",
     "slug": "news-castrol-unleashed-youth-sim-racing-championship-grand-finale-at-1-utama-nov-13-15-carsifu",
+    "extraction_method": "newspaper4k",
+    "source_name": "carsifu.my"
+  },
+  {
+    "id": 19530,
+    "title": "News: Castrol Unleashed Youth Sim Racing Championship: Grand Finale at 1 Utama, Nov 13 - 15",
+    "source_url": "https://www.carsifu.my/news/castrol-unleashed-youth-sim-racing-championship-grand-finale-at-1-utama-nov-13-15",
+    "summary": "KUALA LUMPUR: Castrol Malaysia and Cove Circuit have brought the “Castrol Unleashed Youth Sim Racing Championship” back for a second season.\nOpened to eligible youths in Malaysia aged 18 to 24 years, Castrol Unleashed combines Cove Circuit’s grassroots sim racing platform with Castrol’s longstanding association with motorsport to create a more accessible entry point into racing.\n\"Sim racing gives young people an increasingly accessible way into racing, and with the Castrol Unleashed platform, we can help turn that interest into real skills, confidence and competition readiness.\nRacers had put their skills to the test through Time Attack qualifying sessions at Cove Circuit Cyberjaya on Oct 10 and 11 and Cove Circuit Bandar Sunway on Oct 17 and 18.\nThe first round of qualifiers at Cove Circuit Cyberjaya was completely sold out.",
+    "category": "Sim Racing",
+    "published_date": "2026-10-21T04:14:29+00:00",
+    "slug": "news-castrol-unleashed-youth-sim-racing-championship-grand-finale-at-1-utama-nov-13-15-carsifu-2",
     "extraction_method": "newspaper4k",
     "source_name": "carsifu.my"
   },
@@ -319,6 +462,61 @@
     "source_name": "internationalairportreview.com"
   },
   {
+    "id": 19512,
+    "title": "Einride expands Nvidia partnership to deploy AI reasoning model for self-driving trucks",
+    "source_url": "https://wtvbam.com/2026/10/21/einride-expands-nvidia-partnership-to-deploy-ai-reasoning-model-for-self-driving-trucks/",
+    "summary": "Oct 21 (Reuters) – Self-driving truck company Einride said on Wednesday it would broaden its partnership with Nvidia by testing the chipmaker’s AI reasoning model, Alpamayo, ​in its self-driving vehicles, aiming to speed ‌up the expansion of autonomous freight services while lowering development costs.\nAlpamayo is Nvidia’s vision language action model, which can interpret driving environments, recommend vehicle actions and explain its reasoning.\n• ‌The ​Swedish company said it plans ⁠to become the first ⁠trucking operator to deploy Alpamayo, adapting the model using data collected from its commercial freight operations • Einride said the technology could help shorten development cycles ​and make it easier to extend autonomous driving capabilities to new vehicle types and routes, ⁠with a live road evaluation ⁠planned for the second half of 2027 • ​The partnership builds on a broader Nvidia tie-up announced ​in September covering autonomous driving, safety systems and ‌AI model training • The companies will initially test Alpamayo in “shadow mode”, where the model runs alongside existing systems without controlling the vehicle, allowing its decisions ⁠to be compared with those of Einride’s driving software and human driver • The announcement follows Einride’s September rollout of ⁠what it ‌said was the first cab-less autonomous truck ⁠operating in regular service on public ​roads ‌in Germany, transporting goods for supermarket chain ​Lidl • Einride ⁠was among several European mobility companies highlighted by Nvidia on Wednesday as showcasing autonomous vehicle applications on the Nvidia Hyperion platform, alongside Mercedes-Benz, Volkswagen Commercial Vehicles and Bolt (Reporting by Prathik Jayaprakash in Bengaluru; Editing ​by Shilpi Majumdar)",
+    "category": "Autonomous Vehicles",
+    "published_date": "2026-10-21T00:00:00",
+    "slug": "einride-expands-nvidia-partnership-to-deploy-ai-reasoning-model-for-self-driving-trucks-wtvb",
+    "extraction_method": "newspaper4k",
+    "source_name": "wtvbam.com"
+  },
+  {
+    "id": 19513,
+    "title": "Rivian launches invite-only Autonomy Early Access Program",
+    "source_url": "https://www.repairerdrivennews.com/2026/10/21/rivian-launches-invite-only-autonomy-early-access-program/",
+    "summary": "Some Rivian drivers have started receiving invites to the automaker’s Autonomy Early Access Program, according to the company’s website.\nThe features include “point-to-point” autonomy features.\nAll owners with an active Autonomy+ subscription can indicate their interest to join the program by applying through their Rivian account.\nRivian is also working toward a full autonomy software that will deploy in robotaxi versions of its R2 SUV, TechCrunch reports.\nImage Photo of Rivian R2 courtesy of Rivian Share This:",
+    "category": "Autonomous Vehicles",
+    "published_date": "2026-10-21T00:00:00",
+    "slug": "rivian-launches-invite-only-autonomy-early-access-program-repairer-driven-news",
+    "extraction_method": "newspaper4k",
+    "source_name": "repairerdrivennews.com"
+  },
+  {
+    "id": 19514,
+    "title": "Utah energy providers have ‘mature’ cybersecurity protocols, but there are gaps, audit says",
+    "source_url": "https://utahnewsdispatch.com/2026/10/21/utah-energy-providers-have-mature-cybersecurity-protocols-with-some-gaps/",
+    "summary": "The federal government regulates cybersecurity for large portions of the electrical grid, including large scale generation and transmission,” auditors wrote.\nHowever, unlike large-scale electricity providers, municipal power systems — which provide about 16% of Utah’s electricity — have opportunities for improvement in issues, auditors wrote.\nNone of the five municipal power systems auditors interviewed used independent third-party assessments to evaluate their cybersecurity controls.\n“While attacks can be disruptive, the impact on municipal power systems is generally limited to individual power systems unless simultaneous attacks occur,” according to the audit.\nAmid those gaps, legislative auditors recommend looking into whether state involvement is necessary “to encourage municipal power systems to improve cybersecurity practices.”",
+    "category": "Cybersecurity",
+    "published_date": "2026-10-21T00:00:00",
+    "slug": "utah-energy-providers-have-mature-cybersecurity-protocols-but-there-are-gaps-audit-says-utah-news",
+    "extraction_method": "newspaper4k",
+    "source_name": "utahnewsdispatch.com"
+  },
+  {
+    "id": 19515,
+    "title": "Water utility staff across Alabama gather in Birmingham for cybersecurity training",
+    "source_url": "https://www.wbhm.org/local-news/2026-10-21/water-utility-staff-across-alabama-gather-in-birmingham-for-cybersecurity-training",
+    "summary": "Cyberattacks on critical infrastructure are on the rise, and water utilities can be particularly vulnerable.\nStaff from dozens of water utilities across Alabama recently met in Birmingham for two days of training with cybersecurity experts.\nThat’s what happened when attacks on water systems in multiple states this summer threatened drinking water.\nThe McCrary Institute is one of several organizations that partnered to put on the event, which Central Alabama Water hosted at its Cahaba Pump Station.\nBirmingham-area water utility takes cybersecurity steps Central Alabama Water, which serves the Birmingham area and is the state’s largest water utility, has made moves recently to increase cybersecurity.",
+    "category": "Cybersecurity",
+    "published_date": "2026-10-21T00:00:00",
+    "slug": "water-utility-staff-across-alabama-gather-in-birmingham-for-cybersecurity-training-wbhm",
+    "extraction_method": "newspaper4k",
+    "source_name": "wbhm.org"
+  },
+  {
+    "id": 19524,
+    "title": "D-Wave Quantum Vs. IonQ: Tech Differences Dictate Investment Strategy",
+    "source_url": "https://247wallst.com/investing/2026/10/21/d-wave-quantum-vs-ionq-tech-differences-dictate-investment-strategy/",
+    "summary": "IonQ (NYSE:IONQ | IONQ Price Prediction) and D-Wave Quantum (NYSE:QBTS) reported second-quarter results one day apart in August.\nIonQ’s revenue jumped on the back of a broad trapped-ion platform.\nTrapped Ions Bring In Revenue While Annealing Piles Up Bookings IonQ’s revenue rose 286.8% to $80.05M, beating the $66.42M consensus.\nFourth-Quarter Deliveries Will Test Both Stories D-Wave expects fourth-quarter revenue to make up the majority of the year’s total.\nIonQ is down 30.33% this year and D-Wave is down 54.95%, a steeper fall than IonQ’s.",
+    "category": "Quantum Computers",
+    "published_date": "2026-10-21T00:00:00",
+    "slug": "d-wave-quantum-vs-ionq-tech-differences-dictate-investment-strategy-247-wall-st",
+    "extraction_method": "newspaper4k",
+    "source_name": "247wallst.com"
+  },
+  {
     "id": 19491,
     "title": "IonQ (IONQ) Gets Native Open Source Programming Support On Its Quantum Computers",
     "source_url": "https://finance.yahoo.com/technology/ai/articles/ionq-ionq-gets-native-open-232000211.html",
@@ -328,6 +526,17 @@
     "slug": "ionq-ionq-gets-native-open-source-programming-support-on-its-quantum-computers-yahoo-finance",
     "extraction_method": "newspaper4k",
     "source_name": "finance.yahoo.com"
+  },
+  {
+    "id": 19519,
+    "title": "Three Things Andrew Marshall's Midseason All-America Recognition Does for Nebraska",
+    "source_url": "https://www.si.com/college/nebraska/football/huskers-cornerback-andrew-marshall-midseason-all-america-01m5dan65cmh",
+    "summary": "A week ago, I dubbed Andrew Marshall a potential first-round NFL Draft pick.\nNow, the Nebraska defensive back has earned midseason All-America honors from multiple outlets.\nMarshall Can Help Nebraska Attract Future NFL Talent Marshall's success offers the Huskers' coaching staff tangible proof that players can develop and succeed in Lincoln.\nIn 2025, Marshall earned Honorable Mention All-Big Ten recognition in his first season with the Big Red.\nSimply put, Marshall's success not only gives NU an advantage in 2026, but it's paying dividends in the future as well.",
+    "category": "Image Recognition",
+    "published_date": "2026-10-20T21:49:33+00:00",
+    "slug": "three-things-andrew-marshalls-midseason-all-america-recognition-does-for-nebraska-sports-illustrated",
+    "extraction_method": "newspaper4k",
+    "source_name": "si.com"
   },
   {
     "id": 19469,
@@ -372,6 +581,17 @@
     "slug": "forza-horizon-6-driving-assists-best-settings-to-turn-off-racing-games",
     "extraction_method": "newspaper4k",
     "source_name": "racinggames.gg"
+  },
+  {
+    "id": 19520,
+    "title": "Recognizing skin conditions in children with darker skin tones",
+    "source_url": "http://www.contemporarypediatrics.com/view/recognizing-skin-conditions-in-children-with-darker-skin-tones",
+    "summary": "She explained that medical education has historically relied heavily on images of lighter skin, potentially limiting clinicians' ability to recognize familiar conditions in patients with darker skin tones.\nHow do skin conditions present differently in darker skin tones?\nInflammatory skin conditions may vary in color, distribution, and morphology depending on a patient's skin tone.\nFor example, pityriasis rosea and eczema may have a more papular appearance in children with darker skin tones.\nShe also discussed disparities in melanoma diagnosis among adults with darker skin tones, citing possible contributing factors such as limited access to dermatologic care, medical mistrust, and misconceptions that skin cancer does not occur in people with darker skin.",
+    "category": "Image Recognition",
+    "published_date": "2026-10-20T19:30:20.161000+00:00",
+    "slug": "recognizing-skin-conditions-in-children-with-darker-skin-tones-contemporary-pediatrics",
+    "extraction_method": "newspaper4k",
+    "source_name": "contemporarypediatrics.com"
   },
   {
     "id": 19483,
@@ -528,6 +748,17 @@
     "source_name": "shattered.io"
   },
   {
+    "id": 19521,
+    "title": "SAIQ Stock Rockets On Nasdaq Debut As Volatility Spikes",
+    "source_url": "https://www.timothysykes.com/news/wisesatspace-holdings-corp-saiq-news-2026_10_20-3/",
+    "summary": "Live Update At 09:18:26 EDT: On Tuesday, October 20, 2026 WISeSat.Space Holdings Corp. stock [NASDAQ: SAIQ] is trending up by 36.36%!\nSimilar behavior appears on 2026/10/08 and 2026/10/09, where WISeSat.Space swung multiple dollars intraday.\nIntraday 5‑minute data shows heavy premarket action, with SAIQ trading between roughly $5.60 and $6.70 around 04:00–04:10 before easing into the low $5s.\nWhy Traders Are Watching SAIQ SAIQ grabbed traders’ attention the second WISeSat.Space completed its business combination with Columbus Acquisition Corp and started trading on Nasdaq as a standalone name.\nFor short‑term traders, WISeSat.Space is all about timing.",
+    "category": "IoT Cyber",
+    "published_date": "2026-10-20T13:18:58+00:00",
+    "slug": "saiq-stock-rockets-on-nasdaq-debut-as-volatility-spikes-timothy-sykes",
+    "extraction_method": "newspaper4k",
+    "source_name": "timothysykes.com"
+  },
+  {
     "id": 19481,
     "title": "Could AI Use a Simple Photo of Your Face to Reveal Clues About Your Health?",
     "source_url": "https://www.aol.com/articles/could-ai-simple-photo-face-130101000.html",
@@ -548,6 +779,17 @@
     "slug": "msps-can-help-smbs-strengthen-cybersecurity-without-overspending-channele2e",
     "extraction_method": "newspaper4k",
     "source_name": "channele2e.com"
+  },
+  {
+    "id": 19518,
+    "title": "This AI model is trained to predict cancer survival from a single photo",
+    "source_url": "https://www.phillyvoice.com/artificial-intelligence-cancer-survival-photo-study/",
+    "summary": "Researchers are figuring out how to use artificial intelligence to determine a person's cancer survival outcomes from a single facial image.\n\"To our knowledge, this is the first demonstration that an AI model can directly predict cancer survival from a simple photograph.\"\nFaceSurvival predicted cancer survival based on facial features, such as creases running from the nose to the mouth and around the eyes.\nBut precisely how AI determines biological age and cancer outcomes from facial images is not fully understood.\nDue to historical disparities in access to quality health care among different racial groups, health outcomes vary.",
+    "category": "Image Recognition",
+    "published_date": "2026-10-20T12:48:15.238397-04:00",
+    "slug": "this-ai-model-is-trained-to-predict-cancer-survival-from-a-single-photo-phillyvoice",
+    "extraction_method": "newspaper4k",
+    "source_name": "phillyvoice.com"
   },
   {
     "id": 19451,
@@ -214408,6 +214650,17 @@
     "category": "Quantum Computers",
     "published_date": "2025-11-18T00:00:00",
     "slug": "why-accessible-software-is-the-cornerstone-of-useful-quantum-computers-sdxcentral",
+    "extraction_method": "newspaper4k",
+    "source_name": "sdxcentral.com"
+  },
+  {
+    "id": 19523,
+    "title": "NTT wins support for quantum network interoperability talks",
+    "source_url": "https://www.sdxcentral.com/news/ntt-wins-support-for-quantum-network-interoperability-talks/",
+    "summary": "NTT pushed for international coordination on network architecture and interoperability in connecting quantum computers with AI infrastructure and data center facilities.\nConnecting quantum and classical infrastructure NTT’s proposal identified network architecture, interoperability, synchronization and control, and operational management as areas requiring international dialogue.\nThe company argued that quantum computing’s value could extend beyond standalone machines through connections among multiple quantum computers, AI infrastructure, and data centers.\nNTT presented its optical quantum computing research alongside the Innovative Optical and Wireless Network (IOWN), its initiative to improve network and computing infrastructure efficiency.\nNetworks cross infrastructure boundaries The quantum discussion sat within a wider debate about infrastructure spanning multiple data centers, cloud platforms, network operators, and countries.",
+    "category": "Quantum Computers",
+    "published_date": "2025-11-18T00:00:00",
+    "slug": "ntt-wins-support-for-quantum-network-interoperability-talks-sdxcentral",
     "extraction_method": "newspaper4k",
     "source_name": "sdxcentral.com"
   },
