@@ -75,6 +75,34 @@ jobs:
               sys.exit(1)
           EOF
 
+  # Exercises what import-check cannot: the NLTK tokenizer download, Newspaper4k
+  # summarization on a bundled fixture (offline), then one gnews search, one Google
+  # News URL decode and one real extraction (network). A Google outage fails the
+  # network half too, so re-run once before treating a failure as a dependency problem.
+  pipeline-smoke:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Same Python version as daily-build.yml
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+          cache-dependency-path: 'scripts/requirements.txt'
+
+      - name: Install locked dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r scripts/requirements.txt
+
+      - name: Run pipeline smoke test
+        working-directory: scripts
+        run: python smoke_test.py
+
   # Builds the site from the committed data/*.json, the same way daily-build.yml does
   # after export. `astro check` in the build script catches type breaks from npm bumps.
   site-build:

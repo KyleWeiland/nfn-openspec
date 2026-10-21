@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>How a Static News Site Rebuilds Itself Every Morning</title>
+<meta name="description" content="A walkthrough of a daily pipeline that searches, extracts, summarises and publishes without a server.">
+<meta property="article:published_time" content="2026-10-01T06:00:00Z">
+</head>
+<body>
+<article>
+<h1>How a Static News Site Rebuilds Itself Every Morning</h1>
+<p class="byline">By the pipeline maintainers</p>
+
+<p>Every morning a small program wakes up on a borrowed machine, asks a search engine what happened overnight in a handful of narrow subjects, and goes to bed again a few minutes later with a freshly published website behind it. There is no server to keep running, no database host to pay for and no queue to watch. The entire system is a folder of scripts, a single file of search terms and a file of articles that grows by a few dozen rows a day.</p>
+
+<p>The first stage is discovery. For each configured subject the program runs one search and keeps the top ten results from the last day. A result is nothing more than a headline, a publication date and a link. Because the search engine wraps every link in its own redirect, the program has to decode each one back to the publisher address before it can do anything useful with it. When that decoding step breaks, as it did once after a library removed a function without warning, the whole morning run fails and nobody receives a newspaper.</p>
+
+<p>The second stage is extraction. The program downloads each article page with an ordinary browser identity, strips the navigation, advertisements and comment threads, and keeps the body text. This is harder than it sounds. Publishers wrap their stories in dozens of different layouts, and some of them serve a consent screen or a security check instead of the story. The extractor copes with most layouts, and a short list of junk patterns catches the consent screens that slip through so they are never stored as if they were articles.</p>
+
+<p>The third stage is summarisation. A tokenizer splits the body into sentences, the sentences are scored by the words they share with the headline and with each other, and the highest scoring handful are stitched back together in their original order. The result reads like a condensed version of the piece rather than a rewrite of it. It is not clever, but it is fast, it runs without a network connection once the tokenizer data has been downloaded, and it never invents a fact that was not on the page.</p>
+
+<p>The fourth stage is storage. Each article is checked against everything already stored, first by its address and then by a normalised form of its headline, so that a story syndicated to five outlets does not appear five times. New rows get a short, unique address slug derived from the headline, capped in length so that no file system ever refuses to create the page. The database file itself is committed back to the repository at the end of the run, which is simple but means the repository grows a little every day.</p>
+
+<p>The fifth and final stage is publishing. A static site generator reads an export of the database, writes one page per article and one paginated list per subject, and hands the resulting folder to a hosting service. Nothing in the finished site executes on the reader machine beyond a small script that prefetches the next page. If the build fails, the previous site stays up, and an issue is opened automatically so that the maintainers hear about it before the readers do.</p>
+
+<p>What makes the arrangement robust is not any single component but the fact that every stage is boring and every version is pinned. The program installs exactly the library versions recorded in a lock file, so a new release upstream cannot change tomorrow behaviour without someone first opening a pull request. A check runs on each of those pull requests and tries to import every module, build the site and, since this fixture was added, download the tokenizer and summarise this very page. If you are reading this text inside a test log, that check is doing its job.</p>
+</article>
+</body>
+</html>

@@ -54,8 +54,13 @@ Any pull request that changes Python dependency files SHALL be validated by inst
 - **THEN** the validation check MUST fail on that pull request
 - **THEN** the failure output MUST name the import that failed
 
+#### Scenario: Upgrade changes runtime behaviour the pipeline depends on
+- **WHEN** a pull request changes the lock file to a version under which the tokenizer download, article summarization, the news search or the Google News URL decode no longer works
+- **THEN** the validation check MUST fail on that pull request
+- **THEN** the failure output MUST name the check that failed
+
 #### Scenario: Compatible upgrade
-- **WHEN** a pull request changes the lock file and all pipeline modules import successfully
+- **WHEN** a pull request changes the lock file, all pipeline modules import successfully and the smoke checks pass
 - **THEN** the validation check MUST pass
 
 #### Scenario: Unrelated pull request

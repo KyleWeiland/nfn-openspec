@@ -67,6 +67,9 @@ to GitHub Pages via GitHub Actions.
 
 ## Testing
 - Test pipeline locally before pushing: `python scripts/fetch_articles.py`
+- After a dependency change, run `python smoke_test.py` from `scripts/` (or
+  `--offline` for just the tokenizer and summarizer). CI runs it as the
+  `pipeline-smoke` job in dependency-check.yml on every PR touching `scripts/`
 - Export and preview: `./scripts/run_local.sh`, or `python scripts/export_for_astro.py`
   then `cd site && npm run dev`
 - The committed `data/articles.db` is already populated, so no seed data is needed
