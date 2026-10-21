@@ -68,7 +68,7 @@ No API key is required. `gnews` queries Google News directly and returns direct 
   - `googlenewsdecoder` — Resolves Google News wrapper URLs when they appear
   - `lxml_html_clean` — HTML sanitization (Newspaper4k dependency)
   - `requests` — HTTP requests
-- **Node.js 20+** — Frontend tooling
+- **Node.js 22+** — Frontend tooling
   - `Astro` — Static site generator (static output mode)
 - **SQLite3** — Database (standard library, no separate installation)
 - **GitHub Actions** — CI/CD automation
@@ -83,7 +83,7 @@ The site ships no client-side framework and no interactive components. The only 
 ### Prerequisites
 
 - Python 3.11 or higher
-- Node.js 20 or higher
+- Node.js 22.12 or higher
 - Git
 
 ### Clone and Setup

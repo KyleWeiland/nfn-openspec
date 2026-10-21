@@ -61,11 +61,11 @@ jobs:
       - name: Export data for Astro
         run: python scripts/export_for_astro.py
 
-      # 6. Set up Node.js 20+ with npm caching
+      # 6. Set up Node.js 22 with npm caching (Node 20 reached end of life 2026-04-30)
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
           cache: 'npm'
           cache-dependency-path: 'site/package-lock.json'
 

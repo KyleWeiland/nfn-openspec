@@ -157,7 +157,7 @@ Trigger: cron 0 6 * * * UTC  OR  manual dispatch (with optional skip_fetch flag)
     ├── pip install -r scripts/requirements.txt  (pinned lock)
     ├── python scripts/fetch_articles.py  (skippable via manual input)
     ├── python scripts/export_for_astro.py
-    ├── Setup Node 20 + npm cache
+    ├── Setup Node 22 + npm cache
     ├── cd site && npm ci && npm run build
     ├── git commit data/ with [skip ci] tag  (only if changes)
     └── Deploy site/dist/ → GitHub Pages
@@ -725,7 +725,7 @@ export default defineConfig({
 - Dev: `@astrojs/check@0.9.8`, `typescript@5.9.3`
 - Exact pins (`site/.npmrc` sets `save-exact`); Dependabot proposes weekly upgrades
 - Build command: `astro check && astro build` (type-check, then build)
-- Engine: Node.js >= 20
+- Engine: Node.js >= 22.12
 
 **`tsconfig.json`:**
 - Extends `astro/tsconfigs/strict` (strictest type checking)
