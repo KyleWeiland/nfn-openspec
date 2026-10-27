@@ -11,6 +11,501 @@
     "source_name": "nature.com"
   },
   {
+    "id": 19871,
+    "title": "Nvidia's AI tools drive smart city pilots across Europe",
+    "source_url": "https://itbrief.com.au/story/nvidia-s-ai-tools-drive-smart-city-pilots-across-europe",
+    "summary": "Cities and software partners across Europe, the Middle East and Africa are using Nvidia's AI and digital twin tools for urban operations, spanning local government, transport, buildings and public services.\nPartners include ABA Technology, Akila, Galene AI, Honeywell Technologies, K2K, Linker Vision, Milestone, Onetera, ThinkDeep and Younite AI.\nThe tests focus on mobility and safety applications in urban planning and public services.\nThe Island of Jersey is also working with K2K on projects linked to decision-making, mobility, urban planning, clean energy and public services.\nCosmos is due to be adopted for video data in that project.",
+    "category": "Smart Cities",
+    "published_date": "2026-10-27T21:30:00+13:00",
+    "slug": "nvidias-ai-tools-drive-smart-city-pilots-across-europe-it-brief-australia",
+    "extraction_method": "newspaper4k",
+    "source_name": "itbrief.com.au"
+  },
+  {
+    "id": 19838,
+    "title": "Incheon to Build 'AI Connected Mobility Science Park' in Cheongna",
+    "source_url": "https://news.sbs.co.kr/english/article.do?news_id=N1008817350",
+    "summary": "▲ Cheongna International City in Incheon The City of Incheon is pushing forward with plans to establish a high-tech mobility industry hub centered around Cheongna International City, a free economic zone.\nDuring the 2026 Connected Mobility Alliance General Assembly held at Paradise City in Yeongjongdo today (27th), Incheon signed a business agreement with major domestic companies and the Korea Automotive Technology Institute to foster the future mobility industry.\nThe 10 participating companies include Hyundai Mobis, LG Innotek, Lotte Innovate, and TMAP Mobility.\nThe city plans to build an \"AI Connected Mobility Science Park\" centered around Cheongna Robotland, the IHP Urban High-Tech Industrial Complex, and Cheongna Investment Attraction Block 6 to cluster related companies, universities, and research institutes.\nConnected cars are futuristic vehicles equipped with advanced information and communications technology (ICT) that enable two-way wireless communication.",
+    "category": "Connected Car",
+    "published_date": "2026-10-27T16:05:07+09:00",
+    "slug": "incheon-to-build-ai-connected-mobility-science-park-in-cheongna-newssbscokr",
+    "extraction_method": "newspaper4k",
+    "source_name": "news.sbs.co.kr"
+  },
+  {
+    "id": 19856,
+    "title": "Attackers Hijack Dahua IP Cameras in Ukraine Using P2P Access and Auth Weaknesses",
+    "source_url": "https://thehackernews.com/2026/10/attackers-hijack-dahua-ip-cameras-in.html",
+    "summary": "The Computer Emergency Response Team of Ukraine (CERT-UA) has issued an alert warning of unauthorized remote access to video surveillance systems manufactured by Dahua.\nHowever, the findings share similarities with two clusters of activity that Hunt.io disclosed as targeting IP cameras in Ukraine and Russia.\nOne of the campaigns, attributed to a Russian-speaking operator, singled out internet-exposed cameras in Ukraine using known Dahua and Hikvision vulnerabilities, ultimately compromising 58 devices.\nEarlier this year, Dutch intelligence agencies warned that Russian actors are compromising IP cameras across the E.U., NATO states, and Ukraine to conduct systematic digital espionage operations and acquire military intelligence.\nThe information from IP cameras in Ukraine is used in attempts to neutralize Ukrainian military personnel and to destroy their military material.\"",
+    "category": "IoT Cyber",
+    "published_date": "2026-10-27T12:04:00+05:30",
+    "slug": "attackers-hijack-dahua-ip-cameras-in-ukraine-using-p2p-access-and-auth-weaknesses-the-hacker-news",
+    "extraction_method": "newspaper4k",
+    "source_name": "thehackernews.com"
+  },
+  {
+    "id": 19883,
+    "title": "Top Industry Insights | Subscribe Now",
+    "source_url": "https://sports.economictimes.indiatimes.com/newsletter",
+    "summary": "Read more on Medianews4u.com → DP World PGTI and Essar Foundation launch Shashi Ruia Memorial Golf Championship DP World PGTI and Essar Foundation have announced the Shashi Ruia Memorial Golf Championship, a five-year annual event running through 2031.\nRead more on Taylorville Daily News → Pakistan Cricket Board eyes PSL Sixes franchise league Pakistan Cricket Board chief executive Salman Naseer said the board is exploring PSL Sixes, a six overs a side franchise tournament modelled on Hong Kong Sixes.\nWhy it matters: If approved, PSL Sixes gives PCB a lower cost property to extend the league brand, test emerging players earlier and monetise venues that have not hosted top tier cricket.\nWhat changed: Track Titan’s analysis targets lap-time gains and technique refinement, signalling a shift from open competition to coached development.\nThat gives Indian sim racers a more professional pathway into Formula 1’s global ecosystem.",
+    "category": "Sim Racing",
+    "published_date": "2026-10-27T11:14:27",
+    "slug": "top-industry-insights-subscribe-now-sportseconomictimesindiatimescom",
+    "extraction_method": "newspaper4k",
+    "source_name": "sports.economictimes.indiatimes.com"
+  },
+  {
+    "id": 19864,
+    "title": "IonQ Secures $7.5M AFRL Award for Quantum Network Expansion",
+    "source_url": "https://ionq.com/news/ionq-awarded-7-5-million-follow-on-funding-from-afrl-to-advance-full-stack-quantum-networking",
+    "summary": "Phase 2 expansion builds on a first-generation quantum network in Rome, New York, adding advanced optical, hardware, and software layers for real-world deployment.\nThe Phase 2 contract expands upon the first-generation quantum network IonQ previously delivered in Rome, New York.\nWe are unlocking new domains for quantum networking by going to free space optics,\" said Jordan Shapiro, IonQ President, Quantum Platform.\nAbout IonQ IonQ, Inc. [NYSE: IONQ] is the world’s leading quantum platform and foundry - delivering integrated quantum solutions across computing, networking, sensing, and security.\n‍ IonQ Media Contacts: media@ionq.co IonQ Investor Contact: investors@ionq.co ‍",
+    "category": "Quantum Computers",
+    "published_date": "2026-10-27T11:13:03",
+    "slug": "ionq-secures-75m-afrl-award-for-quantum-network-expansion-ionq",
+    "extraction_method": "newspaper4k",
+    "source_name": "ionq.com"
+  },
+  {
+    "id": 19861,
+    "title": "Benin Data Protection Authority calls for stronger cooperation on cybersecurity and digital sovereignty",
+    "source_url": "https://techreviewafrica.com/news/7964/benin-data-protection-authority-calls-for-stronger-cooperation-on-cybersecurity-and-digital-sovereignty",
+    "summary": "By: Van Soul Addey The President of Benin’s Personal Data Protection Authority (APDP), Luciano Hounkponou, has urged enhanced cooperation between regulatory authorities, regional harmonisation of standards and stronger protection of sensitive data to address cybersecurity risks in Africa’s expanding digital ecosystem.\nHounkponou made the call during the 15th edition of the One Africa Digital Forum, held in Cotonou, under the theme “Digital Africa in the Era of 5G: Dynamics and Transformational Impact”.\nThe discussions addressed challenges related to personal data protection, cybersecurity and digital innovation amid the growth of 5G and the Internet of Things (IoT).\nOn digital sovereignty, Hounkponou highlighted the need to control digital infrastructure and determine where sensitive data is stored.\nHe advocated for national data centres and reduced dependence on offshore hosting infrastructure to better prevent data leaks and industrial espionage.",
+    "category": "IoT Cyber",
+    "published_date": "2026-10-27T11:12:55",
+    "slug": "benin-data-protection-authority-calls-for-stronger-cooperation-on-cybersecurity-and-digital",
+    "extraction_method": "newspaper4k",
+    "source_name": "techreviewafrica.com"
+  },
+  {
+    "id": 19851,
+    "title": "State Lawmakersto Tackle Smart Glass Privacy",
+    "source_url": "https://pro.stateaffairs.com/ca/technology/lawmakers-plan-bills-to-curb-facial-recognition-in-smart-glasses",
+    "summary": "Share with your team Guests can view 10 articles for free",
+    "category": "Image Recognition",
+    "published_date": "2026-10-27T11:12:29",
+    "slug": "state-lawmakersto-tackle-smart-glass-privacy-state-affairs-pro",
+    "extraction_method": "newspaper4k",
+    "source_name": "pro.stateaffairs.com"
+  },
+  {
+    "id": 19841,
+    "title": "Update on Cybersecurity Event at UNM Health Sciences Center",
+    "source_url": "https://hscnews.unm.edu/news/ambulance-traffic-diverted-clinical-appointments-cancelled-and-classes-cancelled-due-to-cybersecurity-issue-at-unm-hsc",
+    "summary": "UPDATE as of 10:27 p.m., Oct. 26, 2026 Information technology security teams continue working to resolve the cybersecurity event affecting UNM Health Sciences Center.\nNonessential employees at the UNM Health Sciences Center are asked to remain home Tuesday.\nPrevious Update From 6:08 p.m., Oct. 26, 2026 The University of New Mexico Health Sciences Center (HSC), which includes the UNM Health clinical delivery system, experienced a cybersecurity event Monday, Oct. 26, 2026.\nFrom 12:30 to 2:30 p.m., UNM Health temporarily limited its acceptance of new patients as teams responded to the event.\nUNM Health patients should not show up to UNM Health facilities on October 26.",
+    "category": "Cybersecurity",
+    "published_date": "2026-10-27T11:12:08",
+    "slug": "update-on-cybersecurity-event-at-unm-health-sciences-center-unm-hsc-newsroom",
+    "extraction_method": "newspaper4k",
+    "source_name": "hscnews.unm.edu"
+  },
+  {
+    "id": 19837,
+    "title": "The Connected Vehicle Technology Market is Projected to Reach $76",
+    "source_url": "https://natlawreview.com/press-releases/connected-vehicle-technology-market-projected-reach-765-billion-2030-driven",
+    "summary": "The Business Research Company’s Connected Vehicle Technology Global Market Report 2026 – Market Size, Trends, And Forecast 2026-2035 LONDON, GREATER LONDON , UNITED KINGDOM, October 26, 2026 /EINPresswire.com/ -- The connected vehicle technology market is rapidly evolving, driven by breakthroughs in communication systems and vehicle connectivity solutions.\nMarket Size and Outlook for Connected Vehicle Technology The connected vehicle technology market is projected to exceed $76 billion by 2030.\nRequest A Free Sample Of The Connected Vehicle Technology Market Report https://thebusinessresearchcompany.com/sample_request?id=97052002&type=smp&name=Connected%20Vehicle%20Technology%20Market%20Report%202026&utm_source=EINPresswire&utm_medium=Paid&utm_campaign=Oct_PR Asia-Pacific Emerges as the Leading Connected Vehicle Technology Hub by 2030 In 2030, Asia-Pacific is forecasted to be the largest regional market for connected vehicle technology, with a valuation of $33 billion.\nThe United States to Lead Country-Level Market for Connected Vehicle Technology By 2030, the USA is expected to hold the largest country market share in connected vehicle technology, valued at $17 billion.\nAccess The Detailed Connected Vehicle Technology Market Report Here https://thebusinessresearchcompany.com/report/connected-vehicle-technology-market-report?utm_source=EINPresswire&utm_medium=Paid&utm_campaign=Oct_PR Dominance of Hardware Segment Within Connected Vehicle Technology Market The hardware component is set to be the largest segment within connected vehicle technology by 2030, accounting for 44% or $33 billion of the total market.",
+    "category": "Connected Car",
+    "published_date": "2026-10-27T11:11:55",
+    "slug": "the-connected-vehicle-technology-market-is-projected-to-reach-76-the-national-law-review",
+    "extraction_method": "newspaper4k",
+    "source_name": "natlawreview.com"
+  },
+  {
+    "id": 19828,
+    "title": "Sterling Anderson doesn’t think humanoid robots should be building cars",
+    "source_url": "https://www.theverge.com/transportation/1018625/gm-sterling-anderson-interview-robots-ai-autonomous-data-privacy",
+    "summary": "Speaking of autonomy, we have autonomous vehicles on the road today — Waymo, Zoox, and Tesla Cybercabs.\nIf you believe that your driver assistance system is super capable, you are already at risk of complacency — at risk of treating it like it’s an autonomous system.\nOur philosophy is: If we’re going to design an autonomous system, we’re going to actually design an autonomous system.\nIn the same way you put a robotaxi in a bounded region, we will put personally owned autonomous vehicles on a particular road.\nAI is cutting vehicle development times, but we’re also seeing hype around factory automation and humanoid robots from companies like Tesla and Rivian.",
+    "category": "Autonomous Vehicles",
+    "published_date": "2026-10-27T11:00:00+00:00",
+    "slug": "sterling-anderson-doesnt-think-humanoid-robots-should-be-building-cars-the-verge",
+    "extraction_method": "newspaper4k",
+    "source_name": "theverge.com"
+  },
+  {
+    "id": 19845,
+    "title": "New threats, kind of like the old threats: Why AI makes speed the ultimate cybersecurity defense",
+    "source_url": "https://technical.ly/civics/why-ai-threats-make-speed-the-ultimate-cybersecurity-defense/",
+    "summary": "Recent cybersecurity headlines have given us plenty of reasons to worry about what AI can do.\nLast week, researchers disclosed that AI had helped uncover critical vulnerabilities in PHP, the programming language used by roughly 70% of websites.\nAI didn’t create these vulnerabilities, and malicious actors will always exist.\n“If an AI finds an exploit or a human finds an exploit, it’s always going to be something we didn’t think of before.”\nAI tools can help attackers turn newly discovered flaws into working exploits faster, and target more systems at once.",
+    "category": "Cybersecurity",
+    "published_date": "2026-10-27T10:15:00+00:00",
+    "slug": "new-threats-kind-of-like-the-old-threats-why-ai-makes-speed-the-ultimate-cybersecurity-defense",
+    "extraction_method": "newspaper4k",
+    "source_name": "technical.ly"
+  },
+  {
+    "id": 19865,
+    "title": "Intel Poised To Buy Israel’s Classiq for Record $2.3 Billion Quantum Exit",
+    "source_url": "https://themedialine.org/headlines/intel-poised-to-buy-israels-classiq-for-record-2-3-billion-quantum-exit/",
+    "summary": "Intel is poised to acquire Israeli quantum computing startup Classiq for $2.3 billion in a cash-and-stock deal that could become the largest exit in the quantum computing industry, Calcalist reported.\nIntel has also set aside more than $100 million in retention grants aimed at keeping Classiq employees following the acquisition.\nThe reported acquisition would add Classiq to Intel’s previous purchases of Israeli technology companies.\nQuantum computing remains a developing industry without widespread practical commercial adoption.\nIsrael is considered one of the world’s five leading countries in quantum computing, measured by both the number of companies active in the sector and the amount of private investment.",
+    "category": "Quantum Computers",
+    "published_date": "2026-10-27T09:41:04+00:00",
+    "slug": "intel-poised-to-buy-israels-classiq-for-record-23-billion-quantum-exit-the-media-line",
+    "extraction_method": "newspaper4k",
+    "source_name": "themedialine.org"
+  },
+  {
+    "id": 19843,
+    "title": "Manufacturing cybersecurity faces persistent governance gaps as accountability, funding, operational priorities diverge",
+    "source_url": "https://industrialcyber.co/features/manufacturing-cybersecurity-faces-persistent-governance-gaps-as-accountability-funding-operational-priorities-diverge/",
+    "summary": "Fortinet’s 2026 survey of more than 700 OT professionals found 81% expect OT security to shift to the CISO within a year, which suggests it has not happened yet.\nWithout clear ownership and lifecycle funding, security work can lose priority to production and maintenance,” ShangJyh ‘SZ’ Lin, chief cybersecurity advisor at Sun Square, told Industrial Cyber.\nSaunders said that the biggest issue is delaying an update to OT systems because a manufacturing line would be taken down.\n“OT systems that are 10-15 years or older are highly vulnerable to cyber attack,” Saunders said.\nCybersecurity governance meets production pressure The executives addressed how conflict gets resolved when plant managers are measured on uptime and throughput, though security governance demands decisions create short-term operational friction.",
+    "category": "Cybersecurity",
+    "published_date": "2026-10-27T09:35:14+00:00",
+    "slug": "manufacturing-cybersecurity-faces-persistent-governance-gaps-as-accountability-funding-operational",
+    "extraction_method": "newspaper4k",
+    "source_name": "industrialcyber.co"
+  },
+  {
+    "id": 19853,
+    "title": "Residents divided as live facial recognition cameras return to town centre",
+    "source_url": "https://www.ipswichstar.co.uk/news/26672465.ipswich-residents-divided-return-facial-recognition/",
+    "summary": "Suffolk Constabulary will deploy the technology across three Suffolk town centres in November, with Ipswich visited on Thursday, November 5, following operations in Lowestoft and Bury St Edmunds earlier that week.\nThe system uses live camera feeds to compare people's faces against a watchlist of individuals police are seeking to locate.\nThe force says images of anybody who does not appear on the list are automatically deleted.\nAnother questioned why police publicised deployments in advance, arguing wanted individuals could simply avoid the town centre while cameras were operating.\nSergeant Anthony Welford, of the County Partnership Prevention Hub, said: “Live Facial Recognition is an effective tool that helps us locate wanted individuals, safeguard vulnerable people and enhance public safety.”",
+    "category": "Image Recognition",
+    "published_date": "2026-10-27T09:02:37+00:00",
+    "slug": "residents-divided-as-live-facial-recognition-cameras-return-to-town-centre-ipswich-star",
+    "extraction_method": "newspaper4k",
+    "source_name": "ipswichstar.co.uk"
+  },
+  {
+    "id": 19882,
+    "title": "Arcade Archives Ace Driver Victory Lap review: More is less",
+    "source_url": "https://traxion.gg/arcade-archives-ace-driver-victory-lap-review-more-is-less/",
+    "summary": "Gone is the Ridge-Racer-esque idealised pseudo-realism of Ace Driver, replaced with pinks, purples, greens and blues.\nThe result isn’t as aesthetically pleasing as the original as it’s frequently garish, but you do get used to it.\nThe fact that this conversion supports VRR on supported hardware setups suggests it’s not a perfect fit for modern standards.\nSeeking brilliance Overall, it’s not as easy to recommend as the original, despite being that game plus two more tracks.\nScore: 7/10 ” Classic arcade racer sits in its predecessor’s shadow “ Arcade Archives Ace Driver Victory Lap is available for Nintendo Switch, Switch 2, PlayStation 4, PlayStation 5 and Xbox Series X|S.",
+    "category": "Sim Racing",
+    "published_date": "2026-10-27T09:00:00+00:00",
+    "slug": "arcade-archives-ace-driver-victory-lap-review-more-is-less-traxiongg",
+    "extraction_method": "newspaper4k",
+    "source_name": "traxion.gg"
+  },
+  {
+    "id": 19867,
+    "title": "NVIDIA simulates 104-qubit quantum processor on JUPITER",
+    "source_url": "https://www.engineering.com/nvidia-simulates-104-qubit-quantum-processor-on-jupiter/",
+    "summary": "The simulation validates magic state cultivation, an approach that requires 90% fewer qubits than previous methods for fault-tolerant quantum computing.\nNVIDIA announced a record-breaking quantum computing simulation on JUPITER, Europe’s first exascale supercomputer, allowing researchers to fully explore and validate magic state cultivation — a leading approach to fault-tolerant quantum computing that requires 90% fewer qubits than previous methods.\nRunning on a system of NVIDIA GH200 superchips at Jülich Supercomputing Centre, the 104-qubit simulation is the largest comprehensive simulation of a fault-tolerant quantum processor to date, modeling how a realistic quantum processor performs fault-tolerant computation at record scale.\nComputing in the presence of such noise — known as fault-tolerant quantum computing — requires the use of magic states, a specific arrangement of qubits that is continually consumed during a fault-tolerant quantum computation.\nFault-tolerant quantum computers rely crucially on repeatedly producing magic states — meaning that any optimization in how they are made drastically reduces the difficulty of building a useful quantum computer.",
+    "category": "Quantum Computers",
+    "published_date": "2026-10-27T08:34:51+00:00",
+    "slug": "nvidia-simulates-104-qubit-quantum-processor-on-jupiter-engineeringcom",
+    "extraction_method": "newspaper4k",
+    "source_name": "engineering.com"
+  },
+  {
+    "id": 19830,
+    "title": "China grants permits to VW joint venture and Xpeng as driverless car race builds",
+    "source_url": "https://www.scmp.com/business/china-evs/article/3372153/china-grants-permits-vw-joint-venture-xpeng-autonomous-driving-race-intensifies",
+    "summary": "The latest approvals push the global robotaxi sector closer to a projected US$1 trillion market by 2040 2 -MIN READ2 -MIN Listen Published: 8:00am, 27 Oct 2026Updated: 8:13am, 27 Oct 2026 China has granted new autonomous-driving permission to electric vehicle (EV) maker Xpeng and a mainland joint venture of Volkswagen, intensifying the commercialisation race between China’s autonomous driving firms and US company Tesla.\nXpeng would now be allowed to conduct “demonstration operations” of its Yoyo driverless taxis in the capital city of southern China’s Guangdong province under a licence officially granted recently, the company said on social media on Monday.\nThe licence, which allows the robotaxis to carry paying passengers, is regarded as a final major test for fleet operators before winning regulatory approval for commercial operations.\nSelect Voice Select Speed 0.8x0.9x1.0x1.1x1.2x1.5x1.75x 00:0000:00 1x AI-generated voice",
+    "category": "Autonomous Vehicles",
+    "published_date": "2026-10-27T08:00:14+08:00",
+    "slug": "china-grants-permits-to-vw-joint-venture-and-xpeng-as-driverless-car-race-builds-south-china",
+    "extraction_method": "newspaper4k",
+    "source_name": "scmp.com"
+  },
+  {
+    "id": 19836,
+    "title": "You bought it, but do you control it? The hidden power behind smart devices",
+    "source_url": "https://qazinform.com/amp/you-bought-it-but-do-you-control-it-the-hidden-power-behind-smart-devices-6d6e32/",
+    "summary": "How technology can stop stolen devices On Oct. 17, shops in Paris, Marseille, Lille, Bordeaux, Lyon and other French cities were targeted during looting alongside demonstrations.\nIMEI blocking also depends on the networks and databases involved, while stolen devices may be dismantled for parts or targeted through phishing attacks designed to steal account credentials.\n“These mechanisms are a strong deterrent that reduces the value of a stolen device, but not a guarantee that it will be returned,” Yeleuov said.\nIn April 2026, Stellantis announced an expanded connected-services offering that includes Stolen Vehicle Tracking Assistance through its Connect PLUS package.\nThe challenge is to ensure that technology protects consumers without making them unnecessarily dependent on the companies that manufacture their devices.",
+    "category": "Connected Car",
+    "published_date": "2026-10-27T08:00:00+00:00",
+    "slug": "you-bought-it-but-do-you-control-it-the-hidden-power-behind-smart-devices-qazinform",
+    "extraction_method": "newspaper4k",
+    "source_name": "qazinform.com"
+  },
+  {
+    "id": 19858,
+    "title": "ServiceNow Japan, NTT and CP-SOL partner on integrated cybersecurity services",
+    "source_url": "https://www.telecompaper.com/news/servicenow-japan-ntt-and-cp-sol-partner-on-integrated-cybersecurity-services--1586886",
+    "summary": "ServiceNow Japan, NTT Security Holdings and Crosspoint Solutions (CP-SOL) have formed a partnership to develop integrated cybersecurity services covering IT, operational technology (OT) and internet of things (IoT) devices, with plans to expand into managed security operations centre (SOC) services.\nThe collaboration will initially focus on vulnerability management, combining asset visibility, risk assessment and remediation to help organisations prioritise threats according to asset importance and potentia",
+    "category": "IoT Cyber",
+    "published_date": "2026-10-27T06:23:00+00:00",
+    "slug": "servicenow-japan-ntt-and-cp-sol-partner-on-integrated-cybersecurity-services-telecompaper",
+    "extraction_method": "newspaper4k",
+    "source_name": "telecompaper.com"
+  },
+  {
+    "id": 19850,
+    "title": "Your Selfie Could Become A Medical Metric: Mass General Brigham’s AI Face-Scanning Breakthrough",
+    "source_url": "https://health.yahoo.com/conditions/cancer/articles/selfie-could-become-medical-metric-040257412.html",
+    "summary": "A team of researchers at Mass General Brigham says it could at least provide a set of powerful new clues.\nThe technology represents a move in facial recognition towards prognostic medicine and offers an intriguing glimpse into the intersection of digital health, consumer tech and oncology.\nThe study found that lifestyle factors, especially smoking, heavy alcohol use and drug use, heavily skew biological age older than chronological age.\nCombining the biological age metric with the direct survival score yielded an even more accurate model fit, the researchers state.\nThe AI identifies statistical patterns linked to poorer health outcomes, but it does not explain the biological mechanisms driving them.",
+    "category": "Image Recognition",
+    "published_date": "2026-10-27T04:02:57+00:00",
+    "slug": "your-selfie-could-become-a-medical-metric-mass-general-brighams-ai-face-scanning-breakthrough-yahoo",
+    "extraction_method": "newspaper4k",
+    "source_name": "health.yahoo.com"
+  },
+  {
+    "id": 19868,
+    "title": "Startup Pitches: Future Infrastructure & Built Environments | SCEWC 3 - 5 NOV 2026",
+    "source_url": "https://www.smartcityexpo.com/agenda/future-buildings-urban-infrastructure/startup-pitches-future-infrastructure-built-environments/",
+    "summary": "How do we plan, build and operate the cities of tomorrow?\nThis session brings together startups transforming urban infrastructure and the built environment through predictive intelligence, AI-powered planning, climate-responsive design, sustainable construction, energy innovation and smarter public spaces.\nDiscover solutions helping cities become more efficient, resilient and future-ready.",
+    "category": "Smart Cities",
+    "published_date": "2026-10-27T02:29:41+00:00",
+    "slug": "startup-pitches-future-infrastructure-built-environments-scewc-3-5-nov-2026-smart-city-expo",
+    "extraction_method": "newspaper4k",
+    "source_name": "smartcityexpo.com"
+  },
+  {
+    "id": 19872,
+    "title": "Housing Land Availability: How Columbia Is Unlocking Land for Housing | SCEWC 3 - 5 NOV 2026",
+    "source_url": "https://www.smartcityexpo.com/agenda/housing-land-availability/housing-land-availability-how-columbia-is-unlocking-land-for-housing/",
+    "summary": "Housing land availability is a key challenge for cities seeking to expand housing supply and improve affordability.\nBeyond the physical availability of land, cities face planning, regulatory and institutional barriers that can limit their capacity to deliver new housing.\nIn Columbia, South Carolina, the challenge is not simply the availability of land, but how to activate vacant and underused sites to create new housing opportunities.\nDrawing on Columbia's experience, Mayor Daniel J. Rickenmann will share his perspective on the challenges and opportunities surrounding housing land availability, reflecting on the role of local governments in expanding housing supply and addressing affordability pressures.",
+    "category": "Smart Cities",
+    "published_date": "2026-10-27T02:27:11+00:00",
+    "slug": "housing-land-availability-how-columbia-is-unlocking-land-for-housing-scewc-3-5-nov-2026-smart-city",
+    "extraction_method": "newspaper4k",
+    "source_name": "smartcityexpo.com"
+  },
+  {
+    "id": 19824,
+    "title": "World's largest cargo drone packs a 50-foot wingspan and 4,000lb payload - no human required",
+    "source_url": "https://www.techradar.com/pro/worlds-largest-cargo-drone-packs-a-50-foot-wingspan-and-4-000lb-payload-but-youll-never-find-a-human-pilot-inside",
+    "summary": "The drone can accommodate up to 4,000 pounds of freight, with its internal space dedicated to cargo rather than conventional flight controls and cockpit equipment.\nUnlike conventional freight aircraft adapted from passenger or piloted designs, Egret was conceived around transporting goods without requiring an onboard human operator.\nCompany co-founder David Zagaynov describes the concept as an airborne equivalent of trucking, with autonomous flight intended to move shipments between locations economically.\nThis arrangement separates the pilot from the aircraft, enabling remote operation while retaining human control over critical flight functions during testing.\nThe approach still requires successful validation of flight control, communications, and aircraft reliability before the company can establish how the system performs under operational conditions.",
+    "category": "Autonomous Trucks",
+    "published_date": "2026-10-27T00:20:00+00:00",
+    "slug": "worlds-largest-cargo-drone-packs-a-50-foot-wingspan-and-4000lb-payload-no-human-required-techradar",
+    "extraction_method": "newspaper4k",
+    "source_name": "techradar.com"
+  },
+  {
+    "id": 19842,
+    "title": "Cybersecurity jobs available right now: October 27, 2026",
+    "source_url": "https://www.helpnetsecurity.com/2026/10/27/cybersecurity-jobs-available-right-now-october-27-2026/",
+    "summary": "Get weekly updates on new cybersecurity job openings.\nISSO SierTeK | USA | On-site – View job details As an ISSO, you will support cybersecurity across AFRL networks, standalone systems, and cloud environments.\nMust read: How to succeed at cybersecurity job interviews IT Cybersecurity Specialist Social Security Administration | USA | Hybrid – View job details As an IT Cybersecurity Specialist, you will protect SSA systems, networks, and data through risk assessment, access management, and security architecture.\nSenior Product Cybersecurity Engineer – Platform Security L3Harris Technologies | Canada | On-site – View job details As a Senior Product Cybersecurity Engineer – Platform Security, you will assess, deploy, configure, and maintain cybersecurity technologies within the IPMS solution.\nSenior Security Engineer Rainmaker Technology Corporation | USA | On-site – View job details As a Senior Security Engineer, you will prioritize risks across systems, data flows, and access paths.",
+    "category": "Cybersecurity",
+    "published_date": "2026-10-27T00:00:00",
+    "slug": "cybersecurity-jobs-available-right-now-october-27-2026-help-net-security",
+    "extraction_method": "newspaper4k",
+    "source_name": "helpnetsecurity.com"
+  },
+  {
+    "id": 19854,
+    "title": "AKA, Tibs murder trial: Defence questions detective’s facial recognition skills",
+    "source_url": "https://www.ewn.co.za/2026/10/27/aka-tibs-murder-trial-defence-questions-detective-s-facial-recognition-skills",
+    "summary": "South African Police Service (SAPS) technical detective Rajen Sanders was grilled by defence lawyers over his lack of expertise in facial recognition.\nSanders had been testifying on the more than three hours of CCTV footage he collected following the killing of rapper Kiernan “AKA” Forbes and his friend, celebrity chef Tebello “Tibz” Motsoane.\nALSO READ: More CCTV footage to be presented when AKA, Tibz murder trial resumes Court sees CCTV footage of AKA being tracked on day of murder Alleged hitman followed AKA throughout the day before killing him, court told AKA, Tibz murder trial: Gwabini identified as one of the spotters on CCTV The pair was shot outside Wish Restaurant on Durban’s Florida Road on 10 February 2023.\nDuring his evidence-in-chief, SAPS technical detective Rajen Sanders positively identified two of the accused suspects from the CCTV footage.\nDefence lawyer Musa Mzelemu questioned Sanders over whether he had the required expertise to make the positive identification.",
+    "category": "Image Recognition",
+    "published_date": "2026-10-27T00:00:00",
+    "slug": "aka-tibs-murder-trial-defence-questions-detectives-facial-recognition-skills-ewn",
+    "extraction_method": "newspaper4k",
+    "source_name": "ewn.co.za"
+  },
+  {
+    "id": 19855,
+    "title": "EXCLUSIVE: Face Recognition Fails on iPhone Duo for Kookmin Bank App",
+    "source_url": "https://en.sedaily.com/finance/2026/10/27/exclusive-face-recognition-fails-on-iphone-duo-for-kookmin",
+    "summary": "Facial recognition is failing to work properly on Apple's first foldable smartphone, the iPhone Duo, when users try to obtain KB Kookmin Bank's mobile certificate, according to industry sources.\nSome customers attempting to issue a KB Kookmin certificate through the KB Star Banking app on the iPhone Duo cannot complete the authentication process because of facial recognition errors, financial industry sources said on the 27th.\nComplaints have piled up on online communities since the iPhone Duo launched on the 23rd.\nKookmin Bank is investigating the cause.\n\"We have secured a device and are running tests, but the exact cause has not yet been identified,\" a Kookmin Bank official said.",
+    "category": "Image Recognition",
+    "published_date": "2026-10-27T00:00:00",
+    "slug": "exclusive-face-recognition-fails-on-iphone-duo-for-kookmin-bank-app-seoul-economic-daily",
+    "extraction_method": "newspaper4k",
+    "source_name": "en.sedaily.com"
+  },
+  {
+    "id": 19863,
+    "title": "OpenAI Computing Claim Faces Review, Raising Questions About Quantum Advantage",
+    "source_url": "https://thequantuminsider.com/2026/10/27/openai-computing-claim-faces-review-raising-questions-about-quantum-advantage/",
+    "summary": "The claim could matter to quantum computing because predictions of a quantum computer’s advantage sometimes depend on assumptions about what ordinary computers can — and cannot — do.\nShould Quantum Researchers Care?\nOn reason quantum computing researchers are likely to follow this examination is because some arguments about the difficulty of simulating quantum computers rely on related assumptions.\nExamining the Proof OpenAI says its proof has been checked using Lean, software designed to verify mathematical reasoning.\nA Separate Quantum Physics Claim OpenAI also announced claimed mathematical existence proofs for quantum field theories, including quantum chromodynamics, which describes interactions involving quarks and gluons.",
+    "category": "Quantum Computers",
+    "published_date": "2026-10-27T00:00:00",
+    "slug": "openai-computing-claim-faces-review-raising-questions-about-quantum-advantage-the-quantum-insider",
+    "extraction_method": "newspaper4k",
+    "source_name": "thequantuminsider.com"
+  },
+  {
+    "id": 19859,
+    "title": "Cybersecurity chatbots work best as assistants, not replacements, study finds",
+    "source_url": "https://bioengineer.org/cybersecurity-chatbots-work-best-as-assistants-not-replacements-study-finds/",
+    "summary": "The first cluster centers on cybersecurity and threat-detection applications, with keywords such as cybersecurity, threat detection, blockchain, data privacy, and cyber-physical systems.\nThe second cluster represents artificial intelligence and machine-learning detection methods, including phishing, malware, random forest, decision trees, feature selection, and natural language processing.\nTogether, the clusters show a field organized around cybersecurity applications, intelligent detection techniques, and data-driven network defense.\nHuman centered artificial intelligence driven cybersecurity for business resilience using bibliometric and qualitative analysis.\nDiscover Artificial Intelligence, 6(1), Article 1637. https://doi.org/10.1007/s44163-026-02638-6 Image Credits: AI Generated DOI: 10.1007/s44163-026-02638-6",
+    "category": "IoT Cyber",
+    "published_date": "2026-10-26T23:41:22+00:00",
+    "slug": "cybersecurity-chatbots-work-best-as-assistants-not-replacements-study-finds-bioengineerorg",
+    "extraction_method": "newspaper4k",
+    "source_name": "bioengineer.org"
+  },
+  {
+    "id": 19848,
+    "title": "AI-Generated Tree Images Aid Recognition When Real Data Are Scarce, Study Finds",
+    "source_url": "https://bioengineer.org/ai-generated-tree-images-aid-recognition-when-real-data-are-scarce-study-finds/",
+    "summary": "AI-generated images improved the performance of a standard image-recognition model when real training photographs were limited, according to a peer-reviewed computational modeling study by researchers at North Carolina State University.\nThe experiments focused on 20 common North American tree species and combined synthetic images with photographs from iNaturalist and the Auto Arborist Dataset.\nThe researchers trained a standard image-recognition model using different combinations of real and AI-generated tree images, then assessed its ability to identify the species represented in the training data.\nReal photographs also capture variation that generated images may miss, including leaf shape, bark texture and growth form.\nSubject of Research: Computational testing of synthetic tree imagery for training species-recognition models with limited real-image data Article Title: Study suggests AI-generated images could support conservation, but real-world data remains essential Article References: Study suggests AI-generated images could support conservation, but real-world data remains essential.",
+    "category": "Image Recognition",
+    "published_date": "2026-10-26T23:02:47+00:00",
+    "slug": "ai-generated-tree-images-aid-recognition-when-real-data-are-scarce-study-finds-bioengineerorg",
+    "extraction_method": "newspaper4k",
+    "source_name": "bioengineer.org"
+  },
+  {
+    "id": 19877,
+    "title": "Verstappen Sim Racing, Bleu Mercure Esport fight to IMSA Esports Global Championship class victories at Watkins Glen",
+    "source_url": "https://www.iracing.com/verstappen-sim-racing-bleu-mercure-esport-fight-to-imsa-esports-global-championship-class-victories-at-watkins-glen/",
+    "summary": "132 Bleu Mercure Porsche, this time with Vasilios Beletsiotis and Thibaud Prevot sharing time behind the wheel.\n33 Verstappen Sim Racing BMW of Enzo Bonito and Sam Kuitert picking up the lead and overall victory.\n132 Bleu Mercure Porsche was tucked up behind the No.\n31 Bleu Mercure Acura had jumped them in a similar strategy play as the Grid-and-Go cars.\n31 Bleu Mercure Acura ended with an unplanned trip down pit road just after the final planned stop of the day.",
+    "category": "Sim Racing",
+    "published_date": "2026-10-26T22:00:21+00:00",
+    "slug": "verstappen-sim-racing-bleu-mercure-esport-fight-to-imsa-esports-global-championship-class-victories",
+    "extraction_method": "newspaper4k",
+    "source_name": "iracing.com"
+  },
+  {
+    "id": 19866,
+    "title": "Success! IBM Hits 99% Accuracy Transferring Quantum Information Between Chips",
+    "source_url": "https://www.sciencealert.com/bm-hits-99-accuracy-in-transferring-quantum-information-between-two-chips",
+    "summary": "Scaling up quantum computers by linking multiple chips with L-couplers makes more practical sense than trying to pack ever more qubits together on the same microchip.\nIt's an important test for this kind of multi-channel setup, with large quantum chips currently able to transfer data through several routes.\nIBM is going all in on the modular approach to quantum computing.\nIt's a step in the right direction for these quantum computing systems, though there's still lots of work to do.\n\"These four high-fidelity L-couplers establish a practical path to scalable quantum interconnects for modular quantum computing,\" write the researchers.",
+    "category": "Quantum Computers",
+    "published_date": "2026-10-26T22:00:00+00:00",
+    "slug": "success-ibm-hits-99-accuracy-transferring-quantum-information-between-chips-sciencealert",
+    "extraction_method": "newspaper4k",
+    "source_name": "sciencealert.com"
+  },
+  {
+    "id": 19819,
+    "title": "Charger Logistics Plans to Buy Up to 500 Aurora Driverless Trucks",
+    "source_url": "https://www.act-news.com/news/charger-logistics-to-buy-up-to-500-aurora-trucks/",
+    "summary": "Charger Logistics plans to purchase up to 500 autonomous trucks equipped with the Aurora Driver under a new agreement with Aurora Innovation, expanding a relationship that began earlier this year.\nThe proposed purchase would give Charger ownership of its driverless trucks while using Aurora’s autonomous driving technology through a subscription service.\n“Since launching autonomous operations along the Laredo corridor, we’ve realized immediate operational benefits that point to a clear path to scaling,” said Andy Khera, president of Charger Logistics.\nAs Charger expands its autonomous operations, the company intends to integrate the technology into its existing freight management network.\nUnder the arrangement, Charger would purchase and own the trucks while subscribing to Aurora’s autonomous driving service.",
+    "category": "Autonomous Trucks",
+    "published_date": "2026-10-26T21:56:39+00:00",
+    "slug": "charger-logistics-plans-to-buy-up-to-500-aurora-driverless-trucks-advanced-clean-tech-act-news",
+    "extraction_method": "newspaper4k",
+    "source_name": "act-news.com"
+  },
+  {
+    "id": 19880,
+    "title": "This Week in iRacing | October 27th to November 2nd, 2026 - iRacing.com | iRacing.com Motorsport Simulations",
+    "source_url": "https://www.iracing.com/this-week-in-iracing-october-27th-to-november-2nd-2026/",
+    "summary": "Welcome back to This Week in iRacing, your guide to the daily, even hourly racing that members can get into, based on where their license level is at.\nHere are a few of the highlighted series taking place this week — 2026 Season 4, Week 7 — from October 27th to November 2nd in 2026. iRACING SPECIAL EVENTS iRacing’s Special Event calendar features a selection of the world’s most compelling races across numerous disciplines.\niRACING FF1600 FESTIVAL The next special event on the 2026 iRacing Special Event calendar is the iRacing FF1600 Festival Presented by CONSPIT.\nFrom NASCAR to the Whelen Modifieds, from Formula 1 to INDYCAR, and even some weekly local dirt track racing, iRacing offers many special series to jump in an compete in!\nNASCAR iRACING SERIES Back again in 2026, the NASCAR iRacing Series (Open Setup and Fixed Setup) follows the NASCAR Cup Series schedule for a 36-week racing season.",
+    "category": "Sim Racing",
+    "published_date": "2026-10-26T21:00:12+00:00",
+    "slug": "this-week-in-iracing-october-27th-to-november-2nd-2026-iracingcom-iracingcom-motorsport-simulations",
+    "extraction_method": "newspaper4k",
+    "source_name": "iracing.com"
+  },
+  {
+    "id": 19844,
+    "title": "A cybersecurity issue forces a major New Mexico hospital to divert patients and close clinics - ABC News",
+    "source_url": "https://abcnews.com/US/wireStory/cybersecurity-issue-forces-major-new-mexico-hospital-divert-137582721",
+    "summary": "ALBUQUERQUE -- A major hospital network in New Mexico was racing to fix a cybersecurity issue on Monday that forced it to send ambulances to other hospitals and left the state without an emergency department capable of treating the most serious injuries.\nThe University of New Mexico Health System told people not to show up at its main hospital in Albuquerque and has canceled appointments at its more than 30 clinics.\nUNM Health System said it was working to resolve the issue, the extent and nature of which was not immediately clear.\nThe hospital network conducts about 900,000 outpatient visits and receives 100,000 emergency room visits each year, according to its website.\nIt operates the state's only Level 1 trauma center.",
+    "category": "Cybersecurity",
+    "published_date": "2026-10-26T20:28:11+00:00",
+    "slug": "a-cybersecurity-issue-forces-a-major-new-mexico-hospital-to-divert-patients-and-close-clinics-abc",
+    "extraction_method": "newspaper4k",
+    "source_name": "abcnews.com"
+  },
+  {
+    "id": 19833,
+    "title": "General Motors Lobbies Connected Vehicle Security Act",
+    "source_url": "https://legis1.com/news/gm-lobbying-lobbies-connected-vehicle-security",
+    "summary": "The Connected Vehicle Security Act would prohibit the importation, manufacture, and sale of connected vehicles and related hardware and software associated with China, Russia, Iran, or North Korea.\n7389, the Motor Vehicle Modernization Act, would reform how the National Highway Traffic Safety Administration (NHTSA) regulates vehicle safety.\nCompetitive Landscape Organizations also lobbying H.R.\nOrganizations also lobbying H.R.\n8730 and its Senate companion S. 4429, the bills GM's lobbying filings tie to the connected vehicle issue.",
+    "category": "Connected Car",
+    "published_date": "2026-10-26T19:07:19.244833+00:00",
+    "slug": "general-motors-lobbies-connected-vehicle-security-act-legis1",
+    "extraction_method": "newspaper4k",
+    "source_name": "legis1.com"
+  },
+  {
+    "id": 19862,
+    "title": "12,976 Refrigeration Controls Found Exposed Online in 99 Countries",
+    "source_url": "https://hackread.com/refrigeration-controls-exposed-online-99-countries/",
+    "summary": "The researchers used Shodan, a search engine for Internet of Things (IoT) devices, to identify exposed services across 10 product groups.\nThe figures represent service observations rather than individual refrigeration systems, as one IP address can expose multiple interfaces or represent several downstream systems.\nThe report warns that exposed management interfaces and software vulnerabilities can let cybercriminals manipulate refrigeration systems.\nThousands of Refrigeration Services Exposed Online Forescout identified the following internet-exposed services, grouped by product family.\n“Nearly 13,000 refrigeration systems reachable from the public internet across 99 countries is the picture underneath incidents the industry has already seen this year,” Sehgal said.",
+    "category": "IoT Cyber",
+    "published_date": "2026-10-26T19:03:53+00:00",
+    "slug": "12976-refrigeration-controls-found-exposed-online-in-99-countries-hackread",
+    "extraction_method": "newspaper4k",
+    "source_name": "hackread.com"
+  },
+  {
+    "id": 19820,
+    "title": "State Representatives “didn’t realize” lack of requirements for testing autonomous trucks in New Mexico until push from public safety advocates",
+    "source_url": "https://cdllife.com/2026/state-representatives-didnt-realize-lack-of-requirements-for-testing-autnomous-trucks-in-new-mexico-until-push-from-public-safety-advocates/",
+    "summary": "A group of public safety advocates urged New Mexico lawmakers to implement stricter requirements for companies that plan to test autonomous trucks on state roads.\nCurrently, New Mexico only requires companies to notify the state five days in advance if they wish to test the autonomous trucks.\nThe vehicle must be in compliance with all other state traffic laws, but no other requirements or barriers exist.\nThere are six states that have implemented self-driving vehicle regulations that require companies to obtain permits and gain state authorization before taking the self-driving vehicles out on public roads.\n“I didn’t realize our laws are so lacking,” said Rep. Joy Garratt in response to the presentation.",
+    "category": "Autonomous Trucks",
+    "published_date": "2026-10-26T18:54:03+00:00",
+    "slug": "state-representatives-didnt-realize-lack-of-requirements-for-testing-autonomous-trucks-in-new",
+    "extraction_method": "newspaper4k",
+    "source_name": "cdllife.com"
+  },
+  {
+    "id": 19881,
+    "title": "Le Mans Ultimate Breaks Steam Player Record During 24H",
+    "source_url": "https://boxthislap.org/le-mans-ultimate-breaks-steam-player-record-during-24h/",
+    "summary": "Le Mans Ultimate has reached a new all-time player record on Steam, with 11,941 concurrent users recorded on October 24, 2026.\nThe new record was achieved during one of Le Mans Ultimate’s most demanding official events.\nHowever, the 11,941 figure represents the total number of users running Le Mans Ultimate through Steam simultaneously, not the number of drivers competing in the event.\nNevertheless, reaching nearly 12,000 simultaneous Steam users represents an important milestone for Le Mans Ultimate.\nThe new record can be checked on SteamDB’s Le Mans Ultimate statistics page, while the complete event format and participation requirements are available in the official Le Mans Ultimate Special Events calendar.",
+    "category": "Sim Racing",
+    "published_date": "2026-10-26T18:36:19+00:00",
+    "slug": "le-mans-ultimate-breaks-steam-player-record-during-24h-boxthislap",
+    "extraction_method": "newspaper4k",
+    "source_name": "boxthislap.org"
+  },
+  {
+    "id": 19831,
+    "title": "Mary Barra Pushes GM into A.I. and Autonomous Driving",
+    "source_url": "https://observer.com/2026/10/mary-barra-gm-trucks-onstar-super-cruise/",
+    "summary": "Mary Barra still runs a company deeply involved in manufacturing gas-guzzling SUVs and pickup trucks, but she is increasingly turning to A.I.\nassistant that will debut via a software update on the 2027 Cadillac Lyriq, with other properly equipped GM vehicles getting the feature in the months that follow.\nGoing straight to fully autonomous driving On Oct. 21, GM announced that its planned autonomous highway-driving system would expand beyond the Cadillac Escalade IQ to high-volume SUVs and light-duty pickups.\nHe continued that GM is not developing Level 3 but aims to move directly to a fully autonomous system that can operate safely without continuous supervision.\nmay make autonomous vehicle operation increasingly technologically possible, the regulatory environment, legal bounds and performance on real roads still matter before you see a GM vehicle headed to the dry cleaner to pick up someone’s laundry.",
+    "category": "Autonomous Vehicles",
+    "published_date": "2026-10-26T18:29:31",
+    "slug": "mary-barra-pushes-gm-into-ai-and-autonomous-driving-observer",
+    "extraction_method": "newspaper4k",
+    "source_name": "observer.com"
+  },
+  {
+    "id": 19885,
+    "title": "iRacing Announces FF1600 Festival at Brands Hatch This Weekend",
+    "source_url": "https://boxthislap.org/iracing-ff1600-festival-brands-hatch-2026/",
+    "summary": "iRacing has announced the return of its FF1600 Festival Presented by CONSPIT, taking place from October 30 to November 1, 2026, at Brands Hatch Indy.\nFF1600 Festival Schedule and Broadcast Details iRacing has confirmed five starting times across the weekend, giving drivers in different regions opportunities to participate.\nSunday, November 1: 00:00 GMT / 01:00 CET.\nThe third starting time, scheduled for Saturday at 12:00 GMT, will feature an official broadcast of the top split.\nThe iRacing FF1600 Festival Presented by CONSPIT runs from October 30 to November 1, 2026.",
+    "category": "Sim Racing",
+    "published_date": "2026-10-26T18:27:06+00:00",
+    "slug": "iracing-announces-ff1600-festival-at-brands-hatch-this-weekend-boxthislap",
+    "extraction_method": "newspaper4k",
+    "source_name": "boxthislap.org"
+  },
+  {
+    "id": 19818,
+    "title": "Charger Logistics plans to buy 500 autonomous trucks using Aurora’s tech",
+    "source_url": "https://www.truckingdive.com/news/charger-logistics-plans-to-buy-500-autonomous-trucks-using-auroras-tech/833898/",
+    "summary": "Dive Brief: Charger Logistics USA plans to purchase up to 500 tractors equipped with Aurora Innovation’s driverless technology over the next few years, according to an Oct. 26 press release.\nIn July, Charger Logistics added driverless truck capacity on a route between Dallas and Laredo, Texas.\nMeanwhile, Aurora’s latest agreement with Charger Logistics builds momentum for Aurora.\nCharger Logistics plans to subscribe to Aurora's driver-as-a-service model and own the trucks, per the release.\nIn addition to working with Aurora, Charger Logistics is actively ramping up its use of autonomous driving technology with other companies.",
+    "category": "Autonomous Trucks",
+    "published_date": "2026-10-26T18:06:00",
+    "slug": "charger-logistics-plans-to-buy-500-autonomous-trucks-using-auroras-tech-trucking-dive",
+    "extraction_method": "newspaper4k",
+    "source_name": "truckingdive.com"
+  },
+  {
+    "id": 19835,
+    "title": "Kia Keeps 2027 EV6 Pricing Same After Federal Incentives Fade",
+    "source_url": "https://www.autoconnectedcar.com/2026/10/kia-keeps-2027-ev6-pricing-same-federal-incentives-fade/",
+    "summary": "Kia’s Seven-Trim EV6 Price Ladder The 2027 EV6 is offered in seven trims.\nKia Builds the EV6 in West Point, Georgia The 2027 EV6 is assembled at Kia’s plant in West Point, Georgia, a shift that began with the 2025 refresh.\nWhat Kia’s EV6 Range Numbers Mean for Daily Driving The press release describes the 2027 model as delivering useful all-electric range but does not publish EPA figures, directing readers instead to Kia’s specifications page.\nRecharged reported that, as of April 2026, federal recall trackers showed no open safety recalls specifically for the 2025 EV6.\nQuestions Kia EV6 Shoppers Are Asking Before Signing Dealers and owner forums point to a consistent set of questions.",
+    "category": "Connected Car",
+    "published_date": "2026-10-26T17:33:54-07:00",
+    "slug": "kia-keeps-2027-ev6-pricing-same-after-federal-incentives-fade-auto-connected-car-news",
+    "extraction_method": "newspaper4k",
+    "source_name": "autoconnectedcar.com"
+  },
+  {
+    "id": 19847,
+    "title": "Black October: This week’s cybersecurity crises mean infrastructure inventory just became a board-level priority",
+    "source_url": "https://www.cio.com/article/4240495/black-october-this-weeks-cybersecurity-crises-mean-infrastructure-inventory-just-became-a-board-level-priority.html",
+    "summary": "By Wednesday, Palo Alto Networks said every supported version of PAN-OS and Panorama was vulnerable and no fix was available.\nCan our automation patch directly from that inventory, or does every advisory start with a manual hunt?\nPut it in one system of record: the intended state of your infrastructure, not a scan export.\nDrive automation off the inventory so a new advisory becomes a targeted job, not a scavenger hunt.\nAutomation helps teams keep pace, but without an authoritative inventory, it just misses things faster.",
+    "category": "Cybersecurity",
+    "published_date": "2026-10-26T17:23:52-04:00",
+    "slug": "black-october-this-weeks-cybersecurity-crises-mean-infrastructure-inventory-just-became-a-board",
+    "extraction_method": "newspaper4k",
+    "source_name": "cio.com"
+  },
+  {
+    "id": 19849,
+    "title": "French police to use facial recognition to identify suspects in protest related violence",
+    "source_url": "https://dig.watch/updates/french-police-uses-frt-social-media-for-suspects",
+    "summary": "French authorities plan to use facial recognition technology, mobile phone geolocation, and telephone interception to investigate violence and looting following demonstrations on 17 October 2026.\nDarmanin also announced plans to use facial recognition capabilities associated with the Traitement d’antécédents judiciaires (TAJ), France’s police records database, to compare facial images with those circulating on social media.\nSocial media content and geolocation information are also being used to reconstruct incidents and identify individuals potentially involved in criminal activity.\nIts inspections did not establish operational use of real-time facial recognition in public spaces by the police or gendarmerie.\nThe use of facial recognition technology alongside social media intelligence raises specific questions about how publicly available images can be repurposed for biometric identification.",
+    "category": "Image Recognition",
+    "published_date": "2026-10-26T17:17:17+01:00",
+    "slug": "french-police-to-use-facial-recognition-to-identify-suspects-in-protest-related-violence-digital",
+    "extraction_method": "newspaper4k",
+    "source_name": "dig.watch"
+  },
+  {
+    "id": 19826,
+    "title": "Advocates urge New Mexico lawmakers to enact stricter regulations on automated commercial vehicles",
+    "source_url": "https://sourcenm.com/?p=33452",
+    "summary": "Advocates on Friday urged New Mexico lawmakers to join a handful of states that have passed public safety regulations for self-driving commercial vehicles.\nThe National Highway Traffic Safety Administration reported 1,199 automated vehicle crashes nationwide in the past year.\nDriving systems that provide both automated speed and steering input but require a human driver were involved in 1,857 crashes.\nDaniel Cook, a business agent with Teamsters Local 492 in Albuquerque, began his career driving commercial vehicles in Alaska at age 19.\nSix states — Hawaii, California, Nevada, Arizona, Texas, and Arkansas — passed self-driving vehicle regulations that require companies to obtain permits and state authorization to test or operate automated vehicles.",
+    "category": "Autonomous Vehicles",
+    "published_date": "2026-10-26T17:00:48+00:00",
+    "slug": "advocates-urge-new-mexico-lawmakers-to-enact-stricter-regulations-on-automated-commercial-vehicles",
+    "extraction_method": "newspaper4k",
+    "source_name": "sourcenm.com"
+  },
+  {
     "id": 19792,
     "title": "Kaspersky Reports 52% Rise in Backdoors on Indian SMBs",
     "source_url": "https://www.itvoice.in/backdoors-on-indian-smbs-jump-52-in-h1-2026-kaspersky",
@@ -20,6 +515,17 @@
     "slug": "kaspersky-reports-52-rise-in-backdoors-on-indian-smbs-it-voice-media",
     "extraction_method": "newspaper4k",
     "source_name": "itvoice.in"
+  },
+  {
+    "id": 19821,
+    "title": "Charger Logistics plans to buy up to 500 autonomous trucks",
+    "source_url": "https://www.dcvelocity.com/transportation/trucking/autonomous-trucks/charger-logistics-plans-to-buy-up-to-500-autonomous-trucks",
+    "summary": "The Ontario, Canada-based truck transportation provider Charger Logistics intends to purchase up to 500 autonomous trucks controlled by technology from self-driving platform provider Aurora, the companies said today.\nCharger operates across the U.S. and Mexico, moving goods for the food and beverage, pharmaceutical, automotive, and retail industries.\nUnder the non-binding memorandum of understanding (MOU), the carrier would purchase 500 Aurora Driver-powered trucks, with delivery taking place over 2027 and 2028.\nCharger plans to deploy the trucks on current and new high-volume routes near the border and throughout the country.\n“Since launching autonomous operations along the Laredo corridor, we’ve realized immediate operational benefits that point to a clear path to scaling,” said Andy Khera, President of Charger Logistics.",
+    "category": "Autonomous Trucks",
+    "published_date": "2026-10-26T16:29:35+00:00",
+    "slug": "charger-logistics-plans-to-buy-up-to-500-autonomous-trucks-dc-velocity",
+    "extraction_method": "newspaper4k",
+    "source_name": "dcvelocity.com"
   },
   {
     "id": 19794,
@@ -44,6 +550,39 @@
     "source_name": "moneycontrol.com"
   },
   {
+    "id": 19840,
+    "title": "MONIN: Are Chinese EVs a threat to Canada’s national security?",
+    "source_url": "https://www.saultstar.com/opinion/monin-are-chinese-evs-a-threat-to-canadas-national-security/",
+    "summary": "Canada imported 15,603 Chinese EVs as of mid-September 2026.\nThe Cybersecurity Law of 2017 and Data Security Law of 2021 notably require that companies must support and assist Chinese authorities in the pursuit of its security interests.\nData collected by Chinese EV automakers could therefore become accessible to the Chinese government upon request.\nIts economy ministry says it will block Chinese-branded cars from the market “based on considerations of national security, vehicle safety, information security, and industrial development.”\nThe Biden administration came to a similar conclusion about the dangers of importing Chinese EVs.",
+    "category": "Connected Car",
+    "published_date": "2026-10-26T15:19:19+00:00",
+    "slug": "monin-are-chinese-evs-a-threat-to-canadas-national-security-sault-star",
+    "extraction_method": "newspaper4k",
+    "source_name": "saultstar.com"
+  },
+  {
+    "id": 19852,
+    "title": "Angels Third-Round Pick Earns MLB Pipeline Recognition After Powerful Debut",
+    "source_url": "https://roundtable.io/sports/mlb/angels/news/angels-third-round-pick-earns-mlb-pipeline-recognition-after-powerful-debut",
+    "summary": "The Los Angeles Angels may have found another promising power hitter in the third round of this year's MLB Draft.\nMLB Pipeline named Grahovac the Angels' top-performing player from their 2026 draft class, highlighting his impressive debut with Single-A Rancho Cucamonga.\nLos Angeles selected Grahovac out of Texas A&M with the 81st overall pick in July.\nHe returned healthy in 2026 and hit 22 home runs during his junior season, helping restore his standing among MLB draft prospects.\nMLB Pipeline gave Grahovac a 60 power grade, underscoring the offensive potential he demonstrated during his professional debut.",
+    "category": "Image Recognition",
+    "published_date": "2026-10-26T15:00:35+00:00",
+    "slug": "angels-third-round-pick-earns-mlb-pipeline-recognition-after-powerful-debut-roundtableio",
+    "extraction_method": "newspaper4k",
+    "source_name": "roundtable.io"
+  },
+  {
+    "id": 19878,
+    "title": "Verstappen Sim Racing handed IMSA Esports win after Grid and Go’s disconnection woes",
+    "source_url": "https://traxion.gg/verstappen-sim-racing-handed-imsa-esports-win-after-grid-and-gos-disconnection-woes/",
+    "summary": "As the IMSA Esports Global Championship headed to Watkins Glen for its third round of five, both GTP and GTD championships were becoming two-horse races.\nBleu Mercure Esport had the lead in both, heading Grid and Go-backed efforts by 13 and 23 points, respectively.\nThe first big moment of contact came after five minutes for the GTP championship leaders, as BME hit BS+ Competition going into the Bus Stop, effectively ending the latter’s race.\nBME also briefly led in GTD, though BS+ regained it before their first stops, where the lead remained unchanged.\nNot long after, the window for GTD’s final stops was open, a cycle started by championship leaders Bleu Mercure.",
+    "category": "Sim Racing",
+    "published_date": "2026-10-26T14:59:41+00:00",
+    "slug": "verstappen-sim-racing-handed-imsa-esports-win-after-grid-and-gos-disconnection-woes-traxiongg",
+    "extraction_method": "newspaper4k",
+    "source_name": "traxion.gg"
+  },
+  {
     "id": 19786,
     "title": "Apple tests Face ID for iPhone Duo 2 after criticism of $2,000 foldable",
     "source_url": "https://vietnamnet.vn/en/apple-tests-face-id-for-iphone-duo-2-after-criticism-of-2-000-foldable-2567820.html",
@@ -53,6 +592,72 @@
     "slug": "apple-tests-face-id-for-iphone-duo-2-after-criticism-of-2000-foldable-báo-vietnamnet",
     "extraction_method": "newspaper4k",
     "source_name": "vietnamnet.vn"
+  },
+  {
+    "id": 19876,
+    "title": "What can AI do for cities? Start with public value",
+    "source_url": "https://www.globalgovernmentforum.com/what-can-ai-do-for-cities-start-with-public-value/",
+    "summary": "A recent Global Government Forum report, Making AI work for people and places: Five priorities for cities, explores how local governments can turn the potential of AI into better public services, stronger resilience and economic value.\nThe report draws on discussions at the inaugural Global AI Cities 2026 event in Manchester, which brought together more than 300 local government leaders from over 50 cities.\nRegister for Global AI Cities 2027: 24-25 May, Manchester.\nAI and data can help cities move from reactive service delivery towards anticipating needs, identifying emerging pressures and intervening earlier.\nDownload the report: Making AI work for people and places: Five priorities for cities",
+    "category": "Smart Cities",
+    "published_date": "2026-10-26T14:22:41+00:00",
+    "slug": "what-can-ai-do-for-cities-start-with-public-value-global-government-forum",
+    "extraction_method": "newspaper4k",
+    "source_name": "globalgovernmentforum.com"
+  },
+  {
+    "id": 19884,
+    "title": "2026 Porsche Esports Supercup World Championship belongs to Florian Lebigre following walk-off Monza win",
+    "source_url": "https://www.iracing.com/2026-porsche-esports-supercup-world-championship-belongs-to-florian-lebigre-following-walk-off-monza-win/",
+    "summary": "The 2026 edition of the Porsche Esports Supercup World Championship Series came down to the final Main race of the season at the Autodromo Nazionale Monza on Saturday afternoon.\nLebigre, who led going into Interlagos, was mired back in fourth following the Brazilian excursion, 18 points back from a potential title.\nIn the end, Lebigre managed to win the final race of the season, which was enough to clinch the 2026 World Championship.\nIt would have been a true halving of the points if deJong did not place fifth, earning two points towards the title himself.\n+/- WINS POLES T-5’s T-10’s 1 2 Florian Lebigre Verstappen Sim Racing Europe 276 Ldr.",
+    "category": "Sim Racing",
+    "published_date": "2026-10-26T14:00:18+00:00",
+    "slug": "2026-porsche-esports-supercup-world-championship-belongs-to-florian-lebigre-following-walk-off",
+    "extraction_method": "newspaper4k",
+    "source_name": "iracing.com"
+  },
+  {
+    "id": 19870,
+    "title": "Air Travel - Archer unveils Texas air taxi network",
+    "source_url": "https://www.smartcitiesworld.net/air-travel/archer-unveils-texas-air-taxi-network-13330",
+    "summary": "Archer Aviation has announced plans for three electric air taxi networks connecting major airports, business districts, and coastal destinations in Austin, Dallas-Fort Worth and Houston.\nThe so-called Texas Triangle is home to more than 20 million people and several of the fastest-growing metropolitan areas in the country.\nPlanned air taxi networks Archer’s planned air taxi networks in the state are designed to give Texans an option to skip over traffic on its all-electric Midnight air taxi, turning 60-90 minute drives to major airports, business districts and major destinations into 10-20 minute flights.\n“Texas is setting the bar for America’s leadership in the next generation of aviation,” said Adam Goldstein, founder and CEO of Archer Aviation.\n“Our planned networks will make the benefits of electric air taxis real for Texans – trading hours in traffic for minutes in the air” Dallas-Fort Worth",
+    "category": "Smart Cities",
+    "published_date": "2026-10-26T14:00:00+00:00",
+    "slug": "air-travel-archer-unveils-texas-air-taxi-network-smart-cities-world",
+    "extraction_method": "newspaper4k",
+    "source_name": "smartcitiesworld.net"
+  },
+  {
+    "id": 19879,
+    "title": "Gran Turismo 7 Daily Races: Pour Some SUGO on Me",
+    "source_url": "https://www.gtplanet.net/gran-turismo-7-daily-races-pour-some-sugo-on-me-20261026/",
+    "summary": "Gran Turismo 7 Weekly Challenges: Circle the WGNs A new set of Gran Turismo 7 Weekly Challenges goes live this Friday, October 23, as your console clock rolls past midnight.\nGran Turismo 7 Daily Races: No Sugo for You A new week brings a new set of Gran Turismo 7 Daily Races, with three fresh events now live and running through next Monday, October 26.\nGran Turismo 7 Weekly Challenges: Hold Your Chevaux A new set of Gran Turismo 7 Weekly Challenges arrives this Friday, October 16, once your console clock ticks past midnight.\nGran Turismo 7 pairs the brand-new Xiaomi Vision Gran Turismo with the equally fresh SUGO International Racing Course on Sports Soft tires.\nGran Turismo 7 Daily Races: Red Bull Gives You Wins A new week brings a new set of Gran Turismo 7 Daily Races, with three fresh events now live and running through next Monday, October 19.",
+    "category": "Sim Racing",
+    "published_date": "2026-10-26T13:55:36-04:00",
+    "slug": "gran-turismo-7-daily-races-pour-some-sugo-on-me-gtplanet",
+    "extraction_method": "newspaper4k",
+    "source_name": "gtplanet.net"
+  },
+  {
+    "id": 19873,
+    "title": "Competitive Analysis of Artificial Intelligence (AI) Applications for Smart Cities Market Among Top Global Companies",
+    "source_url": "https://www.einpresswire.com/article/951438325/competitive-analysis-of-artificial-intelligence-ai-applications-for-smart-cities-market-among-top-global-companies",
+    "summary": "Market Size and Position of Artificial Intelligence Applications for Smart Cities The artificial intelligence (AI) applications for smart cities market is anticipated to exceed $40 billion by 2030.\nDominant Country in the AI for Smart Cities Market: The United States The United States is projected to dominate the global AI applications market for smart cities by 2030, with an estimated worth of $13.2 billion.\nTechnology and Deployment Segments in the AI for Smart Cities Market The market is categorized by deployment methods into cloud-based and on-premises solutions.\nGovernment Support Through Smart City Initiatives Public sector investments in smart city development programs also significantly contribute to market growth.\nTop Market Leader in AI Applications for Smart Cities Microsoft Corporation stands out as the market leader, holding a 3% share of global sales in 2025.",
+    "category": "Smart Cities",
+    "published_date": "2026-10-26T13:30:00+00:00",
+    "slug": "competitive-analysis-of-artificial-intelligence-ai-applications-for-smart-cities-market-among-top",
+    "extraction_method": "newspaper4k",
+    "source_name": "einpresswire.com"
+  },
+  {
+    "id": 19829,
+    "title": "Will General Assembly take up bill to test self-driving vehicles?",
+    "source_url": "https://www.dailyherald.com/20261026/autos/will-general-assembly-take-up-bill-to-test-self-driving-vehicles/",
+    "summary": "Legislation to test autonomous vehicles in Illinois may come up again in the November veto session, though the lead sponsor of a pilot bill says there’s still a lot of work to do.\nAutonomous vehicles, or AVs, are motor vehicles that have an automated driving system.\nBut state Rep. Kam Buckner has called for a formal framework, through House Bill 4663, to test and deploy self-driving cars in the state.\nBut autonomous vehicles at high-congestion points may worsen traffic, said Dany Robles, senior legislative director at the Illinois Environmental Council.\nThe Northern California region has a program that incentivizes autonomous vehicles to solve the first- and last-mile problem.",
+    "category": "Autonomous Vehicles",
+    "published_date": "2026-10-26T13:26:04-05:00",
+    "slug": "will-general-assembly-take-up-bill-to-test-self-driving-vehicles-daily-herald",
+    "extraction_method": "newspaper4k",
+    "source_name": "dailyherald.com"
   },
   {
     "id": 19812,
@@ -143,6 +748,17 @@
     "source_name": "sciencedaily.com"
   },
   {
+    "id": 19869,
+    "title": "Transit on the ballot in these 11 states",
+    "source_url": "https://www.smartcitiesdive.com/news/transportation-ballot-measures-2026/833914/",
+    "summary": "Nearly two dozen local and county measures to support transportation are on the Nov. 3 ballot this year.\nTransportation measures do well in big cities and rural communities, in blue states and red states, she said.\nThirty-four of 39 transit measures that have already been voted on passed this year, according to the CFTE.\nBased on the success rate of these earlier ballot measures, Grennan is optimistic about the upcoming votes.\nTransit ballot measures for Nov. 3, 2026",
+    "category": "Smart Cities",
+    "published_date": "2026-10-26T11:31:00",
+    "slug": "transit-on-the-ballot-in-these-11-states-smart-cities-dive",
+    "extraction_method": "newspaper4k",
+    "source_name": "smartcitiesdive.com"
+  },
+  {
     "id": 19799,
     "title": "Telefónica and IQM deploy quantum computer in Madrid",
     "source_url": "https://www.telecoms.com/enterprise-telecoms/telef-nica-and-iqm-deploy-quantum-computer-in-madrid",
@@ -174,6 +790,17 @@
     "slug": "roads-that-charge-your-ev-while-you-drive-are-incredible-but-good-luck-finding-one-bgr",
     "extraction_method": "newspaper4k",
     "source_name": "bgr.com"
+  },
+  {
+    "id": 19874,
+    "title": "After major zoning reform, Cambridge, Massachusetts, launches dashboard to track housing",
+    "source_url": "https://www.smartcitiesdive.com/news/housing-dashboard-keep-track-of-development-cambridge-massachusetts/872752/",
+    "summary": "Dive Brief: Cambridge, Massachusetts, last week launched an interactive dashboard to keep track of housing development across the city.\nWhen the Cambridge City Council passed its multifamily housing zoning ordinance in February 2025, all of its residential areas came under the same zoning codes for the first time in the city’s history.\nThe city’s tracker has nearly 250 housing projects in various stages of development in its database.\n“Residents have told us they want clear, reliable information about how housing is changing in Cambridge,” City Manager Yi-An Huang said in a press release.\n“By including projects at every stage of development, including early-stage proposals that are often difficult to track, we are giving residents a more complete picture of housing activity across our community.”",
+    "category": "Smart Cities",
+    "published_date": "2026-10-26T10:43:40",
+    "slug": "after-major-zoning-reform-cambridge-massachusetts-launches-dashboard-to-track-housing-smart-cities",
+    "extraction_method": "newspaper4k",
+    "source_name": "smartcitiesdive.com"
   },
   {
     "id": 19791,
@@ -295,6 +922,17 @@
     "slug": "cybersecurity-ceo-indicted-for-allegedly-scamming-millions-from-ransomware-victims-propublica",
     "extraction_method": "newspaper4k",
     "source_name": "propublica.org"
+  },
+  {
+    "id": 19839,
+    "title": "Hyundai Bayon Launched in India at ₹9.99 Lakh – 115 PS Petrol Engine, AI Features and Level 2 ADAS",
+    "source_url": "https://www.autopunditz.com/post/hyundai-bayon-india-launch-2026-price-features-specifications",
+    "summary": "Hyundai Motor India Limited (HMIL) has officially launched the Hyundai Bayon in India on October 26, 2026, at an introductory starting price of ₹9,99,900 (ex-showroom).\nBayon entry-level HX2 manual variant price of ₹9,99,900 (ex-showroom) , while the top-spec HX10 iVT Dual-Tone is priced at ₹18,14,900 (ex-showroom).\nHyundai Bayon Variants and Transmission Options The Hyundai Bayon is available in seven variants – HX2, HX3, HX3+, HX5, HX6, HX8 and HX10 – allowing buyers to choose between entry-level affordability and more premium equipment.\nHyundai Bayon Exterior Colour Options Hyundai has announced 10 exterior colour options for the new Bayon, including six monotone shades, two dual-tone combinations and two matte finishes.\nAuto Punditz Take The Hyundai Bayon represents a strategically important addition to Hyundai India's SUV portfolio.",
+    "category": "Connected Car",
+    "published_date": "2026-10-26T08:51:47+00:00",
+    "slug": "hyundai-bayon-launched-in-india-at-999-lakh-115-ps-petrol-engine-ai-features-and-level-2-adas",
+    "extraction_method": "newspaper4k",
+    "source_name": "autopunditz.com"
   },
   {
     "id": 19806,
@@ -495,6 +1133,61 @@
     "source_name": "thequantuminsider.com"
   },
   {
+    "id": 19823,
+    "title": "Driverless trucks show how to keep AI from killing us",
+    "source_url": "https://www.japantimes.co.jp/commentary/2026/10/26/world/driverless-trucks-ai-safetly/",
+    "summary": "The most bothersome aspect of the warning that artificial intelligence could wipe out humanity is that there are few details about how a rogue computer model could actually accomplish it.\nThe top scenarios, and it’s by no means an exhaustive list, involve nuclear missiles, biological weapons and killer robots.\nWe have long been familiar with the first one.\nA maverick AI takes over the nuclear-launch codes and sends the world down the path to doomsday.\nThe second involves AI tricking a human into releasing a deadly virus, which is a new twist on the old concerns of lab leaks by mistake (“Outbreak” in 1995), terrorist plots (“12 Monkeys” in 1995) or profit-making schemes (“Mission: Impossible 2“).",
+    "category": "Autonomous Trucks",
+    "published_date": "2026-10-26T00:00:00",
+    "slug": "driverless-trucks-show-how-to-keep-ai-from-killing-us-the-japan-times",
+    "extraction_method": "newspaper4k",
+    "source_name": "japantimes.co.jp"
+  },
+  {
+    "id": 19827,
+    "title": "NHTSA Proposes Cyan Lights to Identify Autonomous Vehicles",
+    "source_url": "https://www.roadsbridges.com/autonomous-vehicle-systems/news/55414459/nhtsa-proposes-cyan-lights-to-identify-autonomous-vehicles",
+    "summary": "Drivers may start seeing cyan-colored lights along the nation’s roadways to alert motorists they are sharing the road with an autonomously operated vehicle.\nThe proposal would not mandate cyan-colored lights.\nJonathan Morrison, NHTSA administrator, said that the proposal is part of a larger push to accelerate autonomous vehicle adoption while maintaining safety.\nThe agency is working on a federal automated vehicle framework and updating federal motor vehicle safety standards, which already establish safety requirements for automakers.\nThe framework for traditional motor vehicles was not designed for autonomous vehicles, which may lack required equipment such as pedals and steering wheels.",
+    "category": "Autonomous Vehicles",
+    "published_date": "2026-10-26T00:00:00",
+    "slug": "nhtsa-proposes-cyan-lights-to-identify-autonomous-vehicles-roads-bridges",
+    "extraction_method": "newspaper4k",
+    "source_name": "roadsbridges.com"
+  },
+  {
+    "id": 19832,
+    "title": "Tesla’s self-driving Robotaxi service expands into greater Houston, with a rocket-shaped service map",
+    "source_url": "https://www.houstonpublicmedia.org/articles/news/transportation/2026/10/26/565273/teslas-robotaxi-houston-service-expands-with-a-rocket-shaped-map/?amp=1",
+    "summary": "Tesla has expanded its self-driving Robotaxi service through much of the greater Houston region, with a service map in the shape of a rocket.\nRobotaxis had previously been operating in the northwest portion of Houston, near Jersey Village.\nNow, riders can hail Robotaxis throughout much of the 610 Loop and northwest Houston.\nThe Robotaxi service uses Tesla's Cybercab and Model Y vehicles, with fully autonomous services.\nTesla's Robotaxis operate in Austin and Dallas, as well as Houston, with plans to serve San Antonio in the future.",
+    "category": "Autonomous Vehicles",
+    "published_date": "2026-10-26T00:00:00",
+    "slug": "teslas-self-driving-robotaxi-service-expands-into-greater-houston-with-a-rocket-shaped-service-map",
+    "extraction_method": "newspaper4k",
+    "source_name": "houstonpublicmedia.org"
+  },
+  {
+    "id": 19846,
+    "title": "University of New Mexico Hospital diverting ambulance traffic due to ‘cybersecurity’ issue",
+    "source_url": "https://sourcenm.com/2026/10/26/university-of-new-mexico-hospital-diverting-ambulance-traffic-due-to-cybersecurity-issue/",
+    "summary": "In an emailed statement Monday afternoon, UNM Health Sciences Center Communications Director Chris Ramirez said that patients should not show up to any UNM Health facilities Monday while UNM officials are “actively working to resolve the issue.”\nThe statement did not give more details about the nature of the cybersecurity issue or provide an estimate as to when the hospital and clinics would reopen to patients.\nUNM Hospital is the state’s only “Level I Trauma Center,” meaning it is certified to handle the most seriously injured patients.\nThe health system also operates several dozen clinics, most of which are in Albuquerque and Bernalillo County along with specialized facilities in Rio Rancho and Roswell.\nThe email does not specify when the situation would be resolved but notes that “security teams” are actively working to identify the issue.",
+    "category": "Cybersecurity",
+    "published_date": "2026-10-26T00:00:00",
+    "slug": "university-of-new-mexico-hospital-diverting-ambulance-traffic-due-to-cybersecurity-issue-source-new",
+    "extraction_method": "newspaper4k",
+    "source_name": "sourcenm.com"
+  },
+  {
+    "id": 19875,
+    "title": "Q-Free and Carahsoft Partner to Power Sustainable Smart Cities with Safe and Efficient Transportation",
+    "source_url": "https://www.manilatimes.net/2026/10/26/tmt-newswire/globenewswire/q-free-and-carahsoft-partner-to-power-sustainable-smart-cities-with-safe-and-efficient-transportation/2454065/amp",
+    "summary": "Q-Free provides intelligent transportation solutions that help public authorities and road operators improve mobility, safety and efficiency across tolling and traffic management operations.\n\"Q-Free brings highly specialized intelligent transportation capabilities to Carahsoft’s solutions portfolio,” said Rich Savage, Sales Director overseeing the Q-Free Team at Carahsoft.\nQ-Free’s transportation solutions are available through Carahsoft’s NASPO ValuePoint Master Agreement #AR2472.\nFor more information, contact the Carahsoft Team at (703) 581-6680 or QFreeAmerica@carahsoft.com; or learn more about Q-Free’s solutions here.\nAbout Q-Free Q-Free is a global leader in intelligent transportation systems, spearheading innovative solutions for tolling, traffic management, and active transportation.",
+    "category": "Smart Cities",
+    "published_date": "2026-10-26T00:00:00",
+    "slug": "q-free-and-carahsoft-partner-to-power-sustainable-smart-cities-with-safe-and-efficient",
+    "extraction_method": "newspaper4k",
+    "source_name": "manilatimes.net"
+  },
+  {
     "id": 19793,
     "title": "3 UK AI Stocks Backed By Government Cybersecurity Spending",
     "source_url": "https://simplywall.st/stocks/gb/software/aim-cer/cerillion-shares/news/3-uk-ai-stocks-backed-by-government-cybersecurity-spending",
@@ -614,6 +1307,17 @@
     "slug": "ai-excavator-commercialization-to-accelerate-in-virtual-space-hd-hyundai-xitesolution-selected-for",
     "extraction_method": "newspaper4k",
     "source_name": "en.fnnews.com"
+  },
+  {
+    "id": 19834,
+    "title": "Chinese Auto Giant Chery Wants To Crack The U.S. Market. It Thinks Detroit Could Help",
+    "source_url": "https://insideevs.com/news/813122/chery-us-try-soon-launch/",
+    "summary": "Chinese Cars are a no-go for the U.S., effectively.\nStill, the U.S. car market is huge, the second largest behind China.\nAccording to reporting from Reuters, the company is open to trying different things to get access to the U.S. market.\nStill, this is markedly different than what other Chinese brands have said with respect to the U.S. market.\nThey're getting closer to the U.S. market, but a true entry seems to be a ways off.",
+    "category": "Connected Car",
+    "published_date": "2026-10-25T14:00:00+00:00",
+    "slug": "chinese-auto-giant-chery-wants-to-crack-the-us-market-it-thinks-detroit-could-help-insideevs",
+    "extraction_method": "newspaper4k",
+    "source_name": "insideevs.com"
   },
   {
     "id": 19743,
@@ -3608,6 +4312,28 @@
     "source_name": "contemporarypediatrics.com"
   },
   {
+    "id": 19822,
+    "title": "The ChatGPT moment in transportation? Autonomous driving nears commercial inflection",
+    "source_url": "https://www.troweprice.com/en/uk/financial-intermediary/insights/the-chatgpt-moment-in-transporation-autonomous-driving-nears-commenerical-inflection",
+    "summary": "AV technology is gaining commercial momentum Skepticism toward AV technology is not irrational given the fits and starts in this space over the last 15 years (Figure 1).\nHowever, we believe the commercial inflection across both the robotaxi and long‑haul trucking use cases should become clear in 2027 and beyond.\nHowever, autonomous driving systems also never get distracted, emotional, or tired.\nPlenty of autonomous driving companies are running beta tests within narrow geographic fences and at low speeds.\nIn our view, autonomous driving is a growth story whose nuances are often misunderstood.",
+    "category": "Autonomous Trucks",
+    "published_date": "2026-10-20T18:43:00+00:00",
+    "slug": "the-chatgpt-moment-in-transportation-autonomous-driving-nears-commercial-inflection-t-rowe-price",
+    "extraction_method": "newspaper4k",
+    "source_name": "troweprice.com"
+  },
+  {
+    "id": 19825,
+    "title": "The ChatGPT moment in transportation? Autonomous driving nears commercial inflection",
+    "source_url": "https://www.troweprice.com/en/fi/insights/the-chatgpt-moment-in-transporation-autonomous-driving-nears-commenerical-inflection",
+    "summary": "AV technology is gaining commercial momentum Skepticism toward AV technology is not irrational given the fits and starts in this space over the last 15 years (Figure 1).\nHowever, we believe the commercial inflection across both the robotaxi and long‑haul trucking use cases should become clear in 2027 and beyond.\nHowever, autonomous driving systems also never get distracted, emotional, or tired.\nPlenty of autonomous driving companies are running beta tests within narrow geographic fences and at low speeds.\nIn our view, autonomous driving is a growth story whose nuances are often misunderstood.",
+    "category": "Autonomous Vehicles",
+    "published_date": "2026-10-20T18:43:00+00:00",
+    "slug": "the-chatgpt-moment-in-transportation-autonomous-driving-nears-commercial-inflection-t-rowe-price-2",
+    "extraction_method": "newspaper4k",
+    "source_name": "troweprice.com"
+  },
+  {
     "id": 19483,
     "title": "A Belgian Homeowner Uses Over 400 Smart Home Devices At The Same Time - Here's How",
     "source_url": "https://www.bgr.com/2288974/how-belgian-uses-over-400-smart-home-devices/",
@@ -6279,6 +7005,17 @@
     "slug": "fanatec-and-trak-racer-showcase-new-hardware-at-simracing-expo-2026-kitguru",
     "extraction_method": "newspaper4k",
     "source_name": "kitguru.net"
+  },
+  {
+    "id": 19857,
+    "title": "David Warrick, Overhaul: Protecting compute hardware in transit",
+    "source_url": "https://iottechnews.com/news/david-warrick-overhaul-protecting-compute-hardware-in-transit/",
+    "summary": "David Warrick, Executive VP of Enterprise at Overhaul, discusses compute hardware logistics and countering cargo theft, improving shipment visibility, and the consequences of lost equipment.\nDavid Warrick: The sheer value density of accelerator freight transforms theft from opportunistic crime into planned financial operations.\nWhat specific diversion methods target semiconductor and computing hardware shipments today?\nThe Overhaul platform enforces geofences, detects route deviations, and triggers interventions—contacting drivers, escalating to carrier security, or instructing facilities to refuse unauthorised pickups.\nThe bottom line is that physical security should be part of the process, not an afterthought.",
+    "category": "IoT Cyber",
+    "published_date": "2026-10-16T15:50:42+00:00",
+    "slug": "david-warrick-overhaul-protecting-compute-hardware-in-transit-iot-news",
+    "extraction_method": "newspaper4k",
+    "source_name": "iottechnews.com"
   },
   {
     "id": 19251,
@@ -83290,6 +84027,17 @@
     "slug": "why-supermarkets-are-using-bfacial-recognitionb-technology-enfield-independent",
     "extraction_method": "trafilatura",
     "source_name": "enfieldindependent.co.uk"
+  },
+  {
+    "id": 19860,
+    "title": "Border States Appoints VP of Information Security in Latest Veteran Promotion",
+    "source_url": "https://www.naw.org/mdm/news/border-states-appoints-vp-of-information-security-in-latest-veteran-promotion/",
+    "summary": "Rudolf joined Fargo, ND-based Border States in 2003 and has advanced through a series of leadership roles, most recently serving as Information Security Director.\n“The impact of Kelly’s leadership extends beyond technology,” Border States Chief Information Officer Jason Stein said in a July 24 news release.\n“As VP Information Security, Kelly will continue leading Border States’ efforts to enhance cyber resilience, manage enterprise risk and support the company’s ongoing growth and digital transformation.”\nBorder States followed those moves in February by promoting Zach Kincaid, a company veteran of more than 12 years, from VP of Distribution to VP of Procurement.\nBorder States Promotes Company Veteran to Distribution Leader – April 2026 Border States Promotes Company Veteran to Procurement Leader – February 2026 Border States Promotes Procurement Leader to VP of Industrial Solutions – January 2026 Border States Appoints Digital Transformation Leader – January 2026 The 100% employee-owned Border States supplies construction, industrial and utility customers.",
+    "category": "IoT Cyber",
+    "published_date": "2026-07-24T16:55:44+00:00",
+    "slug": "border-states-appoints-vp-of-information-security-in-latest-veteran-promotion-national-association",
+    "extraction_method": "newspaper4k",
+    "source_name": "naw.org"
   },
   {
     "id": 12278,
