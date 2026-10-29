@@ -63,7 +63,7 @@ lxml==6.1.3
     # via
     #   lxml-html-clean
     #   newspaper4k
-lxml-html-clean==0.4.5
+lxml-html-clean==0.4.6
     # via
     #   -r requirements.in
     #   lxml
