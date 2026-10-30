@@ -11,6 +11,402 @@
     "source_name": "nature.com"
   },
   {
+    "id": 20050,
+    "title": "Smart TVs Lead Vulnerability Count As Average Home Hits 24 Connected Devices",
+    "source_url": "https://smbtech.au/news/smart-tvs-lead-vulnerability-count-as-average-home-hits-24-connected-devices/",
+    "summary": "The report draws on 5.4 billion security events and 6.2 billion vulnerability observations collected from January through September 2026 across routers protected by Bitdefender’s smart-home security technology.\nThey generated 270.3 million vulnerability observations across the reporting period – the largest count of any device category.\nThe television’s second job Beyond conventional vulnerabilities, the report highlights a growing concern around proxy software bundled into smart TV apps.\nThe U.S. Department of Justice dismantled four IoT botnets during the reporting period, including operations that had compromised more than a million devices.\nNetwork-attached storage devices rounded out the top three at 22 per cent of observations, with 261.6 million records.",
+    "category": "IoT Cyber",
+    "published_date": "2026-10-30T16:23:38+11:00",
+    "slug": "smart-tvs-lead-vulnerability-count-as-average-home-hits-24-connected-devices-smbtech",
+    "extraction_method": "newspaper4k",
+    "source_name": "smbtech.au"
+  },
+  {
+    "id": 20020,
+    "title": "Woven by Toyota to Further Advance Automated Driving Development in Next Phase of Toyota and Waymo Collaboration",
+    "source_url": "https://woven.toyota/en/news/20261030",
+    "summary": "Toyota Motor Corporation (“Toyota”) and Waymo today announced the next phase of their autonomous driving collaboration.\nBuilding on the announcement in April 2025, the two companies will begin initial operations of an autonomous ride-hailing fleet using a purpose-built Toyota bZ4X vehicle in Japan in 2027, with commercial service to follow.\nSeparately, WbyT is also exploring how Toyota vehicles can connect with the infrastructure around them, with the aim of enhancing well-being for all and helping traffic flow more smoothly.\nOver time, those efforts aim to complement both fully autonomous fleets and vehicles with partial automation.\nTogether with Toyota and Waymo, WbyT will continue working toward a world with zero traffic accidents and freedom of movement for all.",
+    "category": "Autonomous Vehicles",
+    "published_date": "2026-10-30T16:00:00+09:00",
+    "slug": "woven-by-toyota-to-further-advance-automated-driving-development-in-next-phase-of-toyota-and-waymo",
+    "extraction_method": "newspaper4k",
+    "source_name": "woven.toyota"
+  },
+  {
+    "id": 20059,
+    "title": "How Smart City and AMRUT projects are changing urban Uttar Pradesh",
+    "source_url": "https://timesofindia.indiatimes.com/city/lucknow/how-smart-city-and-amrut-projects-are-changing-urban-uttar-pradesh/articleshow/135353583.cms",
+    "summary": "While Smart Cities projects focus on technology-enabled urban management, mobility and public spaces, AMRUT prioritises essential services such as drinking water, sewerage, water conservation and green spaces.\nTogether, the two programmes address different but interconnected requirements of urban development.Smart Cities: Real Smart Urban Management Uttar Pradesh has expanded the Smart Cities framework to 17 municipal corporation cities.\nTen cities—Agra, Aligarh, Bareilly, Jhansi, Kanpur, Lucknow, Moradabad, Prayagraj, Saharanpur and Varanasi—were selected under the Central Smart Cities Mission.\nSeven others—Ayodhya, Firozabad, Ghaziabad, Gorakhpur, Mathura, Meerut and Shahjahanpur—were included under the state's own Smart Cities initiative.\nFor the Yogi Adityanath government, Smart Cities and AMRUT provide complementary mechanisms to improve urban infrastructure and municipal services.",
+    "category": "Smart Cities",
+    "published_date": "2026-10-30T14:52:00+05:30",
+    "slug": "how-smart-city-and-amrut-projects-are-changing-urban-uttar-pradesh-the-times-of-india",
+    "extraction_method": "newspaper4k",
+    "source_name": "timesofindia.indiatimes.com"
+  },
+  {
+    "id": 20046,
+    "title": "C3iHub to lead Uttar Pradesh Cyber Security Operations Centre",
+    "source_url": "https://telecom.economictimes.indiatimes.com/amp/news/internet/c3ihub-to-lead-uttar-pradesh-cyber-security-operations-centre/135350126",
+    "summary": "ETTelecom Desk ETTelecom Updated On Oct 30, 2026 at 01:14 PM IST",
+    "category": "IoT Cyber",
+    "published_date": "2026-10-30T13:10:33+05:30",
+    "slug": "c3ihub-to-lead-uttar-pradesh-cyber-security-operations-centre-et-telecom",
+    "extraction_method": "newspaper4k",
+    "source_name": "telecom.economictimes.indiatimes.com"
+  },
+  {
+    "id": 20066,
+    "title": "TVS ARE GP Season 3: Global Motorsport For All",
+    "source_url": "https://www.rediff.com/sports/report/tvs-are-gp-season-3-global-motorsport-for-all/20261030.htm",
+    "summary": "TVS Racing is democratising motorsport with the launch of TVS Apache Racing Experience GP Season 3, expanding its accessible track racing platform to 7 countries and 20 cities globally, starting November 15.\nNow THIS is exactly what TVS Racing is changing with the launch of the TVS Apache Racing Experience GP (ARE GP) Season 3.\nAfter expanding to Mexico, Colombia, and Nepal last season, TVS ARE GP Season 3 is adding Morocco, Egypt, and Ivory Coast to its calendar.\nThe Apache Racing Experience GP uses the exact Apache motorcycles you see on our streets!\nThe TVS Apache Racing Experience (ARE GP) Season 3 international one-make championship begins on November 15, 2026, and concludes on April 11, 2027, at the Madras International Circuit in Chennai.",
+    "category": "Sim Racing",
+    "published_date": "2026-10-30T12:27:51+05:30",
+    "slug": "tvs-are-gp-season-3-global-motorsport-for-all-rediff",
+    "extraction_method": "newspaper4k",
+    "source_name": "rediff.com"
+  },
+  {
+    "id": 20068,
+    "title": "Thrustmaster T598 Warranty and Free Cable Locking Kit",
+    "source_url": "https://boxthislap.org/thrustmaster-t598-warranty-free-cable-locking-kit/",
+    "summary": "This page runs a brief security check to confirm you are not a bot.\nThe verification is automatic and typically completes within a few seconds.\nNo action is required on your part.\nCookies must be enabled for this site: the result of the check is stored in one.",
+    "category": "Sim Racing",
+    "published_date": "2026-10-30T11:49:17",
+    "slug": "thrustmaster-t598-warranty-and-free-cable-locking-kit-boxthislap",
+    "extraction_method": "newspaper4k",
+    "source_name": "boxthislap.org"
+  },
+  {
+    "id": 20064,
+    "title": "LibreCorsa: Free Browser Racing Sim With 500 Hz Physics",
+    "source_url": "https://boxthislap.org/librecorsa-free-browser-racing-simulator/",
+    "summary": "This page runs a brief security check to confirm you are not a bot.\nThe verification is automatic and typically completes within a few seconds.\nNo action is required on your part.\nCookies must be enabled for this site: the result of the check is stored in one.",
+    "category": "Sim Racing",
+    "published_date": "2026-10-30T11:49:11",
+    "slug": "librecorsa-free-browser-racing-sim-with-500-hz-physics-boxthislap",
+    "extraction_method": "newspaper4k",
+    "source_name": "boxthislap.org"
+  },
+  {
+    "id": 20017,
+    "title": "Toyota and Waymo Advance Autonomous Driving Collaboration for Safer Streets and Freedom of Movement for All",
+    "source_url": "https://global.toyota/en/newsroom/corporate/44960881.html",
+    "summary": "Tokyo, JAPAN―Toyota Motor Corporation (\"Toyota\") and Waymo today announced the next phase of their autonomous driving collaboration, in pursuit of a world with safer streets and freedom of movement for all.\nThis partnership marks a major milestone in the expansion of Japan's first fully autonomous ride-hailing service using high-volume, domestically manufactured vehicles.\nToyota and Waymo will continue to explore the future of autonomous driving technology for personally owned Toyota vehicles.\n\"We are deeply grateful that Waymo, which helped pioneer fully autonomous driving technology, has chosen Toyota as its partner,\" said Hiroki Nakajima, member of the board of directors and executive vice president of Toyota.\n\"Safety technology makes the biggest difference when it reaches as many people as possible.",
+    "category": "Autonomous Vehicles",
+    "published_date": "2026-10-30T11:47:00",
+    "slug": "toyota-and-waymo-advance-autonomous-driving-collaboration-for-safer-streets-and-freedom-of-movement",
+    "extraction_method": "newspaper4k",
+    "source_name": "global.toyota"
+  },
+  {
+    "id": 20022,
+    "title": "The Wall Street Journal Hires Sean O’Kane to Cover Tesla and Autonomous Vehicles",
+    "source_url": "https://www.citybiz.co/article/927012/the-wall-street-journal-hires-sean-okane-to-cover-tesla-and-autonomous-vehicles/",
+    "summary": "The Wall Street Journal has hired Sean O’Kane as a reporter covering Tesla and autonomous vehicles, bringing an experienced transportation technology journalist to its newsroom.\nO’Kane, currently a senior reporter at TechCrunch, is expected to begin his new role in two weeks.\nHe has spent approximately a decade covering the transportation industry’s evolving business and technology landscape, with a particular focus on electric vehicles, Tesla and startups competing with Elon Musk‘s companies.\nAt TechCrunch, O’Kane has reported on developments in the automotive and mobility sectors, including emerging transportation technologies and the companies developing them.\nEarlier in his career, he was a reporter at The Verge, covering transportation and consumer technology.",
+    "category": "Autonomous Vehicles",
+    "published_date": "2026-10-30T11:31:31+00:00",
+    "slug": "the-wall-street-journal-hires-sean-okane-to-cover-tesla-and-autonomous-vehicles-citybiz",
+    "extraction_method": "newspaper4k",
+    "source_name": "citybiz.co"
+  },
+  {
+    "id": 20047,
+    "title": "Cloudflare reports surge in smaller, shorter DDoS attacks",
+    "source_url": "https://securitybrief.com.au/story/cloudflare-reports-surge-in-smaller-shorter-ddos-attacks",
+    "summary": "Cloudflare has published its DDoS Threat Report for the third quarter of 2026, showing a rise in smaller, shorter attacks.\nCloudflare linked this pattern to DDoS-for-hire services that rely on volume and repetition rather than very large single attacks.\nDNS amplification rose 215% to 3.43% of all network-layer attacks, while other UDP floods increased from 14.06% to 31.31%.\nCloudflare said the shorter, mid-range attacks were aimed mainly at the Computer Software, Gambling & Casinos, and Information Technology sectors.\n\"As this quarter's distributions make clear, most attacks end long before a human analyst could see the alert, and the largest attacks still regularly exceed 1 Tbps at a cadence measured in hundreds per quarter,\" Cloudflare said.",
+    "category": "IoT Cyber",
+    "published_date": "2026-10-30T11:28:00+13:00",
+    "slug": "cloudflare-reports-surge-in-smaller-shorter-ddos-attacks-securitybrief-australia",
+    "extraction_method": "newspaper4k",
+    "source_name": "securitybrief.com.au"
+  },
+  {
+    "id": 20067,
+    "title": "Final Redout 2 update released, adds a new game mode",
+    "source_url": "https://traxion.gg/final-redout-2-update-released-adds-a-new-game-mode/",
+    "summary": "Development has largely been dormant since 2024, however, recent activity saw an update drop in September, followed by another this month, which added Spectator Mode.\nNow, the Italian studio has unveiled the final Redout 2 update, with a new ‘Rush’ game mode as the headliner.\nRush Rush (and Boss Rush) is an elimination-style mode where the last racer to finish is eliminated until only one winner remains.\nNew game mode – Rush!\nOne of our programmers liked the “Burnout” tournament mechanics so much that he just decided in his spare time to implement it as a whole new game mode!",
+    "category": "Sim Racing",
+    "published_date": "2026-10-30T11:14:30+00:00",
+    "slug": "final-redout-2-update-released-adds-a-new-game-mode-traxiongg",
+    "extraction_method": "newspaper4k",
+    "source_name": "traxion.gg"
+  },
+  {
+    "id": 20058,
+    "title": "Fuzhou to Host Global Observance of World Cities Day 2026",
+    "source_url": "https://finance.yahoo.com/real-estate/articles/fuzhou-host-global-observance-world-111000489.html",
+    "summary": "Organising Committee of Global Observance of World Cities Day FUZHOU, China, Oct. 30, 2026 (GLOBE NEWSWIRE) -- From 31 October to 2 November, the Global Observance of World Cities Day 2026 and the Awarding Ceremony of the 4th Cycle of the Global Award for Sustainable Development in Cities (Shanghai Award) will be held in Fuzhou, Fujian Province, China.\nUnder the theme \"Regenerating the City: Adequate Housing for All\", the event will showcase China's approach to building people-centred cities.\nThe opening ceremony will take place on 31 October, featuring the award ceremony of the 4th Global Award for Sustainable Development in Cities (Shanghai Award).\nRepresentatives will also share practical examples and successful experiences from around the world in implementing the United Nations 2030 Agenda for Sustainable Development and the New Urban Agenda.\nIt will showcase emerging global trends in sustainable urban development, new approaches to urban regeneration and governance in China, people's aspirations for a better life, and new directions for improving quality and upgrading the construction industry.",
+    "category": "Smart Cities",
+    "published_date": "2026-10-30T11:10:00+00:00",
+    "slug": "fuzhou-to-host-global-observance-of-world-cities-day-2026-yahoo-finance",
+    "extraction_method": "newspaper4k",
+    "source_name": "finance.yahoo.com"
+  },
+  {
+    "id": 20010,
+    "title": "Venti brings driverless yard trucks to US yards",
+    "source_url": "https://www.freightwaves.com/news/venti-driverless-trucks-us-yards",
+    "summary": "Where the trucks fit in an intermodal yard At an intermodal terminal, hostlers bring containers trackside or to the storage area.\nThat trackside shuttle is the work the railroad wants Venti’s trucks to take on, Wyle said.\nThe company’s Oct. 1 release says the trucks will load, move, and unload containers during live yard operations with nobody in the cab and no dedicated lanes.\nAt PSA Singapore, those trucks work beside about 1,200 human-driven trucks, according to the Oct. 1 release.\nRebuilding the intermodal yard The larger payoff, Wyle said, is predictability.",
+    "category": "Autonomous Trucks",
+    "published_date": "2026-10-30T11:00:00+00:00",
+    "slug": "venti-brings-driverless-yard-trucks-to-us-yards-freightwaves",
+    "extraction_method": "newspaper4k",
+    "source_name": "freightwaves.com"
+  },
+  {
+    "id": 20063,
+    "title": "The face of Forza has retired",
+    "source_url": "https://traxion.gg/the-face-of-forza-has-retired/",
+    "summary": "Dan Greenawalt, so often the face of the Forza Motorsport games, has left the series, according to The Verge’s Microsoft correspondent Tom Warren.\nIn this time, he was often the one to stand next to a supercar during lavish presentations, mostly hyping up the next Forza game.\nThe original, Forza Motorsport, which is circuit-based and a Gran Turismo rival, and Forza Horizon, an open-world spin-off.\nMotorsport was handled by US-based Turn 10 Studios, while the more accessible Horizon games by UK-based Playground Games.\nMeanwhile, Forza Horizon 6 has been delayed for PlayStation 5, but a 26th January 2027 release date has been confirmed, which will launch alongside the game’s first major expansion.",
+    "category": "Sim Racing",
+    "published_date": "2026-10-30T10:59:56+00:00",
+    "slug": "the-face-of-forza-has-retired-traxiongg",
+    "extraction_method": "newspaper4k",
+    "source_name": "traxion.gg"
+  },
+  {
+    "id": 20019,
+    "title": "Toyota and Waymo to deploy autonomous bZ4X EV fleet",
+    "source_url": "https://electricdrives.tv/toyota-and-waymo-to-deploy-autonomous-bz4x-ev-fleet/",
+    "summary": "Toyota and Waymo are expanding their autonomous vehicle partnership, with the two companies set to begin testing and validating a fleet of autonomous, fully electric Toyota bZ4X models in Japan from next year.\nJapan-built autonomous bZ4X fleet to join Waymo in new markets The vehicles will be built at Toyota’s Takaoka plant in Japan, with the entire process, from assembling the base vehicle to integrating Waymo’s autonomous hardware, taking place under one roof.\nUsing high-volume, domestically manufactured vehicles is a significant step for what could become Japan’s first fully autonomous ride-hailing service.\nThe two companies will also continue to explore autonomous technology for privately owned Toyotas, as they work to scale Level 4 autonomous vehicles globally.\nHiroki Nakajima, Member of the Board of Directors and Executive Vice President of Toyota, added: “We are deeply grateful that Waymo, which helped pioneer fully autonomous driving technology, has chosen Toyota as its partner.",
+    "category": "Autonomous Vehicles",
+    "published_date": "2026-10-30T10:54:13+00:00",
+    "slug": "toyota-and-waymo-to-deploy-autonomous-bz4x-ev-fleet-electricdrives",
+    "extraction_method": "newspaper4k",
+    "source_name": "electricdrives.tv"
+  },
+  {
+    "id": 20034,
+    "title": "Cybersecurity M&A Roundup: Proofpoint Agrees $6.3bn Varonis Acquisitio",
+    "source_url": "https://www.infosecurity-magazine.com/news-features/cybersecurity-ma-proofpoint-varonis/",
+    "summary": "A number of important merger and acquisition (M&A) announcements were made in October 2026, with the need to enhance AI security a recurring theme.\nThe biggest headline deal of the month was Proofpoint entering into a definitive agreement to buy AI security specialist Varonis for $6.3bn.\nAnthropic to Acquire AI Security Startup Opaque Systems AI frontier firm Anthropic has agreed to acquire AI security company Opaque Systems in a deal announced on October 13.\nProofpoint Agrees $6.3bn Varonis Transaction On October 15, Proofpoint announced it had entered into a definitive agreement to acquire Varonis for $6.3bn.\nAISLE’s three founders will take leadership roles in Cohere spanning cybersecurity, corporate security, AI security research and frontier model development once the transaction closes.",
+    "category": "Cybersecurity",
+    "published_date": "2026-10-30T10:45:00+00:00",
+    "slug": "cybersecurity-ma-roundup-proofpoint-agrees-63bn-varonis-acquisitio-infosecurity-magazine",
+    "extraction_method": "newspaper4k",
+    "source_name": "infosecurity-magazine.com"
+  },
+  {
+    "id": 20062,
+    "title": "MotoGP fans can soon go sim racing with Moza's new authentic handlebars",
+    "source_url": "https://www.windowscentral.com/gaming/mozas-latest-sim-racing-hardware-isnt-a-wheel-or-a-flight-stick-its-for-motogp-fans-and-it-could-be-brilliant",
+    "summary": "Motorcycle racing games have been around for decades, but where four-wheeled titles have had support from wheel and pedal (and beyond) setups, bikes haven't seen the same support.\nThe latest I got to take a look at is from Moza Racing, a brand we're already very familiar with for its excellent racing and truck simulator wheels.\nThere's now an officially licensed MotoGP simulator designed to mimic a race bike's handlebars, and it can be used with existing Moza wheelbases.\nYou don't need to have an actual bike simulator setup to use it.\nI'll be the first to admit that I am hopeless at the MotoGP games.",
+    "category": "Sim Racing",
+    "published_date": "2026-10-30T10:36:40+00:00",
+    "slug": "motogp-fans-can-soon-go-sim-racing-with-mozas-new-authentic-handlebars-windows-central",
+    "extraction_method": "newspaper4k",
+    "source_name": "windowscentral.com"
+  },
+  {
+    "id": 20021,
+    "title": "Marti Partners with CalmCar to Expand Its Multi-Partner Autonomous Mobility Ecosystem in Türkiye",
+    "source_url": "https://finance.yahoo.com/technology/articles/marti-partners-calmcar-expand-multi-103000280.html",
+    "summary": "Following launch, Marti platform consumers will be able to experience the autonomous driving technology using the Marti app.\nFounded in 2016 and headquartered in Suzhou, China, CalmCar is a software-focused provider of L2–L2+ and Level 4 autonomous driving solutions.\nCalmCar's Level 4 autonomous driving technology powers robobus services in regular operation in Chinese cities including Chongqing and Chengdu.\n\"We are pleased to work with Marti to explore the application of our autonomous driving technology in Türkiye,\" said Chen Wei, Co-founder of CalmCar.\n\"Our goal is to work with multiple partners and to select the autonomous driving technology partners best suited to Türkiye.",
+    "category": "Autonomous Vehicles",
+    "published_date": "2026-10-30T10:30:00+00:00",
+    "slug": "marti-partners-with-calmcar-to-expand-its-multi-partner-autonomous-mobility-ecosystem-in-türkiye",
+    "extraction_method": "newspaper4k",
+    "source_name": "finance.yahoo.com"
+  },
+  {
+    "id": 20033,
+    "title": "3 Cybersecurity Stocks Retail Investors Are Watching After The Binance Hack",
+    "source_url": "https://finance.yahoo.com/markets/stocks/articles/3-cybersecurity-stocks-retail-investors-101132382.html",
+    "summary": "NSFOCUS Technologies Group (SZSE:300369) Overview: NSFOCUS Technologies Group provides internet and application security services, including DDoS protection, web security, threat monitoring, and managed cybersecurity solutions for carriers and enterprises.\nTrend Micro (TSE:4704) Overview: Trend Micro provides cybersecurity platforms and services that protect endpoints, cloud workloads, networks, email, data, and consumer devices worldwide.\nThe bigger question for Trend Micro is how far this shift in how its products are sold and consumed eventually feeds into earnings power.\n\"Accelerating adoption of cloud technologies and the shift toward unified, integrated platforms continues to support N-able's end to end cyber resilience offering.\nGrowing contributions from data protection and security operations are expected to influence ARR growth and top-line revenue mix.\"",
+    "category": "Cybersecurity",
+    "published_date": "2026-10-30T10:11:32+00:00",
+    "slug": "3-cybersecurity-stocks-retail-investors-are-watching-after-the-binance-hack-yahoo-finance",
+    "extraction_method": "newspaper4k",
+    "source_name": "finance.yahoo.com"
+  },
+  {
+    "id": 20029,
+    "title": "A 'code red' for cybersecurity? How to prepare for a possible wave of AI hacking - ABC News",
+    "source_url": "https://abcnews.com/Technology/code-red-cybersecurity-prepare-wave-ai-hacking/story?id=137518198",
+    "summary": "Jason Clinton, Anthropic's deputy chief information security officer, recently posted an ominous warning on X after several serious cybersecurity vulnerabilities were made public.\nsecurity leaders, never let a crisis go to waste: please go to your boards and ask for help right now.\nWhat worries experts now is how AI could become an unprecedented hacking tool.\nAI engineer and investor Matt Shumer explained on X that AI gives hackers three advantages.\nIf you have a retirement account, you can freeze or lock it to prevent outbound electronic money transfers.",
+    "category": "Cybersecurity",
+    "published_date": "2026-10-30T09:13:39+00:00",
+    "slug": "a-code-red-for-cybersecurity-how-to-prepare-for-a-possible-wave-of-ai-hacking-abc-news-breaking",
+    "extraction_method": "newspaper4k",
+    "source_name": "abcnews.com"
+  },
+  {
+    "id": 20045,
+    "title": "Cloudflare Blocks 18.2 Million DDoS Attacks in Q3 2026 as Short-Burst Attacks Surge 208%",
+    "source_url": "https://cyberpress.org/cloudflare-blocks-18-2-million-ddos-attacks/",
+    "summary": "Cloudflare mitigated 18.2 million network-layer distributed denial-of-service attacks in Q3 2026, a 208% increase over the same period in 2025.\nCloudflare Blocks 18.2 Million DDoS Attacks The company also blocked 14.4 trillion HTTP DDoS requests between July and September.\nNetwork-layer attacks averaged approximately 8,226 per hour, demonstrating the sustained operational pressure facing defenders.\nAccording to the supplied report, 96% of network-layer attacks ended within ten minutes, while 98% remained below one gigabit per second.\nConnectionless Lightweight Directory Access Protocol attacks declined 99.5% quarter over quarter, accounting for just 0.05% of network-layer attacks.",
+    "category": "IoT Cyber",
+    "published_date": "2026-10-30T06:13:08+00:00",
+    "slug": "cloudflare-blocks-182-million-ddos-attacks-in-q3-2026-as-short-burst-attacks-surge-208-cyber-press",
+    "extraction_method": "newspaper4k",
+    "source_name": "cyberpress.org"
+  },
+  {
+    "id": 20031,
+    "title": "ITC takes down unknown number of websites following Wiz Research AI-assisted discovery of global cybersecurity vulnerability",
+    "source_url": "https://www.thedartmouth.com/article/2026/10/pierry-itc-takes-down-unknown-number-of-websites-following-wiz-research-ai-assisted-discovery-of-global-cybersecurity-vulnerability",
+    "summary": "On Oct. 21, the Information, Technology and Consulting office temporarily took down Dartmouth websites and issued a “major incident” report on its webpage for “websites and systems service disruption.”\nITC wrote in its Oct. 21 incident report that the office is applying “security fixes as quickly as possible to minimize disruption” caused by an unspecified cybersecurity vulnerability.\n“A widespread security vulnerability has been identified that impacts websites and software across the world, including systems at Dartmouth,” ITC wrote.\n“As a precaution, some Dartmouth websites and websites may be unavailable while patches are applied.”\nThe PHP Foundation — the language’s nonprofit developers — released a patch for the programming language’s vulnerabilities on Oct. 21.",
+    "category": "Cybersecurity",
+    "published_date": "2026-10-30T05:00:00-04:00",
+    "slug": "itc-takes-down-unknown-number-of-websites-following-wiz-research-ai-assisted-discovery-of-global",
+    "extraction_method": "newspaper4k",
+    "source_name": "thedartmouth.com"
+  },
+  {
+    "id": 20032,
+    "title": "LETTER: Register of Deeds Flags Cybersecurity Failures in County",
+    "source_url": "https://franklinobserver.town.news/g/franklin-town-ma/n/394652/letter-register-deeds-flags-cybersecurity-failures-county",
+    "summary": ".....There has been a lack of commitment by elected and appointed Norfolk County Officials to cybersecurity and the operations of Norfolk County Registry of Deeds.\nSome of this may have been driven by the retaliation from the Norfolk County Director John J. Cronin who does not even live in Norfolk County as well as the Norfolk County Commissioners for losing in various court cases brought by me as Register of Deeds.\nHere is a video on the latest failure of the County Information Technology Department and its supervisor County Director John J. Cronin short clip of cable TV interview 10-14-2026.\nBreach of the County Information Technology infrastructure on October 27, 2024 that required the County to notify all employees and/or retirees.\n.....The millions of legal land court documents at the Norfolk County Registry of Deeds and the legal titles to owned property are jeopardized by poor decisions made by Norfolk County elected and appointed officials.",
+    "category": "Cybersecurity",
+    "published_date": "2026-10-30T04:32:30+00:00",
+    "slug": "letter-register-of-deeds-flags-cybersecurity-failures-in-county-franklin-observer",
+    "extraction_method": "newspaper4k",
+    "source_name": "franklinobserver.town.news"
+  },
+  {
+    "id": 20030,
+    "title": "Crow Wing County Highlights Cybersecurity Priorities During Awareness Month",
+    "source_url": "https://lptv.org/crow-wing-county-highlights-cybersecurity-priorities-during-awareness-month/",
+    "summary": "Sign up to stream all your favorite shows.",
+    "category": "Cybersecurity",
+    "published_date": "2026-10-30T04:05:28+00:00",
+    "slug": "crow-wing-county-highlights-cybersecurity-priorities-during-awareness-month-lakeland-pbs",
+    "extraction_method": "newspaper4k",
+    "source_name": "lptv.org"
+  },
+  {
+    "id": 20037,
+    "title": "Facial recognition used to buy concert tickets",
+    "source_url": "https://www.fox13news.com/video/fmc-jtxvjkd6oxcuvrkb",
+    "summary": "Singer-songwriter Noah Kahan is bringing his stadium tour to Tampa in April, which means many people will be hopping on that pre-sale.\nBut, buying those tickets could require much more than a credit card.\nFOX 13's Blake DeVine reports.",
+    "category": "Image Recognition",
+    "published_date": "2026-10-30T03:13:30+00:00",
+    "slug": "facial-recognition-used-to-buy-concert-tickets-fox-13-tampa-bay",
+    "extraction_method": "newspaper4k",
+    "source_name": "fox13news.com"
+  },
+  {
+    "id": 20024,
+    "title": "Scientists Identified Hundreds of New Vulnerabilities in Cars, And They're Not Mechanical",
+    "source_url": "https://www.sciencealert.com/your-cars-biggest-security-weakness-could-be-somewhere-unexpected",
+    "summary": "In 2015, security researchers demonstrated that possibility in a Jeep Cherokee.\nResearchers at Sweden's University of Gothenburg and Chalmers University of Technology analyzed 413 previously reported automotive software vulnerabilities.\nThe team examined another way flaws can enter automotive software, through ready-made code components called libraries.\nUsing five scanning tools, the researchers examined 20 open-source projects used in automotive software or its development.\nSecurity, Basu said, \"should be built in from the beginning and tested throughout a vehicle's lifetime.\"",
+    "category": "Connected Car",
+    "published_date": "2026-10-30T02:00:00+00:00",
+    "slug": "scientists-identified-hundreds-of-new-vulnerabilities-in-cars-and-theyre-not-mechanical-sciencealert",
+    "extraction_method": "newspaper4k",
+    "source_name": "sciencealert.com"
+  },
+  {
+    "id": 20039,
+    "title": "Why Invisible Engineering Work Deserves More Recognition",
+    "source_url": "https://hackernoon.com/why-invisible-engineering-work-deserves-more-recognition",
+    "summary": "By day I build hospital software. Most of what I do will never be seen by anyone outside my team: a fix to a data import that quietly stopped failing, a migration that went so smoothly nobody remembers it happened, a review comment that stopped a bad pattern spreading. By evening I write in public. A post takes me a few hours and can reach more people in a day than my best code will ever touch directly. Only one of those shows up when someone searches my name. So which one is the real work? It is tempting to pick a side, and plenty of people do, loudly. I think both sides are partly right, and the more interesting question sits underneath them. Researchers have been poking at that question for decades, in car factories, hospitals, universities and open source mailing lists, and what they found is more useful than either side's slogan. The case for the buried builder Some of the most important engineering work is invisible by design. When it goes well, nothing happens. No outage, no incident, no story to tell. The engineer who spends three weeks making a payment flow idempotent has prevented a disaster that will never be written about, because it never occurred. In 2001, two MIT researchers, Nelson Repenning and John Sterman, studied why process improvement programmes kept failing in manufacturing and product development. Their paper took its title from something an engineer at a car company told them: \"Nobody ever gets credit for fixing problems that never happened.\" What they found was a loop. Organisations that rely on firefighting end up rewarding and promoting the people who save the day through heroic effort, rather than the people whose quiet improvement work means there is no fire to fight. Over time, they",
+    "category": "Image Recognition",
+    "published_date": "2026-10-30T00:00:00",
+    "slug": "why-invisible-engineering-work-deserves-more-recognition-hackernoon",
+    "extraction_method": "newspaper4k",
+    "source_name": "hackernoon.com"
+  },
+  {
+    "id": 20043,
+    "title": "One-minute frequency disturbances from unintended synchronization in cyber–physical power systems",
+    "source_url": "https://www.nature.com/articles/s41560-026-02144-0",
+    "summary": "However, resonance phenomena in classical control systems differ fundamentally from cyber–physical synchronization effects.\nIn this Article, we identify and explain a coherent 1-min oscillation in power systems worldwide caused by cyber–physical synchronization effects.\nMaintaining the nominal frequency of 50 Hz or 60 Hz therefore requires continuous balancing by load–frequency control systems20.\nThe observed 1-min signal is already substantial in several power systems, although it has not reached a safety critical level.\nHere, we highlight a more subtle systemic challenge arising from the cyber–physical coupling of modern power systems.",
+    "category": "IoT Cyber",
+    "published_date": "2026-10-30T00:00:00",
+    "slug": "one-minute-frequency-disturbances-from-unintended-synchronization-in-cyberphysical-power-systems",
+    "extraction_method": "newspaper4k",
+    "source_name": "nature.com"
+  },
+  {
+    "id": 20044,
+    "title": "Hackers are now using AI agents to Automate Cyberattacks – Report",
+    "source_url": "https://www.financialfortunemedia.com/hackers-are-now-using-ai-agents-to-automate-cyberattacks-report/",
+    "summary": "Hackers are increasingly using autonomous AI tools to run multi-stage cybercriminal activities at a scale and speed that researchers admit bypass traditional human limitations, according to a new report by the Communications Authority of Kenya (CA), which warns that AI agents are now automating cyberattacks, operating around the clock, and targeting organizations faster than ever.\n“Artificial Intelligence (AI) continued to influence the cyber threat landscape during the quarter, with bad actors increasingly using AI to support phishing, social engineering, credential harvesting, and other cybercrime activities,” reads in part the multi-agency report, sampled between July and September 2026.\nIt attributed the attacks largely to inadequate system patching, insufficient user awareness of phishing and other social engineering attacks, as well as the increasing exploitation of AI technologies by malicious actors to execute more sophisticated cyberattacks.\n“System attacks, on the other hand, were largely attributed to credential-stealing malware, weak access controls, information leakage, continued use of outdated and vulnerable operating systems, and user interaction with malicious links, among other attack techniques,” it adds.\nHe has previously worked with the Standard Media Group, Mediamax Networks LTD, bird story agency, Business Journal Africa, and Financial Post among other outlets.",
+    "category": "IoT Cyber",
+    "published_date": "2026-10-30T00:00:00",
+    "slug": "hackers-are-now-using-ai-agents-to-automate-cyberattacks-report-financial-fortune-media",
+    "extraction_method": "newspaper4k",
+    "source_name": "financialfortunemedia.com"
+  },
+  {
+    "id": 20051,
+    "title": "Foxconn Aims to Become World’s Largest Quantum Computer Manufacturer",
+    "source_url": "https://thequantuminsider.com/2026/10/30/foxconn-aims-to-become-worlds-largest-quantum-computer-manufacturer/",
+    "summary": "Insider Brief Foxconn aims to become the world’s largest quantum computer manufacturer by building systems for companies that develop the underlying technology, Chairman Young Liu told CNBC.\nFoxconn wants to become the world’s largest quantum computer manufacturer, betting on machines its chairman says will accelerate specialized calculations while taking at least another two years to become commercially viable.\nChairman Young Liu told CNBC that the company sees an opportunity to build quantum computers for businesses that develop the underlying technology.\nHis comments outlined a manufacturing strategy centered on supplying other companies, alongside a view of quantum computing as an addition to existing computing systems.\nWith quantum capabilities, he added, “we hope we can become the largest quantum computer manufacturer in the world without owning that technology.”",
+    "category": "Quantum Computers",
+    "published_date": "2026-10-30T00:00:00",
+    "slug": "foxconn-aims-to-become-worlds-largest-quantum-computer-manufacturer-the-quantum-insider",
+    "extraction_method": "newspaper4k",
+    "source_name": "thequantuminsider.com"
+  },
+  {
+    "id": 20056,
+    "title": "Aetina showcases edge AI at smart city expo 2026",
+    "source_url": "https://www.sourcesecurity.com/news/aetina-showcases-edge-ai-smart-city-co-14411-ga-co-1685011916-ga.1793350929.html",
+    "summary": "Aetina Corporation will demonstrate NVIDIA-powered edge AI platforms and partner solutions at Smart City Expo World Congress 2026, held at Fira Barcelona Gran Via from 3 to 5 November.\nEdge AI for intelligent agriculture Aetina’s showcase will follow a “farm-to-city” theme, illustrating how edge AI can support cultivation, harvesting, factory processing, transport and city services.\nThe hardware ranges from NVIDIA Jetson T5000 and T4000 modules in the Jetson Thor family to Jetson AGX Orin 64GB and Jetson Orin NX 8GB.\nSoftware and in-vehicle AI systems Aetina is integrating NVIDIA JetPack 7.2 into its edge AI systems based on Jetson Thor Aetina is integrating NVIDIA JetPack 7.2 into its edge AI systems based on Jetson Thor.\nOutdoor mobility deployments For intelligent transportation, the company will show its DeviceEdge AIE-VN34/44 and AIE-VO24/34, described as its first palm-sized in-vehicle edge AI systems.",
+    "category": "Smart Cities",
+    "published_date": "2026-10-30T00:00:00",
+    "slug": "aetina-showcases-edge-ai-at-smart-city-expo-2026-sourcesecuritycom",
+    "extraction_method": "newspaper4k",
+    "source_name": "sourcesecurity.com"
+  },
+  {
+    "id": 20054,
+    "title": "IQM Reports Full-Chip Entanglement on 54-Qubit Quantum Processor",
+    "source_url": "https://www.hpcwire.com/off-the-wire/iqm-reports-full-chip-entanglement-on-54-qubit-quantum-processor/",
+    "summary": "IQM’s cloud customers now have access to that same full-chip performance, so their computations can draw on the entire processor rather than a fraction of it.\nGetting there came down to being smarter about how we prepare the state itself, choosing the gate order to keep idle time to a minimum,” said Craig Ciesla, CTO, IQM Quantum Computers.\nThe automated state-preparation routine is part of IQM’s broader effort to automate the operation of quantum computers.\nAbout IQM Quantum Computers IQM Quantum Computers (Nasdaq: IQMX) is a global leader in superconducting quantum computers, delivering full-stack quantum computers and cloud platform access to enterprises, research institutions, universities, high-performance computing centers and national laboratories worldwide.\nSource: IQM Quantum Computers",
+    "category": "Quantum Computers",
+    "published_date": "2026-10-29T21:08:10+00:00",
+    "slug": "iqm-reports-full-chip-entanglement-on-54-qubit-quantum-processor-hpcwire",
+    "extraction_method": "newspaper4k",
+    "source_name": "hpcwire.com"
+  },
+  {
+    "id": 20023,
+    "title": "GM Agrees to $232.75 Million in Settlements Over Selling Connected Car Data",
+    "source_url": "https://www.autoconnectedcar.com/2026/10/gm-agrees-to-232-75-million-in-settlements-over-selling-connected-car-data/",
+    "summary": "Combined with a separate $12.75 million agreement reached earlier this year with California, the settlements total $232.75 million and carry binding changes to how GM activates and manages connected-vehicle tracking.\nIt resolves a lawsuit centered on OnStar Smart Driver, a feature GM has said it ended in 2024.\nOnStar Smart Driver: What the Attorneys General Say Was Collected According to the coalition, GM tracked millions of drivers through Smart Driver from 2016 through 2024.\nGM’s $220 Million Multistate Settlement: Money and Mandates Under the multistate agreement, GM will pay $220 million, which is distributed among the participating states.\nGM’s California Agreement and Company Response The earlier $12.75 million California agreement, reached in May, resolved a state investigation into the alleged sale of driver data to two data brokers.",
+    "category": "Connected Car",
+    "published_date": "2026-10-29T18:40:06-07:00",
+    "slug": "gm-agrees-to-23275-million-in-settlements-over-selling-connected-car-data-auto-connected-car-news",
+    "extraction_method": "newspaper4k",
+    "source_name": "autoconnectedcar.com"
+  },
+  {
+    "id": 20065,
+    "title": "Trying a €70,000 Porsche racing simulator spoiled my own sim racing setup for good",
+    "source_url": "https://www.windowscentral.com/gaming/pc-gaming/i-tried-the-eur70-000-imsim-porsche-raceborn-and-regular-sim-racing-will-never-feel-the-same-again",
+    "summary": "The ImSim Porsche Raceborn is designed in collaboration with the legendary German automaker, so it definitely looks the part.\nAn all-in-one racing sim with integrated gaming PC Speaking of, the one I tried at the event had a price tag quoted as €70,000 (approx.\nIt is a perfect example of how far sim racing technology has advanced in recent years, though.\nIt's a gold-standard example of how sim racing is no longer just playing a racing game with a wheel and pedals.\nWhy wouldn't a dealership or something like the Porsche Experience Centre at Silverstone get in one or two of these?",
+    "category": "Sim Racing",
+    "published_date": "2026-10-29T18:00:00+00:00",
+    "slug": "trying-a-70000-porsche-racing-simulator-spoiled-my-own-sim-racing-setup-for-good-windows-central",
+    "extraction_method": "newspaper4k",
+    "source_name": "windowscentral.com"
+  },
+  {
+    "id": 20027,
+    "title": "61% of Drivers Has Driven While Drowsy, NSF Finds",
+    "source_url": "https://www.autoconnectedcar.com/2026/10/61-of-drivers-has-driven-while-drowsy-nsf-finds/",
+    "summary": "An estimated 145 million adult drivers in the United States, or 61 percent, have driven while impaired by sleepiness at least once, according to the National Sleep Foundation’s 2026 Drowsy Driving Report.\nNational Sleep Foundation Presents Findings in Washington The National Sleep Foundation (NSF) presented the results to policymakers, safety leaders, and researchers at its 2026 Drowsy Driving Forum, held Thursday at the National Press Club in Washington, D.C.\nOn the question of law, 62 percent of adults favor making drowsy driving illegal when it results in a serious injury or fatal crash, while 39 percent said drowsy driving should be illegal outright.\nNSF states that it independently produces Drowsy Driving Prevention Week and all related official educational content.\nThe full 2026 Drowsy Driving Report and an accompanying infographic are available at theNSF.org.",
+    "category": "Connected Car",
+    "published_date": "2026-10-29T17:54:36-07:00",
+    "slug": "61-of-drivers-has-driven-while-drowsy-nsf-finds-auto-connected-car-news",
+    "extraction_method": "newspaper4k",
+    "source_name": "autoconnectedcar.com"
+  },
+  {
+    "id": 20041,
+    "title": "Leadership Conference Lobbies ICE Biometric Ban As Bill Stalls",
+    "source_url": "https://legis1.com/news/ice-facial-recognition-leadership-conference",
+    "summary": "The Leadership Conference on Civil and Human Rights is the only organization listed in the Legis1 bill record for S. 3779, the ICE Out of Our Faces Act.\n​ By the Numbers The third-quarter 2026 report from the Leadership Conference on Civil and Human Rights lists a filing amount of $270,000.\nThat is up $50,000 from the in-house second-quarter 2026 report of $220,000.\nOutside firm NVG LLC filed a separate third-quarter 2026 report for the same client, listing $60,000, bringing the combined client total to $330,000 this quarter.\nThe filing also lists support for the Facial Recognition and Biometric Technology Moratorium Act by title, without a bill number.",
+    "category": "Image Recognition",
+    "published_date": "2026-10-29T16:16:13.117763+00:00",
+    "slug": "leadership-conference-lobbies-ice-biometric-ban-as-bill-stalls-legis1",
+    "extraction_method": "newspaper4k",
+    "source_name": "legis1.com"
+  },
+  {
     "id": 19976,
     "title": "Upload a photo to find products... MUSINSA introduces image search",
     "source_url": "https://en.fnnews.com/news/202610291446525637",
@@ -20,6 +416,83 @@
     "slug": "upload-a-photo-to-find-products-musinsa-introduces-image-search-파이낸셜뉴스",
     "extraction_method": "newspaper4k",
     "source_name": "en.fnnews.com"
+  },
+  {
+    "id": 20042,
+    "title": "‘Shaking from head to toe’ — How the facial recognition blame game leaves shoppers stranded",
+    "source_url": "https://www.techradar.com/vpn/vpn-privacy-security/shaking-from-head-to-toe-how-the-facial-recognition-blame-game-leaves-shoppers-stranded",
+    "summary": "Facial recognition is an inherently personal and intimate technology.\nThe event, sponsored by the civil liberties group Big Brother Watch, was designed to give people an opportunity to air their grievances with politicians, the media, and the companies involved.\nIt also invited representatives from Sainsbury’s, a company that is currently in the process of introducing facial recognition to 200 of its stores.\nFacewatch said it gave the invitation “serious consideration” but cited concerns about the balance of the event “given the tone of Big Brother Watch’s campaign messaging to date”.\nWhen TechRadar visited a South London Sainsbury’s earlier this month, we found that there was no viable way of opting out of the facial recognition system and that security had little information about how the system works.",
+    "category": "Image Recognition",
+    "published_date": "2026-10-29T14:44:13+00:00",
+    "slug": "shaking-from-head-to-toe-how-the-facial-recognition-blame-game-leaves-shoppers-stranded-techradar",
+    "extraction_method": "newspaper4k",
+    "source_name": "techradar.com"
+  },
+  {
+    "id": 20049,
+    "title": "New Feature Selection Method Trims Intrusion Detection Models for Industrial Edge Devices",
+    "source_url": "https://bioengineer.org/new-feature-selection-method-trims-intrusion-detection-models-for-industrial-edge-devices/",
+    "summary": "Feature selection methods such as Recursive Feature Elimination, or RFE, are a standard answer to the dimensionality problem.\nD-FOCUS-X addresses this with what the authors call Feature-Interaction-Aware Recursive Feature Elimination.\nThe authors state that this mechanism has no direct equivalent in existing SHAP-based, RFE-based or filter-based feature selection methods applied to intrusion detection.\nSubject of Research: Feature-interaction-aware recursive feature elimination for intrusion detection in industrial IoT systems Article Title: Cluster preserving recursive feature elimination framework for intrusion detection in smart industry systems Article References: Rather, I. H., Dohare, U., Kumar, S., Khasawneh, A. M., & Kaiwartya, O.\nCluster preserving recursive feature elimination framework for intrusion detection in smart industry systems.",
+    "category": "IoT Cyber",
+    "published_date": "2026-10-29T14:36:12+00:00",
+    "slug": "new-feature-selection-method-trims-intrusion-detection-models-for-industrial-edge-devices",
+    "extraction_method": "newspaper4k",
+    "source_name": "bioengineer.org"
+  },
+  {
+    "id": 20038,
+    "title": "Client Alert: When AI-Generated Images Trigger Biometric Privacy Risks: New Lawsuits Highlight Emerging Compliance Challenges for Businesses",
+    "source_url": "https://natlawreview.com/article/client-alert-when-ai-generated-images-trigger-biometric-privacy-risks-new-lawsuits",
+    "summary": "Nevertheless, the litigation highlights an emerging area of risk for organizations developing, licensing, or incorporating generative AI applications into their operations.\nTraditional software agreements may not adequately describe how AI applications analyze uploaded images or what data they generate from those images.\nWhere regulated biometric processing occurs, assess whether the organization's disclosures, releases, retention policies, and deletion procedures satisfy applicable legal requirements.\nThe outcome of these cases could help clarify the circumstances under which generative AI image processing constitutes biometric collection.\nFor businesses, understanding how AI applications process personal information is becoming as important as understanding what those applications can do.",
+    "category": "Image Recognition",
+    "published_date": "2026-10-29T13:28:27",
+    "slug": "client-alert-when-ai-generated-images-trigger-biometric-privacy-risks-new-lawsuits-highlight",
+    "extraction_method": "newspaper4k",
+    "source_name": "natlawreview.com"
+  },
+  {
+    "id": 20011,
+    "title": "Europe can benefit from driverless tech developed in US: Volvo Group",
+    "source_url": "https://www.wardsauto.com/news/europe-can-benefit-from-driverless-tech-developed-in-us-volvo-group/872846/",
+    "summary": "Lessons in self-driving truck technology acquired in the U.S. gives Volvo Group’s autonomous team confidence their systems can be rolled out into Europe in the near future.\n“Everything you need for full redundancy for safety critical applications,” Stürmer added.\nHowever, he admits the situation is different in Europe where Volvo has to operate in confined areas and non-public roads.\n“That, of course, is a game changer in terms of logistic flows and transport for onward transport,” added Stürmer.\n“It will be, in the end, the total cost of ownership of these vehicles from a fleet provider perspective or logistics company perspective,” added Stürmer.",
+    "category": "Autonomous Trucks",
+    "published_date": "2026-10-29T13:02:00",
+    "slug": "europe-can-benefit-from-driverless-tech-developed-in-us-volvo-group-wardsauto",
+    "extraction_method": "newspaper4k",
+    "source_name": "wardsauto.com"
+  },
+  {
+    "id": 20052,
+    "title": "Virginia high school to install quantum computer",
+    "source_url": "https://www.route-fifty.com/emerging-tech/2026/10/virginia-high-school-install-quantum-computer/416910/",
+    "summary": "One of the nation’s biggest public-school systems announced last month it will install a quantum computer at one of its high schools, in what partners called a “first-of-its-kind opportunity.”\nFairfax County, Virginia Public Schools, alongside the Fairfax County Economic Development Authority, regional economic development body Connected DMV and others said they would install the computer from quantum company XeedQ at the end of this year at Skyview High School, a just-opened campus in Herndon.\nA critical part of Fairfax County calling itself a quantum leader is building a pipeline of future workers who can use the technology.\nReid said this new quantum computer will help the next generation be ready for new kinds of jobs, which in many cases have yet to be fully developed.\nAlready, there are discussions about letting students from other county schools use it, as well as partnering with industry and academia.",
+    "category": "Quantum Computers",
+    "published_date": "2026-10-29T13:00:00",
+    "slug": "virginia-high-school-to-install-quantum-computer-route-fifty",
+    "extraction_method": "newspaper4k",
+    "source_name": "route-fifty.com"
+  },
+  {
+    "id": 20026,
+    "title": "Tele2 prepares its network for physical AI",
+    "source_url": "https://www.fiercewireless.com/cloud/tele2-prepares-its-network-physical-ai",
+    "summary": "Onur Kasaba, managing director of Tele2 IoT, has a name for that role: “the neural network of physical AI.”\nAutomotive, he argued, offers an early commercial foundation for the wider development of physical AI.\nIn an interview with Fierce Network TV, Kasaba said Tele2 IoT serves more than 20 million SIMs globally across more than 190 countries.\nFor Tele2, automotive provides a place to develop that approach while deployments, customer expectations and network demands keep changing.\nCarriers preparing to connect physical AI therefore face two investment decisions at once: how much capacity to build, and how to charge for the increasingly demanding services that capacity must support.",
+    "category": "Connected Car",
+    "published_date": "2026-10-29T12:44:00-04:00",
+    "slug": "tele2-prepares-its-network-for-physical-ai-fierce-network",
+    "extraction_method": "newspaper4k",
+    "source_name": "fiercewireless.com"
+  },
+  {
+    "id": 20016,
+    "title": "Driverless 18-wheelers are on a few highways, but widespread use is a long way down the road",
+    "source_url": "https://theconversation.com/driverless-18-wheelers-are-on-a-few-highways-but-widespread-use-is-a-long-way-down-the-road-291123",
+    "summary": "Driverless trucks with artificial intelligence on board could dramatically change the landscape of freight shipping.\nAutomated trucks require sensors, radars and cameras that gather information about the environment around them to make decisions.\nFew if any automated trucks are being tested in chaotic urban environments, given the pedestrians, bicyclists, traffic lights and elements of city traffic.\nBut driverless trucks do not seem to me to be practical on a large scale in the near future.\nIt is more realistic to envision the driver and the automated truck as a team.",
+    "category": "Autonomous Trucks",
+    "published_date": "2026-10-29T12:24:43+00:00",
+    "slug": "driverless-18-wheelers-are-on-a-few-highways-but-widespread-use-is-a-long-way-down-the-road-the",
+    "extraction_method": "newspaper4k",
+    "source_name": "theconversation.com"
   },
   {
     "id": 20007,
@@ -88,6 +561,17 @@
     "source_name": "statesman.com"
   },
   {
+    "id": 20061,
+    "title": "HUD proposals could transform manufactured housing. Cities must be ‘nimble,’ an expert says.",
+    "source_url": "https://www.smartcitiesdive.com/news/hud-proposals-could-transform-manufactured-housing-cities-must-be-nimble/873193/",
+    "summary": "As local governments seek solutions to the ongoing housing affordability crisis, recent changes to federal manufactured housing regulations may make the lower-cost housing option more attainable, experts say.\nThe recent HUD proposals were an “unquestionably” positive development, John Lindley, president and CEO of the Michigan Manufactured Housing Association, told Smart Cities Dive.\n“But that means we do have to make changes to the actual building code for manufactured housing,” she added.\nOne of the most impactful aspects of HUD’s manufactured housing plan is its move to create a performance-based building code for multiunit manufactured housing, Young said.\n“Housing affordability issues are largely a supply-side problem — we need more housing,” Lindley said.",
+    "category": "Smart Cities",
+    "published_date": "2026-10-29T11:26:39",
+    "slug": "hud-proposals-could-transform-manufactured-housing-cities-must-be-nimble-an-expert-says-smart",
+    "extraction_method": "newspaper4k",
+    "source_name": "smartcitiesdive.com"
+  },
+  {
     "id": 19970,
     "title": "Barracuda Research Finds 94% of Organizations Face Cybersecurity Skills Gaps as AI Reshapes Security Teams",
     "source_url": "https://www.cybersecurity-insiders.com/barracuda-research-finds-94-of-organizations-face-cybersecurity-skills-gaps-as-ai-reshapes-security-teams/",
@@ -108,6 +592,28 @@
     "slug": "pista-motorsport-developer-teases-brand-new-karting-sim-traxiongg",
     "extraction_method": "newspaper4k",
     "source_name": "traxion.gg"
+  },
+  {
+    "id": 20055,
+    "title": "Data centers on more than 3 dozen local ballots",
+    "source_url": "https://www.smartcitiesdive.com/news/data-centers-on-more-than-3-dozen-local-ballots/873183/",
+    "summary": "Voters in dozens of localities across 10 states will decide on 41 ballot measures related to data centers on Nov. 3, according to Ballotpedia.\nSeventeen of the measures call for prohibiting data center development, while eight would empower local governments to permit it.\nAt least 49 local ballot measures related to data centers have been or will be on the ballot in 13 states in 2026, according to Ballotpedia.\nEleven of the local ballot measures ask voters to prohibit data centers, and six call for zoning changes related to their development.\nData centers have emerged as a central issue in the midterm elections, with more than $45 million spent on ads mentioning data centers in gubernatorial, House and Senate races between January and September, according to NPR.",
+    "category": "Smart Cities",
+    "published_date": "2026-10-29T10:52:30",
+    "slug": "data-centers-on-more-than-3-dozen-local-ballots-smart-cities-dive",
+    "extraction_method": "newspaper4k",
+    "source_name": "smartcitiesdive.com"
+  },
+  {
+    "id": 20028,
+    "title": "Is your car sharing your data with insurers?",
+    "source_url": "https://www.suncommercial.com/news/national/article_0490e354-fd7c-5cb4-809d-f198bcda93ef.html",
+    "summary": "But you may not know that your car may already be sharing driving data with insurers without you ever opting in.\nThe Data Your Car Is Already Sharing Millions of drivers have had data brokers like LexisNexis and Verisk share detailed trip-by-trip data with insurers without their explicit consent, and many saw their rates rise as a result.\n“Insurers can generally use your driving data if you agree to share it, but many drivers never realize they agreed to anything.”\nHow Your Driving Score Gets Built A driving score is essentially a grade given based on how you drive.\n“Your driving data often goes through data brokers and other third parties before it reaches your insurer,” Chalaki notes.",
+    "category": "Connected Car",
+    "published_date": "2026-10-29T10:30:05-04:00",
+    "slug": "is-your-car-sharing-your-data-with-insurers-suncommercialcom",
+    "extraction_method": "newspaper4k",
+    "source_name": "suncommercial.com"
   },
   {
     "id": 19992,
@@ -143,6 +649,17 @@
     "source_name": "essentialinstall.com"
   },
   {
+    "id": 20040,
+    "title": "Scientists find a walnut-sized area of the brain has a giant role in memory",
+    "source_url": "https://www.thebrighterside.news/post/scientists-find-a-walnut-sized-area-of-the-brain-has-a-giant-role-in-memory/",
+    "summary": "Recordings from people undergoing epilepsy monitoring reveal that certain amygdala neurons fire more strongly for images that participants later recognize.\nFunding included the National Institutes of Health’s BRAIN Initiative, which supports tools and research for understanding brain activity.\nAbout 40% of the recorded amygdala neurons met the study’s criteria for category selectivity.\nDig deeper into the amygdala and memory formation These studies connect recent human findings with foundational research on memory circuits and experimental stimulation.\nThe original story \"Scientists find a walnut-sized area of the brain has a giant role in memory\" is published in The Brighter Side of News.",
+    "category": "Image Recognition",
+    "published_date": "2026-10-29T09:07:00-07:00",
+    "slug": "scientists-find-a-walnut-sized-area-of-the-brain-has-a-giant-role-in-memory-the-brighter-side-of",
+    "extraction_method": "newspaper4k",
+    "source_name": "thebrighterside.news"
+  },
+  {
     "id": 20002,
     "title": "Kenya's Konza Technopolis secures funding agreement for data centre and smart city project",
     "source_url": "https://www.telecompaper.com/news/kenyas-konza-technopolis-secures-funding-agreement-for-data-centre-and-smart-city-project--1587142",
@@ -154,6 +671,17 @@
     "source_name": "telecompaper.com"
   },
   {
+    "id": 20013,
+    "title": "Kodiak announces historic order for driverless trucks",
+    "source_url": "https://www.thetrucker.com/trucking-news/business/kodiak-announces-historic-order-for-driverless-trucks",
+    "summary": "MOUNTAIN VIEW, Calif. — Kodiak AI Inc. is announcing a historic agreement with DTL Transport Inc., (DTL) a California long-haul freight company, to deploy the Kodiak Driver, Kodiak’s autonomous driving system, in 75 driverless trucks owned and operated by DTL.\nA Historic First The agreement marks the first-ever publicly announced definitive agreement by an interstate trucking company to operate driverless trucks within their own fleet as part of the Driver-As-A-Service business (DAAS) model.\nDTL will pay a per-mile fee for using the Kodiak Driver.\nAgreement Spurred by groundbreaking California Pilot In September, DTL and Kodiak completed another historic milestone.\nDriverless Service Begins on Long-Haul Sun Belt Routes DTL will deploy its Kodiak Driver-equipped driverless trucks on two routes on which Kodiak has already conducted testing, operating on Interstate 10 between Dallas and El Paso, Texas, and along Interstate 20 between Dallas and Atlanta.",
+    "category": "Autonomous Trucks",
+    "published_date": "2026-10-29T08:50:38-07:00",
+    "slug": "kodiak-announces-historic-order-for-driverless-trucks-thetruckercom",
+    "extraction_method": "newspaper4k",
+    "source_name": "thetrucker.com"
+  },
+  {
     "id": 19959,
     "title": "Tesla Robotaxi users are reporting strange routing choices as the service expands",
     "source_url": "https://www.businessinsider.com/tesla-robotaxi-service-issues-user-reports-houston-routing-problems-2026-10",
@@ -163,6 +691,17 @@
     "slug": "tesla-robotaxi-users-are-reporting-strange-routing-choices-as-the-service-expands-business-insider",
     "extraction_method": "newspaper4k",
     "source_name": "businessinsider.com"
+  },
+  {
+    "id": 20057,
+    "title": "Mobility Beyond Arrival: Building Smarter Cities",
+    "source_url": "https://mexicobusiness.news/mobility/news/mobility-beyond-arrival-building-smarter-cities",
+    "summary": "Mobility Also Happens When We Arrive We tend to think of mobility as what happens between point A and point B.\nAt Kigo, we have learned that people are not looking for more technology simply for the sake of having more technology.\nThe best mobility technology should achieve both at the same time.\nWe want to build digital infrastructure that can become a key to smarter cities, starting in Mexico and expanding into other markets over time.\nAt Kigo, we want to help build that infrastructure: a mobility platform that reduces friction and can become a key to increasingly connected cities.",
+    "category": "Smart Cities",
+    "published_date": "2026-10-29T08:00:00-06:00",
+    "slug": "mobility-beyond-arrival-building-smarter-cities-mexico-business-news",
+    "extraction_method": "newspaper4k",
+    "source_name": "mexicobusiness.news"
   },
   {
     "id": 19950,
@@ -253,6 +792,17 @@
     "source_name": "police1.com"
   },
   {
+    "id": 20060,
+    "title": "Building smart cities in Bangladesh: The legal and regulatory imperative",
+    "source_url": "https://www.thedailystar.net/business/news/building-smart-cities-bangladesh-the-legal-and-regulatory-imperative-4308756",
+    "summary": "With emerging technologies, more countries are embracing smart cities, smart governments and smart economies to drive economic growth.\nSmart cities promote citizen participation, transparency, accountability, collaboration, social inclusion and problem-solving, which ultimately improve the quality of life and foster economic growth.\nDespite these opportunities, smart city initiatives present significant legal, regulatory, institutional and governance challenges that must be addressed before implementation.\nThese legislative developments mark significant progress but appear insufficient to govern the complex legal and technological ecosystem of smart cities.\nGiven the critical importance of smart city projects, Bangladesh should adopt rigorous technical standards and transparent procurement processes, prioritising experienced technology providers and system integrators with proven expertise in large-scale smart city deployments.",
+    "category": "Smart Cities",
+    "published_date": "2026-10-29T00:10:00+06:00",
+    "slug": "building-smart-cities-in-bangladesh-the-legal-and-regulatory-imperative-the-daily-star",
+    "extraction_method": "newspaper4k",
+    "source_name": "thedailystar.net"
+  },
+  {
     "id": 19954,
     "title": "Modern Cooperative Autonomous Driving Ecosystem",
     "source_url": "https://hackernoon.com/modern-cooperative-autonomous-driving-ecosystem",
@@ -339,6 +889,94 @@
     "slug": "finnish-startup-secures-278-million-seed-round-to-tackle-quantum-computings-hardware-challenges",
     "extraction_method": "newspaper4k",
     "source_name": "bebeez.eu"
+  },
+  {
+    "id": 20012,
+    "title": "Kodiak and DTL Transport partner to deploy 75 autonomous trucks",
+    "source_url": "https://www.fleetowner.com/news/news/55415082/dtl-inks-binding-deal-for-75-kodiak-self-driving-trucks",
+    "summary": "Autonomous truck developer Kodiak AI and Fresno, California-based carrier DTL Transport entered a binding agreement for DTL to deploy 75 Kodiak trucks within its fleet.\nKodiak framed the agreement as a Driver-As-A-Service business model, in which DTL pays a per-mile fee to use Kodiak’s autonomous trucks.\nThis April, the state began permitting public road testing for autonomous truck developers.\nCalifornia granted Kodiak its autonomous truck testing permit in August.\n“This binding agreement reinforces what I have said from the beginning: The Driver-As-A-Service business model is tailor-made for commercial trucking.",
+    "category": "Autonomous Trucks",
+    "published_date": "2026-10-29T00:00:00",
+    "slug": "kodiak-and-dtl-transport-partner-to-deploy-75-autonomous-trucks-fleetowner",
+    "extraction_method": "newspaper4k",
+    "source_name": "fleetowner.com"
+  },
+  {
+    "id": 20014,
+    "title": "Aurora’s Driverless Trucks on Pace for 2027 Expansion Target",
+    "source_url": "https://www.insurancejournal.com/news/national/2026/10/29/890739.htm",
+    "summary": "Self-driving trucking company Aurora Innovation Inc. expects to fall short of its production target for this year but said it’s on track to recover for 2027.\nAurora aims to shift its business model as it inches closer to its target of 30,000 trucks on the road by the end of 2030.\nInstead of owning and operating driverless trucks for clients, it plans to manage fleets that its shipping customers will own.\nThe company held on and raised money in 2024, but also delayed going fully driverless with its commercial trucks to 2025.\n“We’re driverless, we’re producing trucks and we have plenty of demand for this year and next.",
+    "category": "Autonomous Trucks",
+    "published_date": "2026-10-29T00:00:00",
+    "slug": "auroras-driverless-trucks-on-pace-for-2027-expansion-target-insurance-journal",
+    "extraction_method": "newspaper4k",
+    "source_name": "insurancejournal.com"
+  },
+  {
+    "id": 20015,
+    "title": "Kodiak AI, DTL Transport Sign Deal for 75 Driverless Trucks",
+    "source_url": "https://theaiinsider.tech/2026/10/29/kodiak-ai-dtl-transport-sign-deal-for-75-driverless-trucks/",
+    "summary": "Insider Brief Kodiak AI and DTL Transport signed a binding agreement to deploy Kodiak’s autonomous-driving system on 75 driverless trucks owned and operated by DTL.\nThe deal follows a September California pilot and builds on Kodiak’s existing autonomous-trucking deployments with Atlas Energy Solutions and planned driverless freight service for IKEA.\nKodiak AI and DTL Transport have signed a binding agreement to deploy Kodiak’s autonomous-driving system on 75 driverless trucks owned and operated by the California freight carrier.\nKodiak Expands Driver-as-a-Service The DTL agreement extends a commercial model Kodiak has already used in industrial trucking.\nAs of June 30, Kodiak said its autonomous-driving system was installed on 35 driverless trucks owned and operated by Atlas Energy Solutions.",
+    "category": "Autonomous Trucks",
+    "published_date": "2026-10-29T00:00:00",
+    "slug": "kodiak-ai-dtl-transport-sign-deal-for-75-driverless-trucks-ai-insider",
+    "extraction_method": "newspaper4k",
+    "source_name": "theaiinsider.tech"
+  },
+  {
+    "id": 20018,
+    "title": "Rivian posts strong production numbers for third quarter, moves toward autonomous vehicles",
+    "source_url": "https://www.wglt.org/business-and-economy/2026-10-29/rivian-posts-strong-production-numbers-for-third-quarter-moves-toward-autonomous-vehicles",
+    "summary": "Electric automaker Rivian started producing its R2 model in June, and company leadership said on an earnings call Thursday it's already the best-selling Rivian vehicle, outselling both the R1 and delivery vans in the third quarter.\nThe company produced 19,751 vehicles at its plant in Normal during the third quarter, by far its highest era of production yet.\nCEO RJ Scaringe said Rivian is \"laying the foundations for a future that we believe will be fully electric, autonomous and AI defined.\"\nScaringe is excited about the lower \"cognitive load\" needed to drive an autonomous Rivian and thinks it can drive \"huge changes in market share\" in the automobile industry.\nTo help build up its AI capabilities, Rivian acquired Third Dimension AI this month.",
+    "category": "Autonomous Vehicles",
+    "published_date": "2026-10-29T00:00:00",
+    "slug": "rivian-posts-strong-production-numbers-for-third-quarter-moves-toward-autonomous-vehicles-wglt",
+    "extraction_method": "newspaper4k",
+    "source_name": "wglt.org"
+  },
+  {
+    "id": 20035,
+    "title": "3 Cybersecurity Priorities Before Tax Season",
+    "source_url": "https://www.cpapracticeadvisor.com/2026/10/29/3-cybersecurity-priorities-before-tax-season/192890/",
+    "summary": "Many accounting firm partners say they are confident in their cybersecurity, but new research shows they may be over confident.\nEven among firms using layered device security such as multifactor authentication, only 43% have endpoint detection and response (EDR) on every device.\nRightworks is a provider of firm management, security technology, and IT solutions for accounting firms and tax professionals.\nThree Key Data Steps to Take Before Tax Season: Put EDR on every device.\nAmong firms with layered device security, only 43% have it everywhere.",
+    "category": "Cybersecurity",
+    "published_date": "2026-10-29T00:00:00",
+    "slug": "3-cybersecurity-priorities-before-tax-season-cpa-practice-advisor",
+    "extraction_method": "newspaper4k",
+    "source_name": "cpapracticeadvisor.com"
+  },
+  {
+    "id": 20036,
+    "title": "Feature extraction and lightweight methods for cattle facial recognition",
+    "source_url": "https://www.nature.com/articles/s41598-026-52112-7",
+    "summary": "CSF300 is a standard dataset for cattle facial recognition scenarios, which includes 300 individual cattle with a total of 2,899 facial images, covering individual cattle in cattle breeding facilities.\nTherefore, to verify the generalization of the cattle facial recognition model, this project introduces the BCFD-10K and CFFD datasets as supplements.\nThe design of the hybrid enhancement module MEM is the core of the cattle facial recognition network DSFFNet.\nThe use of focus loss function can effectively adjust the sample weights for the imbalanced number of cattle sample images in some cattle facial recognition datasets.\nTherefore, in a limited number of training epochs, the cattle facial recognition model can achieve optimal recognition accuracy.",
+    "category": "Image Recognition",
+    "published_date": "2026-10-29T00:00:00",
+    "slug": "feature-extraction-and-lightweight-methods-for-cattle-facial-recognition-nature",
+    "extraction_method": "newspaper4k",
+    "source_name": "nature.com"
+  },
+  {
+    "id": 20048,
+    "title": "Volt Typhoon targeted enterprise control planes via ever-changing \"Silent Train\" relay network",
+    "source_url": "https://www.helpnetsecurity.com/2026/10/29/volt-typhoon-silent-train-relay-network/",
+    "summary": "How Silent Train works Volt Typhoon began building the Silent Train network before the December 2023 takedown of the KV botnet, and ramped up its use in its aftermath.\nWhile Volt Typhoon uses other infrastructure for reconnaissance, Silent Train was reserved for “exploitation, credential access, data exfiltration and ongoing engagement with victim environments,” researchers found.\n“In some cases, as many as six hops separated the operator from the victim,” Black Lotus Labs noted.\nExample of a Silent Train session (Source: Black Lotus Labs) “As Silent Train matured, reverse-tunnel variants were introduced alongside the traditional SSH-chaining model.\nVictimology Over the past three years, Black Lotus Labs’ monitoring of Silent Train has led to hundreds of victim notifications.",
+    "category": "IoT Cyber",
+    "published_date": "2026-10-29T00:00:00",
+    "slug": "volt-typhoon-targeted-enterprise-control-planes-via-ever-changing-silent-train-relay-network-help",
+    "extraction_method": "newspaper4k",
+    "source_name": "helpnetsecurity.com"
+  },
+  {
+    "id": 20053,
+    "title": "3 Quantum Computing Stocks to Buy Before They Soar in 2027",
+    "source_url": "https://www.fool.com/investing/2026/10/29/3-quantum-computing-stocks-to-buy-before-they-soar/",
+    "summary": "Quantum computers can process certain tasks much faster than classical computers, but they're much larger, more expensive, and less accurate.\nAccording to Fortune Business Insights, the quantum computing market could expand at a 33% CAGR from 2026 to 2034 as more industries adopt the technology.\nLet's take a look at three of those beaten-down stocks -- IonQ (IONQ -2.19%), D-Wave Quantum (QBTS -1.78%), and Quantum Computing (QUBT -1.30%) -- and see why they might be worth buying before 2027.\nHow does quantum computing work?\nTo achieve that quantum state, conventional quantum computers move electron pairs through microscopic electrical circuits made of zero-resistance materials.",
+    "category": "Quantum Computers",
+    "published_date": "2026-10-29T00:00:00",
+    "slug": "3-quantum-computing-stocks-to-buy-before-they-soar-in-2027-the-motley-fool",
+    "extraction_method": "newspaper4k",
+    "source_name": "fool.com"
   },
   {
     "id": 19975,
@@ -19358,6 +19996,17 @@
     "slug": "iitpsa-names-finalists-for-2026-presidents-awards-itweb",
     "extraction_method": "newspaper4k",
     "source_name": "itweb.co.za"
+  },
+  {
+    "id": 20025,
+    "title": "How Does Google Maps Know There's Traffic When You Can't See It?",
+    "source_url": "https://www.motor1.com/features/810030/how-does-google-maps-know-there-is-traffic/",
+    "summary": "Your Car Is Not Watching Traffic With A Camera Your navigation system doesn't need to see a line of stopped cars to know that traffic is moving slowly.\nGoogle similarly says aggregate location data from people using Google Maps can be used to understand traffic conditions on roads around the world.\nTomTom says its traffic-prediction system combines floating-car data with historical traffic information, including traffic flow, average speeds, travel times, and incident information.\nHistorical traffic data: Past driving patterns help establish what is normal for a particular road and time.\nAnother thread from the same subreddit noted that historical traffic data and mathematical models can help navigation services distinguish an ordinary slowdown from an unusual traffic jam.",
+    "category": "Connected Car",
+    "published_date": "2026-09-30T11:00:00+00:00",
+    "slug": "how-does-google-maps-know-theres-traffic-when-you-cant-see-it-motor1com",
+    "extraction_method": "newspaper4k",
+    "source_name": "motor1.com"
   },
   {
     "id": 18181,
