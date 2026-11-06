@@ -11,6 +11,424 @@
     "source_name": "nature.com"
   },
   {
+    "id": 20438,
+    "title": "​CERT-In Flags Four Critical Vulnerabilities in Tata Motors Connected Car Apps",
+    "source_url": "https://the420.in/cert-in-flags-four-critical-vulnerabilities-in-tata-motors-connected-car-apps/",
+    "summary": "The Indian Computer Emergency Response Team has issued an advisory warning of multiple security vulnerabilities in Tata Motors’ connected vehicle mobile applications, iRA 2.0 and iRA.ev.\nTata Motors stated on November 5 that all identified issues have been remediated through software updates rolled out across August and September 2026.\n​CERT-In Warns of User Impersonation and Remote Exploitation ​According to the CERT-In assessment, the detected vulnerabilities in the iRA and iRA.ev smartphone applications exposed critical communication pathways to potential exploitation.\n​Carmaker Confirms Security Patches Released in August and September ​Responding to the advisory, Tata Motors issued a formal statement on November 5 clarifying that the vulnerabilities highlighted by the agency had already been identified and rectified.\nEmphasizing preventative digital hygiene, authorities noted that consumers must install the latest versions of the iRA and iRA.ev applications on their smartphones, warning that running outdated software builds could leave systems exposed to known security vulnerabilities.",
+    "category": "Connected Car",
+    "published_date": "2026-11-06T15:34:01+05:30",
+    "slug": "cert-in-flags-four-critical-vulnerabilities-in-tata-motors-connected-car-apps-the-420in",
+    "extraction_method": "newspaper4k",
+    "source_name": "the420.in"
+  },
+  {
+    "id": 20460,
+    "title": "ORNL partners with IBM and AMD launching quantum computing platform - Vietnam Investment Review",
+    "source_url": "https://vir.com.vn/ornl-partners-with-ibm-and-amd-launching-quantum-computing-platform-164592.html",
+    "summary": "To address this challenge, IBM has launched a co-design platform for quantum error correction with the Quantum Science Center at Oak Ridge National Laboratory and AMD as its initial partners.\nThe AMD compute provides the classical computing foundation for research into quantum error correction, decoding optimization, and software orchestration.\nThis co-design platform will allow researchers to evaluate the tight integration of classical and quantum computing to fuel momentum in quantum error correction research.\nThis co-design platform is an important step toward building the scalable, efficient computing infrastructure needed to make fault-tolerant quantum computing a reality.\"\nThe new co-design platform for quantum error correction builds on IBM's existing collaborations with ORNL and AMD.",
+    "category": "Quantum Computers",
+    "published_date": "2026-11-06T14:41:16+07:00",
+    "slug": "ornl-partners-with-ibm-and-amd-launching-quantum-computing-platform-vietnam-investment-review-vir",
+    "extraction_method": "newspaper4k",
+    "source_name": "vir.com.vn"
+  },
+  {
+    "id": 20474,
+    "title": "BeamNG.drive Becomes PS5’s Second Most-Downloaded Game in October",
+    "source_url": "https://boxthislap.org/beamng-drive-second-most-downloaded-ps5-october-2026/",
+    "summary": "This page runs a brief security check to confirm you are not a bot.\nThe verification is automatic and typically completes within a few seconds.\nNo action is required on your part.\nCookies must be enabled for this site: the result of the check is stored in one.",
+    "category": "Sim Racing",
+    "published_date": "2026-11-06T13:24:15",
+    "slug": "beamngdrive-becomes-ps5s-second-most-downloaded-game-in-october-boxthislap",
+    "extraction_method": "newspaper4k",
+    "source_name": "boxthislap.org"
+  },
+  {
+    "id": 20470,
+    "title": "CAMMUS November Sale 2026: Best Deals November 7–8, Plus an Extra 10% Off",
+    "source_url": "https://boxthislap.org/cammus-november-sale-2026/",
+    "summary": "This page runs a brief security check to confirm you are not a bot.\nThe verification is automatic and typically completes within a few seconds.\nNo action is required on your part.\nCookies must be enabled for this site: the result of the check is stored in one.",
+    "category": "Sim Racing",
+    "published_date": "2026-11-06T13:24:11",
+    "slug": "cammus-november-sale-2026-best-deals-november-78-plus-an-extra-10-off-boxthislap",
+    "extraction_method": "newspaper4k",
+    "source_name": "boxthislap.org"
+  },
+  {
+    "id": 20469,
+    "title": "Ameet Gadhoke Interview: Of Kids Who Dream of F1, and the Man Trying to Find Them",
+    "source_url": "https://www.topgearmag.in/features/interviews/ameet-gadhoke-interview-of-kids-who-dream-of-f1-and-the-man-trying-to-find-them",
+    "summary": "At the qualifying rounds of the F1 Sim Racing India Open, there was something quite special about the atmosphere.\nThrough Mumbai Falcons and its association with the F1 Sim Racing India Open, he is looking at sim racing as a starting point for something much bigger: a structured pathway that could help discover and nurture India's next generation of racing talent.\nI caught up with Ameet Gadhoke to discuss the future of sim racing in India, the school programme, how the transition to real-world racing could work.\nAG: Sim racing can help develop important aspects of racing, including racecraft, reflexes, strategy, and an understanding of racing lines.\nThe F1 Sim Racing India Open ties into MFRL’s One in a Billion Hunt initiative.",
+    "category": "Sim Racing",
+    "published_date": "2026-11-06T13:24:10",
+    "slug": "ameet-gadhoke-interview-of-kids-who-dream-of-f1-and-the-man-trying-to-find-them-bbc-topgear-india",
+    "extraction_method": "newspaper4k",
+    "source_name": "topgearmag.in"
+  },
+  {
+    "id": 20468,
+    "title": "Chinese companies showcase urban solutions at Barcelona's Smart City Expo",
+    "source_url": "https://www.globaltimes.cn/page/202611/1373775.shtml",
+    "summary": "A visitor walks past the China Opportunity Hub booth during the Smart City Expo World Congress in Barcelona, Spain, Nov. 5, 2026.\nThe Smart City Expo World Congress, held from Nov. 3 to 5 in Barcelona under the theme \"Urban Solutions, Real Impact,\" brought together companies, public officials and experts to explore ways to address urban challenges.\nA visitor experiences a smart device during the Smart City Expo World Congress in Barcelona, Spain, Nov. 5, 2026.\n(Photo by Joan Gosa/Xinhua) Visitors interact with a robot dog during the Smart City Expo World Congress in Barcelona, Spain, Nov. 5, 2026.\nThe Smart City Expo World Congress, held from Nov. 3 to 5 in Barcelona under the theme \"Urban Solutions, Real Impact,\" brought together companies, public officials and experts to explore ways to address urban challenges.",
+    "category": "Smart Cities",
+    "published_date": "2026-11-06T13:24:01",
+    "slug": "chinese-companies-showcase-urban-solutions-at-barcelonas-smart-city-expo-global-times",
+    "extraction_method": "newspaper4k",
+    "source_name": "globaltimes.cn"
+  },
+  {
+    "id": 20466,
+    "title": "Fira de Barcelona Smart City Expo 2026 closes after showing the real impact of urban solutions",
+    "source_url": "https://www.eqs-news.com/news/corporate/smart-city-expo-2026-closes-after-showing-the-real-impact-of-urban-solutions/1486226b-a8b9-4d63-bf8c-472a9d38d476_en",
+    "summary": "BARCELONA, Spain, Nov. 6, 2026 /PRNewswire/ — Smart City Expo World Congress (SCEWC), the leading international event on cities and smart urban solutions organized by Fira de Barcelona, closed its fifteenth edition this afternoon with 29.721 attendees from 140 countries gathered at the Gran Via venue.\nUnder the theme “Urban Solutions, Real Impact”, the congress showed that the technologies cities have been committed to already make an impact on today’s most pressing urban challenges.\n“Three days ago, we set out to show that smart city initiatives are already making an impact.\nWorld Smart City Awards The Japanese capital was awarded as “Smart City of 2026” at the World Smart City Awards, which acknowledge every year the most outstanding initiatives and projects in the urban transformation industry.\nSmart City Expo World Congress will return to Fira de Barcelona’s Gran Via venue for its sixteenth edition on November 2 – 4, 2027.",
+    "category": "Smart Cities",
+    "published_date": "2026-11-06T13:23:58",
+    "slug": "fira-de-barcelona-smart-city-expo-2026-closes-after-showing-the-real-impact-of-urban-solutions-eqs",
+    "extraction_method": "newspaper4k",
+    "source_name": "eqs-news.com"
+  },
+  {
+    "id": 20455,
+    "title": "Cybersecurity and Digital Trust: Protecting the Future of Global Business and Building a Secure Digital Economy",
+    "source_url": "https://andamanchronicle.net/cybersecurity-and-digital-trust-protecting-the-future-of-global-business-and-building-a-secure-digital-economy/",
+    "summary": "As businesses and governments increasingly depend on digital infrastructure, cybersecurity and digital trust are becoming essential foundations of economic growth, business continuity, innovation, and global competitiveness.\nBuilding a secure digital economy requires cyber resilience, data protection, trusted digital identities, responsible AI, secure financial systems, and international cooperation.\nSecure Digital Infrastructure and Supply Chains Industrial Opportunity: Develop resilient digital infrastructure to support global business competitiveness.\nStrategic Priority: Position India as a global hub for cybersecurity innovation, secure digital infrastructure, and cybersecurity talent development.\nIndia can strengthen its global position through cybersecurity research, secure digital infrastructure, AI innovation, skilled professionals, and international partnerships.",
+    "category": "IoT Cyber",
+    "published_date": "2026-11-06T13:23:23",
+    "slug": "cybersecurity-and-digital-trust-protecting-the-future-of-global-business-and-building-a-secure",
+    "extraction_method": "newspaper4k",
+    "source_name": "andamanchronicle.net"
+  },
+  {
+    "id": 20449,
+    "title": "Police use of facial recognition tech gets watchdog",
+    "source_url": "https://www.ukauthority.com/articles/police-use-of-facial-recognition-tech-gets-watchdog",
+    "summary": "The Government has announced plans for an independent watchdog and new legislation through the Police Reform Bill to regulate facial recognition technology The Ada Lovelace Institute has welcomed government plans to regulate police facial recognition technology, while warning that safeguards must be matched by limits on how the technology is deployed.\nIn September the Information Commissioner’s Office (ICO) examined the use of facial recognition technology (FRT) by police forces in England and Wales, and highlighted the need for strong data protection governance to maintain public trust.\nHome Secretary, Shabana Mahmood, said in Parliament on November 4, 2026: “Facial recognition technology has been the biggest breakthrough for catching criminals since DNA matching, already helping police take thousands of dangerous criminals off our streets.\nThe institute subsequently published policy papers in 2022 and 2025 calling for independent statutory regulation of biometric technologies.\n\"There should be a very high bar outside of law enforcement bodies for scanning the public's faces,\" she said.",
+    "category": "Image Recognition",
+    "published_date": "2026-11-06T13:22:55",
+    "slug": "police-use-of-facial-recognition-tech-gets-watchdog-ukauthority",
+    "extraction_method": "newspaper4k",
+    "source_name": "ukauthority.com"
+  },
+  {
+    "id": 20446,
+    "title": "AI-Powered Attacks Crack Facial Recognition Technology: Is Facial Recognition on the Verge of Becoming Obsolete?",
+    "source_url": "https://eu.36kr.com/en/p/4056856333095808",
+    "summary": "This case shows that the abuse of AI video technology has begun to undermine the previous trust order.\nUp to now, facial recognition has become the main way for a large number of Internet products to verify user identities.\nIt should be noted that the facial recognition breached by AI this time is not 3D structured light facial recognition such as Face ID used on iPhone, but 2D facial recognition.\nIn the process of facial recognition unlocking on mobile phones, there are at least steps including face detection, feature extraction and facial recognition.\nSome AI video creators exclaimed, \"Weren't those AI videos of Will Smith eating noodles a joke back then?",
+    "category": "Image Recognition",
+    "published_date": "2026-11-06T13:22:50",
+    "slug": "ai-powered-attacks-crack-facial-recognition-technology-is-facial-recognition-on-the-verge-of",
+    "extraction_method": "newspaper4k",
+    "source_name": "eu.36kr.com"
+  },
+  {
+    "id": 20439,
+    "title": "Cybersecurity Management Report",
+    "source_url": "https://group.nec/global/en/about/sustainability/security/",
+    "summary": "Cybersecurity Management Report 2026 As our world becomes increasingly interconnected and the use of AI continues to expand, governments and businesses alike face new and complex cybersecurity challenges.\nAgainst this backdrop, NEC has adopted the slogan “MAKE JAPAN CYBER SECURE” and published the Cybersecurity Management Report 2026.\nThrough this report, we aim to help stakeholders better understand the NEC Group’s cybersecurity initiatives, which enhance readiness for regulatory compliance (Regulation), support the maintenance and improvement of corporate value (Reputation), and strengthen the resilience needed to ensure business continuity (Resilience).\nOur cybersecurity initiatives are guided by the Ministry of Economy, Trade and Industry's Cybersecurity Management Guidelines Ver.\nLooking ahead, we will continue putting cybersecurity management into practice.",
+    "category": "Cybersecurity",
+    "published_date": "2026-11-06T13:22:27",
+    "slug": "cybersecurity-management-report-nec",
+    "extraction_method": "newspaper4k",
+    "source_name": "group.nec"
+  },
+  {
+    "id": 20434,
+    "title": "Connected Vehicles: Cybersecurity Risks Every Driver Should Know",
+    "source_url": "https://www.hkcert.org/blog/connected-vehicles-cybersecurity-risks-every-driver-should-know",
+    "summary": "Connected vehicles are increasingly connected to mobile apps, cloud services, charging networks and other online platforms.\nCommon Cybersecurity Risks Outdated vehicle software Modern vehicles rely on software for infotainment, navigation, charging and connected services.\nRisks from connected services The security of a connected vehicle also depends on mobile apps, cloud platforms, charging networks and other service providers.\nEight Practical Steps for Vehicle Owners Keep vehicle software up to date Install official software, firmware, infotainment, navigation and mobile app updates promptly.\nConsider cybersecurity before buying Before purchasing a new or used connected vehicle, ask: How long will security and software updates be provided?",
+    "category": "Connected Car",
+    "published_date": "2026-11-06T13:22:10",
+    "slug": "connected-vehicles-cybersecurity-risks-every-driver-should-know-hong-kong-computer-emergency",
+    "extraction_method": "newspaper4k",
+    "source_name": "hkcert.org"
+  },
+  {
+    "id": 20429,
+    "title": "Westmoreland autonomous vehicle test track in East Huntingdon nears completion",
+    "source_url": "https://community.triblive.com/news/4179761",
+    "summary": "Autonomous vehicles could begin speeding around a $39 million test track in East Huntingdon this spring.\nThe project is a partnership among the Pennsylvania Department of Transportation, the Pennsylvania Turnpike Commission, the Regional Industrial Development Corp., the Westmoreland County Industrial Development Corp. and Carnegie Mellon University.\nBringing this here is something the county is very excited about,” Westmoreland County Planning Director Jason Rigone said.\nThe funds will help Westmoreland County develop what is being called the Golden Hour Initiative.\nU.S. Sen. John Fetterman, in a letter supporting the county’s request for federal funding, said there was a need to implement first responder training in Westmoreland County.",
+    "category": "Autonomous Vehicles",
+    "published_date": "2026-11-06T13:21:57",
+    "slug": "westmoreland-autonomous-vehicle-test-track-in-east-huntingdon-nears-completion-triblivecom",
+    "extraction_method": "newspaper4k",
+    "source_name": "community.triblive.com"
+  },
+  {
+    "id": 20426,
+    "title": "Ex-Apple engineer raises $51M to build cabless self-driving trucks",
+    "source_url": "https://app.dealroom.co/news/note/ex-apple-engineer-raises-51m-to-build-cabless-self-driving-trucks",
+    "summary": "Humble Robotics, a San Francisco startup building electric self-driving trucks without driver cabs, has raised $51 million.\nObvious Ventures led the round, with participation from existing investors Eclipse Ventures and Energy Impact Partners, bringing total funding to $75 million.\nGatik raised $200 million in August, Einride secured a $113 million PIPE in February, and Waabi closed $1 billion in January.\nCustomer pilots begin in the first quarter of 2027, using conventional trucks to collect data before Humble simulates routes and deploys its own vehicle, the Humble Hauler.\nCohen frames the trucks as a fix for an industry that struggles to recruit and retain drivers.",
+    "category": "Autonomous Trucks",
+    "published_date": "2026-11-06T13:21:49",
+    "slug": "ex-apple-engineer-raises-51m-to-build-cabless-self-driving-trucks-dealroom",
+    "extraction_method": "newspaper4k",
+    "source_name": "app.dealroom.co"
+  },
+  {
+    "id": 20459,
+    "title": "Quantum Computing Stocks Rally On IonQ, Quantinuum Q3 Results, Guidance",
+    "source_url": "https://www.investors.com/news/technology/quantum-computing-stocks-ionq-quantinuum-qnt-q3-earnings/",
+    "summary": "Information in Investor’s Business Daily is for informational and educational purposes only and should not be construed as an offer, recommendation, solicitation, or rating to buy or sell securities.\nWe make no representations or warranties regarding the advisability of investing in any particular securities or utilizing any specific investment strategies.\n*Real-time prices by Nasdaq Last Sale.\nIBD, IBD Digital, IBD Live, IBD Weekly, Investor's Business Daily, Leaderboard, MarketDiem, MarketSurge and other marks are trademarks owned by Investor's Business Daily, LLC.\n©2026 Investor’s Business Daily, LLC.",
+    "category": "Quantum Computers",
+    "published_date": "2026-11-06T13:02:10+00:00",
+    "slug": "quantum-computing-stocks-rally-on-ionq-quantinuum-q3-results-guidance-investors-business-daily",
+    "extraction_method": "newspaper4k",
+    "source_name": "investors.com"
+  },
+  {
+    "id": 20458,
+    "title": "AMD joins IBM and ORNL to advance quantum computing",
+    "source_url": "https://www.engineering.com/amd-joins-ibm-and-ornl-to-advance-quantum-computing/",
+    "summary": "The collaboration will integrate IBM quantum processors with an AMD-powered HPC system to explore quantum error correction at scale.\nThe future of quantum computing will depend on bringing quantum and classical computing together at unprecedented scale.\nIBM brings quantum computing technology, ORNL brings its scientific research and computing environment, and AMD brings the classical computing technologies and open software to connect quantum processing with scientific workloads.\nThe first deployment brings together IBM quantum computers, including the 120-qubit IBM Quantum Nighthawk, and the Umbra HPC system, powered by AMD EPYC CPUs and AMD Instinct GPUs, in a colocated environment.\nFor AMD, the work reflects a foundational principle: Advances in quantum computing depend on progress in classical computing.",
+    "category": "Quantum Computers",
+    "published_date": "2026-11-06T11:52:55+00:00",
+    "slug": "amd-joins-ibm-and-ornl-to-advance-quantum-computing-engineeringcom",
+    "extraction_method": "newspaper4k",
+    "source_name": "engineering.com"
+  },
+  {
+    "id": 20464,
+    "title": "Tokyo wins prestigious City Award at 2026 Smart City Expo World Congress",
+    "source_url": "https://www.arabnews.jp/en/features/tokyo-wins-prestigious-city-award-at-2026-smart-city-expo-world-congress-3001323",
+    "summary": "TOKYO: The Tokyo Metropolitan Government (TMG) has been honored with the City Award at the 2026 World Smart City Awards, presented on November 4 during the Smart City Expo World Congress in Barcelona.\nThe third, Collaboration-Powered efforts, focuses on promoting Tokyo’s appeal to the world through intercity networks, technical cooperation, cultural exchange, and other global engagements.\nAccording to TMG statement, Tokyo Governor Yuriko Koike accepted the trophy and expressed that the team is truly honored that Tokyo has been recognized with this prestigious City Award.\nThe Smart City Expo World Congress, organized by Fira de Barcelona, is the leading global event for smart cities and has been held annually since 2011.\nThe 2026 awards competition was highly competitive, featuring 533 entries from 68 countries across three categories: the City Award, the Innovation Award, and Project Awards.",
+    "category": "Smart Cities",
+    "published_date": "2026-11-06T11:49:58.430000+00:00",
+    "slug": "tokyo-wins-prestigious-city-award-at-2026-smart-city-expo-world-congress-アラブニュース",
+    "extraction_method": "newspaper4k",
+    "source_name": "arabnews.jp"
+  },
+  {
+    "id": 20471,
+    "title": "Arma Reforger’s bonkers rally DLC released",
+    "source_url": "https://traxion.gg/arma-reforgers-bonkers-rally-dlc-released/",
+    "summary": "Yes, Arma Reforger’s Rally DLC is available now, adding three rally car variants of recognisable Eastern-bloc favourites from Škoda, Lada and Trabant, including: Šárka 105 RS Sputnik 600 RS Dana 2001 RS A tractor.\nAnnounced back in September, the Rally DLC adds a new Time Trial mode to Bohemia Interactive’s military sim, with players racing the clock to beat their own and other players’ stage times.\nAlthough there’s no concurrent multiplayer mode, players can at least chase the ghost of the fastest leaderboard time.\nIn a neat touch, AI spectators can also apparently right your car after a big off, much like they do in Richard Burns Rally.\nHowever, driving physics has not traditionally been Arma Reforger’s strong suit, so until we get a chance to playtest the new DLC, we’ll reserve judgment.",
+    "category": "Sim Racing",
+    "published_date": "2026-11-06T10:56:33+00:00",
+    "slug": "arma-reforgers-bonkers-rally-dlc-released-traxiongg",
+    "extraction_method": "newspaper4k",
+    "source_name": "traxion.gg"
+  },
+  {
+    "id": 20450,
+    "title": "Starting this month, Hong Kong will introduce artificial intelligence (AI)-based facial recognition",
+    "source_url": "https://www.mk.co.kr/en/world/12200284",
+    "summary": "Starting this month, Hong Kong will introduce artificial intelligence (AI)-based facial recognition technology across smart surveillance networks using CCTV.\nHong Kong police pointed out that many patrol personnel are often tied up in tracking down missing people or suspects.\nIt is explained that when AI facial recognition technology is introduced, it is like securing additional personnel to more efficiently locate subjects 24 hours a day.\nThe facial recognition technology applied to the \"SmartView\" surveillance camera installation program works in two main ways.\nHong Kong police emphasized that all CCTV cameras installed in the Smart View project only shoot public places.",
+    "category": "Image Recognition",
+    "published_date": "2026-11-06T10:33:00+09:00",
+    "slug": "starting-this-month-hong-kong-will-introduce-artificial-intelligence-ai-based-facial-recognition",
+    "extraction_method": "newspaper4k",
+    "source_name": "mk.co.kr"
+  },
+  {
+    "id": 20441,
+    "title": "Abbott Risk Consulting joins ISA’s ISASecure program to expand ISA/IEC 62443-based OT cybersecurity consulting",
+    "source_url": "https://industrialcyber.co/news/abbott-risk-consulting-joins-isas-isasecure-program-to-expand-isa-iec-62443-based-ot-cybersecurity-consulting/",
+    "summary": "The International Society of Automation (ISA), a professional society for automation, announced that Abbott Risk Consulting (ARC) Ltd. has officially joined ISASecure, the globally recognized certification program that validates conformance to the ISA/IEC 62443 series of standards for industrial automation and control systems (IACS) cybersecurity.\nARC offers consultancy services across the UK and Australia, including risk management; safety engineering, assurance and verification; independent safety assessment; training; functional safety; cybersecurity; and more.\n“It is an honor to welcome ARC Ltd. into the ISASecure program, and we look forward to engaging with them as students in the next IC49 ACSSA for Evaluators training course,” said Mark DeAngelo, ISASecure program manager.\nTom Abbott, who leads ARC’s Cyber Security team, said: “Control system security standards are a fundamental part of the architecture of resilient systems.\nBy joining ISASecure, we’re fully committed to upholding these standards now and influencing their development in the future.”",
+    "category": "Cybersecurity",
+    "published_date": "2026-11-06T10:22:48+00:00",
+    "slug": "abbott-risk-consulting-joins-isas-isasecure-program-to-expand-isaiec-62443-based-ot-cybersecurity",
+    "extraction_method": "newspaper4k",
+    "source_name": "industrialcyber.co"
+  },
+  {
+    "id": 20432,
+    "title": "Tesla sidelines Cybertruck as Cybercab takes centre stage",
+    "source_url": "https://www.automotivemanufacturingsolutions.com/news/tesla-sidelines-cybertruck-as-cybercab-takes-centre-stage/2763746",
+    "summary": "Tesla plans to scale back Cybertruck production at Gigafactory Texas by mid-2027 to free up manufacturing capacity for its autonomous Cybercab.\nCybertruck struggles to meet volume expectations When Tesla launched the Cybertruck in late 2023, the electric pickup stood out for its unconventional design and stainless-steel body.\nAdvertisement Tesla opens development centre in Berlin In Berlin, US electric carmaker Tesla has opened a new development centre.\nCybercab takes priority at Gigafactory Texas The planned reduction in Cybertruck output reflects Tesla's growing emphasis on autonomous driving technology and artificial intelligence.\nReallocating production capacity at Gigafactory Texas would allow Tesla to prioritise the Cybercab as it prepares to scale manufacturing of autonomous vehicles.",
+    "category": "Autonomous Vehicles",
+    "published_date": "2026-11-06T10:07:31+00:00",
+    "slug": "tesla-sidelines-cybertruck-as-cybercab-takes-centre-stage-automotive-manufacturing-solutions",
+    "extraction_method": "newspaper4k",
+    "source_name": "automotivemanufacturingsolutions.com"
+  },
+  {
+    "id": 20467,
+    "title": "Tawazoun program in Riyadh wins World Smart City Awards — Asharq Al-Awsat",
+    "source_url": "https://ua.news/en/dovkolo-svitu/programa-tawazoun-v-er-riiadi-zdobula-world-smart-city-awards-asharq-al-awsat",
+    "summary": "The Tawazoun real estate market balance program in Riyadh won the award in the Infrastructure & Building category of the World Smart City Awards 2026.\nRiyadh’s Infrastructure Projects Center was among four finalists in the Governance & Economy category with its Infrastructure in One Source initiative.\nIt was recognized for developing an integrated public transport network intended to promote more efficient and sustainable mobility in the city.\nAn award for housing market balance The Tawazoun program is aimed at addressing imbalances in the real estate market and making home purchases easier amid the rapid growth of Saudi Arabia’s capital.\n533 applications from 68 countries The Smart City Expo World Congress took place in Barcelona on November 3–5, while the World Smart City Awards ceremony was held on November 4.",
+    "category": "Smart Cities",
+    "published_date": "2026-11-06T09:43:16+00:00",
+    "slug": "tawazoun-program-in-riyadh-wins-world-smart-city-awards-asharq-al-awsat-uanews",
+    "extraction_method": "newspaper4k",
+    "source_name": "ua.news"
+  },
+  {
+    "id": 20461,
+    "title": "Quantum Computers are becoming a scarce commodity. IonQ has sold out its entire 2027 capacity",
+    "source_url": "https://www.xtb.com/cy/market-analysis/news-and-research/quantum-computers-are-becoming-a-scarce-commodity-ionq-has-sold-out-its-entire-2027-capacity",
+    "summary": "IonQ is beginning to turn quantum computing development into an increasingly substantial business.\nThey are increasingly willing to pay for access to specific systems and reserve computing capacity well in advance.\nIonQ Platform, which includes the company's quantum computing solutions, generated $90.3 million in revenue, representing 127% growth year over year.\nSuperion 256 is expected to become the first quantum computer installed at Nvidia's Accelerated Quantum Research Center, where it will be connected to the company's supercomputing infrastructure.\nBeyond quantum computers, IonQ is developing quantum networking, sensing and cybersecurity solutions.",
+    "category": "Quantum Computers",
+    "published_date": "2026-11-06T09:09:37+00:00",
+    "slug": "quantum-computers-are-becoming-a-scarce-commodity-ionq-has-sold-out-its-entire-2027-capacity-xtbcom",
+    "extraction_method": "newspaper4k",
+    "source_name": "xtb.com"
+  },
+  {
+    "id": 20473,
+    "title": "Team Philippines is chasing a $31,000 prize pool at the TOYOTA GAZOO Racing Asia Esports GT Championship 2026",
+    "source_url": "https://astig.ph/toyota-gazoo-racing-asia-esports-gt-championship-team-philippines-2026/",
+    "summary": "KUALA LUMPUR, Malaysia (Nov 2026) — Three Pinoy sim racers are stepping up to represent the country against top esports drivers across the region for a shot at a $31,000 (approx.\nPHP 1.8 million) prize pool at the TOYOTA GAZOO Racing Asia Esports GT Championship 2026.\nCash prizes and where to watch The tournament maintains a $31,000 (approx.\nTop individual and team winners will each take home $8,000 (approx.\nPHP 261,000), and second runners-up receive $3,000 (approx.",
+    "category": "Sim Racing",
+    "published_date": "2026-11-06T08:57:24+00:00",
+    "slug": "team-philippines-is-chasing-a-31000-prize-pool-at-the-toyota-gazoo-racing-asia-esports-gt",
+    "extraction_method": "newspaper4k",
+    "source_name": "astig.ph"
+  },
+  {
+    "id": 20443,
+    "title": "UK deploys China-style surveillance to track visa overstayers as immigration crackdown tightens for Nigerians, Indians and South Africans",
+    "source_url": "https://africa.businessinsider.com/local/markets/uk-turns-to-criticised-but-powerful-china-style-technology-to-hunt-visa-overstayers/z67ebkr",
+    "summary": "Google In a separate announcement concerning safeguards for police use of facial recognition, UK Home Secretary Shabana Mahmood stated, \"Facial recognition technology has been the biggest breakthrough for catching criminals since DNA matching, already helping police take thousands of dangerous criminals off our streets\".\nNigerians, Indians, Pakistanis and South Africans are among the national communities with migration links to Britain, although the facial recognition policy does not single out these nationalities.\nFigures from the UK Office for National Statistics show that Indian, Pakistani and Nigerian nationals regularly rank among the five largest non-EU nationalities arriving in the country for long-term migration.\nUnder the Home Office's facial recognition policy, people can be considered for inclusion on enforcement watchlists because of their immigration or legal circumstances, rather than their nationality only.\nThis includes individuals subject to deportation orders, people wanted under relevant court warrants and those actively sought by immigration authorities after failing to comply with immigration conditions.",
+    "category": "Image Recognition",
+    "published_date": "2026-11-06T07:48:39+00:00",
+    "slug": "uk-deploys-china-style-surveillance-to-track-visa-overstayers-as-immigration-crackdown-tightens-for",
+    "extraction_method": "newspaper4k",
+    "source_name": "africa.businessinsider.com"
+  },
+  {
+    "id": 20445,
+    "title": "Hong Kong police to enable AI facial recognition on CCTV network this month",
+    "source_url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3373440/hong-kong-police-enable-ai-facial-recognition-cctv-network-month",
+    "summary": "The force said the facial recognition technology was widely used by law enforcement agencies around the world and stressed that residents’ privacy rights would be protected.\n“Leveraging AI [facial recognition] would cut the time we spend reviewing the closed-circuit television [CCTV] footage to track down target persons,” Eric Leung Ming-leung, senior superintendent of the force’s operations wing, said.",
+    "category": "Image Recognition",
+    "published_date": "2026-11-06T07:00:09+08:00",
+    "slug": "hong-kong-police-to-enable-ai-facial-recognition-on-cctv-network-this-month-south-china-morning-post",
+    "extraction_method": "newspaper4k",
+    "source_name": "scmp.com"
+  },
+  {
+    "id": 20453,
+    "title": "Russian involvement in European attacks assessed as ‘credible’, security sources say",
+    "source_url": "https://www.irishexaminer.com/news/arid-41933928.html",
+    "summary": "But sources stress that without actual evidence, such hybrid attacks provide perpetrators with “plausible deniability”.\nIrish security services are keeping a close watch on developments as they update their threat assessment for next week’s major political events in Dublin.\nThe Irish Examiner understands that security services assess the likelihood that Russian intelligence is behind these incidents as “credible” — with the caveat that investigations by European police and cyber agencies will take time.\nExtensive contact is taking place among European intelligence and cyber agencies to share and analyse information.\n“The key challenge for intelligence services is that plausible deniability is interwoven into the design of these attacks.”",
+    "category": "IoT Cyber",
+    "published_date": "2026-11-06T06:00:00+00:00",
+    "slug": "russian-involvement-in-european-attacks-assessed-as-credible-security-sources-say-irish-examiner",
+    "extraction_method": "newspaper4k",
+    "source_name": "irishexaminer.com"
+  },
+  {
+    "id": 20457,
+    "title": "IQM Quantum Computers Reports Q3 2026 Results: Backlog Expands to €102.5M, Q3 Revenue Up 51%, and FY 2026 Guidance Reaffirmed",
+    "source_url": "https://quantumcomputingreport.com/iqm-quantum-computers-reports-q3-2026-results-backlog-expands-to-e102-5m-q3-revenue-up-51-and-fy-2026-guidance-reaffirmed/",
+    "summary": "IQM Quantum Computers Plc (Nasdaq: IQMX; Nasdaq Helsinki: IQMX.HE) has reported its financial results for the third quarter and first nine months ended September 30, 2026.\nConsistent with reporting standards, operating expenses exclude impairment losses/reversals and other operating income.\n*Note on Operating Expenses: In accordance with standard reporting methodology, operating expenses sum Selling, G&A, R&D, and Other Operating Expenses while excluding other operating grant income (€5.14M in Q3’26) and net impairment reversals (€0.13M in Q3’26).\nIf this listing charge is included, Q3 2026 Operating Expenses total €180.66M ($202.70M USD).\nResources and Further Reading Additional details can be found in the IQM Q3 2026 Interim Report here and the Q3 2026 Earnings Presentation here.",
+    "category": "Quantum Computers",
+    "published_date": "2026-11-06T02:50:20+00:00",
+    "slug": "iqm-quantum-computers-reports-q3-2026-results-backlog-expands-to-1025m-q3-revenue-up-51-and-fy-2026",
+    "extraction_method": "newspaper4k",
+    "source_name": "quantumcomputingreport.com"
+  },
+  {
+    "id": 20442,
+    "title": "OWASP Global AppSec: Cybersecurity industry overdue for a ‘market correction’",
+    "source_url": "https://www.scworld.com/resource/owasp-global-appsec-cybersecurity-industry-overdue-for-a-market-correction",
+    "summary": "SAN FRANCISCO — The cybersecurity industry runs on a bubble of hot air, scaring enterprises into spending tens of millions of dollars on products and services that often yield no verifiable results, a longtime industry veteran and entrepreneur told the 2026 OWASP Global AppSec USA conference here today.\nBut, warned Jeremiah Grossman, co-founder and CEO of Root Evidence, a reckoning — Grossman calls it a \"market correction\" — is coming.\nOnly 711, or about 0.3%, were true zero-days, vulnerabilities exploited before public disclosure.\nThose figures fit with what Grossman said his insurance industry contacts informally told him: In total, only about 600 CVEs really matter.\nThe impact of actuarial, empirical data to replace blind faith will be better for the cybersecurity industry in the long run, he added.",
+    "category": "Cybersecurity",
+    "published_date": "2026-11-06T02:03:50-05:00",
+    "slug": "owasp-global-appsec-cybersecurity-industry-overdue-for-a-market-correction-sc-media",
+    "extraction_method": "newspaper4k",
+    "source_name": "scworld.com"
+  },
+  {
+    "id": 20475,
+    "title": "Ready, Set, Sim Race: Toyota’s Asia Esports Championship Returns",
+    "source_url": "https://www.oneshift.com/articles/news/ready-set-sim-race-toyotas-asia-esports-championship-returns/",
+    "summary": "Toyota GAZOO Racing is bringing its Asia Esports GT Championship back to Malaysia, with the 2026 regional finals scheduled for 15 November in Kuala Lumpur.\nA total of 15 competitors representing five countries will battle it out in Gran Turismo 7, with US$31,000 in combined individual and team prizes up for grabs.\nDrivers will get behind the wheel of three different machines, including the GR Supra Racing Concept, GR Yaris and SF23 Super Formula.\nBoth individual and team category winners stand to receive US$8,000, with further recognition for race craft, rookies and the day's standout driver.\nThe finals will be streamed on TGR Asia's Facebook page, alongside selected regional X and YouTube channels.",
+    "category": "Sim Racing",
+    "published_date": "2026-11-06T00:11:53.914000+00:00",
+    "slug": "ready-set-sim-race-toyotas-asia-esports-championship-returns-oneshift-by-carousell",
+    "extraction_method": "newspaper4k",
+    "source_name": "oneshift.com"
+  },
+  {
+    "id": 20433,
+    "title": "Humble Robotics Raises $51M in Series A Funding to Develop Autonomous Electric Freight Vehicles",
+    "source_url": "https://theaiinsider.tech/2026/11/06/humble-robotics-raises-51m-in-series-a-funding-to-develop-autonomous-electric-freight-vehicles/",
+    "summary": "Insider Brief Humble Robotics has raised $51 million in Series A funding to develop and test its cabless autonomous electric freight vehicles, bringing total funding to $75 million less than a year after its founding.\nHumble Robotics has raised $51 million in Series A funding to advance development and testing of its cabless autonomous electric freight vehicles, bringing its total funding to $75 million less than a year after the company’s founding.\nExpanding Testing and Vehicle Development The funding will support several areas of development: Customer pilots: Expanding testing and validation of the company’s autonomous freight technology.\nManufacturing: Establishing early production capabilities for its electric vehicles.\nThe company also pointed out that it is developing systems that can be integrated into existing freight operations, allowing businesses to adopt autonomous electric vehicles without replacing their logistics infrastructure.",
+    "category": "Autonomous Vehicles",
+    "published_date": "2026-11-06T00:00:00",
+    "slug": "humble-robotics-raises-51m-in-series-a-funding-to-develop-autonomous-electric-freight-vehicles-ai",
+    "extraction_method": "newspaper4k",
+    "source_name": "theaiinsider.tech"
+  },
+  {
+    "id": 20436,
+    "title": "China cultivates robust ecosystem for intelligent connected vehicles",
+    "source_url": "https://english.news.cn/20261106/88c3415bd1cf4d239e5f8002873ce2c4/c.html",
+    "summary": "China's ICV industry has delivered tangible results and reached a pivotal stage, with technological breakthroughs and commercialization advancing in parallel.\nChina also issued a mandatory national safety standard in July 2026 for M- and N-category vehicles with Level 3 and Level 4 autonomous driving systems.\nLocal solutions and experiences are jointly laying the foundation for the large-scale deployment of autonomous driving in China and beyond.\nShanghai released an action plan in July last year to build a leading zone for high-level autonomous driving.\nMomenta has received approval from Germany's Federal Motor Transport Authority to conduct Level 4 autonomous driving tests on urban roads nationwide.",
+    "category": "Connected Car",
+    "published_date": "2026-11-06T00:00:00",
+    "slug": "china-cultivates-robust-ecosystem-for-intelligent-connected-vehicles-xinhua",
+    "extraction_method": "newspaper4k",
+    "source_name": "english.news.cn"
+  },
+  {
+    "id": 20456,
+    "title": "Quantum computers are speeding towards cryptographic relevancy: The time to prepare is now.",
+    "source_url": "https://www.ibm.com/think/insights/quantum-computers-are-speeding-towards-cryptographic-relevancy",
+    "summary": "Quantum hardware and algorithms are maturing, shrinking the projected quantum computing power required to break today’s standard encryption and putting the cryptographic systems that protect sensitive data today on a finite clock.\nQuantum risk will materialize asymmetrically, meaning some cryptographic systems will fail earlier than others, depending on algorithm design and key size.\nUnlike Y2K, there won’t be a single moment when everything breaks at once; rather, quantum risk will be realized over time, spanning multiple years as different cryptographic systems become vulnerable at different times.\nIBM’s contributions extend beyond individual enterprises to shaping multiple government national post‑quantum cryptography (PQC) strategies and convening industry consortia to accelerate large‑scale PQC transformation.\nRemediate: Migrate current cryptography, legacy cryptography, applications and data to post-quantum cryptography, where available, and minimize impact where remediation isn’t possible.",
+    "category": "Quantum Computers",
+    "published_date": "2026-11-06T00:00:00",
+    "slug": "quantum-computers-are-speeding-towards-cryptographic-relevancy-the-time-to-prepare-is-now-ibm",
+    "extraction_method": "newspaper4k",
+    "source_name": "ibm.com"
+  },
+  {
+    "id": 20462,
+    "title": "Guest Post — Commercial Diplomacy: Building The Quantum Ecosystem",
+    "source_url": "https://thequantuminsider.com/2026/11/06/guest-post-commercial-diplomacy-building-the-quantum-ecosystem/",
+    "summary": "A Roadmap for Tomorrow’s Quantum Market Ford, Edison, and IBM all understood that the challenge did not end with the innovation itself.\nMcKinsey reports $12.6 billion in investment in quantum technology startups in 2025.\nWhile partnering with government is a well-trodden path for emerging technology development, some paths are more well-trodden than others.\nQuantum computing can address complex optimization problems with potential applications in industries ranging from finance to cybersecurity to logistics.\nA “commercial diplomat,” she translates complex science and emerging regulatory frameworks for startups, multinationals, and policymakers as technologies move from the lab to commercial reality.",
+    "category": "Quantum Computers",
+    "published_date": "2026-11-06T00:00:00",
+    "slug": "guest-post-commercial-diplomacy-building-the-quantum-ecosystem-the-quantum-insider",
+    "extraction_method": "newspaper4k",
+    "source_name": "thequantuminsider.com"
+  },
+  {
+    "id": 20427,
+    "title": "KDK: Revenue surged and DTL committed to 75 trucks as autonomous launch readiness reached 99%",
+    "source_url": "https://www.tradingview.com/news/urn:summary_document_report:quartr.com:3970841:0-kdk-revenue-surged-and-dtl-committed-to-75-trucks-as-autonomous-launch-readiness-reached-99/",
+    "summary": "Less than 1 min read Q3 revenue rose 286% YoY, while a $78.2 million warrant fair-value gain contributed to reported net income.\nCommercial momentum included DTL’s 75-truck agreement and a 99% autonomy-readiness measure ahead of the targeted year-end launch.\nOriginal document: Kodiak AI, Inc. [KDK] SEC 8-K Current Report — Nov. 5 2026 Disclaimer This is an AI-generated summary and may contain inaccuracies.\nPlease verify any important information with the original source.\n© AI-generated summary is provided by Quartr",
+    "category": "Autonomous Trucks",
+    "published_date": "2026-11-05T21:14:50+00:00",
+    "slug": "kdk-revenue-surged-and-dtl-committed-to-75-trucks-as-autonomous-launch-readiness-reached-99",
+    "extraction_method": "newspaper4k",
+    "source_name": "tradingview.com"
+  },
+  {
+    "id": 20431,
+    "title": "Snow, ice and no driver? Waymo's robotaxis face the ultimate winter test",
+    "source_url": "https://www.foxweather.com/extreme-weather/self-driving-cars-prepare-alaska-perilous-winter-climate",
+    "summary": "THE TAKEAWAY Waymo is expanding efforts to prepare its autonomous vehicles for severe winter weather.\nAlaska’s snow, ice and extended darkness will provide a rigorous test of Waymo’s cold weather capabilities.\nFAIRBANK, Alaska - When winter weather makes travel treacherous, snow and ice can make the roads challenging for any driver, but what happens when there’s no one behind the wheel?\nWaymo, one of the world’s leading autonomous vehicle companies, is bringing its self-driving vehicles to Alaska to test the company’s technology in heavy snow and severe winter conditions.\nThe 6th-generation Waymo Driver uses cameras, radar and lidar to navigate the world around it, while built-in heaters and micro-wipers keep sensors clear in icy conditions,\" Waymo said.",
+    "category": "Autonomous Vehicles",
+    "published_date": "2026-11-05T20:19:48-05:00",
+    "slug": "snow-ice-and-no-driver-waymos-robotaxis-face-the-ultimate-winter-test-fox-weather",
+    "extraction_method": "newspaper4k",
+    "source_name": "foxweather.com"
+  },
+  {
+    "id": 20435,
+    "title": "2027 Mazda3 Adds Wireless Connectivity & More AWD Starting at $24,750",
+    "source_url": "https://www.autoconnectedcar.com/2026/11/2027-mazda3-adds-wireless-connectivity-more-awd-starting-at-24750/",
+    "summary": "Mazda North American Operations announced pricing and packaging for the 2027 Mazda3 on November 3, with the compact sedan and hatchback starting at $24,750.\nMazda said the 2027 Mazda3 offers greater value by extending features customers prefer, led by wireless Apple CarPlay and Android Auto connectivity and wireless phone charging.\nMazda3 2.5 S and 2.5 S Select Sport Set the Entry Point The sedan-only Mazda3 2.5 S opens the range at $24,750.\nSafety and driver-assistance content grows with a 360-degree view monitor, front and rear parking sensors, Smart Brake Support – Rear, Rear Cross Traffic Braking, and Cruising and Traffic Support.\n2027 Mazda3 Pricing Mazda lists the following MSRPs for the 2027 Mazda3.",
+    "category": "Connected Car",
+    "published_date": "2026-11-05T19:00:14-08:00",
+    "slug": "2027-mazda3-adds-wireless-connectivity-more-awd-starting-at-24750-auto-connected-car-news",
+    "extraction_method": "newspaper4k",
+    "source_name": "autoconnectedcar.com"
+  },
+  {
+    "id": 20454,
+    "title": "Can Britain afford to take its supermarket fridges offline?",
+    "source_url": "https://www.spectator.com.au/2026/11/can-britain-afford-to-take-its-supermarket-fridges-offline/",
+    "summary": "and declaring that ‘smart fridges are one of the dumbest things ever’, a chorus which will only grow in the coming months if our supermarkets can’t provide food.\nThe big advantage of having your supermarket fridges connected to the internet is that it allows engineers to deal with some issues remotely.\nThe connections also allow companies to monitor what is happening in their fridges around the clock.\nWhen these sorts of small individual maintenance efficiencies are multiplied over huge supermarket estates the savings are substantial.\nBut this will come with tradeoffs, namely increasing the cost of food and demand on the grid – two pressures which Britain, with its inflation and net zero-addled energy grid – is poorly equipped to manage.",
+    "category": "IoT Cyber",
+    "published_date": "2026-11-05T17:42:43+00:00",
+    "slug": "can-britain-afford-to-take-its-supermarket-fridges-offline-the-spectator-australia",
+    "extraction_method": "newspaper4k",
+    "source_name": "spectator.com.au"
+  },
+  {
     "id": 20414,
     "title": "Danantara targets December groundbreakings for smart cities",
     "source_url": "https://en.antaranews.com/news/440471/danantara-targets-december-groundbreakings-for-smart-cities",
@@ -20,6 +438,50 @@
     "slug": "danantara-targets-december-groundbreakings-for-smart-cities-antara-news",
     "extraction_method": "newspaper4k",
     "source_name": "en.antaranews.com"
+  },
+  {
+    "id": 20428,
+    "title": "Humble Robotics raises $51m for electric trucks with no driver’s cab",
+    "source_url": "https://thenextweb.com/news/humble-robotics-51m-series-a-cabless-electric-autonomous-trucks",
+    "summary": "Humble Robotics, a San Francisco start-up building self-driving electric freight vehicles, has raised $51m in a Series A round.\nIt also showed its first vehicle, the Humble Hauler.\nDock to dock The vehicle carries freight from one loading dock to another.\nIn 2021, 87% of US truck freight by weight travelled less than 250 miles (about 400km), according to the US Department of Energy.\nEyal Cohen, founder and CEO, Humble Robotics Cohen previously worked on self-driving and electric vehicles at Apple, Uber and Waabi.",
+    "category": "Autonomous Trucks",
+    "published_date": "2026-11-05T17:15:15+00:00",
+    "slug": "humble-robotics-raises-51m-for-electric-trucks-with-no-drivers-cab-the-next-web",
+    "extraction_method": "newspaper4k",
+    "source_name": "thenextweb.com"
+  },
+  {
+    "id": 20451,
+    "title": "OpenAI says its cyber model found and patched nearly 1000 Linux kernel security issues",
+    "source_url": "https://www.techradar.com/pro/security/openai-says-its-cyber-model-found-and-patched-nearly-1000-linux-kernel-security-issues",
+    "summary": "The pipeline covered vulnerability discovery, dynamic validation, exploitability assessment, patch generation, and human review, and once it was done, it found 948 privilege escalation flaws in the Linux kernel.\nGuerilla marketing “The Linux kernel underpins Android devices, cloud infrastructure, supercomputers, and other systems used by billions of people,” OpenAI said.\nAfter eliminating double entries and false positives, the researchers arrived at 948 distinct escalation flaws and built patches for them.\nOpenAI said its researchers reviewed all of the generated exploits and patches before reaching out to Linux kernel maintainers.\nThey include kernel memory manipulation, page grooming, and privilege escalation through data-only attacks.",
+    "category": "IoT Cyber",
+    "published_date": "2026-11-05T15:15:00+00:00",
+    "slug": "openai-says-its-cyber-model-found-and-patched-nearly-1000-linux-kernel-security-issues-techradar",
+    "extraction_method": "newspaper4k",
+    "source_name": "techradar.com"
+  },
+  {
+    "id": 20452,
+    "title": "OpenAI cyber model found 948 Linux kernel exploits",
+    "source_url": "https://www.artificialintelligence-news.com/news/openai-cyber-model-found-948-linux-kernel-exploits/",
+    "summary": "OpenAI’s automated kernel research pipeline found 948 working local privilege escalation exploits in a single mid-October 2026 run.\nThe five-stage system runs on an upcoming cyber model.\nThe pipeline scales a June disclosure in which GPT-5.5 Cyber identified kernel flaws and built 24 such exploits to validate and report them.\nGPT-5.6 Sol, an earlier OpenAI model, produced 166 such exploits in a late-July run.\nThe comprehensive event is part of TechEx and is co-located with other leading technology events including IoT Tech Expo and the Cyber Security & Cloud Expo.",
+    "category": "IoT Cyber",
+    "published_date": "2026-11-05T14:45:46+00:00",
+    "slug": "openai-cyber-model-found-948-linux-kernel-exploits-ai-news",
+    "extraction_method": "newspaper4k",
+    "source_name": "artificialintelligence-news.com"
+  },
+  {
+    "id": 20425,
+    "title": "A former Apple and Uber engineer raised $51 million to rethink the self-driving truck",
+    "source_url": "https://www.businessinsider.com/humble-robotics-raises-51-million-for-cabless-self-driving-trucks-2026-11",
+    "summary": "Many self-driving truck companies are trying to teach existing trucks to drive themselves.\nThe San Francisco startup, which is building electric self-driving trucks without drivers' cabs, has raised $51 million, the company exclusively told Business Insider.\nHe worked on Apple's now-defunct self-driving car project, Uber's autonomous driving effort, and at self-driving trucking startup Waabi.\nBut self-driving trucks are a reminder of how difficult it is to get machines to work in the real world.\nSelf-driving trucks were once expected to hit the road before robotaxis.",
+    "category": "Autonomous Trucks",
+    "published_date": "2026-11-05T14:00:01.233000+00:00",
+    "slug": "a-former-apple-and-uber-engineer-raised-51-million-to-rethink-the-self-driving-truck-business",
+    "extraction_method": "newspaper4k",
+    "source_name": "businessinsider.com"
   },
   {
     "id": 20421,
@@ -132,6 +594,17 @@
     "source_name": "iotinsider.com"
   },
   {
+    "id": 20472,
+    "title": "Gran Turismo 7 Online Time Trial: Fuji Fighters",
+    "source_url": "https://www.gtplanet.net/gran-turismo-7-online-time-trial-fuji-fighters-20261105/",
+    "summary": "Of course, the real-world Fuji has been a happy hunting ground for Gran Turismo drivers lately.\nGran Turismo 7 Online Time Trial: Along Came a Spyder This week’s spooky new Online Time Trial reaches a long way back into the Legend Cars dealership.\nFanatec Launches Gran Turismo 7 Time Trial With $600+ in Hardware Prizes Fanatec and Polyphony Digital have teamed up on a new global time trial event in Gran Turismo 7, and the prizes are real hardware rather than in-game credits.\nGran Turismo 7 Online Time Trial: N-escapable This week’s new Online Time Trial has a familiar ring to it.\nGran Turismo 7 Weekly Challenges: Circle the WGNs A new set of Gran Turismo 7 Weekly Challenges goes live this Friday, October 23, as your console clock rolls past midnight.",
+    "category": "Sim Racing",
+    "published_date": "2026-11-05T13:04:34-05:00",
+    "slug": "gran-turismo-7-online-time-trial-fuji-fighters-gtplanet",
+    "extraction_method": "newspaper4k",
+    "source_name": "gtplanet.net"
+  },
+  {
     "id": 20399,
     "title": "ORNL, IBM, AMD launch co-design platform for QEC | IBM Quantum Computing Blog",
     "source_url": "https://research.ibm.com/blog/ornl-amd-error-correction-co-design-platform",
@@ -240,6 +713,39 @@
     "slug": "top-five-roles-on-motorsport-jobs-this-week-autosport",
     "extraction_method": "newspaper4k",
     "source_name": "autosport.com"
+  },
+  {
+    "id": 20463,
+    "title": "Voters’ data center backlash puts cities in the spotlight, experts say",
+    "source_url": "https://www.smartcitiesdive.com/news/voters-data-center-backlash-cities-in-spotlight-experts-say/873872/",
+    "summary": "NBC exit polling found that 76% of voters opposed construction of new data centers in their communities, and 56% said data centers were a crucial or major factor in their choice of congressional candidates.\nSenators-elect including Sherrod Brown, D-Ohio, and Abdul El-Sayed, D- Mich., are among the candidates who made opposition to data centers a centerpiece of their campaigns.\nGubernatorial candidates who pledged to place moratoriums on data center development were elected in major data center markets including Georgia, Ohio and Texas.\nThe main message is that people are rejecting the cost that they need to pay for these data centers.”\nSlowing down and recalibrating Data center developers are recalibrating to meet the new challenges, the experts told Smart Cities Dive.",
+    "category": "Smart Cities",
+    "published_date": "2026-11-05T10:55:39",
+    "slug": "voters-data-center-backlash-puts-cities-in-the-spotlight-experts-say-smart-cities-dive",
+    "extraction_method": "newspaper4k",
+    "source_name": "smartcitiesdive.com"
+  },
+  {
+    "id": 20465,
+    "title": "Tokyo chosen Smart City of 2026 at Smart City Expo World Congress | SCEWC 3 - 5 NOV 2026",
+    "source_url": "https://www.smartcityexpo.com/press_release/smartcityexpo_s078/tokyo-chosen-smart-city-of-2026-at-smart-city-expo-world-congress/",
+    "summary": "Tokyo has been selected as Smart City of 2026 this afternoon at the World Smart City Awards gala held at Smart City Expo World Congress (SCEWC).\nIn the Innovation Award category, two winners were recognised.\nHousing takes centre stage For the first time, the Awards included a Housing category, hosted together with the new HOWS Barcelona – Housing World Summit.\nThe 2026 edition of the World Smart City Awards received 533 top-level proposals from 68 countries, reflecting the global momentum behind urban innovation.\nLeading global urban innovation event Smart City Expo World Congress, event on cities and smart urban solutions, is holding its fifteenth edition until November 5 at Fira de Barcelona’s Gran Via venue.",
+    "category": "Smart Cities",
+    "published_date": "2026-11-05T10:48:18+00:00",
+    "slug": "tokyo-chosen-smart-city-of-2026-at-smart-city-expo-world-congress-scewc-3-5-nov-2026-smart-city-expo",
+    "extraction_method": "newspaper4k",
+    "source_name": "smartcityexpo.com"
+  },
+  {
+    "id": 20448,
+    "title": "Minority groups oppose ‘routine’ police facial recognition",
+    "source_url": "https://www.computerweekly.com/news/366653695/Minority-groups-against-routine-police-facial-recognition",
+    "summary": "“Participants expressed an overarching concern that the ways in which facial recognition is used, and the purposes it is used for, could keep expanding,” it said.\n“Given low levels of trust in police, participants feared that once normalised, safeguards around facial recognition technology use could gradually weaken.\nTo overcome the clear trust deficit, participants made a number of suggestions for how police facial recognition can be effectively regulated.\nIn terms of what functions such an oversight body should have, participants suggested it could conduct pre-deployment approvals every time police want to use facial recognition, have strong powers to enforce against misuse, and conduct audits.\nIn summarising the study, authors noted that while participants did not entirely reject the use of facial recognition by police, “they made clear that confidence in facial recognition will depend on its deployment having clear limits, fair use, strong accountability and independent oversight”.",
+    "category": "Image Recognition",
+    "published_date": "2026-11-05T10:30:00+00:00",
+    "slug": "minority-groups-oppose-routine-police-facial-recognition-computer-weekly",
+    "extraction_method": "newspaper4k",
+    "source_name": "computerweekly.com"
   },
   {
     "id": 20357,
@@ -539,6 +1045,39 @@
     "source_name": "electronicsmedia.info"
   },
   {
+    "id": 20424,
+    "title": "Gaining ground with autonomous trucking",
+    "source_url": "https://www.kearney.com/industry/transportation-travel/article/gaining-ground-with-autonomous-trucking",
+    "summary": "Who we are",
+    "category": "Autonomous Trucks",
+    "published_date": "2026-11-05T00:00:00",
+    "slug": "gaining-ground-with-autonomous-trucking-kearney",
+    "extraction_method": "newspaper4k",
+    "source_name": "kearney.com"
+  },
+  {
+    "id": 20444,
+    "title": "Avon and Somerset Police to Deploy Live Facial Recognition in Bath",
+    "source_url": "https://oecd.ai/en/incidents/2026-11-05-f87c",
+    "summary": "AI Risk & Accountability AI has risks and all actors must be accountable.\nAI, Data & Privacy Data and privacy are primary policy issues for AI.\nThe Hiroshima AI Reporting Framework Organisations developing advanced AI systems can participate by submitting a report.\nOECD.AI Index The OECD.AI Index assesses countries' progress in implementing the OECD Recommendation on AI OECD AI Principles The first IGO standard to promote innovative and trustworthy AI Papers & Publications OECD and GPAI publications on AI, including the OECD AI Papers Series.\nAbout OECD.AI OECD.AI is an online interactive platform dedicated to promoting trustworthy, human-centric AI.",
+    "category": "Image Recognition",
+    "published_date": "2026-11-05T00:00:00",
+    "slug": "avon-and-somerset-police-to-deploy-live-facial-recognition-in-bath-oecd-ai-policy-observatory",
+    "extraction_method": "newspaper4k",
+    "source_name": "oecd.ai"
+  },
+  {
+    "id": 20447,
+    "title": "Digital Watchdog Adds Cameras with Selectable Detection Modes",
+    "source_url": "https://securitytoday.com/articles/2026/11/05/digital-watchdog-adds-cameras-with-selectable-detection-modes.aspx",
+    "summary": "Four MEGApix models let users choose facial recognition or video analytics for monitoring entrances, parking areas, perimeters, and other security locations.\nSecurity operators can select facial recognition or video analytics on four new 4K MEGApix cameras from Digital Watchdog.\nDigital Watchdog says the cameras support monitoring at building entrances, property boundaries and vehicle access points.\nIn facial recognition mode, the cameras compare faces they capture against an onboard database holding up to 10,000 individual faces.\nIntegrated white lights support nighttime color recording, with illumination reaching up to 164 feet depending on the model.",
+    "category": "Image Recognition",
+    "published_date": "2026-11-05T00:00:00",
+    "slug": "digital-watchdog-adds-cameras-with-selectable-detection-modes-security-today",
+    "extraction_method": "newspaper4k",
+    "source_name": "securitytoday.com"
+  },
+  {
     "id": 20420,
     "title": "iRacing Weekly Tune-in | eSports & Community Events | November 4th to November 11th, 2026",
     "source_url": "https://www.iracing.com/iracing-weekly-tune-in-esports-community-events-november-4th-to-november-11th-2026/",
@@ -724,6 +1263,17 @@
     "slug": "britain-prepares-to-use-facial-recognition-for-immigration-control-the-guardian-uanews",
     "extraction_method": "newspaper4k",
     "source_name": "ua.news"
+  },
+  {
+    "id": 20430,
+    "title": "UBER CEO Targets 700 Fully Driverless Vehicles By Year-End, Over 2,000 By 2027 – Sees Q4 EPS Between $0.95 And $0.99",
+    "source_url": "https://stocktwits.com/news-articles/markets/equity/uber-ceo-targets-700-fully-driverless-vehicles-by-year-end-over-2000-by-2027/cNGLXAwR93K",
+    "summary": "Uber reported Q3 revenue of $14.77 billion, exceeding Wall Street estimates of $14.66 billion, according to Fiscal.ai Q3 gross bookings increased 20% to $59.82 billion.\nUber expects gross bookings between $63.25 billion and $65.25 billion in Q4.\nUber Technologies (UBER) was on investors’ radar on Wednesday, after the ride-hailing giant announced a better-than-expected third-quarter topline, amid a ramp-up in its autonomous vehicle business.\nQ3 Gross Bookings Rise 20% Uber reported Q3 revenue of $14.77 billion, up 10%, and exceeding Wall Street estimates of $14.66 billion, according to Fiscal.ai.\nUber’s gross bookings in Q3 increased 20% to $59.82 billion, driven by 18% growth in mobility bookings and 22% growth in delivery bookings.",
+    "category": "Autonomous Vehicles",
+    "published_date": "2026-11-04T14:11:22+00:00",
+    "slug": "uber-ceo-targets-700-fully-driverless-vehicles-by-year-end-over-2000-by-2027-sees-q4-eps-between",
+    "extraction_method": "newspaper4k",
+    "source_name": "stocktwits.com"
   },
   {
     "id": 20303,
@@ -1032,6 +1582,17 @@
     "slug": "cert-in-gets-mythos-access-to-assess-its-use-in-measured-manner-et-telecom",
     "extraction_method": "newspaper4k",
     "source_name": "telecom.economictimes.indiatimes.com"
+  },
+  {
+    "id": 20440,
+    "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
+    "source_url": "https://openai.com/index/introducing-gpt-6-cyber/",
+    "summary": "On ExploitGym, which tests whether models can exploit a specified vulnerability, GPT‑6 Cyber scores 48.5%, up from 32.1% for GPT‑5.6 Cyber.\nAdvancing frontier cyber capabilities GPT‑6 Cyber is a major step up from GPT‑5.6 Cyber and outperforms GPT‑6 Astra on most cyber tasks, even when Astra does not refuse the request.\nGPT‑6 Cyber shows a step-change improvement over GPT‑5.6 Cyber on this evaluation.\nWe’re also introducing a new group within Daybreak Red (Daybreak Red for Critical Infrastructure) for approved critical infrastructure defenders, which gives them permissions to conduct authorized testing of critical systems while retaining safeguards against model misalignment.\nWe will progressively expand access to all Daybreak Red customers soon, and are also making GPT‑5.6 Cyber available to all Daybreak Red customers.",
+    "category": "Cybersecurity",
+    "published_date": "2026-11-04T07:00:00",
+    "slug": "gpt6-cyber-advancing-the-frontier-of-aligned-cybersecurity-agents-openai",
+    "extraction_method": "newspaper4k",
+    "source_name": "openai.com"
   },
   {
     "id": 20324,
@@ -124485,6 +125046,17 @@
     "slug": "where-to-find-bamboo-in-forza-horizon-6-pc-gamer",
     "extraction_method": "trafilatura",
     "source_name": "pcgamer.com"
+  },
+  {
+    "id": 20437,
+    "title": "Polestar Can’t Sell Cars In The US Anymore",
+    "source_url": "https://www.motor1.com/news/799797/polestar-dead-exits-us-market/",
+    "summary": "The Breakdown Polestar has announced it will no longer be able to sell cars in the US starting with the 2027 model year.\nPolestar will continue to sell the existing stock of Polestar 3 and Polestar 4 models.\nPolestar has announced today that it will no longer sell cars in the United States starting with the 2027 model year.\nThe US Department of Commerce did not grant the automaker authorization to sell cars under the new US Connected Vehicles Rule.\nAccording to Polestar’s press release, the automaker will continue to sell its existing stock of Polestar 3 and Polestar 4 models in the US.",
+    "category": "Connected Car",
+    "published_date": "2026-06-25T14:00:00+00:00",
+    "slug": "polestar-cant-sell-cars-in-the-us-anymore-motor1com",
+    "extraction_method": "newspaper4k",
+    "source_name": "motor1.com"
   },
   {
     "id": 9111,
