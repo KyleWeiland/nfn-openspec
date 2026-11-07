@@ -11,6 +11,380 @@
     "source_name": "nature.com"
   },
   {
+    "id": 20526,
+    "title": "Indian Simulator Racing Team To Compete In Global Cup Of Nations Championship",
+    "source_url": "https://www.rediff.com/sports/report/india-to-compete-in-f1-sim-racing-global-championship/20261107.htm",
+    "summary": "India's top simulator racers, Karl Verghese and Siddharth Sathgare, are set to represent the nation at the prestigious Cup of Nations global championship in Mumbai, showcasing the country's growing talent in virtual motorsport.\nThe Indian simulator racing unit has earned a spot in the Cup of Nations that will see it compete with top international teams in the two-day global championship here.\nThe event, to be held from November 7-9, is organised by Mumbai Falcons Racing Limited in partnership with Formula 1.\nRepresenting India in the 18-team event will be Karl Verghese and Siddharth Sathgare, following the former's crowning as the national champion in the Open Category at the F1 Sim Racing.\nVerghese finished with 150 points, while fellow Mumbaikar Siddharth Sathgare secured second place with 96 points and Chennai's Amith Kutti finished third with 91 points.",
+    "category": "Sim Racing",
+    "published_date": "2026-11-07T17:00:30+05:30",
+    "slug": "indian-simulator-racing-team-to-compete-in-global-cup-of-nations-championship-rediff",
+    "extraction_method": "newspaper4k",
+    "source_name": "rediff.com"
+  },
+  {
+    "id": 20528,
+    "title": "Vihaan Joshi Leads Podium at F1 Sim Racing India Open 2026",
+    "source_url": "https://smestreet.in/infocus/vihaan-joshi-leads-podium-at-f1-sim-racing-india-open-2026-12791853",
+    "summary": "Formula 1 marked its return to India with the F1® Sim Racing India Open 2026, as Mumbai’s 10-year-old, Vihaan Joshi emerged as the Under-15 category champion at the National Finals held at the NSCI Dome.\nOrganised by Mumbai Falcons Racing Limited (MFRL) in partnership with Formula 1, the India Open brought together some of India's most promising young sim racing talent following a nationwide qualifying process.\nThe top-performing junior racers will have an opportunity to progress into MFRL’s karting programme, providing a pathway from sim racing to real-world motorsport.\nThe Cup of Nations will bring together sim racing competitors from around the world in an international team championship, with India taking on some of the leading names in global sim racing.\nTop 10 Drivers: F1 Sim Racing India Open 2026 (Under-15)",
+    "category": "Sim Racing",
+    "published_date": "2026-11-07T16:35:37.324000+05:30",
+    "slug": "vihaan-joshi-leads-podium-at-f1-sim-racing-india-open-2026-smestreet",
+    "extraction_method": "newspaper4k",
+    "source_name": "smestreet.in"
+  },
+  {
+    "id": 20503,
+    "title": "UK plans facial recognition surveillance to identify visa overstayers and immigration offenders",
+    "source_url": "https://economictimes.indiatimes.com/nri/latest-updates/uk-plans-facial-recognition-surveillance-to-identify-visa-overstayers-and-immigration-offenders/articleshow/135630944.cms",
+    "summary": "Listen to this article in summarized format The UK is considering expanding the use of live facial recognition technology to identify visa overstayers and people who breach immigration rules, as the government steps up enforcement against illegal migration.\nPrivacy concerns over immigration surveillance The plans have attracted criticism from privacy and migrant-rights organisations, which have questioned the safeguards, transparency and potential for discriminatory outcomes.\nHe also said facial recognition used for immigration enforcement fell outside his remit, raising questions about independent oversight.\nThe technology has drawn comparisons with China's extensive facial recognition surveillance network, which has faced criticism from human rights organisations.\nSeparately, Home Secretary Shabana Mahmood has defended facial recognition technology for policing, describing it as a major breakthrough in identifying criminals.",
+    "category": "Image Recognition",
+    "published_date": "2026-11-07T13:44:41+05:30",
+    "slug": "uk-plans-facial-recognition-surveillance-to-identify-visa-overstayers-and-immigration-offenders-the",
+    "extraction_method": "newspaper4k",
+    "source_name": "economictimes.indiatimes.com"
+  },
+  {
+    "id": 20519,
+    "title": "FAU I-SENSE Evolves to Reflect Decade of Impact Across Cities, Spaces",
+    "source_url": "https://www.fau.edu/news/2026/i-sense-decade-of-impact/index.php",
+    "summary": "After more than a decade of advancing sensing technologies and intelligent systems, Florida Atlantic University’s Institute for Sensing and Embedded Network Systems Engineering (I-SENSE) is evolving its identity.\nAs part of its continued evolution, I-SENSE will be renamed I-SENSE: The Institute for Smarter Cities, Spaces, and Health.\n“This new identity is not a change in our mission,” said Jason Hallstrom, Ph.D., executive director of I-SENSE.\nJason Hallstrom, Ph.D., executive director of I-SENSE.\nMike Twardowski, Ph.D., I-SENSE faculty fellow and a research professor at FAU Harbor Branch, has advanced ocean-sensing technologies through U.S. Navy-supported research that improves understanding of marine bioluminescence and ocean conditions.",
+    "category": "Smart Cities",
+    "published_date": "2026-11-07T12:03:41",
+    "slug": "fau-i-sense-evolves-to-reflect-decade-of-impact-across-cities-spaces-florida-atlantic-university-2",
+    "extraction_method": "newspaper4k",
+    "source_name": "fau.edu"
+  },
+  {
+    "id": 20494,
+    "title": "Cybersecurity's 'we warned you' problem",
+    "source_url": "https://www.calcalistech.com/ctechnews/article/k5m4usn2q",
+    "summary": "You warned us about thousands of critical vulnerabilities.\nA prioritized list is still a list of open vulnerabilities.\nThe work that actually reduces exposure starts after the list, when someone in IT has to change a production system.\nIn any product evaluation, security teams can test whether a tool helps them fix vulnerabilities or only find them.\n\"We warned you\" leaves the vulnerability where it was.",
+    "category": "Cybersecurity",
+    "published_date": "2026-11-07T11:32:00+00:00",
+    "slug": "cybersecuritys-we-warned-you-problem-ctech",
+    "extraction_method": "newspaper4k",
+    "source_name": "calcalistech.com"
+  },
+  {
+    "id": 20495,
+    "title": "What Can Your AI Agents Access, Change and Approve?",
+    "source_url": "https://www.cybersecurity-insiders.com/what-can-your-ai-agents-access-change-and-approve/",
+    "summary": "A risk-based AI security policy should set those boundaries before deployment.\nThe EU AI Act’s transparency requirements began applying on 2nd August 2026.\nThe Act also sets obligations for high-risk AI systems, including documented risk management and human oversight.\nEU AI Act breaches can attract substantial, tiered penalties where its provisions apply.\nStart by testing what AI agents can actually do The practical starting point is an AI security assessment.",
+    "category": "Cybersecurity",
+    "published_date": "2026-11-07T09:03:37+00:00",
+    "slug": "what-can-your-ai-agents-access-change-and-approve-cybersecurity-insiders",
+    "extraction_method": "newspaper4k",
+    "source_name": "cybersecurity-insiders.com"
+  },
+  {
+    "id": 20485,
+    "title": "Data Spaces Offer Scalable Architectures for Collaborative Autonomous Vehicle AI Development",
+    "source_url": "https://bioengineer.org/data-spaces-offer-scalable-architectures-for-collaborative-autonomous-vehicle-ai-development/",
+    "summary": "A comprehensive scientific review published in the European Transport Research Review examines how emerging data space architectures can overcome the critical data fragmentation bottleneck currently hindering the development of autonomous driving technologies.\nTo resolve these technical barriers, the authors conceptualize a specialized autonomous vehicle data space architecture anchored in the Reference Architecture Model established by the International Data Spaces Association.\nManaging vehicular information within a data space requires an end-to-end data lifecycle framework spanning generation, acquisition, preparation, processing, model training, and compliant disposal.\nLooking toward future transportation ecosystems, the review outlines critical governance, privacy, and architectural mechanisms required to scale autonomous driving data spaces across the global automotive industry.\nDatasets and data spaces in the autonomous driving domain: insights and trends.",
+    "category": "Autonomous Vehicles",
+    "published_date": "2026-11-07T08:41:59+00:00",
+    "slug": "data-spaces-offer-scalable-architectures-for-collaborative-autonomous-vehicle-ai-development",
+    "extraction_method": "newspaper4k",
+    "source_name": "bioengineer.org"
+  },
+  {
+    "id": 20533,
+    "title": "Someone used Claude Code to make a sailing sim, then challenged other frontier LLMs to a race",
+    "source_url": "https://www.xda-developers.com/someone-used-claude-code-to-make-a-sailing-sim-then-challenged-other-frontier-llms-to-a-race/",
+    "summary": "Summary Claude Code sim lets LLMs helm virtual yachts using world-state inputs every 5s.\nGemini 4 Argon won easily; GPT-6 Astra 2nd, Claude Opus stalled, Qwen visited a beach.\nThey used Claude Code to make a realistic boat-racing simulator, then tasked the frontier LLM models with a virtual race.\nClaude Code created a sailing arena for four AI models to duke it out The results were wildly varied Over on the ClaudeAI subreddit, user abhi3188 showed off what they made in Claude Code.\nDespite having a hand in coding the sim, Claude Opus 5.5 came in third after it stalled on the way home and timed out.",
+    "category": "Sim Racing",
+    "published_date": "2026-11-07T07:00:57+00:00",
+    "slug": "someone-used-claude-code-to-make-a-sailing-sim-then-challenged-other-frontier-llms-to-a-race-xda",
+    "extraction_method": "newspaper4k",
+    "source_name": "xda-developers.com"
+  },
+  {
+    "id": 20479,
+    "title": "These jobs have disappeared. Remember them?",
+    "source_url": "https://ioplus.nl/en/posts/these-jobs-have-disappeared-remember-them",
+    "summary": "The human alarm clock.\nLet’s try to predict which modern jobs will face the same fate in a few decades.\nBy the way, have you ever heard of human alarm clocks?\nIt might be hard for us to imagine, but two hundred years ago, the alarm clock as we know it today didn’t exist.\nThat’s where human alarm clocks came in: armed with a long stick, they tapped on their customers’ windows until they woke up.",
+    "category": "Autonomous Trucks",
+    "published_date": "2026-11-07T07:00:00.050000+00:00",
+    "slug": "these-jobs-have-disappeared-remember-them-io",
+    "extraction_method": "newspaper4k",
+    "source_name": "ioplus.nl"
+  },
+  {
+    "id": 20527,
+    "title": "Assoluto Racing Nintendo Switch review: Handheld racer requires internet to load, and that’s not even the worst of it",
+    "source_url": "https://traxion.gg/assoluto-racing-nintendo-switch-review/",
+    "summary": "Assoluto Racing has made the jump to Nintendo Switch after 10 years as an iOS and Android title.\nAnd as for the rally stages resetting you back to the start line if you crash – with all your elapsed time still counted – I don’t know what to say.\nThere is no dedicated Switch 2 version, so playing the game on Switch 2 sees you using ‘boost mode’ where you’re seeing the docked version of the Switch game playing at 1080p on your handheld.\nOverall, Assoluto Racing on Switch has some merit in its smooth driving engine and car licenses, but even if it was free to play, I wouldn’t recommend it.\nScore: 3/10 “Not the Gran Turismo-style game Switch is crying out for”",
+    "category": "Sim Racing",
+    "published_date": "2026-11-07T06:00:00+00:00",
+    "slug": "assoluto-racing-nintendo-switch-review-handheld-racer-requires-internet-to-load-and-thats-not-even",
+    "extraction_method": "newspaper4k",
+    "source_name": "traxion.gg"
+  },
+  {
+    "id": 20510,
+    "title": "Cyber attack in Europe a warning for India",
+    "source_url": "https://www.dailyexcelsior.com/cyber-attack-in-europe-a-warning-for-india/amp",
+    "summary": "The attackers proved that non-military, everyday commerce can also be exploited to destabilize local food security.\nThe rapid integration of smart sensors, remote telemetry, and cloud-managed controllers has vastly expanded the physical attack surface.\nTo mitigate these systemic threats, cyber security architects and policymakers are advocating for a return to standalone, air-gapped control systems for critical infrastructure, alongside more robust protocol-security standards for consumer IoT.\nRe-establishing standalone and secure controls offers several defensive advantages through elimination of remote attack vectors and making remote manipulation of physical processes mathematically impossible over digital channels.\nThe recent cyber attacks against European food supply chains, national alert systems, and the emerging vulnerabilities within smart residential environments serve as an urgent warning.",
+    "category": "IoT Cyber",
+    "published_date": "2026-11-07T04:59:55+05:30",
+    "slug": "cyber-attack-in-europe-a-warning-for-india-daily-excelsior",
+    "extraction_method": "newspaper4k",
+    "source_name": "dailyexcelsior.com"
+  },
+  {
+    "id": 20513,
+    "title": "Banks, financial institutions: National CERT warns of rising AI-powered cyberattacks",
+    "source_url": "https://www.brecorder.com/news/amp/40447882",
+    "summary": "In an advisory, National CERT said the growing use of AI, automated bots, botnets and agentic tools was enabling cybercriminals to accelerate reconnaissance, identify system vulnerabilities, conduct credential-based attacks and launch coordinated cyberattacks on a much larger scale.\nREAD ALSO: Pakistan govt entity hit by cyberattack last week, official says National CERT cautioned that banks could face attacks targeting core banking systems, digital banking platforms, application programming interfaces (APIs), payment systems and customer-facing applications.\nFor the critical infrastructure sector, National CERT highlighted vulnerabilities arising from third-party service providers, connected Internet of Things (IoT) devices, industrial control systems and insecure remote access.\nNational CERT has advised financial institutions to review the security of core banking systems, APIs, third-party integrations, payment gateways and digital banking applications.\nNational CERT urged all organisations to assess their preparedness against bot-driven AI cyberattacks and strengthen incident response, business continuity and security monitoring arrangements.",
+    "category": "IoT Cyber",
+    "published_date": "2026-11-07T04:51:42+05:00",
+    "slug": "banks-financial-institutions-national-cert-warns-of-rising-ai-powered-cyberattacks-business-recorder",
+    "extraction_method": "newspaper4k",
+    "source_name": "brecorder.com"
+  },
+  {
+    "id": 20489,
+    "title": "Consumer Reports study finds car data may be shared with tech giants",
+    "source_url": "https://www.wcvb.com/article/consumer-reports-study-finds-car-data-may-be-shared-with-tech-giants/74357948",
+    "summary": "A Consumer Reports investigation last year revealed your car may be collecting data about how you drive.\nNow, a new study using Consumer Reports' own vehicles shows where some of that data is going, and you might be surprised how it could be connected back to you.\nBut unbeknownst to you, your car and its connected apps may be double agents, spying on you and sending what they learn to some of the world's biggest tech companies.\nSeveral automakers told CR that drivers opt in and that some apps take users to external websites that can collect data.\nCheck your automaker's website or connected app to opt out of data sharing or delete your data.",
+    "category": "Connected Car",
+    "published_date": "2026-11-07T04:24:00+00:00",
+    "slug": "consumer-reports-study-finds-car-data-may-be-shared-with-tech-giants-wcvb",
+    "extraction_method": "newspaper4k",
+    "source_name": "wcvb.com"
+  },
+  {
+    "id": 20509,
+    "title": "AI tools increase cyberattack risks",
+    "source_url": "https://tribune.com.pk/story/2639073/ai-tools-increase-cyberattack-risks",
+    "summary": "ISLAMABAD: The National Cyber Emergency Response Team (NCERT) has warned of a growing use of artificial intelligence (AI), automated bots, botnets and agentic tools in coordinated cyberattacks, saying banks and critical infrastructure face heightened risks.\nIt warned that banks could face attacks targeting core banking systems, digital banking platforms, payment systems and customer-facing applications.\nOther warning signs include abnormal transaction patterns, discrepancies between core banking records and displayed account balances, and unauthorised access to payment systems.\nNCERT urged financial institutions to review the security of core banking systems, APIs, third-party integrations, payment gateways and digital banking applications.\nIt recommended multi-factor authentication, safeguards against automated login attempts and integrity checks to ensure that customer-facing applications accurately reflect core banking records.",
+    "category": "IoT Cyber",
+    "published_date": "2026-11-07T03:19:24+05:00",
+    "slug": "ai-tools-increase-cyberattack-risks-the-express-tribune",
+    "extraction_method": "newspaper4k",
+    "source_name": "tribune.com.pk"
+  },
+  {
+    "id": 20483,
+    "title": "From Connectivity to Continuity: Cisco URWB for Autonomous Work Vehicles",
+    "source_url": "https://blogs.cisco.com/learning/from-connectivity-to-continuity-cisco-urwb-for-autonomous-work-vehicles",
+    "summary": "Cisco URWB: Reliable connectivity for autonomous vehicle operations By providing more predictable wireless connectivity in demanding mobile environments, Cisco URWB helps automated guided vehicles (AGVs), autonomous mobile robots (AMRs), and autonomous work vehicles (AWVs) operate with less manual intervention.\nHonda has chosen Cisco URWB to provide its connectivity Read more in Honda news about how Cisco URWB provides the wireless networking backbone for the Honda AWV’s airfield perimeter-inspection demonstration.\nCisco URWB helps provide the reliable connectivity autonomous vehicles need for real-time monitoring and control.\nCisco URWB uses multiprotocol label switching (MPLS)-over-wireless technology and make-before-break handoffs to help maintain connectivity as vehicles move throughout the site.\nLearn more Find additional information through a Cisco authorized Learning Partner to see Cisco URWB in action and register for the Cisco URWB training.",
+    "category": "Autonomous Vehicles",
+    "published_date": "2026-11-07T01:14:49+00:00",
+    "slug": "from-connectivity-to-continuity-cisco-urwb-for-autonomous-work-vehicles-cisco-blogs",
+    "extraction_method": "newspaper4k",
+    "source_name": "blogs.cisco.com"
+  },
+  {
+    "id": 20515,
+    "title": "An unreleased Anthropic model just helped solve a major quantum-computing question",
+    "source_url": "https://www.businessinsider.com/anthropic-quantum-computing-breakthrough-aaronson-ambainis-math-physics-psi-2026-11",
+    "summary": "Physical Superintelligence Inc., or PSI, said Friday it used an unreleased model from Anthropic to prove the Aaronson-Ambainis conjecture, a long-standing problem in quantum computing.\nThe lab developed a research system that included the Anthropic model.\n\"Quantum computing still has plenty of mysteries, but now there is one fewer,\" the lab said.\nDavid Turturean, a member of the technical staff at PSI, developed the research system that used the unreleased Anthropic model to prove the Aaronson-Ambainis conjecture.\nIt's not clear what unreleased model PSI used.",
+    "category": "Quantum Computers",
+    "published_date": "2026-11-07T00:49:10.066000+00:00",
+    "slug": "an-unreleased-anthropic-model-just-helped-solve-a-major-quantum-computing-question-business-insider",
+    "extraction_method": "newspaper4k",
+    "source_name": "businessinsider.com"
+  },
+  {
+    "id": 20512,
+    "title": "AI-powered cyberattacks threaten Pakistan’s banks, critical infrastructure",
+    "source_url": "https://www.thenews.pk/print/1447414-ai-powered-cyberattacks-threaten-pakistan-s-banks-critical-infrastructure",
+    "summary": "ISLAMABAD: The threat of artificial intelligence (AI)-powered cyberattacks against Pakistan’s financial institutions and critical infrastructure is increasing, with banks, energy installations, water utilities, electricity networks, manufacturing facilities and transport systems potentially at risk.\nAccording to the advisory, banks’ core banking systems, digital banking platforms, application programming interfaces (APIs), payment systems and customer-facing applications could become potential targets.\nThe advisory also warns that critical infrastructure faces growing risks from third-party service providers and connected Internet of Things (IoT) devices.\nIt further calls for comprehensive security reviews of core banking systems, APIs and payment gateways, alongside integrity checks to ensure consistency between customer-facing applications and core banking records.\nRegarding critical infrastructure, the advisory recommends identifying all internet-connected IoT and operational technology (OT) assets and restricting direct internet access as well as third-party maintenance connections.",
+    "category": "IoT Cyber",
+    "published_date": "2026-11-07T00:00:00+05:00",
+    "slug": "ai-powered-cyberattacks-threaten-pakistans-banks-critical-infrastructure-the-news-pakistan",
+    "extraction_method": "newspaper4k",
+    "source_name": "thenews.pk"
+  },
+  {
+    "id": 20476,
+    "title": "Lorenz Snacks introduces autonomous EVs for in-plant operations",
+    "source_url": "https://www.electrive.com/2026/11/07/lorenz-snacks-introduces-autonomous-evs-for-in-plant-operations/",
+    "summary": "Lorenz has announced that four fully electric transport vehicles will take over central in-plant traffic at its Neunburg vorm Wald facility.\nTogether with the Swedish logistics technology company Einride, the snack manufacturer is now venturing into the field of autonomous electric transport solutions.\nEinride provides the cabless vehicles, while its Saga software platform coordinates and manages the processes, planning and synchronising autonomous transport operations.\nThis allows Lorenz to integrate autonomous transport technology permanently into its plant operations.”\nIn this pilot project, the autonomous electric truck is permitted to travel at a maximum speed of 25 km/h – though it is likely capable of much more.",
+    "category": "Autonomous Trucks",
+    "published_date": "2026-11-07T00:00:00",
+    "slug": "lorenz-snacks-introduces-autonomous-evs-for-in-plant-operations-electrivecom",
+    "extraction_method": "newspaper4k",
+    "source_name": "electrive.com"
+  },
+  {
+    "id": 20497,
+    "title": "Brain Teaser | Can you decipher this cybersecurity riddle?",
+    "source_url": "https://www.bostonglobe.com/2026/11/07/opinion/brain-teaser-cybersecurity-code-hacker/",
+    "summary": "It recommended that websites running on the coding language PHP go offline until a newer, patched-up version of PHP could be installed.\nA few days prior, two cybersecurity companies using AI had uncovered serious security vulnerabilities that had lurked in PHP unnoticed for decades.\nMany school websites, open-source resources, and even some games went offline.\nThe catch is that I’ve removed the most common letter that appears in each answer.\nTo make matters worse, I’ve removed all spaces and punctuation — between the words in a given answer and between the answers themselves.",
+    "category": "Cybersecurity",
+    "published_date": "2026-11-07T00:00:00",
+    "slug": "brain-teaser-can-you-decipher-this-cybersecurity-riddle-the-boston-globe",
+    "extraction_method": "newspaper4k",
+    "source_name": "bostonglobe.com"
+  },
+  {
+    "id": 20500,
+    "title": "Cyber Attacks Against Water Systems on Agenda for State Utility Regulators (Nov 6, 2026)",
+    "source_url": "https://www.vitallaw.com/news/cyber-attacks-against-water-systems-on-agenda-for-state-utility-regulators/cspd01ed8c5d93e9eb4f5c935b5b5bcbb47f94",
+    "summary": "By Tom Leithauser State utility regulators next week plan to consider a resolution calling on Congress to take steps to shore up the cyber defenses of water utilities.\nIn September 2026, CISA announced that it will scale back the free assessments it offers to critical infrastructure organizations, like water and wastewater utilities,” it says.\nCongress should also “authorize the U.S. Environmental Protection Agency (EPA) to create an independent, non-governmental Water Risk and Resilience Organization (WRRO) comprised of sector experts to develop minimum cybersecurity requirements for water and wastewater utilities,” according to the resolution.\nIt notes that “the absence of uniform cybersecurity standards for water utilities leaves too many systems vulnerable, as evidenced by recent cybersecurity attacks on multiple water utilities in at least 12 states” (CPR, Oct. 20).\nWater and wastewater utilities “are squarely in the sights of domestic and international threat actors seeking to disrupt essential services or engage in criminal activities through cybersecurity attacks,” but many of those utilities “lack even basic cybersecurity protections,” the resolution warns.",
+    "category": "Cybersecurity",
+    "published_date": "2026-11-07T00:00:00",
+    "slug": "cyber-attacks-against-water-systems-on-agenda-for-state-utility-regulators-nov-6-2026-vitallawcom",
+    "extraction_method": "newspaper4k",
+    "source_name": "vitallaw.com"
+  },
+  {
+    "id": 20511,
+    "title": "Banks, utilities among services put on alert against AI-enabled cyberthreats",
+    "source_url": "https://www.dawn.com/news/2042639",
+    "summary": "However, two sectors require particular attention,” it stressed, referring to financial services, along with operational technology (OT) and critical infrastructure.\nIt warned banks that they could face attacks targeting core banking systems, digital banking platforms, payment systems and customer-facing applications, with potential scenarios including the disruption of online services, automated credential attacks, and manipulation of displayed account balances.\n“A compromise could disrupt physical processes and critical services,” it added.\nFor critical infrastructure, NCERT said changes to refinery, pipeline, grid, power generation or distribution parameters could indicate an attack, as could unexpected changes to pressure, temperature, cooling or heating control settings.\nNCERT also urged all organisations to check their preparedness against bot-driven AI cyberattacks, maintain incident logs and enhance arrangements for incident response, business continuity and security monitoring.",
+    "category": "IoT Cyber",
+    "published_date": "2026-11-06T23:56:21+05:00",
+    "slug": "banks-utilities-among-services-put-on-alert-against-ai-enabled-cyberthreats-dawn",
+    "extraction_method": "newspaper4k",
+    "source_name": "dawn.com"
+  },
+  {
+    "id": 20486,
+    "title": "Waymo continues mapping Cincinnati streets ahead of possible self-driving car testing",
+    "source_url": "https://www.wlwt.com/article/waymo-mapping-cincinnati-streets-self-driving-car-testing/74362515",
+    "summary": "CINCINNATI — Waymo, a self-driving car company owned by Google's parent company, Alphabet Inc., has spent the last two months mapping Cincinnati streets, potentially setting the stage for testing autonomous vehicles with people in the backseat and no driver.\nSelf-driving Waymo cars, which are mostly Jaguars with a spinning sensor on top, are already providing automated rides in 15 cities across the country, including Nashville.\n\"Our hope is that a year from now, everyone will have the opportunity to drive, to be in a driverless car.\nLast week in Columbus, a lawmaker representing the Zanesville area introduced a bill that would allow driverless vehicles on Ohio roads and establish statewide regulations.\nAnother concern raised involves the human toll of self-driving vehicles, with Boente preferring the idea of paying a real person for a ride rather than relying on an automated driving machine.",
+    "category": "Autonomous Vehicles",
+    "published_date": "2026-11-06T23:19:00+00:00",
+    "slug": "waymo-continues-mapping-cincinnati-streets-ahead-of-possible-self-driving-car-testing-wlwt",
+    "extraction_method": "newspaper4k",
+    "source_name": "wlwt.com"
+  },
+  {
+    "id": 20488,
+    "title": "Uber CEO Dara Khosrowshahi Ramps Up Robotaxi Deals as Freight Revenue Jumps",
+    "source_url": "https://observer.com/2026/11/dara-khosrowshahi-uber-robotaxi-partners-freight-revenue/",
+    "summary": "Uber CEO Dara Khosrowshahi is trying to expand the supply of rides as demand grows.\nFreight grows, with losses still to cover For Khosrowshahi, two businesses still have room to grow: freight and autonomous vehicles.\nUber Freight is essentially a digital broker that connects companies that need to ship goods by truck with trucking companies and independent drivers to make the trip happen.\nBusinesses pay Uber Freight, and Uber Freight pays the trucker; the arrangement mirrors the role Uber plays between customers and drivers in its core mobility business.\nUber Freight aims to address a problem that has long plagued trucking: wasted trips with empty trailers and a slow process for finding loads.",
+    "category": "Autonomous Vehicles",
+    "published_date": "2026-11-06T21:54:09",
+    "slug": "uber-ceo-dara-khosrowshahi-ramps-up-robotaxi-deals-as-freight-revenue-jumps-observer",
+    "extraction_method": "newspaper4k",
+    "source_name": "observer.com"
+  },
+  {
+    "id": 20505,
+    "title": "Hong Kong police to introduce AI facial recognition to Smart View surveillance network",
+    "source_url": "https://www.thestandard.com.hk/news/article/347749/Hong-Kong-police-to-introduce-AI-facial-recognition-to-Smart-View-surveillance-network",
+    "summary": "Hong Kong police will roll out artificial intelligence facial recognition across the force's Smart View closed-circuit television network within this month, aiming to accelerate criminal investigations and locate vulnerable missing persons, particularly elderly residents suffering from dementia.\nIntroducing facial recognition algorithms directly into the Smart View infrastructure will automate analysis, functioning as around-the-clock investigative support to identify suspects and locate missing individuals while freeing frontline officers for field duties.\nRetrospective searches and real-time alerts define operational deployment The facial recognition module will operate under two distinct modes depending on investigative needs.\nOperations Bureau Superintendent Raymond Cheng noted that because continuous facial recognition analysis requires heavy computational resources, the feature will not run simultaneously across every lens on the network.\nTo defend against cybersecurity risks and external hacking, the force operates Smart View on a dedicated private optical fiber network, while mandatory firewall barriers isolate all external and commercial camera feeds before data enters police servers.",
+    "category": "Image Recognition",
+    "published_date": "2026-11-06T21:15:19+08:00",
+    "slug": "hong-kong-police-to-introduce-ai-facial-recognition-to-smart-view-surveillance-network-the-standard",
+    "extraction_method": "newspaper4k",
+    "source_name": "thestandard.com.hk"
+  },
+  {
+    "id": 20507,
+    "title": "Federal agencies urge cold chain operators to lock down refrigeration controllers",
+    "source_url": "https://www.marketscale.com/industries/industrial-iot/cisa-fbi-refrigeration-cold-chain-controller-security-guidance",
+    "summary": "Five federal agencies have given grocery stores, cold storage operators and other cold chain businesses a clear set of steps for securing the controllers that keep their products cold.\nThe agencies say malicious cyber actors are targeting vulnerabilities and weaknesses in unpatched or internet-accessible electronic temperature controllers and commercial refrigeration controllers in retail grocery and cold storage facilities.\nTechCrunch also reports that some affected systems were remote-controlled refrigeration units made by Danish company Danfoss that no longer receive security updates.\nThe steps for operators The fact sheet's mitigations align with the Cross-Sector Cybersecurity Performance Goals from CISA and NIST.\nThe agencies also recommend a dedicated OT VLAN to separate refrigeration controls from business networks.",
+    "category": "IoT Cyber",
+    "published_date": "2026-11-06T21:07:40.400000+00:00",
+    "slug": "federal-agencies-urge-cold-chain-operators-to-lock-down-refrigeration-controllers-marketscale",
+    "extraction_method": "newspaper4k",
+    "source_name": "marketscale.com"
+  },
+  {
+    "id": 20502,
+    "title": "Controlled Phone Clusters Handle Grading and Image Recognition in Tests",
+    "source_url": "https://www.tokenpost.com/news/technology/50329",
+    "summary": "Tests of controlled phone clusters have handled specific computing jobs, but the results do not show that smartphones spread across the internet can replace centralized infrastructure for large-scale artificial intelligence.\nAcurast announced Sept. 29, 2026, that its network included more than 318,000 phones in more than 175 countries.\nIn controlled tests published in May 2025, smartphone clusters performed competitively on some image-recognition workloads.\nIts tests used strong 5 GHz Wi-Fi, devices with screens off and limits on network activity from other apps.\nPhone-based systems need workloads that fit their smaller capacity, and the tests do not establish performance across a widely distributed network.",
+    "category": "Image Recognition",
+    "published_date": "2026-11-06T20:46:10+00:00",
+    "slug": "controlled-phone-clusters-handle-grading-and-image-recognition-in-tests-wwwtokenpostcom",
+    "extraction_method": "newspaper4k",
+    "source_name": "tokenpost.com"
+  },
+  {
+    "id": 20525,
+    "title": "2026 IMSA Esports Global Championship | WeatherTech Raceway Laguna Seca | Round #4 Preview",
+    "source_url": "https://www.iracing.com/2026-imsa-esports-global-championship-weathertech-raceway-laguna-seca-round-4-preview/",
+    "summary": "The IMSA Esports Global Championship continues on Sunday, November 8th, with the fourth round of the 2026 season at WeatherTech Raceway Laguna Seca.\nTwo weeks ago, Bleu Mercure Esport returned to victory lane for a third-straight race, once again with their No.\nROUND 4 | WEATHERTECH RACEWAY LAGUNA SECA | ENTRY LIST: GTP CAR NO.\n132 Bleu Mercure Porsche, this time with Vasilios Beletsiotis and Thibaud Prevot sharing time behind the wheel.\nWEATHERTECH RACEWAY LAGUNA SECA TRACK FACTS WeatherTech Raceway Laguna Seca NEXT RACE: A FINALE WHERE IT USUALLY BEGINS After Laguna Seca, the series has one last test scheduled to determine the champions, and it’s where the season would normally kick off in the real-world, over in Daytona Beach, Florida.",
+    "category": "Sim Racing",
+    "published_date": "2026-11-06T19:00:32+00:00",
+    "slug": "2026-imsa-esports-global-championship-weathertech-raceway-laguna-seca-round-4-preview-iracingcom",
+    "extraction_method": "newspaper4k",
+    "source_name": "iracing.com"
+  },
+  {
+    "id": 20499,
+    "title": "Japan Announces Emergency Cybersecurity Package Following a Wave of Attacks",
+    "source_url": "https://www.securityweek.com/japan-announces-emergency-cybersecurity-package-following-a-wave-of-attacks/",
+    "summary": "Japan on Friday announced an emergency cybersecurity package that includes the use of artificial intelligence and cyber rescue teams after a wave of massive data breaches hit major companies and government agencies.\nPrime Minister Sanae Takaichi told a ministerial meeting Friday that a rapid response to potential attacks is essential in the era of AI-generated attacks.\nThe emergency package comes after dozens of companies and government agencies were hit by unauthorized access to their systems and leaks of client data, prompting uneasiness across Japan.\nUnder the measures in the package, a “top gun” team of cybersecurity experts will be set up by the Ministry of Economy, Trade and Industry by the end of November.\nRelated: Hackers Steal 2.6 Million Records From Sony’s Japanese ISP So-net Related: Hackers Steal 1.8 Million Records From Nikkei Related: 240,000 Hit by Data Breach at Japan’s Digital Agency Related: Cyberattack Disrupts Operations of Japanese Frozen Food Giant Nichirei",
+    "category": "Cybersecurity",
+    "published_date": "2026-11-06T18:28:41+00:00",
+    "slug": "japan-announces-emergency-cybersecurity-package-following-a-wave-of-attacks-securityweek",
+    "extraction_method": "newspaper4k",
+    "source_name": "securityweek.com"
+  },
+  {
+    "id": 20521,
+    "title": "CREAF's research on urban trees takes centre stage at Smart City Expo 2026",
+    "source_url": "https://www.creaf.cat/en/articles/creaf-research-urban-trees-smart-city-expo-2026",
+    "summary": "The discussion on climate-resilient cities, part of the Smart City Expo 2026 held in Barcelona this week, incorporated a scientific perspective.\nCREAF contributed to the discourse on urban nature through the participation of its director, Joan Pino Vilalta, and researcher Mariona Ferrandiz Rovira.\nFor this reason, Joan Pino noted, it is necessary to plan for the water and ecosystem services required to sustain urban greenery.\nThe round table in which Joan Pino participated is part of the Interreg Euro-MED \"Green Living Areas\" mission.\n\"This technological leap will bring about a profound shift in the profession of urban gardening\", notes Mariona Ferrandiz.",
+    "category": "Smart Cities",
+    "published_date": "2026-11-06T18:03:42+01:00",
+    "slug": "creafs-research-on-urban-trees-takes-centre-stage-at-smart-city-expo-2026-creaf",
+    "extraction_method": "newspaper4k",
+    "source_name": "creaf.cat"
+  },
+  {
+    "id": 20522,
+    "title": "Astronaut Joins ‘Moon’ Smart City Project to Guide Lunar Experience",
+    "source_url": "https://www.newsweek.com/astronaut-designs-moon-smart-city-unique-lunar-experience-12678459",
+    "summary": "Built by Moon World Resorts, “MOON will transport millions of guests annually on an experiential life-altering journey, previously thought possible for only a few,” the company’s website says.\n“This project is as ambitious as a space program; it’s going to be extraordinary,” Hansen told El País in Spain, which is reportedly among the leading candidates to be one of the 10 potential locations for MOON.\nThe company has reportedly raised “millions” of dollars, Sandra Matthews, the co-founder and president of Moon World Resorts, told El País, without specifying the exact amount.\n“At this point, only visionaries are interested, because you really have to be one to imagine something on this scale,\" Hansen told El País.\nSee the Sky as ‘If You Were Actually on the Moon’ Costing around $5 billion to construct, the MOON complex is hoping to serve as “the blueprint for a smart city,” Matthews told El País.",
+    "category": "Smart Cities",
+    "published_date": "2026-11-06T17:40:05+00:00",
+    "slug": "astronaut-joins-moon-smart-city-project-to-guide-lunar-experience-newsweek",
+    "extraction_method": "newspaper4k",
+    "source_name": "newsweek.com"
+  },
+  {
+    "id": 20531,
+    "title": "Indian Truck Simulator set to replicate New Delhi’s vast road network",
+    "source_url": "https://traxion.gg/indian-truck-simulator-set-to-replicate-new-delhis-vast-road-network/",
+    "summary": "Indian Truck Simulator is a new trucking title from indie developer IronFort Studios.\nSlated for a 2027 release, it’s available to Wishlist on Steam now, Using real National Capital Region map data, the game replicates the vast and intricate road network around India’s capital city, New Delhi.\nThe game will apparently feature mechanics like driver fatigue, which increases in hotter temperatures and at night, with players obliged to stop at roadside cafes for food.\nA handy GPS system will also help you plan your way around New Delhi’s maze-like streets.\nThankfully, like the SCS truck sims, the longer highway sections will appear in abridged form.",
+    "category": "Sim Racing",
+    "published_date": "2026-11-06T16:17:57+00:00",
+    "slug": "indian-truck-simulator-set-to-replicate-new-delhis-vast-road-network-traxiongg",
+    "extraction_method": "newspaper4k",
+    "source_name": "traxion.gg"
+  },
+  {
+    "id": 20491,
+    "title": "Passenger Vehicle Telematics Market To 2035: OEM Data-Service Push and Fleet TCO Focus Support Growth - News and Statistics",
+    "source_url": "https://www.indexbox.io/blog/passenger-vehicle-telematics-market-forecast-to-2035-driven-by-oem-connected-service-revenue-and-fleet-tco-demands/",
+    "summary": "The global Passenger Vehicle Telematics Market is entering a structural phase in which value migrates from hardware modules toward integrated data services, analytics, and platform software.\nMarket Outlook (2026-2035) In the baseline scenario, IndexBox estimates a 8.1% compound annual growth rate for the global passenger vehicle telematics market over 2026-2035, bringing the market index to roughly 218 by 2035 (2025=100).\nFor full methodological details and benchmark tables, see the latest IndexBox Passenger Vehicle Telematics market report.\nThis report is an independent strategic market study that provides a structured, commercially grounded analysis of the global market for Passenger Vehicle Telematics.\nWhat this report is about At its core, this report explains how the market for Passenger Vehicle Telematics actually functions.",
+    "category": "Connected Car",
+    "published_date": "2026-11-06T16:06:04+01:00",
+    "slug": "passenger-vehicle-telematics-market-to-2035-oem-data-service-push-and-fleet-tco-focus-support",
+    "extraction_method": "newspaper4k",
+    "source_name": "indexbox.io"
+  },
+  {
+    "id": 20506,
+    "title": "The cyber threat landscape in aerospace manufacturing",
+    "source_url": "https://www.aerospacemanufacturinganddesign.com/news/the-cyber-threat-landscape-aerospace-manufacturing/",
+    "summary": "The expanding attack surface in aerospace manufacturing Cyberattacks in aerospace and aviation are, research shows, growing in number and evolving in sophistication.\nNotable cyber threats and incidents Sadly, it’s all too easy to see the effects of cyber threats upon aerospace manufacturing thanks to recent high-profile incidents.\nRegulatory landscape and compliance challenges Cybersecurity compliance in the aerospace manufacturing industry is often broad and complex.\nOf course, these are just a few ideas on how to get started in improving cyber resilience in the aerospace manufacturing industry.\nWith no end in sight to cyberattack growth in aerospace manufacturing, there has never been a better time to be introspective.",
+    "category": "IoT Cyber",
+    "published_date": "2026-11-06T16:00:00-05:00",
+    "slug": "the-cyber-threat-landscape-in-aerospace-manufacturing-aerospace-manufacturing-and-design",
+    "extraction_method": "newspaper4k",
+    "source_name": "aerospacemanufacturinganddesign.com"
+  },
+  {
+    "id": 20508,
+    "title": "FBI, CISA warn of cyberattacks targeting refrigeration systems",
+    "source_url": "https://www.scworld.com/news/fbi-cisa-warn-of-cyberattacks-targeting-refrigeration-systems",
+    "summary": "According to the the FBI and CISA, threat actors may exploit flaws in these refrigeration and cooling systems via an authentication bypass, arbitrary code injection, and weak configurations.\n“The FBI and CISA warning hits close to home,” said Melvin Lammerts, co-founder and head of hacking at Hadrian.\n“We’ve already seen refrigeration controllers taken over in European supermarkets and blood-storage sites, and the Pentagon is investigating similar freezer failures at U.S. military commissaries.\nResponsibility for cyberattacks unconfirmed To date, it's unclear who's responsible for the string of suspected cyberattacks.\n“Refrigeration systems cannot be taken offline while equipment is replaced, many older controllers no longer receive security updates, and AI can find and exploit vulnerabilities in even the most up-to-date systems.",
+    "category": "IoT Cyber",
+    "published_date": "2026-11-06T15:53:10-05:00",
+    "slug": "fbi-cisa-warn-of-cyberattacks-targeting-refrigeration-systems-sc-media",
+    "extraction_method": "newspaper4k",
+    "source_name": "scworld.com"
+  },
+  {
     "id": 20438,
     "title": "​CERT-In Flags Four Critical Vulnerabilities in Tata Motors Connected Car Apps",
     "source_url": "https://the420.in/cert-in-flags-four-critical-vulnerabilities-in-tata-motors-connected-car-apps/",
@@ -22,6 +396,28 @@
     "source_name": "the420.in"
   },
   {
+    "id": 20529,
+    "title": "Get 30% Off During iRacing’s Early Black Friday Sale",
+    "source_url": "https://gamespace.com/all-articles/news/get-30-off-during-iracings-early-black-friday-sale/",
+    "summary": "We are still a few weeks away from Black Friday, but the early deals are already racing in.\nThis time, iRacing is getting in on the action with what it’s calling its best sale of the year, offering 30% off 12-month and 24-month memberships for returning subscribers.\nThis particular offer is exclusively for existing iRacing members with accounts purchased directly through iRacing.\nThe program only applies to qualifying new direct iRacing subscriptions, excluding Steam and Epic accounts, renewals, one-month subscriptions, and certain discounted or free offers.\nThe Early Black Friday reactivation promotion runs through December 2, 2026.",
+    "category": "Sim Racing",
+    "published_date": "2026-11-06T15:30:33+00:00",
+    "slug": "get-30-off-during-iracings-early-black-friday-sale-gamespacecom",
+    "extraction_method": "newspaper4k",
+    "source_name": "gamespace.com"
+  },
+  {
+    "id": 20504,
+    "title": "New code of practice planned for UK businesses using facial recognition and biometrics",
+    "source_url": "https://www.pinsentmasons.com/out-law/news/code-of-practice-uk-facial-recognition",
+    "summary": "The proposals, announced by the UK government on 4 November, include the establishment of a new biometrics regulator focused on overseeing law enforcement use of biometric technologies.\nThe regulator will also contribute to the development of a separate legal code of practice for private sector organisations using facial recognition and similar systems.\nThe government has emphasised, however, that the code will recognise the different legal and operational contexts in which businesses and law enforcement agencies deploy biometric tools.\nThe announcement comes at a time when biometric technologies are being adopted in increasingly diverse settings.\nThe organisation has also called for clear legal thresholds governing when facial recognition technologies can be used outside law enforcement settings.",
+    "category": "Image Recognition",
+    "published_date": "2026-11-06T14:59:00+00:00",
+    "slug": "new-code-of-practice-planned-for-uk-businesses-using-facial-recognition-and-biometrics-pinsent",
+    "extraction_method": "newspaper4k",
+    "source_name": "pinsentmasons.com"
+  },
+  {
     "id": 20460,
     "title": "ORNL partners with IBM and AMD launching quantum computing platform - Vietnam Investment Review",
     "source_url": "https://vir.com.vn/ornl-partners-with-ibm-and-amd-launching-quantum-computing-platform-164592.html",
@@ -31,6 +427,50 @@
     "slug": "ornl-partners-with-ibm-and-amd-launching-quantum-computing-platform-vietnam-investment-review-vir",
     "extraction_method": "newspaper4k",
     "source_name": "vir.com.vn"
+  },
+  {
+    "id": 20530,
+    "title": "Lowside aims to bring arcade motorcycle games back from the 1990s",
+    "source_url": "https://traxion.gg/lowside-aims-to-bring-arcade-motorcycle-games-back-from-the-1990s/",
+    "summary": "There’s a dearth of contemporary motorcycle video games, and specifically, arcade-style motorcycle games.\nElectronic Arts is trying to plug that gap with a re-release of Road Rash, and so too will Lowside, an upcoming solo-developed title.\nIt’s being developed by the creator and owner of Race Sim Central, Tim Wheatley, who has previously worked for the likes of iRacing, Motorsport Games and Straight4 Studios.\nIt aims to combine a low-poly visual style with accessible physics, for both present-day gamepads and a classic mouse input style.\nFor Lowside, there’s the expectation of up to 49 on-track rivals, race lengths of up to 40 laps and tyre compound selection.",
+    "category": "Sim Racing",
+    "published_date": "2026-11-06T14:37:23+00:00",
+    "slug": "lowside-aims-to-bring-arcade-motorcycle-games-back-from-the-1990s-traxiongg",
+    "extraction_method": "newspaper4k",
+    "source_name": "traxion.gg"
+  },
+  {
+    "id": 20501,
+    "title": "Philly airport is first to use new facial recognition technology that lets Americans pass through customs faster",
+    "source_url": "https://www.phillyvoice.com/philadelphia-international-airport-global-entry-facial-recognition-software/",
+    "summary": "The Philadelphia International Airport is the first airport in the United States to use new facial recognition software for Global Entry, the program that allows eligible U.S. residents to pass through customs more quickly.\nGlobal Entry members now will walk up to the Global Entry Portal and have their photos taken by two cameras.\nIf the software successfully matches their faces to information supplied in their Global Entry applications, they can advance and head for the exit.\nAccording to U.S. Customs and Border Protection, which operates Global Entry, the new technology will be better at verifying identities.\nTo qualify for Global Entry, travelers must be over 18 or have the consent of a parent or legal guardian.",
+    "category": "Image Recognition",
+    "published_date": "2026-11-06T14:22:52.387032-05:00",
+    "slug": "philly-airport-is-first-to-use-new-facial-recognition-technology-that-lets-americans-pass-through",
+    "extraction_method": "newspaper4k",
+    "source_name": "phillyvoice.com"
+  },
+  {
+    "id": 20514,
+    "title": "IBM’s most advanced quantum computer unveiled at UChicago’s Hyde Park Labs",
+    "source_url": "https://news.uchicago.edu/story/ibms-most-advanced-quantum-computer-unveiled-uchicagos-hyde-park-labs",
+    "summary": "IBM’s most advanced quantum computer is now running at the University of Chicago’s Hyde Park Labs.\nJB Pritzker to unveil a new IBM Quantum System Two computer at Hyde Park Labs near the UChicago campus.\nIBM Quantum System Two is IBM’s first quantum computer in Illinois.\n“IBM is proud to deploy the first quantum computer of IQMP — an IBM Quantum SystemTwo.\nIBM has committed to supporting Duality startups with funding, technical expertise and access to IBM’s quantum computers, including IBM Quantum System Two, so they can develop quantum software.",
+    "category": "Quantum Computers",
+    "published_date": "2026-11-06T14:22:00-06:00",
+    "slug": "ibms-most-advanced-quantum-computer-unveiled-at-uchicagos-hyde-park-labs-uchicago-news",
+    "extraction_method": "newspaper4k",
+    "source_name": "news.uchicago.edu"
+  },
+  {
+    "id": 20524,
+    "title": "New UN guide keeps people in charge of AI in smart cities",
+    "source_url": "https://www.prnewswire.com/news-releases/new-un-guide-keeps-people-in-charge-of-ai-in-smart-cities-302932077.html",
+    "summary": "The new United for Smart Sustainable Cities (U4SSC) Toolbox for People-Centred Smart Cities in the AI Era, issued by the International Telecommunication Union (ITU) and UN Human Settlements Programme (UN-Habitat), gives mayors, city managers and policymakers real-world guidance for deciding how AI can improve public services, what safeguards are needed, and when the technology should not be used.\n\"Smart, sustainable cities are defined by how well people benefit from technology designed to improve everyday living,\" said Doreen Bogdan-Martin, ITU Secretary-General.\n\"The U4SSC toolbox helps city officials turn international standards and responsible AI principles into guidance for better public services and lasting trust.\"\nU4SSC provides an international platform for collaboration and develops practical resources to help cities advance sustainable digital transformation and the UN Sustainable Development Goals.\nIt develops practical tools, methodologies and Key Performance Indicators that help cities accelerate their sustainable digital transformation.",
+    "category": "Smart Cities",
+    "published_date": "2026-11-06T13:45:00+00:00",
+    "slug": "new-un-guide-keeps-people-in-charge-of-ai-in-smart-cities-pr-newswire",
+    "extraction_method": "newspaper4k",
+    "source_name": "prnewswire.com"
   },
   {
     "id": 20474,
@@ -198,6 +638,50 @@
     "source_name": "arabnews.jp"
   },
   {
+    "id": 20523,
+    "title": "6 state housing policies were on the ballot. Here’s where they stand.",
+    "source_url": "https://www.smartcitiesdive.com/news/6-state-housing-policies-were-on-the-ballot-heres-where-they-stand/874011/",
+    "summary": "The six state-level housing policies in contention were the most in a single election year in two decades.\nCalifornia Approved: Proposition 1 Voters approved $11.25 billion in bonds for the state to fund affordable housing programs, with slightly more than 60% of the vote as of Friday.\nAt a time when nearly half of college students are experiencing housing insecurity, the measure also allocates $175 million for University of California student housing.\n“As the University of California works with the state to enroll more California students, the demand for affordable student housing has risen.\nA minimum of $25 million of the bond will be allocated for housing intended for homeownership, and 10% is slated for public housing development.",
+    "category": "Smart Cities",
+    "published_date": "2026-11-06T11:18:37",
+    "slug": "6-state-housing-policies-were-on-the-ballot-heres-where-they-stand-smart-cities-dive",
+    "extraction_method": "newspaper4k",
+    "source_name": "smartcitiesdive.com"
+  },
+  {
+    "id": 20520,
+    "title": "Uber to have 700 robotaxis by year’s end",
+    "source_url": "https://www.smartcitiesdive.com/news/uber-ceo-outlines-growth-plans-for-robotaxis/873801/",
+    "summary": "Dive Brief: Uber CEO Dara Khosrowshahi expects to have about 700 robotaxis on their platform by year’s end, growing to over 2,000 in 2027, he said on the company’s Q3 earnings call Wednesday.\nUber will launch driverless vehicles in partnership with Zoox later this month in Las Vegas, followed by autonomous Motional vehicles, Khosrowshahi said in prepared remarks.\nDive Insight: Earlier this year, the Financial Times reported that Uber planned to invest more than $10 billion in robotaxis.\nUber expects to begin fully driverless testing with Nuro and Lucid this quarter, Khosrowshahi said.\nThey are increasing the number of robotaxis in Nashville by the end of this year, he said.",
+    "category": "Smart Cities",
+    "published_date": "2026-11-06T11:16:00",
+    "slug": "uber-to-have-700-robotaxis-by-years-end-smart-cities-dive",
+    "extraction_method": "newspaper4k",
+    "source_name": "smartcitiesdive.com"
+  },
+  {
+    "id": 20493,
+    "title": "Hyundai Rolls Out Usage-Based Insurance in India Using Bluelink Connected Car Data",
+    "source_url": "https://ackodrive.com/news/hyundai-rolls-out-usage-based-insurance-in-india-using-bluelink-connected-car-data/",
+    "summary": "Usage-Based Insurance (UBI) will be available to owners of all compatible Bluelink-equipped Hyundai cars who have insurance renewals through Hyundai India Insurance Broking (HIIB) coming up within an eligibility window.\nUBI works by assigning car owners a score based on how the car has been driven within the preceding three-month period.\nHyundai India has announced three initial partners for the first phase of this scheme: Cholamandalam MS General Insurance, Go Digit General Insurance, and ICICI Lombard General Insurance.\nThe scheme could help Hyundai India achieve its recently announced target of 10 lakh connected car sales by 2027.\nBluelink is a set of connected-car features available on higher-end trims of Hyundai cars.",
+    "category": "Connected Car",
+    "published_date": "2026-11-06T11:05:11.853000+00:00",
+    "slug": "hyundai-rolls-out-usage-based-insurance-in-india-using-bluelink-connected-car-data-acko-drive",
+    "extraction_method": "newspaper4k",
+    "source_name": "ackodrive.com"
+  },
+  {
+    "id": 20498,
+    "title": "Hackers enlist Artex to scan GitHub repositories for exposed secrets",
+    "source_url": "https://www.cybersecuritydive.com/news/hackers-artex-github-repositories-exposed-secrets/874007/",
+    "summary": "Hackers are using Artex and other agentic AI-based frameworks to scan public GitHub repositories for exposed credentials and API keys, according to a report Thursday from Microsoft Threat Intelligence.\nMicrosoft researchers said the threat activity overlaps with a campaign using the same IP address, as outlined in research released Wednesday by Todyl.\nThat report showed how hackers with stolen secrets for Entra ID signed into Microsoft 365 and Azure environments at various managed service providers.\nThe threat activity follows a series of attacks where hackers exploited Artex and other agentic AI tooling to automate their attacks.\nHackers have applied various agentic frameworks to scan for GitHub secrets since August, according to Microsoft researchers.",
+    "category": "Cybersecurity",
+    "published_date": "2026-11-06T10:57:21",
+    "slug": "hackers-enlist-artex-to-scan-github-repositories-for-exposed-secrets-cybersecurity-dive",
+    "extraction_method": "newspaper4k",
+    "source_name": "cybersecuritydive.com"
+  },
+  {
     "id": 20471,
     "title": "Arma Reforger’s bonkers rally DLC released",
     "source_url": "https://traxion.gg/arma-reforgers-bonkers-rally-dlc-released/",
@@ -220,6 +704,17 @@
     "source_name": "mk.co.kr"
   },
   {
+    "id": 20477,
+    "title": "Aurora’s truck production schedule delayed by supply, quality issues",
+    "source_url": "https://www.truckingdive.com/news/auroras-truck-production-schedule-delayed-by-supply-quality-issues/873378/",
+    "summary": "Dive Brief: Aurora Innovation’s truck production ramp fell six weeks behind schedule due to material shortages and component quality issues, executives shared during the company’s Q3 earnings call Oct. 28.\nThe company expects to have built 200 trucks by February and more than 1,000 trucks by the end of 2027.\nPreliminary builds completed before the company’s Sept. 23 investor day “were looking quite good,” Urmson said, but problems surfaced once production scaled.\nWire harnessing, for example, will be outsourced to a “more capable production supplier,” CFO David Maday said during the earnings call.\nAurora anticipates a cash spend of $250 million in Q4 as it continues to ramp production of its driverless fleet.",
+    "category": "Autonomous Trucks",
+    "published_date": "2026-11-06T10:32:00",
+    "slug": "auroras-truck-production-schedule-delayed-by-supply-quality-issues-trucking-dive",
+    "extraction_method": "newspaper4k",
+    "source_name": "truckingdive.com"
+  },
+  {
     "id": 20441,
     "title": "Abbott Risk Consulting joins ISA’s ISASecure program to expand ISA/IEC 62443-based OT cybersecurity consulting",
     "source_url": "https://industrialcyber.co/news/abbott-risk-consulting-joins-isas-isasecure-program-to-expand-isa-iec-62443-based-ot-cybersecurity-consulting/",
@@ -240,6 +735,17 @@
     "slug": "tesla-sidelines-cybertruck-as-cybercab-takes-centre-stage-automotive-manufacturing-solutions",
     "extraction_method": "newspaper4k",
     "source_name": "automotivemanufacturingsolutions.com"
+  },
+  {
+    "id": 20490,
+    "title": "GM’s AI pitch to consumers: Let us take something off your plate",
+    "source_url": "https://www.marketingbrew.com/stories/gm-onstar-ai-pitch-to-consumers-strategy",
+    "summary": "OnStar AI will launch on the 2027 Cadillac Lyriq EV, then roll out on the 2027 Chevy Silverado and GMC Sierra, with more models to follow.\nThe introduction of OnStar AI is “one of the first ways customers will experience” broader changes to OnStar, according to Wahlstrom.\nFor now, the OnStar AI assistant will be available for free as part of OnStar’s standard connectivity package.\nAnna Santos, GM’s director of product management for voice and AI/ML, told us that product planners see OnStar AI as relevant for all of GM’s customers.\nNot your grandpa’s GM GM’s pitch also targeted investors with the message that GM deserves to be valued like a tech company.",
+    "category": "Connected Car",
+    "published_date": "2026-11-06T10:00:00+00:00",
+    "slug": "gms-ai-pitch-to-consumers-let-us-take-something-off-your-plate-marketing-brew",
+    "extraction_method": "newspaper4k",
+    "source_name": "marketingbrew.com"
   },
   {
     "id": 20467,
@@ -275,6 +781,17 @@
     "source_name": "astig.ph"
   },
   {
+    "id": 20482,
+    "title": "Ohio House Bill 1034: Rules for Driverless Cars Explained",
+    "source_url": "https://hoodline.com/2026/11/ohio-bill-would-force-driverless-car-owners-to-cover-traffic-tickets-1m-insurance/",
+    "summary": "House Bill 1034 would also establish statewide rules for driverless cars across Ohio, a state where the technology is already being tested on public roads.\nHolmes said Ohio should put operational protections and a regulatory framework in place before driverless cars become more common and demand for them grows.\nHe described House Bill 1034 as a preparation-type bill, and as of the station's report, it had not yet received a vote.\nHe added that Ohio winter conditions may pose a problem for driverless cars, and said he understands the concerns people have.\nCleveland Residents Split on Riding Driverless Cleveland residents interviewed for the Cleveland 19 News story had mixed reactions.",
+    "category": "Autonomous Trucks",
+    "published_date": "2026-11-06T08:14:29-05:00",
+    "slug": "ohio-house-bill-1034-rules-for-driverless-cars-explained-hoodline",
+    "extraction_method": "newspaper4k",
+    "source_name": "hoodline.com"
+  },
+  {
     "id": 20443,
     "title": "UK deploys China-style surveillance to track visa overstayers as immigration crackdown tightens for Nigerians, Indians and South Africans",
     "source_url": "https://africa.businessinsider.com/local/markets/uk-turns-to-criticised-but-powerful-china-style-technology-to-hunt-visa-overstayers/z67ebkr",
@@ -284,6 +801,17 @@
     "slug": "uk-deploys-china-style-surveillance-to-track-visa-overstayers-as-immigration-crackdown-tightens-for",
     "extraction_method": "newspaper4k",
     "source_name": "africa.businessinsider.com"
+  },
+  {
+    "id": 20478,
+    "title": "Humble Robotics targets regional freight with autonomous, electric Class 8 trucks",
+    "source_url": "https://www.thetrucker.com/trucking-news/equipment-tech/humble-robotics-targets-regional-freight-with-autonomous-electric-class-8-trucks",
+    "summary": "According to the company, these shorter routes account for 87% of US truck tonnage, representing a significant opportunity for autonomous and electric freight technology.\nThose relatively predictable movements could make it easier to plan vehicle operations, establish charging schedules and evaluate autonomous technology under specific operating conditions.\nBuilding the truck and technology together Rather than installing autonomous driving systems on conventional diesel trucks, Humble is developing its vehicles and autonomous technology as an integrated system.\nIts fully electric Humble Hauler is a purpose-built Class 8 vehicle designed to transport freight without a conventional driver’s cab.\nQuestions remain about how autonomous electric vehicles will perform under everyday freight conditions, particularly in complex logistics environments where vehicles must interact with workers, equipment and conventional trucks.",
+    "category": "Autonomous Trucks",
+    "published_date": "2026-11-06T07:41:41-08:00",
+    "slug": "humble-robotics-targets-regional-freight-with-autonomous-electric-class-8-trucks-thetruckercom",
+    "extraction_method": "newspaper4k",
+    "source_name": "thetrucker.com"
   },
   {
     "id": 20445,
@@ -297,6 +825,17 @@
     "source_name": "scmp.com"
   },
   {
+    "id": 20492,
+    "title": "Tata Motors Fixes Security Issues in iRA and iRA.ev Apps After CERT-In Alert",
+    "source_url": "https://www.carlelo.com/news/tata-motors-ira-ira-ev-app-security-update-cert-in-alert",
+    "summary": "Tata Motors has addressed security vulnerabilities in its iRA 2.0 and iRA.ev connected car apps following an alert from the Indian Computer Emergency Response Team (CERT-In).\nAccording to the security alert, the affected versions were iRA 2.0 version 26.7.3 and earlier, along with iRA.ev version 26.7.2 and earlier.\nThe updated iRA 2.0 version is 26.8.2, while the iRA.ev app has been updated to version 26.9.1.\nTata Motors Says No Customer Data Was Compromised Tata Motors has stated that it has found no evidence of unauthorised access or compromise of customer credentials, personal information or vehicle-related data.\nOwners using the iRA 2.0 and iRA.ev apps should check that they are running the latest versions to ensure they have the security fixes.",
+    "category": "Connected Car",
+    "published_date": "2026-11-06T06:58:34+00:00",
+    "slug": "tata-motors-fixes-security-issues-in-ira-and-iraev-apps-after-cert-in-alert-carlelo",
+    "extraction_method": "newspaper4k",
+    "source_name": "carlelo.com"
+  },
+  {
     "id": 20453,
     "title": "Russian involvement in European attacks assessed as ‘credible’, security sources say",
     "source_url": "https://www.irishexaminer.com/news/arid-41933928.html",
@@ -306,6 +845,17 @@
     "slug": "russian-involvement-in-european-attacks-assessed-as-credible-security-sources-say-irish-examiner",
     "extraction_method": "newspaper4k",
     "source_name": "irishexaminer.com"
+  },
+  {
+    "id": 20516,
+    "title": "Chicago’s bid to lead the country in quantum computing",
+    "source_url": "https://www.ibm.com/quantum/blog/chicago-quantum-computer",
+    "summary": "As part of that project, the state established the National Quantum Algorithm Center (NQAC), a Chicago-based collaborative initiative focused on advancing quantum algorithms and applications to support the emerging quantum computing industry.\nTo support the algorithm center and surrounding quantum ecosystem, IBM has unveiled a newly installed IBM Quantum System Two with an IBM Quantum Nighthawk r2 processor at UChicago’s Hyde Park Labs.\nShe said that the arrival of the IBM Quantum System Two will accelerate the work and increase the excitement for quantum computing that’s already taken root in the region.\nThe IBM Quantum System Two is new, but Illinois’ quantum momentum isn’t Paik compared the coalition driving quantum computing in Illinois to “the Avengers”—super-heroes working together to achieve great collective goals.\nA promising future for quantum computing in Illinois Illinois sits at the center of a longstanding hub of engineering and scientific talent.",
+    "category": "Quantum Computers",
+    "published_date": "2026-11-06T05:00:00+00:00",
+    "slug": "chicagos-bid-to-lead-the-country-in-quantum-computing-ibm",
+    "extraction_method": "newspaper4k",
+    "source_name": "ibm.com"
   },
   {
     "id": 20457,
@@ -383,6 +933,50 @@
     "slug": "guest-post-commercial-diplomacy-building-the-quantum-ecosystem-the-quantum-insider",
     "extraction_method": "newspaper4k",
     "source_name": "thequantuminsider.com"
+  },
+  {
+    "id": 20480,
+    "title": "Mobile Robots, Dexterous Humanoids, and Farming Drones with IDTechEx",
+    "source_url": "https://www.idtechex.com/en/research-article/mobile-robots-dexterous-humanoids-and-farming-drones-with-idtechex/35555",
+    "summary": "Logistical robots Within the logistics sector, the scope for mobile robots is huge, with applications ranging from material handling, long-haul trucking with autonomous trucks, and last-mile deliveries.\nIDTechEx's report, \"Mobile Robots, Autonomous Vehicles, and Drones 2026-2046: Logistics, Warehousing, Delivery, Players, Markets & Forecasts\", explores many of the current impact factors currently associated with logistics mobile robots.\nDespite the need for high upfront costs and careful consideration around safety and regulations within busy workspaces and varying environments, mobile robots can provide many benefits.\nAs a result of their programming, mobile robots are also less likely to make errors, increasing efficiency levels all round.\nIDTechEx's report, \"Sensors for Humanoid Robots 2027-2037: Technologies, Players, Forecasts\", covers the main sensor types being integrated within humanoid robots, while the IDTechEx report, \"Materials for Humanoid Robots 2026-2036: Technologies, Players, Forecasts\", explores the primary materials chosen for optimizing quality, durability, and movement.",
+    "category": "Autonomous Trucks",
+    "published_date": "2026-11-06T00:00:00",
+    "slug": "mobile-robots-dexterous-humanoids-and-farming-drones-with-idtechex-idtechex",
+    "extraction_method": "newspaper4k",
+    "source_name": "idtechex.com"
+  },
+  {
+    "id": 20481,
+    "title": "Above the Fold: Supply Chain Logistics News (November 6, 2026)",
+    "source_url": "https://talkinglogistics.com/2026/11/06/above-the-fold-supply-chain-logistics-news-november-6-2026/",
+    "summary": "[Long pause] — While I figure it out, here’s the supply chain and logistics news that caught my attention this week: Los Angeles, Long Beach Port Strike Deadline Moves to Friday Night (SupplyChain247) Democrats Are Hatching a Plan to Reverse Trump’s Canada Tariffs (WSJ – sub.\nHow will this shift in power affect supply chains in 2027 and beyond?\nFor companies with supply chains spanning all three countries, uncertainty around future trade rules, sourcing decisions, and cross-border transportation costs will likely continue.\nArtificial intelligence will be another area of focus for the new Congress, with potential legislation addressing data privacy, safety, and accountability.\nThere is also growing opposition to building new AI data centers because of concerns about rising electricity costs and environmental impacts.",
+    "category": "Autonomous Trucks",
+    "published_date": "2026-11-06T00:00:00",
+    "slug": "above-the-fold-supply-chain-logistics-news-november-6-2026-talking-logistics-with-adrian-gonzalez",
+    "extraction_method": "newspaper4k",
+    "source_name": "talkinglogistics.com"
+  },
+  {
+    "id": 20517,
+    "title": "Study Maps 24 Problems Where Quantum Computers Could Gain an Edge",
+    "source_url": "https://thequantuminsider.com/2026/11/06/study-maps-24-problems-where-quantum-computers-could-gain-an-edge/",
+    "summary": "Insider Brief Researchers identified 24 computational problems with potential for substantial quantum speedups and outlined the conditions needed to achieve them.\nThe study covers areas including chemistry, optimization and data analysis, connecting theoretical quantum methods with possible practical applications.\nQuantum computers could deliver substantial speedups on 24 computational problems, but a new study also reveals the challenging conditions that would make those gains useful.\nFrom Candidate Problems to Useful Work The researchers group the 24 computational problems identified in the study into two stages based on how much is known about their potential quantum advantage.\nThe guide is aimed at scientists and other specialists who understand computing but may not know how to apply quantum methods to their work.",
+    "category": "Quantum Computers",
+    "published_date": "2026-11-06T00:00:00",
+    "slug": "study-maps-24-problems-where-quantum-computers-could-gain-an-edge-the-quantum-insider",
+    "extraction_method": "newspaper4k",
+    "source_name": "thequantuminsider.com"
+  },
+  {
+    "id": 20518,
+    "title": "IBM unveils its first quantum computer in Illinois at Hyde Park Labs",
+    "source_url": "https://www.chicagotribune.com/2026/11/06/ibm-quantum-hyde-park-labs/",
+    "summary": "IBM unveiled its first quantum computer in Illinois Friday at Hyde Park Labs, ushering in an era of potentially transformative technological advancement, with Chicago at the center of development.\n“It’s a huge deal, and we’re very excited about IBM’s Quantum System Two,” Johnson told the Tribune Friday.\nThe computer giant offered its first look Friday at its most advanced quantum computer at Hyde Park Labs, with Gov.\nThe quantum computer system is kept at a temperature colder than outer space.\nBut the IBM Quantum System Two will probably have a few more years at Hyde Park Labs before its new home is ready at the former South Works site.",
+    "category": "Quantum Computers",
+    "published_date": "2026-11-06T00:00:00",
+    "slug": "ibm-unveils-its-first-quantum-computer-in-illinois-at-hyde-park-labs-chicago-tribune",
+    "extraction_method": "newspaper4k",
+    "source_name": "chicagotribune.com"
   },
   {
     "id": 20427,
@@ -9392,6 +9986,17 @@
     "slug": "cip-security-achieves-iec-62443-4-2-certification-for-industrial-products-iot-insider",
     "extraction_method": "newspaper4k",
     "source_name": "iotinsider.com"
+  },
+  {
+    "id": 20496,
+    "title": "How SoSafe and Evoriel built a shared cybersecurity culture",
+    "source_url": "https://sosafe-awareness.com/customer-stories/evoriel/",
+    "summary": "69% reduction in phishing simulation interactions: how Evoriel built a shared cybersecurity culture across 3,500 employees Real estate group Evoriel has made cybersecurity a shared reflex across its entire agency network, using a human-centric, gamified approach tailored to each employee’s role.\n“Our main challenge was to familiarise employees in the real estate sector with a topic they often perceived as purely technical: cybersecurity,” explains Cyprien Fernandez.\nFor Cyprien Fernandez, it was clear that simply meeting compliance requirements would not be enough.\nAt Evoriel, cybersecurity is no longer the responsibility of technical experts alone.\nIt is a culture built step by step, agency by agency — and one that continues to grow stronger.",
+    "category": "Cybersecurity",
+    "published_date": "2026-10-22T12:05:19+02:00",
+    "slug": "how-sosafe-and-evoriel-built-a-shared-cybersecurity-culture-sosafe-awarenesscom",
+    "extraction_method": "newspaper4k",
+    "source_name": "sosafe-awareness.com"
   },
   {
     "id": 19591,
@@ -106623,6 +107228,17 @@
     "source_name": "earth.org"
   },
   {
+    "id": 20532,
+    "title": "IMSA VP Racing SportsCar Challenge Returns to Full Endurance Race Format",
+    "source_url": "https://www.imsa.com/news/2026/july/11/imsa-vp-racing-sportscar-challenge-returns-to-full-endurance-race-format",
+    "summary": "Seven-Event Schedule Planned for 2027 with Events Ranging From 1.5 to 3 Hours DAYTONA BEACH, Fla. – International Motor Sports Association (IMSA) officials today announced the long-running IMSA VP Racing SportsCar Challenge will return to an all-endurance racing format for the multi-class series in 2027.\nThe Le Mans Prototype 3 (LMP3) class will continue to race for overall victories.\n“By returning VP Racing Challenge to an all-endurance format, we’re creating an even stronger platform for driver development while showcasing competitive, multi-class racing featuring LMP3, GT4 and BMW M2 Racing machinery.\n2027 IMSA VP Racing SportsCar Challenge Schedule Unveiled The 2027 season will feature seven IMSA VP Racing SportsCar Challenge races ranging in length from 90 minutes to three hours, with a majority running as part of event weekends organized by the United States Auto Club (USAC).\nThe VP Racing Challenge makes its first of two appearances on IMSA Michelin Pilot Challenge-headlined weekends on June 11-13 with a two-hour race at Mid-Ohio Sports Car Course.",
+    "category": "Sim Racing",
+    "published_date": "2026-07-11T00:00:00",
+    "slug": "imsa-vp-racing-sportscar-challenge-returns-to-full-endurance-race-format-imsa",
+    "extraction_method": "newspaper4k",
+    "source_name": "imsa.com"
+  },
+  {
     "id": 10645,
     "title": "A Duke Professor Says China Could Disable <b>Self-Driving Cars</b> Across America. Nvidia Is ...",
     "source_url": "https://247wallst.com/investing/2026/07/10/a-duke-professor-says-china-could-disable-self-driving-cars-across-america-nvidia-is-using-the-sensors-anyway/",
@@ -197516,6 +198132,17 @@
     "source_name": "maritimefairtrade.org"
   },
   {
+    "id": 20487,
+    "title": "Viewpoint: Handling autonomous risks",
+    "source_url": "https://www.businessinsurance.com/viewpoint-handling-autonomous-risks/?utm_source=slipcase&utm_medium=affiliate&utm_campaign=web&utm_content=605557",
+    "summary": "In a city renowned for its gridlock and limited public transportation coverage, it was refreshing to see numerous autonomous options in use.\nInsurers have long grappled with micromobility risks, but autonomous transportation is introducing more complex liability questions that blur the lines between auto liability, product liability and general liability.\nIf an employee is involved in a crash while using an autonomous vehicle in the course of employment, potential employer liability could also come into focus.\nThe autonomous vehicle insurance program, underwritten by Apollo’s ibott division, provides primary and excess liability coverage to developers, fleet operators, vehicle manufacturers and original equipment manufacturers under a single master policy.\nAs autonomous transportation technologies accelerate and demand grows, insurers will need to move quickly to clarify their appetite for these exposures or risk being left in the rearview mirror.",
+    "category": "Autonomous Vehicles",
+    "published_date": "2026-04-24T11:53:25+00:00",
+    "slug": "viewpoint-handling-autonomous-risks-wwwbusinessinsurancecom",
+    "extraction_method": "newspaper4k",
+    "source_name": "businessinsurance.com"
+  },
+  {
     "id": 2485,
     "title": "CiDi Drives Beyond China With New British Partnership",
     "source_url": "https://www.benzinga.com/Opinion/26/04/52025612/cidi-drives-beyond-china-with-new-british-partnership",
@@ -225023,6 +225650,17 @@
     "category": "Image Recognition",
     "published_date": "2025-07-25T19:49:46+00:00",
     "slug": "proton-vpn-signups-surge-1400-as-uk-age-verification-law-begins-mashablecom",
+    "extraction_method": "newspaper4k",
+    "source_name": "mashable.com"
+  },
+  {
+    "id": 20484,
+    "title": "Robotaxis and autonomous cars are still scary to most Americans",
+    "source_url": "https://mashable.com/article/how-americans-feel-self-driving-cars",
+    "summary": "A convincing majority of Americans remain “afraid” to ride in self-driving vehicles, according to a survey released today by AAA.\nA January survey of 1,095 people found that 61 percent do not trust self-driving vehicles (that survey question didn’t differentiate between semi-autonomous cars, like some Tesla models, and fully autonomous cars, like Waymo robotaxis).\nThe development of self-driving vehicles was not a priority for respondents; more people wanted investments in vehicle safety systems rather than expanding access to autonomous vehicles.\nWhile drivers remain skeptical of autonomous vehicles, many expressed a desire for self-driving technology like automatic emergency braking, reverse automatic emergency braking, and lane keeping assistance.\nIn its announcement on the survey results, AAA reiterated its call for less confusing naming of the aforementioned autonomous technology.",
+    "category": "Autonomous Vehicles",
+    "published_date": "2025-02-25T05:01:00+00:00",
+    "slug": "robotaxis-and-autonomous-cars-are-still-scary-to-most-americans-mashable",
     "extraction_method": "newspaper4k",
     "source_name": "mashable.com"
   },
