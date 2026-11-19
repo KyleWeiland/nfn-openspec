@@ -11,6 +11,358 @@
     "source_name": "nature.com"
   },
   {
+    "id": 21197,
+    "title": "GTA 6 was shown for the first time with a steering wheel on PS5 Pro in the open world.",
+    "source_url": "https://en.gamegpu.com/news/igry/gta-6-vpervye-pokazali-s-ruljom-na-ps5-pro-v-otkrytom-mire",
+    "summary": "The creator of the popular YouTube channel Project Sim Racing has published a video demonstrating his first drive in Grand Theft Auto VI on a PlayStation 5 Pro console using a sim racing wheel.\nDuring a drive through the open world of the State of Leonidas, the blogger benchmarked the responsiveness of controls and vehicle handling when connected to a specialized gaming controller.\nThe post sparked a lively discussion in the comments section, with viewers highlighting the specifics of the camera and driving system.\nThe main criticism from the community was the use of a third-person view when playing with a steering wheel, which many users called inconvenient and unbenchmark for this format.\nPlayers noted that with a fully customizable cockpit view and official steering wheel support, the action game could attract a wider audience of racing simulator fans.",
+    "category": "Sim Racing",
+    "published_date": "2026-11-19T16:24:17+02:00",
+    "slug": "gta-6-was-shown-for-the-first-time-with-a-steering-wheel-on-ps5-pro-in-the-open-world-gamegpu",
+    "extraction_method": "newspaper4k",
+    "source_name": "en.gamegpu.com"
+  },
+  {
+    "id": 21203,
+    "title": "iRacing Career Mode Launches in December With Content Included",
+    "source_url": "https://boxthislap.org/iracing-career-mode-december-2026/",
+    "summary": "This page runs a brief security check to confirm you are not a bot.\nThe verification is automatic and typically completes within a few seconds.\nNo action is required on your part.\nCookies must be enabled for this site: the result of the check is stored in one.",
+    "category": "Sim Racing",
+    "published_date": "2026-11-19T14:52:47",
+    "slug": "iracing-career-mode-launches-in-december-with-content-included-boxthislap",
+    "extraction_method": "newspaper4k",
+    "source_name": "boxthislap.org"
+  },
+  {
+    "id": 21199,
+    "title": "Trak Racer Adds Limited-Time Black Friday Rig Offers",
+    "source_url": "https://boxthislap.org/trak-racer-black-friday-limited-time-offers-2026/",
+    "summary": "This page runs a brief security check to confirm you are not a bot.\nThe verification is automatic and typically completes within a few seconds.\nNo action is required on your part.\nCookies must be enabled for this site: the result of the check is stored in one.",
+    "category": "Sim Racing",
+    "published_date": "2026-11-19T14:52:38",
+    "slug": "trak-racer-adds-limited-time-black-friday-rig-offers-boxthislap",
+    "extraction_method": "newspaper4k",
+    "source_name": "boxthislap.org"
+  },
+  {
+    "id": 21189,
+    "title": "Can Quantum Computers Improve Delivery? Our Journey from the NEDO Challenge to an Excellent Research Award",
+    "source_url": "https://www.softbank.jp/en/corp/technology/research/topics/241/",
+    "summary": "At the award ceremony on October 15, 2026, celebrating our Excellent Research Award.\nOur joint team from Classiq and SoftBank took part in NEDO Challenge Season 1 and received an Excellent Research Award!\nThere is a difference between studying quantum computers or designing computational methods and actually running those methods on real hardware.\nGiving Conventional and Quantum Computers Different Roles Our approach was not to replace the entire delivery-planning process with quantum computing.\nBeyond the Award Ceremony: Interviews and a TV Appearance Our work led to an Excellent Research Award, and we attended the award ceremony on October 15, 2026.",
+    "category": "Quantum Computers",
+    "published_date": "2026-11-19T14:51:31",
+    "slug": "can-quantum-computers-improve-delivery-our-journey-from-the-nedo-challenge-to-an-excellent-research",
+    "extraction_method": "newspaper4k",
+    "source_name": "softbank.jp"
+  },
+  {
+    "id": 21184,
+    "title": "The Cyber Resilience Act Transforms the Connectivity Layer Into a Compliance Imperative",
+    "source_url": "https://embeddedcomputing.com/technology/security/the-cyber-resilience-act-transforms-the-connectivity-layer-into-a-compliance-imperative",
+    "summary": "The CRA rules are quickly turning the connectivity layer into a critical security sensor for vulnerability identification and changes what manufactures demand from their connectivity partner.\nTo ensure compliance, the top questions manufacturers should ask connectivity parters involve: Traffic visibility and anomaly awareness.\neUICC and the ability to change subscription profiles over the air means the connectivity layer itself can be updated without significant roadblocks.\nCan you ensure that one connectivity operator will support your fixed SIM device over 15 years?\nAudit whether your update channel will outlive your products and ensure your connectivity provider can support fine-grain access controls and visibility into IoT deployments.",
+    "category": "IoT Cyber",
+    "published_date": "2026-11-19T14:51:08",
+    "slug": "the-cyber-resilience-act-transforms-the-connectivity-layer-into-a-compliance-imperative-embedded",
+    "extraction_method": "newspaper4k",
+    "source_name": "embeddedcomputing.com"
+  },
+  {
+    "id": 21182,
+    "title": "My IoT devices are no longer supported – is my smart home still safe?",
+    "source_url": "https://www.welivesecurity.com/en/internet-of-things/iot-devices-no-longer-supported-smart-home-safe/",
+    "summary": "That is as true of your home PC as it is the myriad of smart devices you now use in your everyday life: from fitness trackers to smart TVs, phones and lights.\nWhy it matters You might not notice if your smart device stops updating.\nSome smart devices are more at risk than others.\nSegment smart devices from the rest of your IT: Create a separate guest network for all IoT devices so that hackers have a much harder time using them as a stepping stone into your PCs.\nFAQs How long do smart home devices get security updates?",
+    "category": "IoT Cyber",
+    "published_date": "2026-11-19T14:51:05",
+    "slug": "my-iot-devices-are-no-longer-supported-is-my-smart-home-still-safe-welivesecurity",
+    "extraction_method": "newspaper4k",
+    "source_name": "welivesecurity.com"
+  },
+  {
+    "id": 21180,
+    "title": "Domestic Chips Development Path: 5 Key Suggestions from Wei Shaojun Amid 89.4% Industry Growth Rate",
+    "source_url": "https://eu.36kr.com/en/p/4076427650208640",
+    "summary": "The sales revenue of China's chip industry is expected to hit 1582.53 billion yuan, up 89.4% year on year.\nSemiconductors and Artificial Intelligence Are Inseparable From Each Other The term artificial intelligence has been tied to machines since its birth, and the machine here refers to computers.\nAmong the three, computing power completely relies on semiconductor technology, and no other technology today can replace silicon-based semiconductors to provide computing power.\nThe Yangtze River Delta region reached about 970.2 billion yuan, up 109% year on year; the Guangdong-Hong Kong-Macao Greater Bay Area reached 304.4 billion yuan, up 28% year on year; the Beijing-Tianjin-Bohai Rim region reached 216.8 billion yuan, up 38.5% year on year; the central and western regions reached 270.3 billion yuan, up 86.6% year on year.\nThe threshold for entering the top ten has jumped from 17.16 billion yuan in 2025 to 36.6 billion yuan, more than doubling.",
+    "category": "Image Recognition",
+    "published_date": "2026-11-19T14:50:58",
+    "slug": "domestic-chips-development-path-5-key-suggestions-from-wei-shaojun-amid-894-industry-growth-rate",
+    "extraction_method": "newspaper4k",
+    "source_name": "eu.36kr.com"
+  },
+  {
+    "id": 21168,
+    "title": "UWF Center for Cybersecurity and AI receives $500k grant to launch Future-Ready Florida program",
+    "source_url": "https://news.uwf.edu/uwf-center-for-cybersecurity-and-ai-receives-500k-grant-to-launch-future-ready-florida-program/",
+    "summary": "The University of West Florida Center for Cybersecurity and AI has received a nearly $500,000 state grant to launch Future-Ready Florida, a statewide initiative providing free, online artificial intelligence and cybersecurity training.\nThe Future-Ready Florida program will provide seven online training courses to at least 350 eligible participants across Florida.\nThe program serves Florida residents and state and local government personnel, including employees of public educational institutions.\n“AI and cybersecurity are transforming every industry and creating new opportunities and challenges for Florida’s workforce,” said Dr. Eman El-Sheikh, associate vice president and professor in the UWF Center for Cybersecurity and AI.\nThe initiative builds on the Center for Cybersecurity and AI’s leadership in cybersecurity and AI education, workforce development and partnerships to address critical workforce needs across the state.",
+    "category": "Cybersecurity",
+    "published_date": "2026-11-19T14:25:00+00:00",
+    "slug": "uwf-center-for-cybersecurity-and-ai-receives-500k-grant-to-launch-future-ready-florida-program",
+    "extraction_method": "newspaper4k",
+    "source_name": "news.uwf.edu"
+  },
+  {
+    "id": 21169,
+    "title": "Women In Cybersecurity Report, Fall 2026",
+    "source_url": "https://cybersecurityventures.com/women-in-cybersecurity-report-fall-2026/",
+    "summary": "This week in cybersecurity from the editors at Cybercrime Magazine Sausalito, Calif. – Nov. 19, 2026 – Watch the Video The Women in Cybersecurity Report, an 8-minute video hosted by Cybercrime Magazine Deputy Editor Amanda Glassner, highlights the latest breakthroughs, voices, and stories from women leading the charge in cybersecurity.\nWatch the Video Cybercrime Magazine is Page ONE for Cybersecurity.\nWhat’s happening at Cybercrime Magazine.\nNew episodes daily on the Cybercrime Magazine Podcast feature victims, law enforcement, vendors, and cybersecurity experts.\nTune into WCYB Digital Radio at Cybercrime.Radio, the first and only round-the-clock internet radio station devoted to cybersecurity.",
+    "category": "Cybersecurity",
+    "published_date": "2026-11-19T14:00:28+00:00",
+    "slug": "women-in-cybersecurity-report-fall-2026-cybercrime-magazine",
+    "extraction_method": "newspaper4k",
+    "source_name": "cybersecurityventures.com"
+  },
+  {
+    "id": 21163,
+    "title": "Imagry and Endera to Introduce First Buy America-Compliant Autonomous Buses and Shuttles",
+    "source_url": "https://futuretransport-news.com/imagry-and-endera-to-introduce-first-buy-america-compliant-autonomous-buses-and-shuttles/",
+    "summary": "We'd love to send you the latest news and information from the world of Future Transport-News.\nPlease tick the box if you agree to receive them.\nI agree to receive communications from Future Transport-News.\nFor your peace of mind here is a link to our Privacy Policy.\nBy submitting this form, you consent to allow Future Transport-News to store and process this information.",
+    "category": "Autonomous Trucks",
+    "published_date": "2026-11-19T12:11:14+00:00",
+    "slug": "imagry-and-endera-to-introduce-first-buy-america-compliant-autonomous-buses-and-shuttles-future",
+    "extraction_method": "newspaper4k",
+    "source_name": "futuretransport-news.com"
+  },
+  {
+    "id": 21181,
+    "title": "Claroty finds 65,000 consumer devices connected to critical infrastructure networks, exposing OT segmentation gaps",
+    "source_url": "https://industrialcyber.co/reports/claroty-finds-65000-consumer-devices-connected-to-critical-infrastructure-networks-exposing-ot-segmentation-gaps/",
+    "summary": "Claroty found more than 65,000 non-essential consumer devices connected to networks supporting critical infrastructure, including OT (operational technology), healthcare and commercial environments, raising concerns about network segmentation and cybersecurity governance.\nClaroty found that 95% of gaming consoles in healthcare environments were connected to production networks rather than isolated guest or IoT networks.\nThe report observed that the greatest danger emerges when connectivity between IT and OT networks is insufficiently controlled.\nTo strengthen critical infrastructure security, organizations should implement strict network segmentation by separating guest, IoT and production networks through enforced security policies.\nThey should deploy continuous asset discovery to maintain real-time visibility into all connected devices and enforce secure access requirements to prevent unauthorized devices from accessing production networks.",
+    "category": "IoT Cyber",
+    "published_date": "2026-11-19T12:00:35+00:00",
+    "slug": "claroty-finds-65000-consumer-devices-connected-to-critical-infrastructure-networks-exposing-ot",
+    "extraction_method": "newspaper4k",
+    "source_name": "industrialcyber.co"
+  },
+  {
+    "id": 21171,
+    "title": "AI has rewritten the cybersecurity risk equation",
+    "source_url": "https://www.informationweek.com/machine-learning-ai/ai-has-rewritten-the-cybersecurity-risk-equation",
+    "summary": "AI is exposing weaknesses in the fundamentals of cybersecurity and compressing the time organizations have to respond.\nAn enterprise AI assistant can rapidly locate and summarize information scattered across repositories an employee is technically permitted to access.\nData classification and remediation of overshared repositories are equally important: Data governance is a prerequisite for secure AI adoption.\nShadow AI creates unmanaged data risk Employees are already using generative AI to draft, analyze, summarize and code, whether leadership has approved those tools or not.\nCyber defense must move at machine speed Strong identity controls, least privilege and disciplined data governance reduce what AI-enabled tools can expose.",
+    "category": "Cybersecurity",
+    "published_date": "2026-11-19T12:00:00+00:00",
+    "slug": "ai-has-rewritten-the-cybersecurity-risk-equation-information-week",
+    "extraction_method": "newspaper4k",
+    "source_name": "informationweek.com"
+  },
+  {
+    "id": 21195,
+    "title": "Smart cities don't need flying cars. They need connected infrastructure that thinks",
+    "source_url": "https://www.itweb.co.za/article/smart-cities-dont-need-flying-cars-they-need-connected-infrastructure-that-thinks/JN1gPvOARz5MjL6m",
+    "summary": "Ask most people to picture a smart city and they describe flying taxis, delivery robots on every pavement, towers that run themselves.\nAcross water, energy, fleet management and public safety, connected data can help cities move from simply monitoring infrastructure to managing it more effectively.\nTaken together, these applications show how connected infrastructure can contribute to the economic health of a city.\nSmart infrastructure needs people on the ground to install, maintain and operate it.\nIt reports 630 283 connected devices, with solutions spanning smart utilities, fleet analytics, smart IOT, agriculture and healthcare.",
+    "category": "Smart Cities",
+    "published_date": "2026-11-19T11:02:00+02:00",
+    "slug": "smart-cities-dont-need-flying-cars-they-need-connected-infrastructure-that-thinks-itweb",
+    "extraction_method": "newspaper4k",
+    "source_name": "itweb.co.za"
+  },
+  {
+    "id": 21201,
+    "title": "iRacing’s career mode arrives in December",
+    "source_url": "https://traxion.gg/iracings-career-mode-arrives-in-december/",
+    "summary": "One example structure shown in iRacing’s trailer has seven levels to progress through, with the middle three having two forks where the player can select the route.\nAnother (NASCAR) has a middle section with three selectable tranches, but the racer has woven their way through.\nGT3 cars, for example, lie within the Sports Car career, Super Formula machines in Formula, while (Aussie) Supercars are the pinnacle of Touring Car and the Cup Series, naturally, the top of the NASCAR path.\nWhat’s not going to be available at launch, however, is team management, sponsorship or an economy.\n“This launch is just the beginning; we will continually expand career mode over time with new career paths, special one-off career events and ongoing feature updates,” concluded Hill.",
+    "category": "Sim Racing",
+    "published_date": "2026-11-19T09:06:41+00:00",
+    "slug": "iracings-career-mode-arrives-in-december-traxiongg",
+    "extraction_method": "newspaper4k",
+    "source_name": "traxion.gg"
+  },
+  {
+    "id": 21159,
+    "title": "Komatsu driverless dump truck systems: deployment and control insights for engineers",
+    "source_url": "https://www.geomechanics.io/news/article/komatsu-driverless-dump-truck-systems-deployment-and-control-insights-for-engineers",
+    "summary": "Komatsu and Tokyo-based TIER IV are jointly developing autonomous driving systems for three dump truck models – the rigid HD785 (93.9‑tonne payload), HD605 (64.1‑tonne) and articulated HM400/460 (42‑tonne) – targeting quarry and construction deployment from next year.\nThe systems are being designed to execute full loading–hauling–dumping cycles on live jobsites, rather than simply tracking fixed haul routes, using Komatsu’s vehicle control with TIER IV’s autonomous software stack.\nEARTHBRAIN will integrate the trucks into its fleet management platform to coordinate site-wide traffic and machine interactions, with verification testing and site trials planned before commercial rollout.\nThe joint work with Tier IV and EARTHBRAIN on three quarry-class dump truck models aligns with other recent Komatsu moves in our database, such as its Astec road division acquisition, signalling a push to control both the machines and the digital/autonomous layer across earthmoving and roadbuilding fleets.\nTargeting HD605, HD785 and HM400/460-sized trucks for autonomy puts Komatsu squarely into the mid‑to‑large quarry and civil segment, which in our coverage has seen faster regulatory acceptance of driverless operation than urban construction or public roads in the United Kingdom.",
+    "category": "Autonomous Trucks",
+    "published_date": "2026-11-19T08:00:00+00:00",
+    "slug": "komatsu-driverless-dump-truck-systems-deployment-and-control-insights-for-engineers-geomechanicsio",
+    "extraction_method": "newspaper4k",
+    "source_name": "geomechanics.io"
+  },
+  {
+    "id": 21160,
+    "title": "Komatsu to develop driverless dump truck systems",
+    "source_url": "https://www.theconstructionindex.co.uk/news/view/komatsu-to-develop-driverless-dump-truck-systems?amp=1",
+    "summary": "Komatsu and Tokyo-based autonomous driving developer TIER IV have started joint development of driverless systems for three dump truck models.\nThe initiative builds on a collaboration established in September 2025 between Komatsu, TIER IV and Komatsu subsidiary EARTHBRAIN to bring autonomous technology into practical use for construction equipment.\nUnder the expanded programme, the partners aim to develop and verify autonomous systems for the rigid HD785, which has a maximum payload of 93.9 tonnes, the 64.1-tonne rigid HD605, and the 42-tonne articulated HM400/460.\nAccording to the companies, the development will combine Komatsu's vehicle engineering, system integration and vehicle control capabilities with TIER IV's autonomous driving software.\nThe firms state that the resulting systems are intended to handle loading, hauling and dumping operations on live jobsites rather than simply following fixed haul routes.",
+    "category": "Autonomous Trucks",
+    "published_date": "2026-11-19T08:00:00+00:00",
+    "slug": "komatsu-to-develop-driverless-dump-truck-systems-construction-index",
+    "extraction_method": "newspaper4k",
+    "source_name": "theconstructionindex.co.uk"
+  },
+  {
+    "id": 21196,
+    "title": "This Porsche sim racing wheel is nearly £50 off for Black Friday",
+    "source_url": "https://traxion.gg/this-porsche-sim-racing-wheel-is-nearly-50-off-for-black-friday/",
+    "summary": "If you’re looking for a new PC or PlayStation 5 sim racing wheel, Fanatec’s CSL Elite Steering Wheel Porsche Vision GT is nearly £50 off for Black Friday, bringing the price down to £259.99 / $299.99.\nBased on the Porsche Vision Gran Turismo concept seen in GT7, the 310 mm-diameter device features an OLED display, allowing easy access to tuning menu settings such as adjusting the force feedback.\nIt’s compatible with a wide range of Fanatec wheel bases, including the Gran Turismo DD Pro, ClubSport DD+ and CSL DD.\nA QR2 Lite Wheel-Side quick release system comes pre-installed, but a QR1 Wheel-Side is required for older wheel bases like the CSL Elite and ClubSport.\nFanatec CSL Elite Steering Wheel Porsche Vision GT – £304.99 £259.99 / $349.99 $299.99 Traxion has affiliate partnerships through which we may earn commissions on products or services purchased via affiliate links.",
+    "category": "Sim Racing",
+    "published_date": "2026-11-19T08:00:00+00:00",
+    "slug": "this-porsche-sim-racing-wheel-is-nearly-50-off-for-black-friday-traxiongg",
+    "extraction_method": "newspaper4k",
+    "source_name": "traxion.gg"
+  },
+  {
+    "id": 21192,
+    "title": "All 65 Smart City kiosks in India town out of service",
+    "source_url": "https://www.kioskmarketplace.com/news/all-65-smart-city-kiosks-in-india-town-out-of-service/",
+    "summary": "All 65 self-service kiosks installed in Nagpur, India, under the city's Smart City initiative are out of operation, raising concerns about public spending, equipment maintenance and accountability.\nThe Nagpur Smart and Sustainable City Development Corporation confirmed that none of the kiosks is functioning, according to a Nagpur Today report.\nThe machines were intended to provide residents with access to municipal services, government programs, digital maps, public notices and other information.\nThe city's Smart City administration acknowledged that detailed spending records have not been obtained from MahaIT despite repeated requests.\nA proposal presented to the Smart City company's board in July calls for transferring the nonfunctioning kiosks to the Nagpur Municipal Corporation's transportation department, a process that reportedly is underway.",
+    "category": "Smart Cities",
+    "published_date": "2026-11-19T06:00:00-05:00",
+    "slug": "all-65-smart-city-kiosks-in-india-town-out-of-service-kiosk-marketplace",
+    "extraction_method": "newspaper4k",
+    "source_name": "kioskmarketplace.com"
+  },
+  {
+    "id": 21190,
+    "title": "Analysts: Quantum migration must be an enterprise security priority now",
+    "source_url": "https://www.techtarget.com/news/analysts-quantum-migration-must-be-an-enterprise-security-priority-now/875116/",
+    "summary": "During Forrester’s Security & Risk Forum in Washington, D.C. this November, vice president and principal analyst Sandy Carielli took a poll of attendees.\nWhen asked how they were progressing with their quantum security migrations, only 15% of the security leaders in the room said they had made measurable progress.\nWith government requirements tightening and major technology providers setting migration targets, analysts argue that enterprises need to start building migration strategies now, rather than waiting for a definitive date when quantum computers become a practical threat.\nQuantum migration timelines moving forward One of the most daunting obstacles to enterprise readiness has been uncertainty about when quantum computers will become capable of breaking widely used cryptographic algorithms.\nA common objection to accelerating migration is that cryptographically relevant quantum computers do not yet exist.",
+    "category": "Quantum Computers",
+    "published_date": "2026-11-19T06:00:00",
+    "slug": "analysts-quantum-migration-must-be-an-enterprise-security-priority-now-techtarget",
+    "extraction_method": "newspaper4k",
+    "source_name": "techtarget.com"
+  },
+  {
+    "id": 21186,
+    "title": "Thailand plans cybersecurity standards for smart TVs",
+    "source_url": "http://www.bangkokpost.com/business/general/3357354/thailand-plans-cybersecurity-standards-for-smart-tvs",
+    "summary": "Study to be completed within 30 days in response to growing global risks PUBLISHED : 19 Nov 2026 at 05:28 NEWSPAPER SECTION: Business WRITER: Komsan Tortermvasana Listen Our audio option is only available for subscribers.\nSUBSCRIBE NOW The board of the National Broadcasting and Telecommunications Commission (NBTC) has instructed its management to quickly conduct a study to establish technical cybersecurity standards for smart TVs and Android TV set-top boxes and complete it within 30 days.",
+    "category": "IoT Cyber",
+    "published_date": "2026-11-19T05:28:00+07:00",
+    "slug": "thailand-plans-cybersecurity-standards-for-smart-tvs-bangkok-post",
+    "extraction_method": "newspaper4k",
+    "source_name": "bangkokpost.com"
+  },
+  {
+    "id": 21175,
+    "title": "Reversible Visual Token Hierarchy and Sparse Experts Enhance Multi-Granularity Image Perception",
+    "source_url": "https://bioengineer.org/reversible-visual-token-hierarchy-and-sparse-experts-enhance-multi-granularity-image-perception/",
+    "summary": "Existing systems also isolate token hierarchy from conditional expert routing, treating structural sparsification and parameter expansion as disjoint mechanisms.\nThe authors sought to resolve these limitations by constructing a unified encoder in which hierarchical token grouping explicitly stores child supports, supplying a scale-aware token stream that guides conditional sparse experts across varied spatial and semantic demands.\nTo build this visual vocabulary, the researchers adapted byte-pair encoding from text processing to formulate a hierarchical visual tokenizer.\nFollowing hierarchical tokenization, active visual tokens are routed to specialized visual experts within a mixture-of-experts contextual encoder.\nThe model maintains eight stored visual experts, each dedicated to distinct visual evidence: surface texture, boundaries, object interiors, scene backgrounds, and rare categories.",
+    "category": "Image Recognition",
+    "published_date": "2026-11-19T03:51:11+00:00",
+    "slug": "reversible-visual-token-hierarchy-and-sparse-experts-enhance-multi-granularity-image-perception",
+    "extraction_method": "newspaper4k",
+    "source_name": "bioengineer.org"
+  },
+  {
+    "id": 21170,
+    "title": "NM lawmakers raise flags on cybersecurity compliance among state agencies",
+    "source_url": "https://www.kob.com/new-mexico/nm-lawmakers-raise-flags-on-cybersecurity-compliance-among-state-agencies/",
+    "summary": "SANTA FE, N.M. – New Mexico lawmakers pressed state officials over agencies failing to follow cybersecurity rules.\nAt Monday’s Legislative Finance Committee meeting, lawmakers questioned why some state agencies have not followed protocols from New Mexico’s Office of Cybersecurity.\nSambandam also told lawmakers elected offices have declined to comply, citing their independence from the executive branch.\nKOB 4 reporter Blake Troli: “So big picture you just want everybody to be under a uniform cybersecurity system?”\nBarreras told lawmakers the Office of Cybersecurity sends security assessments to each agency every year which highlight possible weak points.",
+    "category": "Cybersecurity",
+    "published_date": "2026-11-19T01:38:59+00:00",
+    "slug": "nm-lawmakers-raise-flags-on-cybersecurity-compliance-among-state-agencies-kob-4",
+    "extraction_method": "newspaper4k",
+    "source_name": "kob.com"
+  },
+  {
+    "id": 21198,
+    "title": "Introducing iRacing Career Mode - iRacing.com | iRacing.com Motorsport Simulations",
+    "source_url": "https://www.iracing.com/introducing-iracing-career-mode/",
+    "summary": "The wait is almost over: iRacing Career Mode is officially set to launch in December 2026!\nIncluded completely free of charge with your iRacing membership, iRacing Career Mode gives you more opportunities than ever to test your sim racing skills and work your way up the ladder to beat the world’s best drivers.\nCareer Mode is built on all-new technology, allowing it to continuously expand and evolve in the future.\nHere’s what you can expect on day one when iRacing Career Mode launches: Seven distinct disciplines: Challenge yourself on our NASCAR, INDYCAR, Prototype, Formula, Sports Car, Touring Car, and Short Track ladders.\niRacing Career Mode will continue to evolve in future releases with new career paths, special one-off events, and continued feature updates.",
+    "category": "Sim Racing",
+    "published_date": "2026-11-19T01:20:16+00:00",
+    "slug": "introducing-iracing-career-mode-iracingcom-iracingcom-motorsport-simulations-iracingcom",
+    "extraction_method": "newspaper4k",
+    "source_name": "iracing.com"
+  },
+  {
+    "id": 21183,
+    "title": "Stacked Ensemble Model Improves Cyber Attack Detection in Connected IoT Systems",
+    "source_url": "https://bioengineer.org/stacked-ensemble-model-improves-cyber-attack-detection-in-connected-iot-systems/",
+    "summary": "Developed to protect connected devices against complex cyber threats, the system, titled the Stacking Ensemble-based IoT Attack Detection Model, or SE-IADM, integrates multiple classification algorithms with hybrid feature selection and data balancing.\nConventional intrusion detection systems frequently struggle to handle the complexity, heterogeneity, and dynamic nature of modern IoT attacks.\nWhen tested on the ToNIoT benchmark data, the ensemble achieved 99.41 percent accuracy for binary attack detection and 96.64 percent accuracy for multiclass classification, demonstrating consistent detection capabilities across distinct network environments.\nSubject of Research: Intrusion detection in Internet of Things networks using stacked ensemble machine learning Article Title: SE-IADM: an optimized stacked ensemble model for smart IoT attack detection using hybrid feature selection Article References: Khan, M. Z., Bokhari, M. U., Alam, M., Husain, M. S., Khan, M. Z., Ashraf, Z., & Masoodi, F. S. (2026).\nSE-IADM: an optimized stacked ensemble model for smart IoT attack detection using hybrid feature selection.",
+    "category": "IoT Cyber",
+    "published_date": "2026-11-19T00:55:27+00:00",
+    "slug": "stacked-ensemble-model-improves-cyber-attack-detection-in-connected-iot-systems-bioengineerorg",
+    "extraction_method": "newspaper4k",
+    "source_name": "bioengineer.org"
+  },
+  {
+    "id": 21158,
+    "title": "Waymo soon will be joined in Denver by self-driving trucks, other autonomous vehicles",
+    "source_url": "https://www.denverpost.com/2026/11/19/waymo-driverless-vehicles-expansion-tickets/",
+    "summary": "City is unable to regulate or police the vehicles under state law, though it’s issued some tickets Getting your Trinity Audio player ready... Waymo's autonomous vehicles have been involved in four crashes since the company began offering its ride-hailing service in Denver.",
+    "category": "Autonomous Trucks",
+    "published_date": "2026-11-19T00:00:00",
+    "slug": "waymo-soon-will-be-joined-in-denver-by-self-driving-trucks-other-autonomous-vehicles-the-denver-post",
+    "extraction_method": "newspaper4k",
+    "source_name": "denverpost.com"
+  },
+  {
+    "id": 21165,
+    "title": "Elon Musk announces another Tesla vehicle no one asked for",
+    "source_url": "https://electrek.co/2026/11/19/musk-tesla-model-y-no-steering-wheel-7-seat/",
+    "summary": "What Musk said Musk made the comments on stage at the New York Times DealBook Summit on Wednesday.\nSix or seven seats points straight at the Model Y L, the stretched three-row Model Y that Tesla launched in the US in July for $61,990, or the regular Model Y with the $2,500 seven-seat option Tesla brought back in January.\nThe Model Y L wasn’t supposed to need to exist Here’s the funny part.\nLess than a year later, Tesla was building the Model Y L at Giga Texas and selling it at the top of the Model Y lineup.\nNo affordable car (Musk called a non-robotaxi $25,000 Tesla “pointless” in 2024), no compact crossover, no minivan, no midsize pickup.",
+    "category": "Autonomous Vehicles",
+    "published_date": "2026-11-19T00:00:00",
+    "slug": "elon-musk-announces-another-tesla-vehicle-no-one-asked-for-electrek",
+    "extraction_method": "newspaper4k",
+    "source_name": "electrek.co"
+  },
+  {
+    "id": 21173,
+    "title": "CT officials concerned about cybersecurity after major outages",
+    "source_url": "https://www.wshu.org/connecticut-news/2026-11-19/ct-officials-concerned-about-cybersecurity-after-major-outages",
+    "summary": "The major systems failures that have disrupted global cloud software, U.S. aviation, banking networks and government communications in the past week are concerning Connecticut officials.\nNed Lamont said the federal government’s response to the problems so far has not been reassuring.\nThe security of municipal systems is of particular concern, said Chief Information Officer Mark Raymond, who oversees cybersecurity for the state.\n“The municipal governments are the ones that have the least amount of resources to deal with this,” Raymond said.\nA federal grant for state and municipal cybersecurity in the Bipartisan Infrastructure Law passed during the Biden administration is now in its fourth and final year.",
+    "category": "Cybersecurity",
+    "published_date": "2026-11-19T00:00:00",
+    "slug": "ct-officials-concerned-about-cybersecurity-after-major-outages-wshu",
+    "extraction_method": "newspaper4k",
+    "source_name": "wshu.org"
+  },
+  {
+    "id": 21174,
+    "title": "What Is The Israeli Facial Recognition Software Running Paraguay’s Stadiums, Pensions and Bank?",
+    "source_url": "https://www.disruptionbanking.com/2026/11/19/what-is-the-israeli-facial-recognition-software-running-paraguays-stadiums-pensions-and-bank/",
+    "summary": "The country’s most ubiquitous bank, Ueno Bank, had been placed into resolution by the Central Bank of Paraguay after its solvency ratio fell below half the legal minimum.\nUeno Bank, part of a conglomerate called Grupo Vázquez S.A.E., had erupted in usage in the past few years, reaching close to 60% of the country’s adult population.\nThe Law That Isn’t Law Yet In 2025, Paraguay passed its first comprehensive personal data protection law (Law No.\nIt was not until the collapse of Ueno Bank that these concerns were elevated.\nSee Also: Paraguay’s Central Bank President Resigns Following Collapse of Ueno Bank | Disruption Banking",
+    "category": "Image Recognition",
+    "published_date": "2026-11-19T00:00:00",
+    "slug": "what-is-the-israeli-facial-recognition-software-running-paraguays-stadiums-pensions-and-bank",
+    "extraction_method": "newspaper4k",
+    "source_name": "disruptionbanking.com"
+  },
+  {
+    "id": 21187,
+    "title": "BMO Reports Quantum Utility in Machine Learning Application Using IBM Quantum Computers",
+    "source_url": "https://thequantuminsider.com/2026/11/19/bmo-reports-quantum-utility-in-machine-learning-application-using-ibm-quantum-computers/",
+    "summary": "Insider Brief BMO reported it demonstrated quantum utility using IBM quantum computers to identify which variables in a dataset are most useful for machine learning.\nImage: Dr. Kristin Milchanowski, Chief AI & Quantum Officer, BMO, in front of an IBM Quantum System Two at the IBM Thomas J Watson Research Center in Yorktown Heights, New York.\nPRESS RELEASE — BMO today announced it has demonstrated quantum utility in a machine learning application using IBM quantum computers, meaning the work was performed reliably at a scale beyond what exact traditional computing methods can practically reproduce.\nAdvancing Practical Quantum Innovation BMO joined the IBM Quantum Network in February 2025 and continues to invest in quantum research, talent development and real-world applications.\nThrough partnerships with the Chicago Quantum Exchange and Quantum Industry Canada, BMO is advancing practical applications of quantum computing across financial services.",
+    "category": "Quantum Computers",
+    "published_date": "2026-11-19T00:00:00",
+    "slug": "bmo-reports-quantum-utility-in-machine-learning-application-using-ibm-quantum-computers-the-quantum",
+    "extraction_method": "newspaper4k",
+    "source_name": "thequantuminsider.com"
+  },
+  {
+    "id": 21188,
+    "title": "The Race for Commercial Quantum Computing: Trends to Look Out For",
+    "source_url": "https://www.idtechex.com/en/research-article/the-race-for-commercial-quantum-computing-trends-to-look-out-for/35629",
+    "summary": "Quantum computing is a frontier technology with applications in accelerating algorithms across drug discovery, battery chemistry development, materials simulations, multi-variable logistics, and more.\nThe IDTechEx report 'Quantum Computing Market 2027-2047' provides deep, quantitative insights without needing a background in the field.\nThis benchmark measures the progress of the industry from an end-user perspective, comparing the progress of quantum computing to the transition of classical computing from vacuum tubes to mobile phones, highlighting at which point value will be created from quantum computing for various different industries.\nIDTechEx's Quantum Commercial Readiness Level (QCRL) benchmarks commercial value from quantum computing against technology progress, and forecasts when future milestones will be achieved.\nThe full report delves into more trends and encodes these insights into 20-year forecasts for the quantum computing market.",
+    "category": "Quantum Computers",
+    "published_date": "2026-11-19T00:00:00",
+    "slug": "the-race-for-commercial-quantum-computing-trends-to-look-out-for-idtechex",
+    "extraction_method": "newspaper4k",
+    "source_name": "idtechex.com"
+  },
+  {
+    "id": 21191,
+    "title": "Indonesia signs partnerships for $71.8 billion in Chinese investment, more than an entire year's worth of FDI",
+    "source_url": "https://fortune.com/2026/11/19/indonesia-china-investment-smart-cities-danantara/",
+    "summary": "If these pledges come to pass, they would exceed the $53.4 billion Indonesia drew in FDI (excluding finance and oil-and-gas) last year.\n“That will ​become a historic project to be implemented next year,” said Rosan Roeslani, Indonesia’s minister of investment and downstream industry and Danantara’s chief executive officer.\nA second agreement pairs Danantara with Hisense, the Chinese appliance maker, on a $10 billion investment in technology and manufacturing, including new research labs and manufacturing facilities for household appliances.\nThe final agreement is a $1.8 billion partnership between Indonesia’s Ministry of Education, Science, and Technology, state energy company Pertamina, and Beijing Petrochemical Engineering Co, on coal-to-ethanol technology.\nDuring Prabowo’s state visit to China in November 2024, the two countries announced investment commitments totaling about $10 billion, spanning areas including food security, energy, and technology.",
+    "category": "Smart Cities",
+    "published_date": "2026-11-19T00:00:00",
+    "slug": "indonesia-signs-partnerships-for-718-billion-in-chinese-investment-more-than-an-entire-years-worth",
+    "extraction_method": "newspaper4k",
+    "source_name": "fortune.com"
+  },
+  {
+    "id": 21194,
+    "title": "Indonesia and China Agree Four Strategic Partnerships Worth $71.8 Billion",
+    "source_url": "https://chinaglobalsouth.com/2026/11/19/indonesia-china-investment-deals-smart-cities/",
+    "summary": "Key Takeaways Danantara and Shaanxi Construction Engineering Group Corporation Limited to develop $50 billion project building 10 smart cities in Indonesia.\nIndonesia signed two $10 billion deals: Hisense for appliance labs and State Development and Investment Corporation for infrastructure financing.\nIndonesia's higher education ministry, Pertamina and Beijing Petrochemical Engineering Co., Ltd. to develop $1.8 billion coal to ethanol technology.\nIndonesia and China agreed on four partnerships worth $71.8 billion on Wednesday, including a $50 billion project to develop 10 smart cities across Indonesia, the Indonesian presidential palace said.\nSubscribe or log in to read the rest of this content.",
+    "category": "Smart Cities",
+    "published_date": "2026-11-19T00:00:00",
+    "slug": "indonesia-and-china-agree-four-strategic-partnerships-worth-718-billion-the-china-global-south",
+    "extraction_method": "newspaper4k",
+    "source_name": "chinaglobalsouth.com"
+  },
+  {
     "id": 21138,
     "title": "Pelion wins UK public sector IoT connectivity framework",
     "source_url": "https://itbrief.co.uk/story/pelion-wins-uk-public-sector-iot-connectivity-framework",
@@ -20,6 +372,17 @@
     "slug": "pelion-wins-uk-public-sector-iot-connectivity-framework-it-brief-uk",
     "extraction_method": "newspaper4k",
     "source_name": "itbrief.co.uk"
+  },
+  {
+    "id": 21202,
+    "title": "iRacing Weekly Tune-in | eSports & Community Events | November 18th to November 25th, 2026",
+    "source_url": "https://www.iracing.com/iracing-weekly-tune-in-esports-community-events-november-18th-to-november-25th-2026/",
+    "summary": "Welcome to the iRacing Weekly Tune-in, your guide to what is available to watch this week on the official iRacing broadcast channels, as well as some special events to watch around the iRacing community.\nFrom official iRacing eSports to select community events, there’s plenty to tune in for and enjoy.\nWEDNESDAY | November 18th, 2026 🇺🇸 eNASCAR College iRacing Series | 7 PM ET The fourth Tournament of the 2026-27 season, the Great Lakes Gauntlet, concludes on Wednesday night!\nCar: 410 Sprint Car | Track: Huset’s Broadcasted by iRacing Watch Here 🇺🇸 INDY NXT Road Series | 10 PM ET Top Split coverage of the fixed setup Indy NXT Road Series.\nLong considered the pinnacle of American motorsports, IndyCar racing features the world’s fastest oval track racing, with wheel-to-wheel—and wheel-within-wheel—finishes pretty much standard operating procedure.",
+    "category": "Sim Racing",
+    "published_date": "2026-11-18T22:00:42+00:00",
+    "slug": "iracing-weekly-tune-in-esports-community-events-november-18th-to-november-25th-2026-iracingcom",
+    "extraction_method": "newspaper4k",
+    "source_name": "iracing.com"
   },
   {
     "id": 21149,
@@ -33,6 +396,17 @@
     "source_name": "orfonline.org"
   },
   {
+    "id": 21167,
+    "title": "Ski Grey & Cooperline Versions of Chrysler Pacfica @ #LAAutoShow",
+    "source_url": "https://www.autoconnectedcar.com/2026/11/ski-grey-cooperline-versions-of-chrysler-pacfica-laautoshow/",
+    "summary": "Chrysler Pacifica Ski Grey Interior Responds to Customer Feedback The second addition, Ski Grey, was developed in response to customer feedback expressing a preference for lighter interiors, Chrysler said.\nChrysler Pacifica Lineup Now Spans Eight Interior Combinations With Ski Grey added, the 2027 Pacifica lineup offers eight interior color and material combinations across its trims and packages.\nThe Limited is available in black or Ski Grey Nappa leather, while the Limited Copperline uses black Nappa leather with copper accents.\nChrysler Pacifica Copperline and Ski Grey Pricing and Availability Orders for the 2027 Pacifica Copperline and the Ski Grey interior are scheduled to open later this year, with vehicles arriving at dealers in early 2027.\nSki Grey is priced at $295 on the Select and Limited and is a no-cost option on the Pinnacle.",
+    "category": "Connected Car",
+    "published_date": "2026-11-18T18:08:49-08:00",
+    "slug": "ski-grey-cooperline-versions-of-chrysler-pacfica-laautoshow-auto-connected-car-news",
+    "extraction_method": "newspaper4k",
+    "source_name": "autoconnectedcar.com"
+  },
+  {
     "id": 21150,
     "title": "Property Development in Smaller Indian Cities: Growth & Outlook",
     "source_url": "https://www.ibef.org/blogs/why-smaller-indian-cities-are-becoming-new-destinations-for-property-development",
@@ -42,6 +416,72 @@
     "slug": "property-development-in-smaller-indian-cities-growth-outlook-ibef",
     "extraction_method": "newspaper4k",
     "source_name": "ibef.org"
+  },
+  {
+    "id": 21166,
+    "title": "State law leaves Denver with little control over driverless cars, as officials say Waymo looks to expand",
+    "source_url": "https://www.denver7.com/news/local-news/state-law-leaves-denver-with-little-control-over-driverless-cars-as-officials-say-waymo-looks-to-expand",
+    "summary": "DENVER — City officials told a Denver City Council committee Wednesday that state law leaves Denver with almost no power to regulate Waymo’s driverless cars, even as they say the company plans to expand across the metro.\nThe Department of Transportation and Infrastructure and Denver Police Department briefed the Transportation and Infrastructure Committee Wednesday.\nA Denver police lieutenant said the department has responded to four crashes involving Waymo since it began driving in Denver.\nOne involved a person who has stopped in front of and thrown eggs at Waymo vehicles in as many as 30 incidents, he said.\nMichael Ford of Drivers Cooperative Colorado said he doesn’t think Denver is ready for autonomous vehicles.",
+    "category": "Autonomous Vehicles",
+    "published_date": "2026-11-18T17:25:01-07:00",
+    "slug": "state-law-leaves-denver-with-little-control-over-driverless-cars-as-officials-say-waymo-looks-to",
+    "extraction_method": "newspaper4k",
+    "source_name": "denver7.com"
+  },
+  {
+    "id": 21162,
+    "title": "Humble Robotics raises $51 million in Series A funding to scale its autonomous electric truck",
+    "source_url": "https://chargedevs.com/newswire/humble-robotics-raises-51-million-in-series-a-funding-to-scale-its-autonomous-electric-truck/",
+    "summary": "Humble Robotics has raised $51 million in a Series A funding round led by Obvious Ventures, bringing the company’s total funding to $75 million.\nHumble’s Class 8 vehicles are built on a driverless, cabless battery-electric platform that supports multiple vehicle configurations.\nHumble’s autonomous electric trucking platform is designed to enable seamless dock-to-dock freight transport among ports, rail terminals, warehouses and distribution centers.\nHumble is preparing for commercial deployment and laying the groundwork for integration of autonomous vehicles into existing freight operations.\nAs Jo Borrás writes in Electrek, Humble’s platform, which dispenses not only with the cab and the driver, but with the tractor itself, offers certain advantages.",
+    "category": "Autonomous Trucks",
+    "published_date": "2026-11-18T16:57:18+00:00",
+    "slug": "humble-robotics-raises-51-million-in-series-a-funding-to-scale-its-autonomous-electric-truck",
+    "extraction_method": "newspaper4k",
+    "source_name": "chargedevs.com"
+  },
+  {
+    "id": 21193,
+    "title": "Thunderbird at ASU students produce first public city case study on proposed UN Digital Development Goals",
+    "source_url": "https://news.asu.edu/20261118-environment-and-sustainability-thunderbird-asu-students-produce-first-public-city-case",
+    "summary": "The group presented its findings this fall in the second webinar of the six-part series “Towards the Digital Development Goals for Cities.”\nThe Digital Development Goals are being developed by a working group of the United Nations’ United for Smart Sustainable Cities initiative.\n“City leaders do not treat digital development as a technology problem.\nThe Digital Development Goals working group expects to present the completed draft of the goals by March 2027, following which, it is to be formally approved by 22 United Nations organizations.\nThe public report and webinar recording will be available through Thunderbird and United for Smart Sustainable Cities.",
+    "category": "Smart Cities",
+    "published_date": "2026-11-18T16:18:51-07:00",
+    "slug": "thunderbird-at-asu-students-produce-first-public-city-case-study-on-proposed-un-digital-development",
+    "extraction_method": "newspaper4k",
+    "source_name": "news.asu.edu"
+  },
+  {
+    "id": 21185,
+    "title": "Visa confirms apparent cyberattack, hackers also claim hit on JPMorgan",
+    "source_url": "https://www.techradar.com/pro/security/visa-confirms-apparent-cyberattack-hackers-also-claim-hit-on-jpmorgan",
+    "summary": "Visa and JPM Chase respond At the same time, both Visa and JPMorgan Chase responded to the claims, each in their own way.\nVisa, the global payments technology behemoth, said it was aware of the claims made by n0n and added it was investigating, Cybernews reports.\nOn the other hand, American banking giant JPMorgan Chase said it was experiencing a service outage caused by a software bug - not a cyberattack.\n\"JPMorgan Chase has experienced a temporary issue related to a software ​bug in on-premise hardware systems – there is no evidence ​it is cyber-related.\nN0n focuses on ransomware and data collection attacks, operating the classic double-extortion model (steals data then encrypts systems).",
+    "category": "IoT Cyber",
+    "published_date": "2026-11-18T16:10:00+00:00",
+    "slug": "visa-confirms-apparent-cyberattack-hackers-also-claim-hit-on-jpmorgan-techradar",
+    "extraction_method": "newspaper4k",
+    "source_name": "techradar.com"
+  },
+  {
+    "id": 21172,
+    "title": "Vulnerability management: The cybersecurity industry is still solving the wrong problem",
+    "source_url": "https://www.csoonline.com/article/4250261/vulnerability-management-the-cybersecurity-industry-is-still-solving-the-wrong-problem.html",
+    "summary": "Vulnerability management needs an operating model, not another dashboard What large organizations need is not simply better vulnerability management technology.\nMeasuring remediation effectiveness, not just reporting activity There is also a fundamental problem with how vulnerability management performance is measured.\nThose indicators have their place, but they can encourage an administrative approach to vulnerability management: Closing tickets becomes a proxy for reducing risk.\nVulnerability management provides perhaps one of the clearest demonstrations of that principle.\nThe future of vulnerability management will not be determined by how quickly we can find what is wrong.",
+    "category": "Cybersecurity",
+    "published_date": "2026-11-18T15:53:58-05:00",
+    "slug": "vulnerability-management-the-cybersecurity-industry-is-still-solving-the-wrong-problem-cso-online",
+    "extraction_method": "newspaper4k",
+    "source_name": "csoonline.com"
+  },
+  {
+    "id": 21177,
+    "title": "26K NYPD Facial Recognition Searches Raise Alarms Over Missing Oversight",
+    "source_url": "https://patch.com/new-york/new-york-city/26k-nypd-facial-recognition-searches-raise-alarms-over-missing-oversight",
+    "summary": "The NYPD uses facial recognition technology to analyze photographs and identify potential matches with images in its databases.\nInvestigators submit probe images, or photographs of individuals they are seeking to identify, to the department’s facial recognition system for analysis.\nBut, the report also found that investigators used publicly available photographs of high-profile individuals as substitutes for probe images during facial recognition searches, violating department policy.\nThe findings raise questions about how the NYPD uses facial recognition technology in investigations and prosecutions, as well as the limited transparency surrounding the vendors involved in surveilling New Yorkers.\n\"The NYPD’s procurement and use of facial recognition technology disregards constitutional protections and creates foreseeable harm,\" the Legal Aid Society wrote in a statement Wednesday.",
+    "category": "Image Recognition",
+    "published_date": "2026-11-18T15:49:07+00:00",
+    "slug": "26k-nypd-facial-recognition-searches-raise-alarms-over-missing-oversight-patch",
+    "extraction_method": "newspaper4k",
+    "source_name": "patch.com"
   },
   {
     "id": 21139,
@@ -154,6 +594,17 @@
     "source_name": "morningstar.com"
   },
   {
+    "id": 21200,
+    "title": "Thrustmaster Formula Wheel Add-On Ferrari SF-25 Edition Review",
+    "source_url": "https://pcper.com/2026/11/thrustmaster-formula-wheel-add-on-ferrari-sf-25-edition-review/",
+    "summary": "Sim Racing Remains a Bright Spot Amid Rising Component Costs Introduction The sim market is in a crazy place right now.\nI am not entirely sure if Thrustmaster was prepared for the boom in sim racing in 2020 when Covid hit.\nSome years back Thrustmaster also introduced the SF-1000 Ferrari Formula wheel.\nThe quick release is made of the same nylon reinforced plastic that the other Thrustmaster rims use.\nIt may not have the premium features of other Formula style wheels, but it also does not carry that premium price.",
+    "category": "Sim Racing",
+    "published_date": "2026-11-18T11:17:03-05:00",
+    "slug": "thrustmaster-formula-wheel-add-on-ferrari-sf-25-edition-review-pc-perspective",
+    "extraction_method": "newspaper4k",
+    "source_name": "pcper.com"
+  },
+  {
     "id": 21120,
     "title": "Cybersecurity expert shares why people should have a 'digital disaster plan'",
     "source_url": "https://abc7news.com/story/cybersecurity-expert-shares-people-should-have-digital-disaster-plan/20050829/",
@@ -185,6 +636,17 @@
     "slug": "the-citys-digital-brain-oman-observer",
     "extraction_method": "newspaper4k",
     "source_name": "omanobserver.om"
+  },
+  {
+    "id": 21176,
+    "title": "Unlawfully held images still used for police facial recognition",
+    "source_url": "https://www.computerweekly.com/news/366654829/Unlawfully-held-images-still-used-for-police-facial-recognition",
+    "summary": "UK police are continuing to conduct tens of thousands of retrospective facial recognition (RFR) searches on potentially millions of unlawfully retained custody images, the police watchdog has found.\nUnlike live facial recognition (LFR), which captures and compares people’s faces to a pre-determined watchlist in real time, RFR is applied to already-captured images retroactively, enabling police to compare “probe” images against existing custody images taken when suspects are arrested.\nAccording to the watchdog, its inspection revealed that custody images are still being retained in breach of police information management rules, which set out how forces should review, retain and dispose of custody images.\nDespite the 2012 ruling, successive biometric commissioners have warned that millions of custody images are still being unlawfully retained.\nICO police facial recognition audits reveal ‘mixed’ bag: The use of facial recognition technologies by UK police forces requires ‘significant improvements’ to ensure accountability and public trust, says data regulator.",
+    "category": "Image Recognition",
+    "published_date": "2026-11-18T10:45:00+00:00",
+    "slug": "unlawfully-held-images-still-used-for-police-facial-recognition-computer-weekly",
+    "extraction_method": "newspaper4k",
+    "source_name": "computerweekly.com"
   },
   {
     "id": 21143,
@@ -449,6 +911,39 @@
     "slug": "quantum-error-correction-ushers-quantum-into-the-data-center-siliconangle",
     "extraction_method": "newspaper4k",
     "source_name": "siliconangle.com"
+  },
+  {
+    "id": 21161,
+    "title": "Einride reports 76 percent growth in contracted revenue as autonomous freight operations expand",
+    "source_url": "https://roboticsandautomationnews.com/2026/11/18/einride-reports-76-percent-growth-in-contracted-revenue-as-autonomous-freight-operations-expand/107308/",
+    "summary": "We have grown our contracted annual recurring revenue by 76% since June, expanded operations with major global customers and reached important milestones in autonomous freight.\nAutonomous freight operations expand in Europe and the US Einride reported several developments in its autonomous trucking operations during and after the third quarter.\nIn the United States, Einride and EASE Logistics introduced two cab-less autonomous electric trucks into daily freight operations in Marysville, Ohio, also in September.\nIts strategy combines fleet expansion, autonomous highway operations and licensing its Saga AI and Einride Driver technologies to vehicle manufacturers and freight operators.\nEinride also plans to introduce full quarterly financial reporting in 2027, providing investors with more detailed information about its financial performance as it expands its electric and autonomous freight operations.",
+    "category": "Autonomous Trucks",
+    "published_date": "2026-11-18T00:00:00",
+    "slug": "einride-reports-76-percent-growth-in-contracted-revenue-as-autonomous-freight-operations-expand",
+    "extraction_method": "newspaper4k",
+    "source_name": "roboticsandautomationnews.com"
+  },
+  {
+    "id": 21164,
+    "title": "Push for local control of driverless vehicles continues",
+    "source_url": "https://www.kpbs.org/news/public-safety/2026/11/18/push-for-local-control-of-driverless-vehicles-continues",
+    "summary": "Concerns are being raised over whether autonomous vehicles can drive safely on California's freeways, after the California Department of Motor Vehicles banned Waymo vehicles from all freeways last week.\nIn San Diego, Waymo’s robotaxis aren’t allowed on freeways yet, but they can operate on the city’s streets.\nThe DMV and the California Public Utilities Commission have full regulatory authority over autonomous vehicles.\nSan Diego City Council member Sean Elo-Rivera, who chairs the Taxi Advisory Committee, said he is urging state lawmakers to allow for greater local control.\nThe advisory committee has opposed driverless vehicles in San Diego and has pushed the MTS Board to formally protest permits given to the company.",
+    "category": "Autonomous Vehicles",
+    "published_date": "2026-11-18T00:00:00",
+    "slug": "push-for-local-control-of-driverless-vehicles-continues-kpbs",
+    "extraction_method": "newspaper4k",
+    "source_name": "kpbs.org"
+  },
+  {
+    "id": 21179,
+    "title": "Guardian: IDF Uploaded 3.5 Million Photos of Palestinians to Amazon’s Platform",
+    "source_url": "https://www.democracynow.org/2026/11/18/headlines/guardian_idf_uploaded_35_million_photos_of_palestinians_to_amazon_s_platform",
+    "summary": "A new report by Harry Davies and Yuval Abraham in The Guardian shows that the Israeli military uploaded 3.5 million photos to Amazon’s Rekognition platform to assist in its facial recognition of Palestinians soon after the invasion of Gaza in 2023.\nFace recognition technology is routinely used at Israeli checkpoints in the occupied West Bank, and images captured at checkpoints have been used to surveil and target Palestinians.",
+    "category": "Image Recognition",
+    "published_date": "2026-11-18T00:00:00",
+    "slug": "guardian-idf-uploaded-35-million-photos-of-palestinians-to-amazons-platform-democracy-now",
+    "extraction_method": "newspaper4k",
+    "source_name": "democracynow.org"
   },
   {
     "id": 21126,
@@ -1175,6 +1670,17 @@
     "slug": "fanatecs-black-friday-2026-sale-starts-early-includes-podium-steering-wheel-bentley-gt3-deal",
     "extraction_method": "newspaper4k",
     "source_name": "traxion.gg"
+  },
+  {
+    "id": 21178,
+    "title": "Hong Kong rolls out AI facial recognition across CCTV network",
+    "source_url": "https://theedgemalaysia.com/node/825946",
+    "summary": "HONG KONG (Nov 16): Hong Kong rolled out artificial intelligence (AI)-powered facial recognition functions across its camera surveillance system on Monday, expanding monitoring of public spaces in the name of national security and crime-prevention.\nChina has tightened control over Hong Kong since huge pro-democracy protests swept the city in 2019, imposing a national security law on the finance hub that critics say has quelled dissent.\nPolice have already installed roughly 5,000 closed-circuit television (CCTV) cameras across Hong Kong since SmartView launched in 2024, crediting their use in solving nearly 2,200 cases and more than 2,800 arrests.\nLi, a Hong Kong finance worker in his 40s who declined to give his full name due to safety concerns, told AFP he is worried about the potential misuse of AI-powered surveillance.\nMainland China already uses AI in its surveillance systems on a massive scale, drawing concern from international rights groups and non-governmental organisations.",
+    "category": "Image Recognition",
+    "published_date": "2026-11-16T16:58:55+08:00",
+    "slug": "hong-kong-rolls-out-ai-facial-recognition-across-cctv-network-the-edge-malaysia",
+    "extraction_method": "newspaper4k",
+    "source_name": "theedgemalaysia.com"
   },
   {
     "id": 21102,
