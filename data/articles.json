@@ -11,6 +11,226 @@
     "source_name": "nature.com"
   },
   {
+    "id": 21285,
+    "title": "Casino Square Is One of the Great Corners of Sim Racing",
+    "source_url": "https://boxthislap.org/casino-square-is-one-of-the-great-corners-of-sim-racing/",
+    "summary": "This page runs a brief security check to confirm you are not a bot.\nThe verification is automatic and typically completes within a few seconds.\nNo action is required on your part.\nCookies must be enabled for this site: the result of the check is stored in one.",
+    "category": "Sim Racing",
+    "published_date": "2026-11-21T13:53:05",
+    "slug": "casino-square-is-one-of-the-great-corners-of-sim-racing-boxthislap",
+    "extraction_method": "newspaper4k",
+    "source_name": "boxthislap.org"
+  },
+  {
+    "id": 21282,
+    "title": "From Smart Cities to Natuna, What Indonesia’s Deepening Ties With China Mean for Its Economy",
+    "source_url": "https://www.devdiscourse.com/article/other/4009899-from-smart-cities-to-natuna-what-indonesias-deepening-ties-with-china-mean-for-its-economy?amp",
+    "summary": "Indonesia and China launched negotiations on a bilateral economic partnership on November 20, as their leaders also discussed possible joint development in the South China Sea.\nWhat traders could gain from a new deal Indonesia and China already trade under the ASEAN–China Free Trade Area, which covers goods and services.\nIndonesian firms selling competing finished goods could face tighter margins if imports become cheaper.\nWhy the wording matters for Natuna’s fishing economy Jakarta reported progress in talks on possible joint development in the South China Sea.\nThe public accounts of Friday’s meeting leave the location, permitted activities and governing terms of possible joint development unspecified.",
+    "category": "Smart Cities",
+    "published_date": "2026-11-21T13:52:48",
+    "slug": "from-smart-cities-to-natuna-what-indonesias-deepening-ties-with-china-mean-for-its-economy",
+    "extraction_method": "newspaper4k",
+    "source_name": "devdiscourse.com"
+  },
+  {
+    "id": 21268,
+    "title": "AI Joins the Industrial Attack Workflow",
+    "source_url": "https://www.recordedfuture.com/blog/ai-industrial-attack-workflow",
+    "summary": "The recent cyberattack on French refrigerators and our tracking of the malicious AI framework ARTEX show that threat actors are increasingly using AI to accelerate attacks, expand their reach, and improve their effectiveness.\nGreenJuliett, the group behind operational technology (OT) cyberattacks similar to those in France, has begun incorporating AI into its OT attack chain.\nHunt based on GreenJuliett indicators: The GreenJuliett infrastructure from this research is available to Recorded Future customers.\nBlock the framework servers: We track servers running ARTEX AI along with seven other AI automation frameworks every day.\nMost operators will use proxies instead of launching attacks directly from offensive AI framework servers, but blocking is worthwhile even for a small percentage of direct-attack servers.",
+    "category": "IoT Cyber",
+    "published_date": "2026-11-21T13:51:39",
+    "slug": "ai-joins-the-industrial-attack-workflow-recorded-future",
+    "extraction_method": "newspaper4k",
+    "source_name": "recordedfuture.com"
+  },
+  {
+    "id": 21267,
+    "title": "NETCOM puts people first through recognition, engagement and transparent leadership [Image 5 of 8]",
+    "source_url": "https://www.dvidshub.net/image/10109584/netcom-puts-people-first-through-recognition-engagement-and-transparent-leadership",
+    "summary": "Date Taken: 11.06.2026 Date Posted: 11.20.2026 15:39 Photo ID: 10109584 VIRIN: 261106-O-TR289-1817 Resolution: 1920x1352 Size: 538.17 KB Location: FORT HUACHUCA, ARIZONA, US Web Views: 8 Downloads: 1 PUBLIC DOMAIN",
+    "category": "Image Recognition",
+    "published_date": "2026-11-21T13:51:35",
+    "slug": "netcom-puts-people-first-through-recognition-engagement-and-transparent-leadership-image-5-of-8",
+    "extraction_method": "newspaper4k",
+    "source_name": "dvidshub.net"
+  },
+  {
+    "id": 21253,
+    "title": "Texas robotaxi operators reported 27 crashes. Two involved minor injuries",
+    "source_url": "https://www.statesman.com/business/article/texas-robotaxi-crashes-waymo-tesla-22533463.php",
+    "summary": "A required part of this site couldn’t load.\nThis may be due to a browser extension, network issues, or browser settings.\nPlease check your connection, disable any ad blockers, or try using a different browser.",
+    "category": "Autonomous Vehicles",
+    "published_date": "2026-11-21T13:50:25",
+    "slug": "texas-robotaxi-operators-reported-27-crashes-two-involved-minor-injuries-austin-american-statesman",
+    "extraction_method": "newspaper4k",
+    "source_name": "statesman.com"
+  },
+  {
+    "id": 21288,
+    "title": "GTA 6’s vehicle damage sets phenomenal, metal crushing, new standards",
+    "source_url": "https://traxion.gg/gta-6s-vehicle-damage-sets-phenomenal-metal-crushing-new-standards/",
+    "summary": "The resulting ricochet between two large mass objects turned the Coquette into a genuinely banana-shaped vehicle.\nShooting a tyre will deflate it but sadly doesn’t make it visibly explode, at least in my tests so far.\nAs more and more bodywork comes off, you might wonder just how far the damage modelling goes.\nIf you’re thinking all this detailed damage sounds like a breath of fresh air in a climate where car damage in most racing games seems to get less impressive every year (Wreckfest notwithstanding), you’re not alone: check out our article about how damage has been going backwards.\nAnd of course we’ll be covering more automotive tomfoolery in GTA 6 very soon, so keep it pinned to Traxion.",
+    "category": "Sim Racing",
+    "published_date": "2026-11-21T12:55:43+00:00",
+    "slug": "gta-6s-vehicle-damage-sets-phenomenal-metal-crushing-new-standards-traxiongg",
+    "extraction_method": "newspaper4k",
+    "source_name": "traxion.gg"
+  },
+  {
+    "id": 21278,
+    "title": "Q-Day: RSA-2048 vs ECC-256 vs AES-256 Qubits Compared",
+    "source_url": "https://shattered.io/q-day-rsa-2048-vs-ecc-256-vs-aes-256-qubit-estimates/",
+    "summary": "The AES figure counts logical qubits and iterations rather than physical qubits and wall-clock time, which is why no one can attach a calendar date to it.\nA survey cited in a November 2026 arXiv paper on industrial post-quantum cryptography lists one RSA-2048 model at about 6,190 logical qubits and roughly 20 million physical qubits, and another at 1,399 logical qubits and 897,864 physical qubits.\nA preprint on neutral-atom hardware reportedly claims that roughly 10,000 qubits could reach cryptographic-scale Shor, with about 26,000 qubits and 10 days for a 256-bit curve and about 102,000 qubits and 97 days for RSA-2048.\nThird, the work that pays off today is the hybrid key exchange that browsers, OpenSSL, OpenSSH and cloud load balancers already ship.\nBoth fall to Shor’s algorithm, and several 2026 estimates put ECC-256 at fewer qubits and shorter runtimes than RSA-2048.",
+    "category": "Quantum Computers",
+    "published_date": "2026-11-21T12:31:55+00:00",
+    "slug": "q-day-rsa-2048-vs-ecc-256-vs-aes-256-qubits-compared-shatteredio",
+    "extraction_method": "newspaper4k",
+    "source_name": "shattered.io"
+  },
+  {
+    "id": 21271,
+    "title": "How to stay safe in the war on cybersecurity",
+    "source_url": "https://epigram.org.uk/how-to-stay-safe-in-the-war-on-cybersecurity/",
+    "summary": "It was one of many cybersecurity stories to make headlines recently; from website outages to government officials urging businesses to take their sites offline, it can feel like we’re in the middle of a war on cybersecurity.\nHere’s what happened at ASOS, what it means for your data, and what you can do about it.\nIf you think a message is legitimate, open the app or type in the link yourself just to be on the safe side.\nRight now, it does feel like there’s a cybersecurity war, and the ASOS attack is a reminder that even well-known brands can be caught out.\nIn the war on cybersecurity, a little caution can go a long way.",
+    "category": "IoT Cyber",
+    "published_date": "2026-11-21T12:00:00+00:00",
+    "slug": "how-to-stay-safe-in-the-war-on-cybersecurity-epigramorguk",
+    "extraction_method": "newspaper4k",
+    "source_name": "epigram.org.uk"
+  },
+  {
+    "id": 21256,
+    "title": "Self-Driving Shuttles Carry MK Dons Fans, 8 Seats Each",
+    "source_url": "https://shattered.io/self-driving-shuttles-stadium-mk-dons-gate-seven-lift-8-seats/",
+    "summary": "The shuttle service operates at Stadium MK and moves MK Dons supporters from a designated car park to their entrance.\nThat figure covers the broader programme and not the Stadium MK shuttle alone.\nWithout one, investors and venue operators should read the Stadium MK service as a pilot and not a product.\nStadium MK hosts MK Dons home matches, so a ground that already draws large, regular crowds makes a natural proving site.\nThey run at Stadium MK in Milton Keynes, carrying MK Dons supporters from a designated car park to their entrance.",
+    "category": "Autonomous Vehicles",
+    "published_date": "2026-11-21T10:45:02+00:00",
+    "slug": "self-driving-shuttles-carry-mk-dons-fans-8-seats-each-shatteredio",
+    "extraction_method": "newspaper4k",
+    "source_name": "shattered.io"
+  },
+  {
+    "id": 21272,
+    "title": "FCC staff propose a three-year renewal and tougher audits for Cyber Trust Mark smart devices",
+    "source_url": "https://mlq.ai/news/fcc-staff-propose-a-three-year-renewal-and-tougher-audits-for-cyber-trust-mark-smart-devices/",
+    "summary": "23-239, responds to recommendations from the program's Lead Administrator and stakeholder committee [1].\nThe bureau chose three years as a middle point between that and the annual renewal the Commission first floated [1].\nAt renewal, the committee recommended testing a minimum 50% sample of the program's technical requirements.\nIt asks whether the minimum font should be 4 point, as recommended, or the 5 point CTA-2120 cites for legibility [1].\nThe notice also covers complaints, non-compliant products and what happens to certifications when a program administrator withdraws or has its authority terminated [1].",
+    "category": "IoT Cyber",
+    "published_date": "2026-11-21T08:34:53.606372-05:00",
+    "slug": "fcc-staff-propose-a-three-year-renewal-and-tougher-audits-for-cyber-trust-mark-smart-devices-mlqai",
+    "extraction_method": "newspaper4k",
+    "source_name": "mlq.ai"
+  },
+  {
+    "id": 21275,
+    "title": "Watchdog Warns of Quantum-Powered Hackers Who Could Crack the Financial System Like a Juicy Walnut",
+    "source_url": "https://futurism.com/robots-and-machines/quantum-powered-hackers-financial-system",
+    "summary": "It feels like AI is already unraveling the fragile web of digital infrastructure underpinning our world that, it turns out, we’ve all been taking seriously for granted.\nRest assured, though: quantum computing is set to throw it into even more chaos.\nIn particular, it cautioned that cryptocurrencies were especially vulnerable to quantum-powered hacks, and would face a tougher time upgrading their cryptography since the networks are decentralized.\nThe warning will add another layer of urgency to fears that advances in quantum computing could pose serious cybersecurity threats in the near future, imperiling everything from banking systems to your private messages.\nIn March, Google, a leader in quantum computing space, moved up its date that it needs to develop quantum-resistant systems to 2029, in a move that caused alarm among some experts.",
+    "category": "Quantum Computers",
+    "published_date": "2026-11-21T07:50:00-05:00",
+    "slug": "watchdog-warns-of-quantum-powered-hackers-who-could-crack-the-financial-system-like-a-juicy-walnut",
+    "extraction_method": "newspaper4k",
+    "source_name": "futurism.com"
+  },
+  {
+    "id": 21279,
+    "title": "IOSCO Warns Quantum Computing Threatens Bitcoin, Blockchain Security and Calls for Faster Safeguards",
+    "source_url": "https://en.bloomingbit.io/feed/news/124949",
+    "summary": "The International Organization of Securities Commissions warned that advances in quantum computing could threaten the security of blockchain networks, including Bitcoin.\nBlockchain networks need to put security frameworks in place to prepare for that risk.\nIOSCO said blockchain’s decentralized structure makes a shift in security technology more difficult.\nStill, IOSCO said current quantum computers are not yet capable of breaking existing cryptographic systems.\nIt projected that quantum computers powerful enough to threaten current encryption standards could emerge between 2030 and 2035.",
+    "category": "Quantum Computers",
+    "published_date": "2026-11-21T04:01:40-08:00",
+    "slug": "iosco-warns-quantum-computing-threatens-bitcoin-blockchain-security-and-calls-for-faster-safeguards",
+    "extraction_method": "newspaper4k",
+    "source_name": "en.bloomingbit.io"
+  },
+  {
+    "id": 21264,
+    "title": "Saliency Guided Masked Patch Network Improves Handicraft Pattern Recognition",
+    "source_url": "https://bioengineer.org/saliency-guided-masked-patch-network-improves-handicraft-pattern-recognition/",
+    "summary": "A spatial attention map is subsequently derived by concatenating channel-wise maximum-pooled and average-pooled statistics, passing them through an additional one-by-one convolution, and applying a sigmoid activation function.\nConcurrently, a complementary spatial attention map is generated by passing channel-pooled statistics through a large seven-by-seven spatial convolution kernel.\nComplementary sensitivity analyses verified the optimal hyperparameter configurations governing spatial masking granularity, attention dimensionality, and classifier regularization.\nSubject of Research: Deep learning architecture for handicraft pattern and surface texture recognition Article Title: Handicraft pattern design recognition and classification based on SMPANet Article References: Niu, F., Xie, T., & Ma, S. (2026).\nHandicraft pattern design recognition and classification based on SMPANet.",
+    "category": "Image Recognition",
+    "published_date": "2026-11-21T02:36:48+00:00",
+    "slug": "saliency-guided-masked-patch-network-improves-handicraft-pattern-recognition-bioengineerorg",
+    "extraction_method": "newspaper4k",
+    "source_name": "bioengineer.org"
+  },
+  {
+    "id": 21249,
+    "title": "APEC blueprint advances regional digital connectivity",
+    "source_url": "https://news.cgtn.com/news/2026-11-21/APEC-blueprint-advances-regional-digital-connectivity-1Sfhx6BYZaM/p.html",
+    "summary": "The 33rd Asia-Pacific Economic Cooperation (APEC) Economic Leaders' Meeting adopted the APEC Connectivity Blueprint on Thursday, setting out priorities for strengthening links across the Asia-Pacific through infrastructure, institutional cooperation and people-to-people exchanges.\nSatellite networks expand connectivity LEO satellite internet can provide communications support for maritime operations, remote areas and emergency response.\nChina is accelerating the development of two large-scale satellite internet constellations, Guowang and Qianfan, each planned as a 10,000-satellite-class network.\nThe country had carried out 80 space launches so far this year, with satellite internet deployment missions accounting for nearly one-third, according to the Ministry of Industry and Information Technology (MIIT).\nUnder the APEC blueprint, senior officials will discuss implementation progress once a year from 2027 to 2030, providing a platform for economies to share experience and advance regional connectivity.",
+    "category": "Autonomous Trucks",
+    "published_date": "2026-11-21T00:00:00",
+    "slug": "apec-blueprint-advances-regional-digital-connectivity-cgtn",
+    "extraction_method": "newspaper4k",
+    "source_name": "news.cgtn.com"
+  },
+  {
+    "id": 21252,
+    "title": "Zoox launches its first robotaxi rides in L.A. County",
+    "source_url": "https://www.latimes.com/business/story/2026-11-21/zoox-launches-its-first-robotaxi-rides-in-la-county",
+    "summary": "The Bay Area-based robotaxi company Zoox put its first purpose-built autonomous vehicles on the road in Los Angeles County.\nThough several companies are competing to scale robotaxis, Zoox vehicles are unique because the company built them from the ground up.\nZoox’s expansion into Los Angeles County comes as Waymo rapidly grows across the state, operating now in San Diego, swaths of the Bay Area and much of L.A. County.\nZoox has surpassed 1 million riders in San Francisco and Las Vegas and has plans to expand its service area in Los Angeles County beyond Santa Monica.\n“As Santa Monica continues to innovate, our priority remains the safety, accessibility and trust of our community,” said Santa Monica City Manager Oliver Chi.",
+    "category": "Autonomous Vehicles",
+    "published_date": "2026-11-21T00:00:00",
+    "slug": "zoox-launches-its-first-robotaxi-rides-in-la-county-los-angeles-times",
+    "extraction_method": "newspaper4k",
+    "source_name": "latimes.com"
+  },
+  {
+    "id": 21254,
+    "title": "Waymo recalls self-driving cars over closed freeway lanes, manual traffic control",
+    "source_url": "https://nypost.com/2026/11/21/business/waymo-forced-to-recall-self-driving-cars-after-they-blunder-into-closed-freeway-lanes/",
+    "summary": "Alphabet’s self-driving ‌unit Waymo said on Friday it is issuing two recalls for its robotaxis over incidents involving closed freeway lanes and manual traffic control.\nWaymo ​said a statement it filed two safety recalls with the National Highway Traffic Safety Administration on ​Thursday on its automated driving system “to strengthen how the Waymo Driver navigates closed freeway lanes and intersections with manual traffic control.”\nThe closed freeway lanes recall stems from unusual circumstances where a Waymo vehicle may enter and ​continue driving in a closed freeway lane, the company said, adding it is still working ​on the recall remedy.\nWaymo said there were no collisions or injuries reported from the closed freeway events.\nLast week, NHTSA said it opened a recall query into Waymo vehicles after numerous incidents of its robotaxis passing ​stopped school buses.",
+    "category": "Autonomous Vehicles",
+    "published_date": "2026-11-21T00:00:00",
+    "slug": "waymo-recalls-self-driving-cars-over-closed-freeway-lanes-manual-traffic-control-new-york-post",
+    "extraction_method": "newspaper4k",
+    "source_name": "nypost.com"
+  },
+  {
+    "id": 21260,
+    "title": "Cybersecurity experts weigh in on series of cyber attacks; offers tips",
+    "source_url": "https://www.fox8live.com/2026/11/21/cybersecurity-experts-weigh-series-cyber-attacks-offers-tips/",
+    "summary": "Having it on is better than not having it on just period,” said Nam Nguyen, a cybersecurity expert.\nSo we’re, we’re, we’re, we’re trying to battle AI at machine speed these days.\nThi Nguyen-Huu, founder and CEO of WinMAgic, which has done cybersecurity for nearly three decades, is not surprised by the series of large-scale cyber incidents.\n“Do you know, even the hacker, they use AI,” Nguyen-Huu said.\nNam Nguyen added, “It sounds, it sounds weird, but it’s, it’s really AI versus AI.",
+    "category": "Cybersecurity",
+    "published_date": "2026-11-21T00:00:00",
+    "slug": "cybersecurity-experts-weigh-in-on-series-of-cyber-attacks-offers-tips-fox-8-local-first",
+    "extraction_method": "newspaper4k",
+    "source_name": "fox8live.com"
+  },
+  {
+    "id": 21274,
+    "title": "Quantum-Proof Accounts Are Coming to the XRP Blockchain by 2028. That's Not Likely to Be a Game Changer for XRP.",
+    "source_url": "https://www.fool.com/investing/2026/11/21/quantum-proof-accounts-are-coming-to-the-xrp-blockchain-by-2028-that-s-not-likely-to-be-a-game-changer-for-xrp/",
+    "summary": "With quantum computing risks looming on the horizon, the XRP Ledger is planning to take action to keep funds safe.\nThe XRP Ledger aims to be protected against that possibility by 2028.\n10 stocks we like better than XRP › According to Ripple, the creator of XRP (XRP -1.86%), the XRP Ledger (XRPL) will have quantum-secure wallets by 2028.\nRipple itself set that target date in April of this year, and the XRP Ledger Foundation officially placed the corresponding upgrade onto its roadmap on Nov. 4.\nHow this could benefit XRP's price The direct impact of XRPL wallets becoming quantum-secure on its price will almost certainly be minimal.",
+    "category": "Quantum Computers",
+    "published_date": "2026-11-21T00:00:00",
+    "slug": "quantum-proof-accounts-are-coming-to-the-xrp-blockchain-by-2028-thats-not-likely-to-be-a-game",
+    "extraction_method": "newspaper4k",
+    "source_name": "fool.com"
+  },
+  {
+    "id": 21276,
+    "title": "A tiny superconducting sandwich could help computers use less energy",
+    "source_url": "https://news.mit.edu/2026/tiny-superconducting-sandwich-could-help-computers-use-less-energy-1120",
+    "summary": "Scientists at the MIT Plasma Science and Fusion Center (PSFC) have created a tiny superconducting device that could help future computers store and process information using far less energy.\nIn an effort to create faster, more energy-efficient computers, researchers have been developing superconducting computers, which rely on superconductors — a material that, when cold enough, exhibits no electrical resistance — instead of the traditional semiconductors to write information.\nIt’s been a challenge to develop fast, high-capacity memory that also works at the extremely cold temperatures needed to operate superconducting computers.\nThose settings could be used to direct or block the electrical pulses that carry information through superconducting circuits.\nWith that technology, superconducting computers could become a practical, energy-efficient alternative to the traditional computers currently relied upon for energy-intensive applications like AI.",
+    "category": "Quantum Computers",
+    "published_date": "2026-11-20T21:00:00+00:00",
+    "slug": "a-tiny-superconducting-sandwich-could-help-computers-use-less-energy-mit-news",
+    "extraction_method": "newspaper4k",
+    "source_name": "news.mit.edu"
+  },
+  {
+    "id": 21290,
+    "title": "SEAOIL introduces ‘Fuel the Dream’ Campaign",
+    "source_url": "https://www.zigwheels.ph/car-news/seaoil-introduces-fuel-the-dream-campaign",
+    "summary": "MANILA: SEAOIL has launched the ‘Fuel the Dream’ campaign - a grassroots motorsport program that starts with the innovative PriceLOCQ fuel savings smartphone app.\nSpecifically made for those who hold driver’s licenses and are 18 years old or older, the program is designed to make the SEAOIL Radical Challenge accessible to more customers.\nThis grants access to the SEAOIL racing mobile game, where one will race against the clock.\nThese grant “immunity cards” for the racers competing in sim racing and karting legs of the Fuel the Dream campaign.\nA Day at the Track – Dream Lap Challenge As a preview of the Fuel the Dream campaign, media personalities and key opinion leaders (KOLs) were invited to participate in a one-day, compressed version of the Fuel the Dream Challenge.",
+    "category": "Sim Racing",
+    "published_date": "2026-11-20T20:51:53+00:00",
+    "slug": "seaoil-introduces-fuel-the-dream-campaign-zigwheels",
+    "extraction_method": "newspaper4k",
+    "source_name": "zigwheels.ph"
+  },
+  {
     "id": 21235,
     "title": "Editorial Series | Redefining The K ① From Building Cities to Designing Human-Centered Lives",
     "source_url": "https://www.koreaittimes.com/news/articleView.html?idxno=159341",
@@ -20,6 +240,127 @@
     "slug": "editorial-series-redefining-the-k-①-from-building-cities-to-designing-human-centered-lives-korea",
     "extraction_method": "newspaper4k",
     "source_name": "koreaittimes.com"
+  },
+  {
+    "id": 21287,
+    "title": "2026 IMSA Esports Global Championship | Daytona Int’l Speedway | AMD 240 Preview",
+    "source_url": "https://www.iracing.com/2026-imsa-esports-global-championship-daytona-intl-speedway-amd-240-preview/",
+    "summary": "The IMSA Esports Global Championship is set to conclude on Sunday, November 22nd, with the fifth and final round of the 2026 season at Daytona International Speedway, the AMD 240.\nThe finale’s field will include 21 teams competing in the Grand Touring Prototype (GTP) class and 33 teams taking on the Grand Touring Daytona (GTD) class.\n110 MAHLE Racing Team BMW and the No.\n33 Verstappen Sim Racing BMW wound up finishing multiple seconds ahead of their rivals in the No.\nDAYTONA INTERNATIONAL SPEEDWAY TRACK FACTS Daytona International Speedway For more information on the IMSA Esports Global Championship, visit iracing.com/imsa-esports.",
+    "category": "Sim Racing",
+    "published_date": "2026-11-20T19:00:31+00:00",
+    "slug": "2026-imsa-esports-global-championship-daytona-intl-speedway-amd-240-preview-iracingcom",
+    "extraction_method": "newspaper4k",
+    "source_name": "iracing.com"
+  },
+  {
+    "id": 21273,
+    "title": "Harvard-led team receives $12 million in federal funds to advance quantum computing with AI",
+    "source_url": "https://news.harvard.edu/gazette/story/2026/11/harvard-led-team-receives-12-million-in-federal-funds-to-advance-quantum-computing-with-ai/",
+    "summary": "For decades, Mikhail Lukin, the Joshua and Beth Friedman University Professor, has shaped some of the biggest discoveries in quantum information science.\nBut the barriers to discovery are falling rapidly as quantum computing and artificial intelligence expand the realm of the possible,” University President Alan M. Garber said.\nWhile universities often work together on quantum computing research, Lukin said, it’s less common for leading academic institutions to work with researchers at national laboratories and major companies.\nThe project will build on research Lukin and his collaborators published last year, which addressed a key challenge in quantum computing related to environmental noise and the inherently unstable quantum bits, or qubits, that make up quantum computers.\n“This is really an attempt to establish scientific foundations for useful fault-tolerant quantum computers,” Lukin said, “and really accelerate this progress using AI.”",
+    "category": "Quantum Computers",
+    "published_date": "2026-11-20T19:00:00+00:00",
+    "slug": "harvard-led-team-receives-12-million-in-federal-funds-to-advance-quantum-computing-with-ai-harvard",
+    "extraction_method": "newspaper4k",
+    "source_name": "news.harvard.edu"
+  },
+  {
+    "id": 21262,
+    "title": "Israel Uploaded 3.5M Photos of Palestinians to Amazon Facial Recognition Tech",
+    "source_url": "https://truthout.org/articles/israel-uploaded-3-5m-photos-of-palestinians-to-amazon-facial-recognition-tech/",
+    "summary": "The military told Amazon that they uploaded the images specifically for the purpose of using Amazon’s Rekognition platform for facial recognition, according to documents leaked to the Guardian.\nFor years, the Israeli military has used facial recognition technology to enforce its occupation and enact harsh restrictions on Palestinians’ freedom of movement.\nIn Gaza, Israel has increased its use of facial recognition technology since the start of its 2023 assault.\nIn early 2024, The New York Times called Israel’s facial recognition program in Gaza an “experimental effort” — acknowledging that the mass surveillance at times “wrongly flagged civilians as wanted Hamas militants.”\nThe Israeli military has used “artificial intelligence to generate kill lists, monitoring our social-media accounts, and storing in bulk the audio of our phone calls,” he wrote.",
+    "category": "Image Recognition",
+    "published_date": "2026-11-20T18:16:45+00:00",
+    "slug": "israel-uploaded-35m-photos-of-palestinians-to-amazon-facial-recognition-tech-truthout",
+    "extraction_method": "newspaper4k",
+    "source_name": "truthout.org"
+  },
+  {
+    "id": 21255,
+    "title": "DOW Moves Ahead With Autonomous Vehicle Orchestrator Program",
+    "source_url": "https://www.executivegov.com/articles/dow-autonomous-vehicle-orchestrator-diu-prize-challenge-unmanned-fleets",
+    "summary": "Known as AVO, the program is designed to get unmanned systems that were never built to cooperate working as a single unit, the department said Thursday.\nWhat Is the AVO Challenge?\nEvaluators put each entry through live testing while weighing whether it lightened operator workload and could integrate a range of unmanned systems, the DOW stated.\n“Autonomous Vehicle Orchestrator places the operator at the center of autonomous operations,” said Senior Chief Petty Officer Max Strasiser, a Navy SEAL serving as chief operating officer for Project Agincourt and direct reporting program manager for unmanned systems.\nZach Laser and his team are leading the effort to move autonomous systems from standalone platforms to a coordinated operational force,” he continued.",
+    "category": "Autonomous Vehicles",
+    "published_date": "2026-11-20T17:44:38-05:00",
+    "slug": "dow-moves-ahead-with-autonomous-vehicle-orchestrator-program-executivegov",
+    "extraction_method": "newspaper4k",
+    "source_name": "executivegov.com"
+  },
+  {
+    "id": 21245,
+    "title": "ACT Expo 2027 to spotlight TCO, autonomous trucks",
+    "source_url": "https://www.ttnews.com/articles/act-expo-2027-early-look",
+    "summary": "A view of the exhibit hall at ACT Expo 2026.\n(ACT Expo 2026 and TRC Companies) The spotlight at ACT Expo 2027 will fall heavily on total cost of ownership of diesel and alternative-fuel trucks and on autonomous vehicles, the first indications of the event’s agenda show.\nSet to take place in Las Vegas May 17-20, 2027, ACT Expo will kick off with three workshops on engine technology, fuel and infrastructure optimization plus one devoted to autonomous vehicles.\nACT Expo 2026 focused on targeted business cases as subsidies faded under President Donald Trump and truck manufacturers kept their options open as demand for alternative powertrains stalled.\nThe ACT Expo exhibit hall, open May 18-19, will feature more than 400 exhibitors and sponsors, plus over 200 commercial vehicles.",
+    "category": "Autonomous Trucks",
+    "published_date": "2026-11-20T16:22:50-05:00",
+    "slug": "act-expo-2027-to-spotlight-tco-autonomous-trucks-transport-topics",
+    "extraction_method": "newspaper4k",
+    "source_name": "ttnews.com"
+  },
+  {
+    "id": 21250,
+    "title": "EACON AHS growth and 18.9% margin: capex and deployment notes for mine teams",
+    "source_url": "https://www.geomechanics.io/news/article/eacon-ahs-growth-and-189-margin-capex-and-deployment-notes-for-mine-teams",
+    "summary": "EACON reports that its first-half 2026 results show a gross profit margin of 18.9%, up 17.2 percentage points year-on-year, as it shifts to a more scalable, asset-light model for autonomous haulage system (AHS) deployment.\nThe company positions this stronger financial capacity to support wider rollout of its AHS solutions across multiple mine sites without owning large truck fleets, focusing instead on software, control platforms and integration services.\nFor mine operators, this signals growing availability of third-party AHS provision with lower upfront capital tied to mobile equipment.\nThe sharp 17.2 percentage point improvement in gross profit margin over the six months to 30 June 2026 gives EACON more internal cash to underwrite large-scale AHS roll-outs like the 4,000-truck ORCASTRA fleet reported on 13 November 2026, reducing reliance on external project finance for mine automation clients.\nFor operators at sites such as Tibet Julong Copper’s Zhibula mine, EACON’s strengthened financial capacity signals lower counterparty risk on long-term autonomous haulage contracts, which can be a deciding factor when committing entire truck fleets—especially battery-electric ones—to a single AHS vendor.",
+    "category": "Autonomous Trucks",
+    "published_date": "2026-11-20T16:21:02+00:00",
+    "slug": "eacon-ahs-growth-and-189-margin-capex-and-deployment-notes-for-mine-teams-geomechanicsio",
+    "extraction_method": "newspaper4k",
+    "source_name": "geomechanics.io"
+  },
+  {
+    "id": 21257,
+    "title": "Congress closes in on Chinese car ban, with a possible way out for Mercedes",
+    "source_url": "https://finance.yahoo.com/markets/stocks/article/congress-closes-in-on-chinese-car-ban-with-a-possible-way-out-for-mercedes-160342747.html",
+    "summary": "US lawmakers are moving to push a ban on Chinese cars into law, and Mercedes-Benz (MBG.DE) may get a way out.\nThe deal could also loosen earlier proposed restrictions that would ban car sales by automakers with Chinese ownership stakes.\nThat group includes Mercedes, which has Chinese shareholders holding approximately 20% of its stock.\nPer the report, the rules under discussion would allow sales if those Chinese stakes are passive, meaning they carry no voting power.\nChinese cars are already mostly kept out of the US.",
+    "category": "Connected Car",
+    "published_date": "2026-11-20T16:03:42+00:00",
+    "slug": "congress-closes-in-on-chinese-car-ban-with-a-possible-way-out-for-mercedes-yahoo-finance",
+    "extraction_method": "newspaper4k",
+    "source_name": "finance.yahoo.com"
+  },
+  {
+    "id": 21251,
+    "title": "Zenobē expands Electric Transport-as-a-Service offering to Germany, targeting electric bus and truck fleets",
+    "source_url": "https://www.sustainable-bus.com/news/zenobe-electric-trasport-as-a-service-germany/",
+    "summary": "Masats targets real-world testing for AIDA AI-powered bus door system within 12–18 months Door manufacturer Masats is advancing the development of its AIDA artificial intelligence-based bus door system, with testing on real vehicles targeted within the next 12–18 months.\nAt FIAA 2026 in Madrid, Marc Ball-llosera Massa, Business Development and Product Strategy Manager – Bus & Coach a... 🚫 NO safety driver inside the depot: where autonomous buses pay first A smartbus drives itself inside the depot.\nHere is what it returns to operators, what a depot needs first, and what it takes to build a smartbus.\nAt up to 50 km/h, with passengers standing, braking hard is ofte... Higer expands UK bus and coach offering: Azure 9 unveiled, V12 enters FlixBus trials Euro Bus Expo 2026 opened at the NEC in Birmingham, UK, on November 3, local time.\nTogether with its UK distributor, Harris Bus & Coach, HIGER showcased three models—the Azure 9, V12, and V10—and officially launched the Azure 9, a city-bus developed specifically for the UK market.",
+    "category": "Autonomous Trucks",
+    "published_date": "2026-11-20T15:57:06+00:00",
+    "slug": "zenobē-expands-electric-transport-as-a-service-offering-to-germany-targeting-electric-bus-and",
+    "extraction_method": "newspaper4k",
+    "source_name": "sustainable-bus.com"
+  },
+  {
+    "id": 21270,
+    "title": "UK Refrigerators saved from major Cyberattack in a Secret Seven Day Operation",
+    "source_url": "https://www.cybersecurity-insiders.com/uk-refrigerators-saved-from-major-cyberattack-in-a-secret-seven-day-operation/",
+    "summary": "In October 2026, a coordinated Cybersecurity operation reportedly helped prevent a potentially large-scale cyber attack targeting internet-connected refrigeration systems across the United Kingdom.\nSeveral refrigeration units and commercial freezers operating in supermarkets and other public establishments experienced operational disruptions after hackers allegedly attempted to compromise these connected devices.\nThe reported disruptions affected refrigeration systems used across several sectors, including fuel stations, warehouses, restaurants and stadiums.\nThe report further revealed that a secret seven-day secret operation was conducted with the involvement of several government departments and specialist teams.\nAs part of the operation, dozens of vulnerable refrigeration systems were reportedly taken offline to prevent further exploitation.",
+    "category": "IoT Cyber",
+    "published_date": "2026-11-20T15:29:55+00:00",
+    "slug": "uk-refrigerators-saved-from-major-cyberattack-in-a-secret-seven-day-operation-cybersecurity-insiders",
+    "extraction_method": "newspaper4k",
+    "source_name": "cybersecurity-insiders.com"
+  },
+  {
+    "id": 21246,
+    "title": "NS CEO: UP merger is rail’s answer to the highway and autonomous trucks",
+    "source_url": "https://www.trains.com/pro/freight/class-i/ns-ceo-up-merger-is-rails-answer-to-the-highway-and-autonomous-trucks/",
+    "summary": "They’ll target intermodal corridors of 500 to 1,500 miles, he said, with faster service and lower costs than rail.\nGeorge rejected merger opponents’ arguments that interline service can compete effectively with trucks.\nRailroads’ market share is 14% to 25% higher in lanes with single-line service, George noted.\n“We’re paying for this deal from the growth that comes from the highway,” George said.\nBut George said NS has already proven it can convert highway freight to rail, through the Conrail split.",
+    "category": "Autonomous Trucks",
+    "published_date": "2026-11-20T15:03:37+00:00",
+    "slug": "ns-ceo-up-merger-is-rails-answer-to-the-highway-and-autonomous-trucks-trains-magazine",
+    "extraction_method": "newspaper4k",
+    "source_name": "trains.com"
+  },
+  {
+    "id": 21286,
+    "title": "You Don’t Need to Spend Big to Get a Great Sim Racing Wheel",
+    "source_url": "https://www.motortrend.com/gear-reviews/best-sim-racing-wheelbases",
+    "summary": "Sim racing has evolved from a fringe pandemic-fueled hobby into a genuine scene that’s gained mass-market interest.\nOf course, we could have just told you which wheel delivered the highest peak torque and been done with it.\nADVERTISEMENT - CONTINUE READING BELOW How We Tested Sim Racing Wheelbases You might notice that our testing for these sim racing wheelbases looks a bit different from some of the other evaluations you’ve seen on MotorTrend.\nTest 2: Force Feedback Clipping You might already know what force feedback is, but what on earth is force feedback clipping?\nWe like to think comfort is a much more important metric to look at as you’re tuning your force feedback settings.",
+    "category": "Sim Racing",
+    "published_date": "2026-11-20T15:00:00+00:00",
+    "slug": "you-dont-need-to-spend-big-to-get-a-great-sim-racing-wheel-motortrend",
+    "extraction_method": "newspaper4k",
+    "source_name": "motortrend.com"
   },
   {
     "id": 21240,
@@ -121,6 +462,39 @@
     "source_name": "caranddriver.com"
   },
   {
+    "id": 21247,
+    "title": "Free rides, real data: Maltese island’s autonomous bus pilot puts the public in the driver’s seat",
+    "source_url": "https://cordis.europa.eu/article/id/468793-free-rides-real-data-maltese-islands-autonomous-bus-pilot-puts-the-public-in-the-drivers",
+    "summary": "The metaCCAZE project has launched Gozo’s first self-driving bus service, offering free public rides while researchers collect passenger feedback to shape the future of rural mobility.\nThe EU-funded metaCCAZE(opens in new window) project has begun its public testing of the first autonomous bus service on Gozo, Malta’s second-largest island.\nThe goal is to show how autonomous mobility could support smarter, more sustainable transport.\nDuring the public testing phase, the bus will follow a real-world route between Ċangura (San Lawrenz) and Dbieġi (Il-Wilġa in Għarb).\nThe service will be available to residents and visitors to the island free of charge during this phase.",
+    "category": "Autonomous Trucks",
+    "published_date": "2026-11-20T13:42:00",
+    "slug": "free-rides-real-data-maltese-islands-autonomous-bus-pilot-puts-the-public-in-the-drivers-seat-cordis",
+    "extraction_method": "newspaper4k",
+    "source_name": "cordis.europa.eu"
+  },
+  {
+    "id": 21269,
+    "title": "Cybersecurity Drives Digital Innovation and Trust in 2026",
+    "source_url": "https://www.onebullex.com/explore/cybersecurity-digital-age-innovation-trust",
+    "summary": "As of 2026-11-20 (UTC), cyberattacks occur every 39 seconds globally according to University of Maryland research, with the average cost of a data breach reaching $4.45 million per incident as reported by IBM Security’s 2023 Cost of a Data Breach Report.\nSecure Infrastructure Enables AI, IoT, and Blockchain Adoption Digital innovation depends on trust in the underlying security architecture.\nIn Conclusion Cybersecurity is the operational foundation of digital innovation and consumer trust in 2026.\nCybersecurity enables digital innovation by providing the trust foundation necessary for users to adopt new technologies.\nThe cybersecurity data and statistics reflect sources available at the time of writing and may change rapidly.",
+    "category": "IoT Cyber",
+    "published_date": "2026-11-20T13:37:37+00:00",
+    "slug": "cybersecurity-drives-digital-innovation-and-trust-in-2026-onebullex",
+    "extraction_method": "newspaper4k",
+    "source_name": "onebullex.com"
+  },
+  {
+    "id": 21280,
+    "title": "Urban Innovation: Bengaluru's Smart City Lessons",
+    "source_url": "https://www.weforum.org/stories/built-environment-and-infrastructure/urban-innovation-lessons-bengaluru-future-cities",
+    "summary": "Bengaluru provides a case in point that urban innovation thrives when rooted in local challenges and shaped by community needs.\nBengaluru taught us that cities become powerful innovation hubs when they allow real-world experimentation and collaboration to shape sustainable urban futures.\nZerocircle The lesson: Local innovation can help solve global environmental challenges Bengaluru is a bustling hub for food delivery in India.\nNamma Yatri The lesson: Cities work best when innovation serves communities first When infrastructure exists but remains disconnected, the real innovation is integration.\nThe future of urban innovation may not be built elsewhere and deployed locally.",
+    "category": "Smart Cities",
+    "published_date": "2026-11-20T13:35:21.451000+00:00",
+    "slug": "urban-innovation-bengalurus-smart-city-lessons-world-economic-forum",
+    "extraction_method": "newspaper4k",
+    "source_name": "weforum.org"
+  },
+  {
     "id": 21242,
     "title": "First look at Gran Turismo 7’s rebooted Autumn Ring circuit layout",
     "source_url": "https://traxion.gg/first-look-at-gran-turismo-7s-rebooted-autumn-ring-circuit-layout/",
@@ -141,6 +515,28 @@
     "slug": "thrustmasters-black-friday-sale-goes-live-with-up-to-100-off-direct-drive-console-bundles-traxiongg",
     "extraction_method": "newspaper4k",
     "source_name": "traxion.gg"
+  },
+  {
+    "id": 21263,
+    "title": "NYPD facial recognition oversight gaps exposed after 26,000 searches",
+    "source_url": "https://www.biometricupdate.com/202611/nypd-facial-recognition-oversight-gaps-exposed-after-26000-searches",
+    "summary": "The NYPD uses three facial recognition products using different algorithms and image repositories.\nDataWorks Face Plus searches New York and New Jersey arrest photographs, DataWorks+ PhotoManager searches NYPD arrest photographs, including juvenile images and Idemia’s FaceExpert searches adult NYPD arrest photographs.\nThe department’s publicly posted Facial Recognition Impact and Use Policy identifies the vendors but not their individual products, contrary to POST Act disclosure requirements.\nNYPD logs identified 98 approved requests between October 2023 and October 2025 for facial recognition searches outside departmental repositories.\nThe NYPD maintains that it does not use real-time facial recognition and that matches alone cannot justify an arrest.",
+    "category": "Image Recognition",
+    "published_date": "2026-11-20T12:57:05-05:00",
+    "slug": "nypd-facial-recognition-oversight-gaps-exposed-after-26000-searches-biometric-update",
+    "extraction_method": "newspaper4k",
+    "source_name": "biometricupdate.com"
+  },
+  {
+    "id": 21281,
+    "title": "Interview: Jung Hoon Lee on the growing gap in city AI readiness",
+    "source_url": "https://www.smartcitiesworld.net/video/interview-jung-hoon-lee-on-the-growing-gap-in-city-ai-readiness",
+    "summary": "JHL: The first important thing is that you need AI leadership, and governance is very important.\nBuilding trust within departments and building trust with citizens are becoming very important.\nAnother important thing is whether your data is ready.\nBuilding trust within departments and building trust with citizens are becoming very important.\nYou need a really good platform to run a smart AI city.",
+    "category": "Smart Cities",
+    "published_date": "2026-11-20T12:55:00+00:00",
+    "slug": "interview-jung-hoon-lee-on-the-growing-gap-in-city-ai-readiness-smart-cities-world",
+    "extraction_method": "newspaper4k",
+    "source_name": "smartcitiesworld.net"
   },
   {
     "id": 21226,
@@ -198,6 +594,17 @@
     "source_name": "industrialcyber.co"
   },
   {
+    "id": 21261,
+    "title": "White House removes cyber-security chief after series of tech outages",
+    "source_url": "https://www.bbc.com/news/articles/cwz0k3nn5p5mo",
+    "summary": "The top cyber-security official in the US government is leaving his post after a little over a year in the job.\nWhite House National Cyber Director Sean Cairncross was fired after losing the confidence of the White House chief of staff, Stephen Miller, according CBS, the BBC's US news partner.\nHis firing comes after a string of tech outages which hit banking, air traffic control and other sectors.\nCairncross was previously a lawyer in the Republican Party, before becoming the chief operating officer of the Republican National Committee.\nIn the first Trump administration, he was part of the team of the White House chief of staff.",
+    "category": "Cybersecurity",
+    "published_date": "2026-11-20T09:37:59.445000+00:00",
+    "slug": "white-house-removes-cyber-security-chief-after-series-of-tech-outages-bbc",
+    "extraction_method": "newspaper4k",
+    "source_name": "bbc.com"
+  },
+  {
     "id": 21233,
     "title": "10 Smart Cities Worth Planning a Trip Around",
     "source_url": "https://www.yahoo.com/lifestyle/articles/10-smart-cities-worth-planning-093003352.html",
@@ -229,6 +636,17 @@
     "slug": "op-ed-quantum-computing-is-coming-to-pennsylvania-are-we-ready-times-leader",
     "extraction_method": "newspaper4k",
     "source_name": "timesleader.com"
+  },
+  {
+    "id": 21284,
+    "title": "IU East student sees collegiate sim racing as an opportunity to bring students, skills and communities together",
+    "source_url": "https://news.iu.edu/east/live/news/54643-iu-east-student-sees-collegiate-sim-racing-as-an",
+    "summary": "What began as a shared hobby has grown into a personal initiative to expand collegiate sim racing and esports opportunities throughout Indiana University.\n“Sim racing may be the closest I ever get to racing in real life.\nThrough that work, he has also connected with INIT Esports, an organization working to bring colleges together to establish a collegiate sim racing conference.\n“I don’t want my involvement in collegiate sim racing to simply end,” he said.\n“I want to look back and know that I helped build something that gave future IU students opportunities I once had to search for myself.",
+    "category": "Sim Racing",
+    "published_date": "2026-11-20T05:00:00+00:00",
+    "slug": "iu-east-student-sees-collegiate-sim-racing-as-an-opportunity-to-bring-students-skills-and",
+    "extraction_method": "newspaper4k",
+    "source_name": "news.iu.edu"
   },
   {
     "id": 21207,
@@ -295,6 +713,94 @@
     "slug": "3-quantum-computing-stocks-that-could-help-set-you-up-for-life-the-motley-fool",
     "extraction_method": "newspaper4k",
     "source_name": "fool.com"
+  },
+  {
+    "id": 21248,
+    "title": "EACON reports continuing growth in financial capacity to support AHS initiatives",
+    "source_url": "https://im-mining.com/2026/11/20/eacon-reports-continuing-growth-in-financial-capacity-to-support-ahs-initiatives/",
+    "summary": "In the first half of 2026, EACON invested RMB156.1 million in research and development, representing a 33.7% increase from RMB116.7 million in the same period of 2025.\nEACON’s ability to support mining operations it says is underpinned by its established global deployment base and experience delivering autonomous haulage solutions across diverse operating environments.\nIn Australia, EACON has demonstrated its ability to integrate and deploy retrofit autonomous haulage technology within an established mining environment.\nThrough its project with Norton Gold Fields and Thiess in Western Australia, six Komatsu HD1500 trucks equipped with EACON’s autonomous driving solution.\nEACON also has announced two capital market initiatives alongside continued progress in its global autonomous haulage deployments.",
+    "category": "Autonomous Trucks",
+    "published_date": "2026-11-20T00:00:00",
+    "slug": "eacon-reports-continuing-growth-in-financial-capacity-to-support-ahs-initiatives-international",
+    "extraction_method": "newspaper4k",
+    "source_name": "im-mining.com"
+  },
+  {
+    "id": 21258,
+    "title": "Researchers Bring Broad Cybersecurity Studies to ACM CCS 2026",
+    "source_url": "https://news.research.gatech.edu/2026/11/20/researchers-bring-broad-cybersecurity-studies-acm-ccs-2026",
+    "summary": "Georgia Tech researchers are developing new ways to protect computing systems, secure sensitive information, and address emerging cybersecurity threats.\nGeorgia Tech has 31 authors contributing to the conference's main program.\nNine of the 12 papers are led by Georgia Tech researchers, highlighting the Institute's contributions to the field.\nFor example, Georgia Tech researchers developed FAULT, a framework for evaluating architectural backdoors in artificial intelligence (AI) models.\nThe highlight of the conference was the winning of the Best Paper Award by Georgia Tech researchers.",
+    "category": "Cybersecurity",
+    "published_date": "2026-11-20T00:00:00",
+    "slug": "researchers-bring-broad-cybersecurity-studies-to-acm-ccs-2026-georgia-institute-of-technology",
+    "extraction_method": "newspaper4k",
+    "source_name": "news.research.gatech.edu"
+  },
+  {
+    "id": 21259,
+    "title": "CrowdStrike reportedly in talks to acquire cybersecurity provider Zscaler",
+    "source_url": "https://siliconangle.com/2026/11/20/crowdstrike-reportedly-in-talks-to-acquire-cybersecurity-provider-zscaler/",
+    "summary": "CrowdStrike Holdings Inc. is reportedly in talks to buy Zscaler Inc., a publicly traded provider of cybersecurity software.\nCrowdStrike sells one of the world’s most popular cybersecurity platforms.\nZscaler competes in a different part of the cybersecurity market.\nZscaler sells a zero-trust network access, or ZTNA, platform designed to replace legacy VPN software.\nThe deal bought CrowdStrike a platform that can automatically end users’ application sessions when it detects cybersecurity issues.",
+    "category": "Cybersecurity",
+    "published_date": "2026-11-20T00:00:00",
+    "slug": "crowdstrike-reportedly-in-talks-to-acquire-cybersecurity-provider-zscaler-siliconangle",
+    "extraction_method": "newspaper4k",
+    "source_name": "siliconangle.com"
+  },
+  {
+    "id": 21265,
+    "title": "Met Police Deploys Phone-Based Facial Recognition Amid Bias Concerns",
+    "source_url": "https://oecd.ai/en/incidents/2026-11-20-993c",
+    "summary": "AI Risk & Accountability AI has risks and all actors must be accountable.\nAI, Data & Privacy Data and privacy are primary policy issues for AI.\nThe Hiroshima AI Reporting Framework Organisations developing advanced AI systems can participate by submitting a report.\nOECD.AI Index The OECD.AI Index assesses countries' progress in implementing the OECD Recommendation on AI OECD AI Principles The first IGO standard to promote innovative and trustworthy AI Papers & Publications OECD and GPAI publications on AI, including the OECD AI Papers Series.\nAbout OECD.AI OECD.AI is an online interactive platform dedicated to promoting trustworthy, human-centric AI.",
+    "category": "Image Recognition",
+    "published_date": "2026-11-20T00:00:00",
+    "slug": "met-police-deploys-phone-based-facial-recognition-amid-bias-concerns-oecd-ai-policy-observatory",
+    "extraction_method": "newspaper4k",
+    "source_name": "oecd.ai"
+  },
+  {
+    "id": 21266,
+    "title": "Harris County pulls $288K facial recognition deal before vote. Here’s how the technology works and why questions remain",
+    "source_url": "https://www.click2houston.com/news/local/2026/11/20/harris-county-pulls-288k-facial-recognition-deal-before-vote-heres-how-the-technology-works-and-why-questions-remain/",
+    "summary": "That’s the technology Harris County was considering purchasing for the Sheriff’s Office at a cost of $288,000 for the first year.\nThe proposed agreement with Clearview AI, a facial recognition technology company, was scheduled for consideration during Harris County Commissioners Court’s Thursday, Nov. 19, meeting.\nThat brings up an important question: What other options did Harris County consider before proposing a $288,000 agreement?\nFacial recognition technology raises questions extending beyond criminal investigations.\nWhen facial recognition software searches large collections of those images, questions arise about how personal information is gathered, accessed and used.",
+    "category": "Image Recognition",
+    "published_date": "2026-11-20T00:00:00",
+    "slug": "harris-county-pulls-288k-facial-recognition-deal-before-vote-heres-how-the-technology-works-and-why",
+    "extraction_method": "newspaper4k",
+    "source_name": "click2houston.com"
+  },
+  {
+    "id": 21277,
+    "title": "CMOS surprises",
+    "source_url": "https://www.nature.com/articles/s41928-026-01748-4",
+    "summary": "The development of silicon-based complementary metal–oxide–semiconductor (CMOS) technology, which is central to modern electronics, can be traced back to the work of Frank Wanlass and Chih-Tang Sah of Fairchild Semiconductor, who in 1963 reported building circuits using complementary n-type and p-type metal–oxide–semiconductor transistors1.\nBut despite their ubiquity, and detailed development, CMOS circuits can still offer up surprises, not least when operated at low temperatures.\nNow, writing in this issue of Nature Electronics, Alberto Gomez-Saiz, John Morton, Fernando Gonzalez-Zalba and colleagues show that high-performance superinductors can be created within CMOS circuits using titanium nitride (TiN) thin films native to the manufacturing process.\nThe sensors are created, in particular, by co-integrating a resonator containing the superinductor and a silicon quantum dot formed within the same integrated circuit.\nAs Thaddeus Ladd of HRL Laboratories notes in an accompanying News & Views article, “the finding that TiN in an unmodified, off-the-shelf CMOS metallization achieves superinductor-grade performance — and without any process engineering for that purpose — is genuinely unexpected and fortuitous.”",
+    "category": "Quantum Computers",
+    "published_date": "2026-11-20T00:00:00",
+    "slug": "cmos-surprises-nature",
+    "extraction_method": "newspaper4k",
+    "source_name": "nature.com"
+  },
+  {
+    "id": 21283,
+    "title": "Ericsson and Altair Demonstrate First 5G eRedCap Network Connection",
+    "source_url": "https://iotbusinessnews.com/2026/11/20/ericsson-and-altair-demonstrate-first-5g-eredcap-network-connection/",
+    "summary": "Ericsson and Altair Semiconductor have demonstrated the first network connection using enhanced Reduced Capability (eRedCap), a 5G technology designed to reduce device complexity, cost and power consumption.\nThe test marks a step toward bringing 5G connectivity to a broader range of IoT devices, including sensors, trackers and AI-enabled wearables.\nFor many IoT applications, conventional 5G connectivity delivers more performance than devices actually need.\nEricsson and Altair Semiconductor have taken a step in that direction by completing what the companies describe as the first network connection using enhanced Reduced Capability (eRedCap), an evolution of 5G NR RedCap introduced in 3GPP Release 18.\nFor mobile operators, the technology could eventually extend the addressable market for 5G Standalone services to connected products that do not require conventional 5G performance.",
+    "category": "Smart Cities",
+    "published_date": "2026-11-20T00:00:00",
+    "slug": "ericsson-and-altair-demonstrate-first-5g-eredcap-network-connection-iot-business-news",
+    "extraction_method": "newspaper4k",
+    "source_name": "iotbusinessnews.com"
+  },
+  {
+    "id": 21289,
+    "title": "iRacing is Getting a Single-Player Career Mode in December",
+    "source_url": "https://gamingbolt.com/iracing-is-getting-a-single-player-career-mode-in-december",
+    "summary": "iRacing is getting a career mode.\nThe career mode will be coming to iRacing in 2026, and the developers have said that it represents “a complete evolution of the iRacing experience,” with its core design revolving around complementing the racer’s multiplayer offerings with a single-player campaign.\nThe career mode has been “years in the making” at the iRacing studio, and will be available to all iRacing members as a free offering.\n“If we’re looking at this through a traditional racing game lens, each iRacing career offers a full game worth of racing action, and more,” explains the studio.\n“Career mode was built by a diverse team, designed by sim racers, iRacing designers, former motorsport team managers, and real-world professional drivers.",
+    "category": "Sim Racing",
+    "published_date": "2026-11-20T00:00:00",
+    "slug": "iracing-is-getting-a-single-player-career-mode-in-december-gamingbolt",
+    "extraction_method": "newspaper4k",
+    "source_name": "gamingbolt.com"
   },
   {
     "id": 21232,
