@@ -11,6 +11,534 @@
     "source_name": "nature.com"
   },
   {
+    "id": 21439,
+    "title": "Japan’s quantam dawn is here. Now comes the hard part",
+    "source_url": "https://www.taipeitimes.com/News/editorials/archives/2026/11/25/2003868331",
+    "summary": "“If you think you can understand quantum mechanics, you don’t understand quantum mechanics,” US Deputy Chief of Mission Aaron D. Snipe said at the event, paraphrasing the famous quote from US physicist Richard Feynman.\nJapan’s quantum dawn has arrived — it has to figure out what to do with the daylight.\n“AI helps build better quantum computers, quantum computers then help AI become more intelligent,” he said.\nA Softbank representative said they are exploring how quantum computers might eventually integrate with data centers, an intriguing if premature idea.\nIt ranks second in quantum-computing patents granted between 2000 and 2024, behind only the US, according to McKinsey’s annual Quantum Technology Monitor.",
+    "category": "Quantum Computers",
+    "published_date": "2026-11-25T00:00:00",
+    "slug": "japans-quantam-dawn-is-here-now-comes-the-hard-part-taipei-times",
+    "extraction_method": "newspaper4k",
+    "source_name": "taipeitimes.com"
+  },
+  {
+    "id": 21445,
+    "title": "The 'Sejong Smart City National Demonstration City Project', a futuristic city where advanced techno..",
+    "source_url": "https://www.mk.co.kr/en/society/12217329",
+    "summary": "Maeil Business(MK) provides these translations \"as they are\" and makes no warranties of any kind, either explicitly or implicitly, regarding accuracy, reliability and marketability, suitability for a particular purpose, etc.\nof translation.\nPlease be informed that the content provided may not be translated accurately due to limitations in machine translation before using this service.",
+    "category": "Smart Cities",
+    "published_date": "2026-11-24T17:21:01+09:00",
+    "slug": "the-sejong-smart-city-national-demonstration-city-project-a-futuristic-city-where-advanced-techno",
+    "extraction_method": "newspaper4k",
+    "source_name": "mk.co.kr"
+  },
+  {
+    "id": 21452,
+    "title": "Open-Source SimRig Tool Simplifies Racing Wheel Setup on Linux",
+    "source_url": "https://boxthislap.org/simrig-linux-racing-wheel-setup/",
+    "summary": "This page runs a brief security check to confirm you are not a bot.\nThe verification is automatic and typically completes within a few seconds.\nNo action is required on your part.\nCookies must be enabled for this site: the result of the check is stored in one.",
+    "category": "Sim Racing",
+    "published_date": "2026-11-24T16:41:09",
+    "slug": "open-source-simrig-tool-simplifies-racing-wheel-setup-on-linux-boxthislap",
+    "extraction_method": "newspaper4k",
+    "source_name": "boxthislap.org"
+  },
+  {
+    "id": 21444,
+    "title": "The Frontline | Lenovo Qitian Launches Dunhuang Urban Super Intelligent Agent: Featuring a Unified Multimodal Interaction Portal",
+    "source_url": "https://eu.36kr.com/en/p/4083749704116616",
+    "summary": "On November 20, the Urban Super Agent jointly released by Lenovo and Dunhuang, as well as the *White Paper on Urban Super Agent* co-produced by Lenovo and IDC in the same period, provide the industry with a sample to observe the implementation path of Smart City 4.0.\nAt present, there are two key bottlenecks in the implementation of urban AI.\nBased on this architecture, the Dunhuang Urban Super Agent has realized \"four unifications\": unified entry, unified scheduling, unified memory, and unified capabilities.\nLenovo disclosed that since the global debut of the Urban Super Agent in 2025, it has been deployed in 11 cities including Yichang, Hohhot, and Foshan.\nTo judge the industry significance of a city agent sample, the key does not lie in whether it can be demonstrated, but in whether it can be replicated.",
+    "category": "Smart Cities",
+    "published_date": "2026-11-24T16:40:54",
+    "slug": "the-frontline-lenovo-qitian-launches-dunhuang-urban-super-intelligent-agent-featuring-a-unified",
+    "extraction_method": "newspaper4k",
+    "source_name": "eu.36kr.com"
+  },
+  {
+    "id": 21431,
+    "title": "BCI Cyber Resilience SIG Webinar: Cyber Resilience in the Transportation Sector",
+    "source_url": "https://www.thebci.org/event-detail/event-calendar/bci-cyber-resilience-sig-webinar--cyber-resilience-in-the-transportation-sector.html",
+    "summary": "Webinar Webinar To register for this event please log in to your BCI website profile.\nIf you do not have a website profile, please register here.\nA summary of the BCI white paper on securing Europe's railways, airports, ports and roads against a rising, geopolitically charged cyber threat.\nThe backbone of the economy — now a hybrid battlefield: railways, airports, ports and road networks are no longer just physical assets — they are deeply interconnected digital ecosystems moving millions of people and billions of euros every day.\nIf corporate IT systems—such as email, identity, and network infrastructure—are compromised, it can severely impact operational technology (OT) systems that were never directly breached.",
+    "category": "IoT Cyber",
+    "published_date": "2026-11-24T16:39:17",
+    "slug": "bci-cyber-resilience-sig-webinar-cyber-resilience-in-the-transportation-sector-the-business",
+    "extraction_method": "newspaper4k",
+    "source_name": "thebci.org"
+  },
+  {
+    "id": 21422,
+    "title": "No Student ID Required: Dankook University Embraces Facial Recognition",
+    "source_url": "http://koreabizwire.com/no-student-id-required-dankook-university-embraces-facial-recognition/363957",
+    "summary": "자동등록방지를 위해 보안절차를 거치고 있습니다. Please prove that you are human.",
+    "category": "Image Recognition",
+    "published_date": "2026-11-24T16:39:04",
+    "slug": "no-student-id-required-dankook-university-embraces-facial-recognition-koreabizwire",
+    "extraction_method": "newspaper4k",
+    "source_name": "koreabizwire.com"
+  },
+  {
+    "id": 21409,
+    "title": "Redundancy-Aware Oversampling Fixes Autonomous Vehicle Crash Data Without Boosting Linear Model Accuracy",
+    "source_url": "https://bioengineer.org/redundancy-aware-oversampling-fixes-autonomous-vehicle-crash-data-without-boosting-linear-model-accuracy/",
+    "summary": "A methodological investigation into machine learning techniques for autonomous vehicle safety has revealed that generating synthetic crash data across multiple distance metrics frequently duplicates existing records rather than introducing genuine sample diversity.\nPublished in Frontiers in Artificial Intelligence, the study examined the Multi-Distance Synthetic Technique, an established oversampling algorithm developed to mitigate acute class imbalance within small, high-dimensional tabular crash records.\nTo diagnose and resolve this structural shortcoming, the research team designed the Redundancy-Aware Multi-Distance Synthetic Technique, designated RA-MDST, alongside an expanded type-preserving formulation termed RA-MDST-TP.\nSubject of Research: Evaluation of redundancy-aware synthetic oversampling for imbalanced autonomous vehicle crash-severity prediction Article Title: RA-MDST: correcting neighborhood redundancy in multi-distance oversampling of autonomous-vehicle crash data Article References: Shehzad, M. T., Shafique, R., & Choi, G. S. (2026).\nRA-MDST: correcting neighborhood redundancy in multi-distance oversampling of autonomous-vehicle crash data.",
+    "category": "Autonomous Vehicles",
+    "published_date": "2026-11-24T16:32:42+00:00",
+    "slug": "redundancy-aware-oversampling-fixes-autonomous-vehicle-crash-data-without-boosting-linear-model",
+    "extraction_method": "newspaper4k",
+    "source_name": "bioengineer.org"
+  },
+  {
+    "id": 21438,
+    "title": "'A new record in quantum error correction': Scientists say breakthrough brings powerful, fault-tolerant quantum computers closer to reality",
+    "source_url": "https://www.livescience.com/technology/quantum/a-new-record-in-quantum-error-correction-scientists-say-breakthrough-brings-powerful-fault-tolerant-quantum-computers-closer-to-reality",
+    "summary": "Scientists at Quantinuum say they've set a new record in quantum error correction that brings large-scale, fault-tolerant systems one step closer.\nThe result brings quantum computing closer to the \"megaquop regime,\" where systems can run over a million operations without encountering an error, the researchers said.\nQuantum error correction has become a focal point for researchers for this exact reason.\nIt introduces redundancy to quantum systems to ensure that small, potentially manageable errors don't wipe out entire calculations.\nThis involves spreading quantum information across multiple physical qubits to form a \"logical\" qubit.",
+    "category": "Quantum Computers",
+    "published_date": "2026-11-24T16:00:00+00:00",
+    "slug": "a-new-record-in-quantum-error-correction-scientists-say-breakthrough-brings-powerful-fault-tolerant",
+    "extraction_method": "newspaper4k",
+    "source_name": "livescience.com"
+  },
+  {
+    "id": 21401,
+    "title": "Driver Retention Drives 375-Truck Volvo Order",
+    "source_url": "https://www.truckinginfo.com/news/driver-retention-drives-375-truck-volvo-order",
+    "summary": "The Elgin, Illinois-based carrier grew to about 250 trucks by 2021 and today operates more than 600 trucks, according to a Volvo Trucks North America announcement.\nAd Loading...\nIn 2022, the carrier opened its own full-service terminal in Huntley, Illinois, bringing maintenance in-house as the fleet grew.\nOther key specs include: Ad Loading... Volvo D13 engine rated at 455 hp and 1,850 lb-ft of torque.\nE&O ONE, which maintains its trucks in-house, plans to expand the Huntley facility onto about 8 adjoining acres in 2027.",
+    "category": "Autonomous Trucks",
+    "published_date": "2026-11-24T15:13:30.938000+00:00",
+    "slug": "driver-retention-drives-375-truck-volvo-order-heavy-duty-trucking",
+    "extraction_method": "newspaper4k",
+    "source_name": "truckinginfo.com"
+  },
+  {
+    "id": 21450,
+    "title": "Sony’s $330 Gaming Headset Is Now $140, Just in Time for Your Sim Rig",
+    "source_url": "https://www.motorbiscuit.com/sonys-330-gaming-headset-is-now-140-just-in-time-for-your-sim-rig/",
+    "summary": "Sony’s INZONE H9 wireless gaming headset is $139.99 from Nov. 23, down from $329.99, and its noise canceling suits a sim rig in a busy house.\nThat’s $190 off the list price on Sony’s site, and Sony says it’s the headset’s lowest price ever.\nWhat the H9 Does The INZONE H9 is a wireless over-ear headset built for PC and PlayStation gaming.\nIts two headline features are active noise canceling and Sony’s 360 Spatial Sound for gaming, which Sony says helps you pinpoint where a sound is coming from.\nWhere It Fits in a Rig Budget At $139.99, the H9 costs a fraction of what most direct-drive wheel bases cost.",
+    "category": "Sim Racing",
+    "published_date": "2026-11-24T14:30:08+00:00",
+    "slug": "sonys-330-gaming-headset-is-now-140-just-in-time-for-your-sim-rig-motorbiscuit",
+    "extraction_method": "newspaper4k",
+    "source_name": "motorbiscuit.com"
+  },
+  {
+    "id": 21406,
+    "title": "Waymo Suspends Driverless Freeway Rides Following California Ban",
+    "source_url": "https://programbusiness.com/news/waymo-suspends-driverless-freeway-rides-following-california-ban/",
+    "summary": "The suspension followed several incidents involving Waymo vehicles, including encounters with construction zones and California Highway Patrol officers.\nWaymo Suspends Freeway Operations Across Multiple Markets Waymo previously offered driverless freeway rides in the San Francisco Bay Area, Los Angeles, Phoenix, Miami, and Austin, Texas.\nA Waymo spokesperson confirmed that the company temporarily restricted commercial freeway rides in all markets where it provides the service.\nCalifornia Restrictions Remain in Effect California’s restrictions prohibit Waymo from operating or testing driverless vehicles on freeways throughout the state.\nThe company has not announced when it expects to resume driverless freeway rides in California or its other operating markets.",
+    "category": "Autonomous Vehicles",
+    "published_date": "2026-11-24T14:00:18+00:00",
+    "slug": "waymo-suspends-driverless-freeway-rides-following-california-ban-program-business",
+    "extraction_method": "newspaper4k",
+    "source_name": "programbusiness.com"
+  },
+  {
+    "id": 21407,
+    "title": "Waymo recalls self-driving cars over closed freeway lanes, manual traffic control",
+    "source_url": "https://www.businessinsurance.com/waymo-recalls-self-driving-cars-over-closed-freeway-lanes-manual-traffic-control/",
+    "summary": "(Reuters) – Alphabet’s self-driving unit Waymo said on Friday it is issuing two recalls for its robotaxis over incidents involving closed freeway lanes and manual traffic control.\nWaymo said a statement it filed two safety recalls with the National Highway Traffic Safety Administration on Thursday on its automated driving system “to strengthen how the Waymo Driver navigates closed freeway lanes and intersections with manual traffic control.”\nThe closed freeway lanes recall stems from unusual circumstances where a Waymo vehicle may enter and continue driving in a closed freeway lane, the company said, adding it is still working on the recall remedy.\nWaymo said there were no collisions or injuries reported from the closed freeway events.\nThe probe will look into nearly 3,000 company-owned self-driving vehicles.",
+    "category": "Autonomous Vehicles",
+    "published_date": "2026-11-24T13:48:41+00:00",
+    "slug": "waymo-recalls-self-driving-cars-over-closed-freeway-lanes-manual-traffic-control-business-insurance",
+    "extraction_method": "newspaper4k",
+    "source_name": "businessinsurance.com"
+  },
+  {
+    "id": 21420,
+    "title": "US ports face mounting cybersecurity threats",
+    "source_url": "https://safety4sea.com/us-ports-face-mounting-cybersecurity-threats/",
+    "summary": "US ports are facing growing cybersecurity threats, with the Port of Los Angeles blocking 120 million attempted cyberattacks in August alone.\nThe growing volume of attempted attacks underscores the importance of cybersecurity measures as ports become increasingly reliant on interconnected digital systems to manage cargo movements, logistics and vessel operations.\nGrowing cybersecurity risks across shipping The developments come amid growing concerns over cybersecurity across the maritime supply chain.\nUS strengthens maritime cybersecurity requirements In response to growing cyber risks, the USCG issued maritime cybersecurity guidance in October 2026, clarifying requirements for regulated vessels, port facilities and offshore installations ahead of the July 2027 compliance deadline.\nMeanwhile, the launch of a new maritime cybersecurity vulnerability database in October aims to help operators identify vulnerabilities affecting shipboard, port and offshore systems and prioritize corrective measures.",
+    "category": "Cybersecurity",
+    "published_date": "2026-11-24T13:25:54+00:00",
+    "slug": "us-ports-face-mounting-cybersecurity-threats-safety4sea",
+    "extraction_method": "newspaper4k",
+    "source_name": "safety4sea.com"
+  },
+  {
+    "id": 21448,
+    "title": "Why Gran Turismo, not F1, leads the way in sim racing competitions",
+    "source_url": "https://www.the-race.com/extra/why-gran-turismo-not-f1-leads-the-way-in-sim-racing-competitions/",
+    "summary": "No, not one of F1's support categories, but the Gran Turismo World Series, and the excitement it offers could convince even the most cynical of motorsport purists.\nWhat is the Gran Turismo World Series?\nFollowing a COVID-fuelled explosion of sim racing competitions, the racing game broadcast scene has simmered down.\nYet, Gran Turismo remains resolute in its goal to reach new audiences through virtual racing events.\n\"The presentation and audience are something that no one else really does to the same level as Gran Turismo.",
+    "category": "Sim Racing",
+    "published_date": "2026-11-24T13:23:29+00:00",
+    "slug": "why-gran-turismo-not-f1-leads-the-way-in-sim-racing-competitions-the-race",
+    "extraction_method": "newspaper4k",
+    "source_name": "the-race.com"
+  },
+  {
+    "id": 21453,
+    "title": "Sim Global Expo moves to Excel London in February 2027",
+    "source_url": "https://traxion.gg/sim-global-expo-moves-to-excel-london-in-february-2027/",
+    "summary": "“We started Sim Global Expo because we felt the UK was missing a dedicated event where sim racing and flight simulation enthusiasts could get together, try the kit they’d been looking at online and meet the brands behind it,” said Sim Global Expo representative Evie Abbott-Wilcox.\nThank you to everyone who’s backed us from the start, and to the Motorsport Expo team for welcoming us to their show.”\nThis includes access to the Sim Global Expo, Motorsport Expo and Car Culture UK.\nVIP tickets start at £110, while a Golden Ticket also includes entry to the London International Motor Show for £50.\nTickets for the Motorsport Expo live action arena cost £15 early when purchased with a Motorsport Expo UK or Car Culture UK ticket and using the code LAA at the checkout, or £25 standalone.",
+    "category": "Sim Racing",
+    "published_date": "2026-11-24T13:00:48+00:00",
+    "slug": "sim-global-expo-moves-to-excel-london-in-february-2027-traxiongg",
+    "extraction_method": "newspaper4k",
+    "source_name": "traxion.gg"
+  },
+  {
+    "id": 21405,
+    "title": "Next Phase of Lucid Gravity Robotaxi Testing Brings Driverless Uber Rides One Step Closer to Reality",
+    "source_url": "https://www.caranddriver.com/news/a74512207/uber-nuro-lucid-gravity-robotaxi-driverless-testing/",
+    "summary": "Driverless robotaxis built through a collaboration between Lucid, Uber, and Nuro have begun testing in the San Francisco Bay Area without safety drivers inside.\nThe modified Lucid Gravity SUVs use Nuro’s autonomous driving system and will be owned and operated by Uber.\nThe robotaxis are expected to begin offering rides through the Uber app in the Bay Area during the first quarter of 2027.\nA fleet of specially equipped Lucid Gravity SUVs has also been on the prowl in the Bay Area this year, testing a self-driving ride-hailing experience for Uber.\nThe modified Gravity SUVs are the product of a collaboration between Lucid, Uber, and Nuro, a company that builds autonomous driving software.",
+    "category": "Autonomous Vehicles",
+    "published_date": "2026-11-24T13:00:04.349329+00:00",
+    "slug": "next-phase-of-lucid-gravity-robotaxi-testing-brings-driverless-uber-rides-one-step-closer-to",
+    "extraction_method": "newspaper4k",
+    "source_name": "caranddriver.com"
+  },
+  {
+    "id": 21399,
+    "title": "The Self-Driving Container",
+    "source_url": "https://www.changinglanesnewsletter.com/p/the-self-driving-container",
+    "summary": "And it would need a chassis, a wheeled steel frame pulled by the tractor, onto which the container would sit.\nSo let’s add self-driving sensors and computing equipment, and now we can subtract the driver.\n“Just as you drop a container onto our skateboard and it locks in, you can [also] drop a cab”, Cohen explained.\nCanada’s Port of Prince Rupert, which calls itself “the continent’s first purpose-built ship-to-rail container terminal”, already works this way.\nTo see this in action, look at greater Toronto, which has no container port of any size.",
+    "category": "Autonomous Trucks",
+    "published_date": "2026-11-24T12:04:30+00:00",
+    "slug": "the-self-driving-container-changing-lanes-andrew-miller",
+    "extraction_method": "newspaper4k",
+    "source_name": "changinglanesnewsletter.com"
+  },
+  {
+    "id": 21449,
+    "title": "Five PC sim racing games we can’t wait to play on PS5",
+    "source_url": "https://traxion.gg/five-pc-sim-racing-games-we-cant-wait-to-play-on-ps5/",
+    "summary": "Assetto Corsa EVO Assetto Corsa EVO had a rocky Steam Early Access launch, but Kunos Simulazioni’s driving simulation is steadily improving.\nLike the Rally spin-off, Assetto Corsa EVO is expected to exit Early Access in the first half of 2027.\nEuro Truck Simulator 2/American Truck Simulator Euro Truck Simulator 2 and American Truck Simulator are phenomenally popular on PC, frequently appearing in the most played Steam charts.\nEuro Truck Simulator 2 recently added drivable coaches, while licensed Ford vehicles were recently added to American Truck Simulator.\nWhich PS5 sim racing games are you looking forward to?",
+    "category": "Sim Racing",
+    "published_date": "2026-11-24T11:19:57+00:00",
+    "slug": "five-pc-sim-racing-games-we-cant-wait-to-play-on-ps5-traxiongg",
+    "extraction_method": "newspaper4k",
+    "source_name": "traxion.gg"
+  },
+  {
+    "id": 21435,
+    "title": "IBM quantum computer solves problem classical computers can’t in just 15 minutes",
+    "source_url": "https://www.sciencedaily.com/releases/2026/11/261123231244.htm",
+    "summary": "Solving Quantum Computing's Verification Problem Unlike conventional computers, which process information using bits that represent either zero or one, quantum computers rely on quantum bits, or qubits.\nFor years, scientists have tested the capabilities of quantum computers using a benchmark called random circuit sampling (RCS).\nIf a computation is too difficult for a classical computer to reproduce, how can researchers establish that the quantum computer performed it correctly?\nA New Era of Quantum Advantage \"We are now firmly in the quantum advantage era,\" said Jay Gambetta, Director of IBM Research and IBM Fellow.\nIBM's quantum computer, by comparison, accomplished the task in approximately 15 minutes.",
+    "category": "Quantum Computers",
+    "published_date": "2026-11-24T11:18:45+00:00",
+    "slug": "ibm-quantum-computer-solves-problem-classical-computers-cant-in-just-15-minutes-sciencedaily",
+    "extraction_method": "newspaper4k",
+    "source_name": "sciencedaily.com"
+  },
+  {
+    "id": 21447,
+    "title": "Ready to Race? Our Favorite Beginner Sim Racing Wheel Is 29% Off for Black Friday",
+    "source_url": "https://www.roadandtrack.com/gear/a74510275/best-sim-racing-wheel-beginners-black-friday/",
+    "summary": "If you've been thinking about getting into sim racing, Black Friday is a great opportunity to upgrade your setup without spending a fortune.\nThe Logitech G923 Racing Wheel and Pedals, which we named ‘Best for Beginners’ in our Best Sim Racing Wheels roundup, is currently 29 percent off.\nThe G923 offers an approachable introduction to sim racing, with a leather-wrapped steering wheel, paddle shifters, and a three-pedal setup for even more real action.\nWith GTA VI generating excitement around gaming upgrades, it's also worth checking out our guide to gaming gear for GTA VI.\nWhile the G923 isn't compatible with that game, it's an excellent addition for players interested in dedicated racing titles.",
+    "category": "Sim Racing",
+    "published_date": "2026-11-24T11:14:03-05:00",
+    "slug": "ready-to-race-our-favorite-beginner-sim-racing-wheel-is-29-off-for-black-friday-road-track",
+    "extraction_method": "newspaper4k",
+    "source_name": "roadandtrack.com"
+  },
+  {
+    "id": 21424,
+    "title": "Best Top 10 Deep Learning Development Companies You Should Know",
+    "source_url": "https://market.us/press-release/top-10-deep-learning-development-companies/",
+    "summary": "Best Top 10 Deep Learning Development Companies You Should Know Quick Navigation Introduction Market Size & Statistics Companies Approximate Market Share 1.\nIt did not disclose standalone Instinct sales, so the segment’s 97% growth cannot be attributed to deep learning alone.\nArm Holdings plc American depositary shares trade on Nasdaq under ARM (Arm earnings filing).\nGoogle, Inc. (Google LLC) Google develops Gemini foundation models through Google DeepMind and sells model access and computing capacity through Google Cloud.\nThe figures show that growth extended beyond hyperscalers, but NVIDIA did not disclose revenue separately for deep learning, training, or inference.",
+    "category": "Image Recognition",
+    "published_date": "2026-11-24T11:02:45+00:00",
+    "slug": "best-top-10-deep-learning-development-companies-you-should-know-marketus",
+    "extraction_method": "newspaper4k",
+    "source_name": "market.us"
+  },
+  {
+    "id": 21411,
+    "title": "Your car is collecting your data, here's how to see what it knows",
+    "source_url": "https://www.pocket-lint.com/your-car-collecting-data-how-to-see/",
+    "summary": "Here's how to see exactly what data your car collects, how to turn it off, and the risks of doing so.\nWhat your car actually collects It's a computer on wheels, and it acts like one, too Your car collects a lot of data about you, beyond what shows up on a Carfax report.\nWhere your data ends up Remember that insurance bit Until recently, we didn't have a clear picture of where all this data actually went.\nHow to limit what your car shares But be careful, there's a catch First things first, in apps like OnStar, FordPass, HondaLink, Toyota Connected, and Blue Link, go to Data Privacy or Data Usage and opt out of third-party sharing and ads.\nAnd finally, if you're thinking about buying a new ride, services like the Vehicle Privacy Report let you run a car's 17-digit VINand access its data practices.",
+    "category": "Connected Car",
+    "published_date": "2026-11-24T11:00:18+00:00",
+    "slug": "your-car-is-collecting-your-data-heres-how-to-see-what-it-knows-pocket-lint",
+    "extraction_method": "newspaper4k",
+    "source_name": "pocket-lint.com"
+  },
+  {
+    "id": 21398,
+    "title": "Digging into the Future: How Technology Is Transforming the Mining Equipment Market",
+    "source_url": "https://www.azomining.com/Article.aspx?ArticleID=1984",
+    "summary": "Mining companies adopt them to raise equipment utilization, increase tons moved per operating hour, and reduce personnel exposure in busy pits.\nA fully human-operated fleet showed an average collision probability of 0.209 during the morning shift, compared with 0.017 for a fully autonomous fleet.\nBattery-Electric Machines Underground Underground mines are investing heavily in fans that clear diesel exhaust and heat from tunnels, which makes battery-electric vehicles (BEVs) a natural choice for underground operations.\nConsultancy unpacks changing dynamics of mining equipment market up to 2033.\nBattery Electric Vehicles in Underground Mining: Benefits, Challenges, and Safety Considerations.",
+    "category": "Autonomous Trucks",
+    "published_date": "2026-11-24T10:49:00-05:00",
+    "slug": "digging-into-the-future-how-technology-is-transforming-the-mining-equipment-market-azomining",
+    "extraction_method": "newspaper4k",
+    "source_name": "azomining.com"
+  },
+  {
+    "id": 21419,
+    "title": "ABC Launches Cybersecurity Roadmap for Federal Contractors",
+    "source_url": "https://tedmag.com/abc-launches-cybersecurity-roadmap-for-federal-contractors/",
+    "summary": "WASHINGTON — Associated Builders and Contractors recently announced the launch of its Cybersecurity Maturity Model Certification Roadmap for Contractors.\nThis free roadmap helps any U.S. Department of Defense contractor or subcontractor within the Defense Industrial Base that handles Federal Contract Information or Controlled Unclassified Information become CMMC certified for Phase 1.\n“Right now, this cybersecurity certification is limited to the DOD, but we expect it to expand to other government agencies and even private sectors soon.\nThat’s why ABC is urging contractors to get ahead of the curve—build a cybersecurity plan, set up clear processes and use this roadmap to navigate the regulatory landscape.”\nSpecifically designed for DOD contractors, it ensures proper management of controlled unclassified information, federal contract information and required cybersecurity standards.",
+    "category": "Cybersecurity",
+    "published_date": "2026-11-24T09:46:02-06:00",
+    "slug": "abc-launches-cybersecurity-roadmap-for-federal-contractors-the-electrical-distributor-magazine",
+    "extraction_method": "newspaper4k",
+    "source_name": "tedmag.com"
+  },
+  {
+    "id": 21451,
+    "title": "Talented young drivers complete rigorous Porsche Junior 2027 talent assessment",
+    "source_url": "https://racing.porsche.com/articles/2027-junior-shootout-event",
+    "summary": "With the goal of becoming the 35th Porsche Junior, the group underwent a screening process first in Cologne and then at the Autódromo Internacional Algarve.\nThe candidates are aged between 18 and 22, and each was nominated by one of the 12 national Carrera Cups.\nReaching this stage of the process marks an important milestone in the young drivers’ development, and offers the chance to become the next Porsche Junior.\nIdeally, they will also compete in one of the regional Porsche Carrera Cups.\nOur aim is for the Porsche Junior to get the very best out of themselves, both as a racing driver and as a professional.”",
+    "category": "Sim Racing",
+    "published_date": "2026-11-24T09:11:54.303000+00:00",
+    "slug": "talented-young-drivers-complete-rigorous-porsche-junior-2027-talent-assessment-porsche-motorsport",
+    "extraction_method": "newspaper4k",
+    "source_name": "racing.porsche.com"
+  },
+  {
+    "id": 21414,
+    "title": "UT San Antonio receives $7.6 million to expand national cybersecurity training",
+    "source_url": "https://news.utsa.edu/2026/11/ut-san-antonio-receives-7-6-million-to-expand-national-cybersecurity-training/",
+    "summary": "The funding will enable the National Cybersecurity Preparedness Consortium (NCPC) to expand its reach and continue delivering cybersecurity training, exercises, and technical assistance through 2029.\n“These accomplishments demonstrate the scale of the consortium’s impact and the critical need for continued investment in cybersecurity preparedness,” Sjelin said.\nNCPC training covers topics ranging from cybersecurity leadership and incident management to cyber defense and critical infrastructure security.\n“Expanding access to cybersecurity training has always been a core part of NCPC’s mission,” Sjelin said.\n“Through this award, NCPC will build on its longstanding outreach efforts to connect more communities with cybersecurity training, exercises and technical assistance.”",
+    "category": "Cybersecurity",
+    "published_date": "2026-11-24T09:00:24+00:00",
+    "slug": "ut-san-antonio-receives-76-million-to-expand-national-cybersecurity-training-ut-san-antonio-today",
+    "extraction_method": "newspaper4k",
+    "source_name": "news.utsa.edu"
+  },
+  {
+    "id": 21421,
+    "title": "FBI moves toward 2027 competition for biometric matching algorithms",
+    "source_url": "https://www.biometricupdate.com/202611/fbi-moves-toward-2027-competition-for-biometric-matching-algorithms",
+    "summary": "The Federal Bureau of Investigation (FBI) is moving toward a formal competition for biometric matching algorithms supporting its massive Next Generation Identification (NGI) system, with a February 2027 solicitation expected to cover fingerprints, latent prints, facial recognition, iris recognition, and tattoos.\nFrom market research toward competition The announcement represents the next stage of a series of FBI market research efforts examining alternatives to existing biometric matching technology.\nCompetition against an established proprietary system The forthcoming competition raises questions about the future of the FBI’s longstanding relationship with Idemia National Security Solutions, which maintains biometric matching algorithms supporting NGI.\nWhether the forthcoming acquisition will replace Idemia software, introduce alternative matching algorithms, or establish a longer-term modernization path remains unclear.\nReplacing proprietary matching algorithms in a national-scale identification system can involve substantial technical challenges, including compatibility with existing biometric records, migrating stored templates, validating matching accuracy, and ensuring uninterrupted availability to law-enforcement users.",
+    "category": "Image Recognition",
+    "published_date": "2026-11-24T08:48:19-05:00",
+    "slug": "fbi-moves-toward-2027-competition-for-biometric-matching-algorithms-biometric-update",
+    "extraction_method": "newspaper4k",
+    "source_name": "biometricupdate.com"
+  },
+  {
+    "id": 21442,
+    "title": "Post-quantum migration exposes what CIOs can’t see or change",
+    "source_url": "https://www.techtarget.com/news/post-quantum-migration-exposes-what-cios-cant-see-or-change/874916/",
+    "summary": "There is a ticking time bomb in enterprise IT security today: Cryptographic algorithms that work now could become vulnerable once sufficiently powerful quantum computers arrive.\nAs it turns out, not all organizations currently have a full cryptographic inventory.\nWhat CIOs need to include in a cryptographic inventory A cryptographic inventory should cover more than keys and certificates.\nWhere discovery breaks down The hardest part of building out the cryptographic inventory for many organizations is likely the discovery phase.\nSelf-signing alone does not create a quantum vulnerability; the relevant exposure depends on the cryptographic algorithms and system configuration.",
+    "category": "Quantum Computers",
+    "published_date": "2026-11-24T08:45:00",
+    "slug": "post-quantum-migration-exposes-what-cios-cant-see-or-change-techtarget",
+    "extraction_method": "newspaper4k",
+    "source_name": "techtarget.com"
+  },
+  {
+    "id": 21408,
+    "title": "Uber, Nuro and Lucid Begin Fully Driverless Testing With Their Luxury Robotaxi",
+    "source_url": "https://www.cnet.com/roadshow/automobiles/uber-nuro-lucid-robotaxi-fully-driverless-testing/",
+    "summary": "Nearly a year after showcasing their “luxurious” robotaxi at CES, Uber, Nuro and Lucid have started fully driverless testing on public roads in the San Francisco Bay Area, the companies said Tuesday.\nUber plans to deploy around 35,000 Lucid vehicles equipped with the Nuro Driver in the coming years in “dozens” of cities.\nNuro also received a California Department of Motor Vehicles Driverless Testing Permit in April, allowing it to test self-driving vehicles without a safety driver.\nIt’s been a big year for autonomous vehicles, and it appears 2027 will be no different.\nIt’s against this landscape — and the full-speed-ahead race toward autonomy — that Nuro, Uber and Lucid will soon publicly debut their own robotaxi.",
+    "category": "Autonomous Vehicles",
+    "published_date": "2026-11-24T08:11:48-05:00",
+    "slug": "uber-nuro-and-lucid-begin-fully-driverless-testing-with-their-luxury-robotaxi-cnet",
+    "extraction_method": "newspaper4k",
+    "source_name": "cnet.com"
+  },
+  {
+    "id": 21440,
+    "title": "Harvard Leads $12M DOE Project on AI-Driven Quantum Error Correction",
+    "source_url": "https://www.hpcwire.com/off-the-wire/harvard-leads-12m-doe-project-on-ai-driven-quantum-error-correction/",
+    "summary": "But the barriers to discovery are falling rapidly as quantum computing and artificial intelligence expand the realm of the possible,” University President Alan M. Garber said.\nThe federal award gives a boost to work Lukin and his colleagues have pioneered — from fundamental research to the construction of quantum computers — but with an added level of collaboration.\nWhile universities often work together on quantum computing research, Lukin said, it’s less common for leading academic institutions to work with researchers at national laboratories and major companies.\n“This is really an attempt to establish scientific foundations for useful fault-tolerant quantum computers,” Lukin said, “and really accelerate this progress using AI.”\n“I think as we build larger and better quantum computers, we will really start making more and more scientific discoveries.”",
+    "category": "Quantum Computers",
+    "published_date": "2026-11-24T08:01:41+00:00",
+    "slug": "harvard-leads-12m-doe-project-on-ai-driven-quantum-error-correction-hpcwire",
+    "extraction_method": "newspaper4k",
+    "source_name": "hpcwire.com"
+  },
+  {
+    "id": 21432,
+    "title": "Ground Control appoints CEO after CLS Group deal",
+    "source_url": "https://businesscloud.co.uk/news/ground-control-appoints-ceo-after-cls-group-deal/",
+    "summary": "Appointments Gloucester-based Ground Control has appointed Oliver Potter as chief executive officer.\nGround Control connects hard to reach people and things using satellite and cellular technology.\nGround Control now serves more than 4,500 customers in 130 countries, with 250,000 devices in active use.\nPotter said: “Ground Control has spent decades earning the trust of customers who operate where terrestrial networks can’t reach.\nBefore joining Ground Control, Potter was director of IoT and software at Truphone, where he sat on the executive committee with P&L responsibility.",
+    "category": "IoT Cyber",
+    "published_date": "2026-11-24T07:51:15+00:00",
+    "slug": "ground-control-appoints-ceo-after-cls-group-deal-businesscloud",
+    "extraction_method": "newspaper4k",
+    "source_name": "businesscloud.co.uk"
+  },
+  {
+    "id": 21418,
+    "title": "myColorado app shut down to protect data after cybersecurity incident",
+    "source_url": "https://www.cbsnews.com/colorado/news/mycolorado-app-shut-down-protect-data-cybersecurity-incident/",
+    "summary": "The myColorado app was shut down by Gov.\nJared Polis' office in an attempt to protect data after a cybersecurity incident was found last week.\nThe entire app was shut down after the discovery in an attempt to protect users' data and launch an investigation.\nThe OIT estimates the cybersecurity incident may have impacted 50,000 to 150,000 users' data.\nThe myColorado app was not available and the office said it was working to restore the app as quickly as possible \"once appropriate protection measures are in place.\"",
+    "category": "Cybersecurity",
+    "published_date": "2026-11-24T06:55:11-07:00",
+    "slug": "mycolorado-app-shut-down-to-protect-data-after-cybersecurity-incident-cbs-news",
+    "extraction_method": "newspaper4k",
+    "source_name": "cbsnews.com"
+  },
+  {
+    "id": 21436,
+    "title": "Celebrating the future of computing on the Genesis Mission's first anniversary",
+    "source_url": "https://www.ibm.com/quantum/blog/genesis-first-anniversary",
+    "summary": "As a Genesis consortium member, IBM is contributing access to its hardware, software, and research across artificial intelligence and quantum computing.\nIn 2024, we installed an IBM Quantum System One on the campus of Rensselaer Polytechnic Institute (RPI) as part of the Curtis R. Priem Constellation.\nEqually important is the ongoing work to discover new quantum algorithms and use cases.\nQSC is one of five National Quantum Information Science Research Centers created by the National Quantum Initiative Act of 2018.\nBeyond these applications, there is broad agreement that hybrid compute is required simply to advance quantum computing.",
+    "category": "Quantum Computers",
+    "published_date": "2026-11-24T05:00:00+00:00",
+    "slug": "celebrating-the-future-of-computing-on-the-genesis-missions-first-anniversary-ibm",
+    "extraction_method": "newspaper4k",
+    "source_name": "ibm.com"
+  },
+  {
+    "id": 21410,
+    "title": "Congress Could Ban Chinese Cars For Good. Who Gets Caught?",
+    "source_url": "https://sg.finance.yahoo.com/news/congress-could-ban-chinese-cars-044507916.html",
+    "summary": "In a September 11 interview of Fox News' 'The Ingraham Angle' and an article in The Hill, President Trump said he would welcome Chinese automakers building cars in America.\nThis week, the union urged lawmakers to pass a permanent ban on Chinese connected vehicles before Congress adjourns—putting it on a collision course with Trump's more welcoming remarks.\nThe Teamsters are pressing Congress to ban Chinese cars While Chinese cars are flooding into markets like Europe, Australia and Southeast Asia, American laws have already made it extraordinarily difficult for Chinese automakers to sell cars here.\nThe immediate question for American drivers is straightforward: aren't Chinese cars banned already?\nFor opponents of Chinese-owned connected vehicles, the location of the assembly plant would not necessarily resolve the software and data concerns.",
+    "category": "Connected Car",
+    "published_date": "2026-11-24T04:45:07+00:00",
+    "slug": "congress-could-ban-chinese-cars-for-good-who-gets-caught-yahoo-finance-singapore",
+    "extraction_method": "newspaper4k",
+    "source_name": "sg.finance.yahoo.com"
+  },
+  {
+    "id": 21429,
+    "title": "Hacked Refrigeration Systems – Why IoT Security Is A Legal And Governance Responsibility",
+    "source_url": "https://www.legal500.com/intelligence/netherlands/technology/hacked-refrigeration-systems-why-iot-security-is-a-legal-and-governance-responsibility",
+    "summary": "Digital security therefore also encompasses the reliability of commands, settings and alarms.\nThe Cyber Security Act covers the security of organisations within its legal scope.\nWhereas the Cybersecurity Act focuses on the organisation, the Cyber Resilience Act shifts the focus to product security.\nManufacturers have been required to comply with reporting obligations regarding actively exploited vulnerabilities and serious incidents affecting product security since 11 September 2026.\nIt is not only a regulator and provider of information, but also a user and purchaser of digital systems.",
+    "category": "IoT Cyber",
+    "published_date": "2026-11-24T02:35:31+00:00",
+    "slug": "hacked-refrigeration-systems-why-iot-security-is-a-legal-and-governance-responsibility-legal-500",
+    "extraction_method": "newspaper4k",
+    "source_name": "legal500.com"
+  },
+  {
+    "id": 21441,
+    "title": "A 72-Year-Old Invention Could Be the Key to Unlocking More Powerful Quantum Computers",
+    "source_url": "https://scitechdaily.com/a-72-year-old-invention-could-be-the-key-to-unlocking-more-powerful-quantum-computers/",
+    "summary": "The information is carried by extremely faint microwave signals that must be amplified before they can be measured.\nIt can also handle stronger signals and operate in magnetic fields, potentially overcoming limitations that make today’s quantum computers difficult to scale up.\nMeasuring multiple qubits can overwhelm amplifiers In superconducting quantum computers, information is stored in quantum bits, or qubits.\nThat is one reason superconducting quantum computers operate at temperatures close to absolute zero, the lowest temperature theoretically possible.\nAs quantum computers grow, that extra equipment adds cost and complexity.",
+    "category": "Quantum Computers",
+    "published_date": "2026-11-24T01:29:45+00:00",
+    "slug": "a-72-year-old-invention-could-be-the-key-to-unlocking-more-powerful-quantum-computers-scitechdaily",
+    "extraction_method": "newspaper4k",
+    "source_name": "scitechdaily.com"
+  },
+  {
+    "id": 21397,
+    "title": "CiDi unveils new cabless battery mining truck plus agentic AI solution at bauma CHINA",
+    "source_url": "https://im-mining.com/2026/11/24/cidi-unveils-new-cabless-battery-mining-truck-plus-agentic-ai-solution-at-bauma-china/",
+    "summary": "CiDi also introduced Yura, an AI-powered mining agent, alongside its V2X open-pit mining solution and IPUr Intelligent Onboard Computing Unit.\nCDK155: a second-generation cabless electric autonomous mining truck For open-pit mining, CiDi introduced the CDK155, its second-generation purpose-built cabless autonomous mining truck.\nThe 100 t class electric vehicle eliminates the conventional driver’s cabin, with its design, electronic architecture, perception systems and safety features developed specifically for autonomous operations.\nIt can also connect to MetaMine to coordinate with autonomous mining trucks, ground-support equipment and mine dispatch systems.\nThese capabilities are brought together in mining through MetaMine, CiDi’s intelligent mining platform, which connects equipment, operational workflows and management systems in a unified operating environment.",
+    "category": "Autonomous Trucks",
+    "published_date": "2026-11-24T00:00:00",
+    "slug": "cidi-unveils-new-cabless-battery-mining-truck-plus-agentic-ai-solution-at-bauma-china-international",
+    "extraction_method": "newspaper4k",
+    "source_name": "im-mining.com"
+  },
+  {
+    "id": 21402,
+    "title": "Connected Mining IoT Deployments to Double to 3.1 Million by 2030",
+    "source_url": "https://iotbusinessnews.com/2026/11/24/connected-mining-iot-deployments-to-double-to-3-1-million-by-2030/",
+    "summary": "New research from Berg Insight puts the global installed base of connected mining solutions at 1.5 million units in 2025, with deployments forecast to reach approximately 3.1 million units by 2030.\nEquipment connectivity dominates, but applications are diversifying Berg Insight divides the connected mining market into three segments: equipment, people and environment.\nSurface and underground mining present different IoT challenges One of the defining characteristics of the connected mining market is the technological divide between surface and underground operations.\nMajor suppliers include Komatsu-owned Modular Mining Systems, Hexagon Mining, Hitachi Construction Machinery’s Wenco International Mining Systems and Caterpillar’s Cat MineStar suite.\nFor industrial IoT suppliers, the significance lies in the relationship between connectivity infrastructure and increasingly sophisticated mining applications.",
+    "category": "Autonomous Trucks",
+    "published_date": "2026-11-24T00:00:00",
+    "slug": "connected-mining-iot-deployments-to-double-to-31-million-by-2030-iot-business-news",
+    "extraction_method": "newspaper4k",
+    "source_name": "iotbusinessnews.com"
+  },
+  {
+    "id": 21403,
+    "title": "A ponytailed man has thrown eggs at Waymo vehicles in Denver more than 30 times, report says",
+    "source_url": "https://www.denverpost.com/2026/11/24/denver-waymo-egging-ponytail/",
+    "summary": "A man sporting a ponytail and beard has trapped Waymo’s self-driving taxis in Denver and thrown eggs at them more than 30 times, according to a report from the Denver Police Department.\nHe “then proceeds to throw eggs at the vehicles” and drives away, leaving the Waymo trapped behind the cones, the report says.\n“In some incidents, the suspect throws eggs while seated inside his vehicle and in some incidents the suspect throws eggs at the Waymo vehicle after exiting his vehicle,” according to the report.\nPolice officials redacted the egg-throwing man’s name from the report because the Denver District Attorney’s Office declined to press any charges.\nThe company says that when the ponytailed man egged the cars, Waymo had to pull the vehicles from service to get them detailed.",
+    "category": "Autonomous Trucks",
+    "published_date": "2026-11-24T00:00:00",
+    "slug": "a-ponytailed-man-has-thrown-eggs-at-waymo-vehicles-in-denver-more-than-30-times-report-says-the",
+    "extraction_method": "newspaper4k",
+    "source_name": "denverpost.com"
+  },
+  {
+    "id": 21412,
+    "title": "Stamford police looking to identify suspects connected to around 30 incidents involving vehicles",
+    "source_url": "https://www.wfsb.com/2026/11/24/stamford-police-looking-identify-suspects-connected-around-30-incidents-involving-vehicles/",
+    "summary": "STAMFORD, CT. (WFSB) - Stamford police looking to identify suspects connected to around 30 incidents involving vehicles.\nPolice say that the three suspects are tied to a series of vehicle break-ins, vandalisms, and an attempted stolen motor vehicle incident.\nThey all happened early Monday morning between 1:00 a.m. and 4:00 a.m.\nThe suspects are pictured below: If you recognize them or have relevant information, please contact the Stamford Police Property Crimes Unit at 203-977-4407 or at Drosa@StamfordCt.gov.",
+    "category": "Connected Car",
+    "published_date": "2026-11-24T00:00:00",
+    "slug": "stamford-police-looking-to-identify-suspects-connected-to-around-30-incidents-involving-vehicles",
+    "extraction_method": "newspaper4k",
+    "source_name": "wfsb.com"
+  },
+  {
+    "id": 21415,
+    "title": "USDA Cybersecurity Incident Leaves Questions Unanswered About Farm Data, Outages",
+    "source_url": "https://www.dtnpf.com/agriculture/web/ag/columns/washington-insider/article/2026/11/24/usda-cybersecurity-incident-leaves",
+    "summary": "The department also has not said whether any commodity or conservation payments or farm loans were delayed because of the security incident.\nThere has been no publicly reported connection between ARTEX and the USDA security incident.\nSo far, few farm groups have publicly voiced concerns over the lack of information from USDA about the security incident.\nWATCHDOGS FLAGGED CYBERSECURITY WEAKNESSES The lack of information comes after federal watchdog reports identifying shortcomings in USDA's cybersecurity programs.\nThe OIG then released a July audit that rated USDA's information security systems as \"ineffective\" under government criteria to protect against cyber threats.",
+    "category": "Cybersecurity",
+    "published_date": "2026-11-24T00:00:00",
+    "slug": "usda-cybersecurity-incident-leaves-questions-unanswered-about-farm-data-outages-dtn-progressive",
+    "extraction_method": "newspaper4k",
+    "source_name": "dtnpf.com"
+  },
+  {
+    "id": 21417,
+    "title": "Colorado digital ID app offline after cybersecurity breach ahead of Thanksgiving travel",
+    "source_url": "https://www.denverpost.com/2026/11/24/mycolorado-app-down-cybersecurity-breach/",
+    "summary": "Colorado’s digital ID app, myColorado, remains unavailable headed into the height of Thanksgiving travel after what state officials are describing as a “cybersecurity incident.”\n“The myColorado app is currently unavailable,” a message now reads to users on the landing page.\nThe app will remain offline to protect Coloradans’ data as the state investigates the incident, officials said.\nState officials estimated the breach affected between 50,000 and 150,000 of the app’s 2.1 million users.\n“Protecting our users’ data is our first priority, and we will bring systems back online as quickly as we can once security is restored.”",
+    "category": "Cybersecurity",
+    "published_date": "2026-11-24T00:00:00",
+    "slug": "colorado-digital-id-app-offline-after-cybersecurity-breach-ahead-of-thanksgiving-travel-the-denver",
+    "extraction_method": "newspaper4k",
+    "source_name": "denverpost.com"
+  },
+  {
+    "id": 21428,
+    "title": "FYUGP reforms in Keralam seek to ease college transfers, credit recognition",
+    "source_url": "https://www.newindianexpress.com/states/kerala/2026/Nov/24/fyugp-reforms-in-keralam-seek-to-ease-college-transfers-credit-recognition",
+    "summary": "This, the report says, affects students' academic progression and makes it difficult for them to move between institutions.\nThe other major proposal concerns admission to the fourth year, when students move on to Honours or Honours with Research pathways.\nStudents would get first preference for Honours admission in their own institutions, subject to sanctioned intake.\nStudents could also retain provisional Honours admission while competing for Honours with Research seats elsewhere.\nThe committee has recommended completing the fourth-year admission process, including allotments, credit transfers and grievance redressal, before Semester VII begins.",
+    "category": "Image Recognition",
+    "published_date": "2026-11-24T00:00:00",
+    "slug": "fyugp-reforms-in-keralam-seek-to-ease-college-transfers-credit-recognition-the-new-indian-express",
+    "extraction_method": "newspaper4k",
+    "source_name": "newindianexpress.com"
+  },
+  {
+    "id": 21430,
+    "title": "Familiar weaknesses, exploited faster: defending against agentic cyber attacks",
+    "source_url": "https://www.ncsc.gov.uk/blogs/familiar-weaknesses-exploited-faster-defending-against-agentic-cyber-attacks",
+    "summary": "Since September 2026, the NCSC has seen a marked rise in AI-assisted cyber attacks.\nAn agentic offensive framework allows AI models to interact with a set of off-the-shelf cyber security tools for the purpose of probing digital systems for weaknesses.\nAI-enabled cyber defence is not the sole answer to agentic attacks; the foundations of cyber security and basic cyber hygiene remain the priority.\nAs we stated in the NCSC’s 2026 ‘The State of the Cyber Nation’ Annual Review, AI does not make established cyber security controls obsolete.\nNearly everything the NCSC has seen can be prevented by implementing cyber security best practice, the application of modern cyber security approaches like zero trust, and by the diligent application of technical controls in line with your organisation's technologies and processes.",
+    "category": "IoT Cyber",
+    "published_date": "2026-11-24T00:00:00",
+    "slug": "familiar-weaknesses-exploited-faster-defending-against-agentic-cyber-attacks-national-cyber",
+    "extraction_method": "newspaper4k",
+    "source_name": "ncsc.gov.uk"
+  },
+  {
+    "id": 21437,
+    "title": "Diraq Finalizes $38 Million CHIPS R&D Award with U.S. Department of Commerce",
+    "source_url": "https://thequantuminsider.com/2026/11/24/diraq-finalizes-38-million-chips-rd-award-with-u-s-department-of-commerce/",
+    "summary": "Insider Brief Diraq finalized an agreement with the U.S. Department of Commerce for up to $38 million in CHIPS Act funding to develop U.S. capabilities for manufacturing and testing silicon-based quantum processors.\nThe company advanced to the final stage of DARPA’s Quantum Benchmarking Initiative and deployed a silicon spin quantum computer at an Equinix commercial data center.\nDiraq aims to build a system with up to 1,000 logical qubits by 2029 and more than 10,000 by 2031.\nThis month, Diraq deployed the world’s first silicon spin quantum computer to operate in a commercial data center, in collaboration with Equinix.\nWith more than 130 team members working at sites across the globe, Diraq is pioneering a path toward powerful and economical quantum computing at scale.",
+    "category": "Quantum Computers",
+    "published_date": "2026-11-24T00:00:00",
+    "slug": "diraq-finalizes-38-million-chips-rd-award-with-us-department-of-commerce-the-quantum-insider",
+    "extraction_method": "newspaper4k",
+    "source_name": "thequantuminsider.com"
+  },
+  {
+    "id": 21443,
+    "title": "Beyond smart cities: Could AI factories underpin the next generation of local public services?",
+    "source_url": "https://www.thinkdigitalpartners.com/news/2026/11/24/beyond-smart-cities-could-ai-factories-underpin-the-next-generation-of-local-public-services/",
+    "summary": "“The challenge with previous initiatives was that cities built AI applications for a singular use case,” she said.\nThe approach raises the prospect of authorities sharing AI infrastructure across organisational and geographical boundaries, rather than each developing its own capabilities independently.\nDemonstrating the value of AI in public services NVIDIA has pointed to several international examples of AI being used to improve public sector operations.\nWhile these examples illustrate the potential of individual AI applications, establishing the wider return on investment from shared AI infrastructure remains a challenge.\nAnother important measure, she said, is whether the underlying AI infrastructure is being used across multiple services rather than supporting a single application.",
+    "category": "Smart Cities",
+    "published_date": "2026-11-24T00:00:00",
+    "slug": "beyond-smart-cities-could-ai-factories-underpin-the-next-generation-of-local-public-services-think",
+    "extraction_method": "newspaper4k",
+    "source_name": "thinkdigitalpartners.com"
+  },
+  {
+    "id": 21446,
+    "title": "FocalPoint extends S-GNSS® to physical AI platforms dependent on reliable positioning",
+    "source_url": "https://www.manilatimes.net/2026/11/24/tmt-newswire/pr-newswire/focalpoint-extends-s-gnss-to-physical-ai-platforms-dependent-on-reliable-positioning/2476742/amp",
+    "summary": "The move brings reliable GNSS positioning to emerging physical AI systems, including delivery drones, mobile robots and micromobility platforms.\nThe expansion addresses a common challenge across these applications: maintaining reliable positioning in challenging environments.\n\"Physical AI is moving out of controlled environments and into the real world, where reliable positioning becomes essential to what these systems can achieve,\" said Scott Pomerantz, CEO of FocalPoint Positioning.\nMeet FocalPoint at CES 2027, 6-9 January in Las Vegas, to see what reliable positioning means for physical AI, smart cities and robotics.\nProven in automotive, S-GNSS® is now extending to physical AI, smart cities and robotics.",
+    "category": "Smart Cities",
+    "published_date": "2026-11-24T00:00:00",
+    "slug": "focalpoint-extends-s-gnss-to-physical-ai-platforms-dependent-on-reliable-positioning-the-manila",
+    "extraction_method": "newspaper4k",
+    "source_name": "manilatimes.net"
+  },
+  {
+    "id": 21404,
+    "title": "A bill to bring robotaxis to D.C. stalled. But will it get the green light next year?",
+    "source_url": "https://wamu.org/story/26/11/23/self-driving-cars/",
+    "summary": "This website uses cookies so that we can provide you with the best user experience possible.\nCookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.\nStrictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.\nEnable or Disable Cookies Enabled Disabled",
+    "category": "Autonomous Vehicles",
+    "published_date": "2026-11-23T22:11:50+00:00",
+    "slug": "a-bill-to-bring-robotaxis-to-dc-stalled-but-will-it-get-the-green-light-next-year-wamu",
+    "extraction_method": "newspaper4k",
+    "source_name": "wamu.org"
+  },
+  {
     "id": 21373,
     "title": "Claroty finds 65,000 consumer devices on critical networks",
     "source_url": "https://securitybrief.com.au/story/claroty-finds-65-000-consumer-devices-on-critical-networks",
@@ -20,6 +548,39 @@
     "slug": "claroty-finds-65000-consumer-devices-on-critical-networks-securitybrief-australia",
     "extraction_method": "newspaper4k",
     "source_name": "securitybrief.com.au"
+  },
+  {
+    "id": 21426,
+    "title": "Network Automata Decode Leaf Stomatal Patterns to Identify Environmental Plant Stress",
+    "source_url": "https://bioengineer.org/network-automata-decode-leaf-stomatal-patterns-to-identify-environmental-plant-stress/",
+    "summary": "Published in Quantitative Plant Biology, the study establishes a computational framework using Life-Like Network Automata to decode the phenotypic plasticity of stomatal distributions across leaf surfaces.\nTo extract discriminative signatures from stomatal networks, the researchers applied Life-Like Network Automata, adapting two-dimensional cellular automata rules to complex graph topologies.\nQuantitative evaluations revealed that the Life-Like Network Automata approach outperformed all structural metrics and graph algorithms across the three species.\nNonetheless, the authors concluded that network automata offer a promising non-destructive method for evaluating phenotypic plasticity on living leaves.\nPattern recognition of stomatal distribution: A network automata approach to identify plasticity under environmental stress.",
+    "category": "Image Recognition",
+    "published_date": "2026-11-23T21:11:44+00:00",
+    "slug": "network-automata-decode-leaf-stomatal-patterns-to-identify-environmental-plant-stress-bioengineerorg",
+    "extraction_method": "newspaper4k",
+    "source_name": "bioengineer.org"
+  },
+  {
+    "id": 21434,
+    "title": "WhatsApp Web Security Alert: Government Warns Users Against Account Hacking and Data Misuse",
+    "source_url": "https://theopenpress.in/article/whatsapp-web-security-alert-government-advisory-2026",
+    "summary": "Why Is WhatsApp Web Becoming a Security Concern?\nAvoid public computers: Do not access WhatsApp Web through cyber cafes, public kiosks, hotel business centres or borrowed devices.\nAvoid sharing sensitive information: Do not exchange confidential government, organisational, financial or other sensitive information through WhatsApp Web on computers.\nThe agency has particularly stressed that closing a browser window does not necessarily terminate an authenticated WhatsApp Web session.\nThe Open Press advises readers to treat account security seriously, avoid logging in from untrusted computers and make manual logout a regular habit.",
+    "category": "IoT Cyber",
+    "published_date": "2026-11-23T18:58:00+05:30",
+    "slug": "whatsapp-web-security-alert-government-warns-users-against-account-hacking-and-data-misuse",
+    "extraction_method": "newspaper4k",
+    "source_name": "theopenpress.in"
+  },
+  {
+    "id": 21425,
+    "title": "Rice-Sized Wasp Brains Recognize Faces Just Like Humans",
+    "source_url": "https://neurosciencenews.com/facial-recognition-wasp-neuroscience-32431/",
+    "summary": "Summary: Researchers identified the specialized brain cells that allow Northern paper wasps (Polistes fuscatus) to recognize individual faces.\nHow Wasp Neurons Encode Individual Faces Found across eastern and central North America, female Northern paper wasps establish cooperative nests governed by strict linear dominance hierarchies.\nResearchers discovered a specialized group of neurons in the Northern paper wasp brain that respond specifically to facial patterns.\nWhy do paper wasps need to recognize each other’s faces?\nDOI: 10.1016/j.cell.2026.10.052 Abstract Neural correlates of facial recognition in a social wasp In humans and other primates, faces are special visual objects that are encoded by circuits selective to faces.",
+    "category": "Image Recognition",
+    "published_date": "2026-11-23T17:11:57+00:00",
+    "slug": "rice-sized-wasp-brains-recognize-faces-just-like-humans-neuroscience-news",
+    "extraction_method": "newspaper4k",
+    "source_name": "neurosciencenews.com"
   },
   {
     "id": 21392,
@@ -143,6 +704,17 @@
     "source_name": "hpcwire.com"
   },
   {
+    "id": 21413,
+    "title": "Bernie Moreno says Chinese vehicle restrictions are nearing a vote in Congress",
+    "source_url": "https://www.cbtnews.com/bernie-moreno-chinese-vehicle/",
+    "summary": "<br /> A bipartisan effort to restrict Chinese vehicles and connected-car technology from entering the U.S. is nearing a vote in Congress.\nAccording to Moreno, lawmakers have agreed on the major terms of the Connected Vehicle Security Act and are moving toward a House vote, followed by Senate consideration.\nHe said the legislation would prohibit Chinese vehicles from entering the U.S., including vehicles brought across the border by foreign visitors, and restrict Chinese connected-car software and hardware.\nThe goal, according to Moreno, is to address potential national security risks while protecting the domestic auto industry and consumers.\nMoreover, Moreno urged dealers to contact their members of Congress and encourage them to support the legislation.",
+    "category": "Connected Car",
+    "published_date": "2026-11-23T15:36:11-05:00",
+    "slug": "bernie-moreno-says-chinese-vehicle-restrictions-are-nearing-a-vote-in-congress-cbt-news",
+    "extraction_method": "newspaper4k",
+    "source_name": "cbtnews.com"
+  },
+  {
     "id": 21358,
     "title": "Elastic’s Tim Hong on unlocking data for AI and cybersecurity",
     "source_url": "https://fedscoop.com/video/elastics-tim-hong-on-unlocking-data-for-ai-and-cybersecurity/",
@@ -152,6 +724,28 @@
     "slug": "elastics-tim-hong-on-unlocking-data-for-ai-and-cybersecurity-fedscoop",
     "extraction_method": "newspaper4k",
     "source_name": "fedscoop.com"
+  },
+  {
+    "id": 21427,
+    "title": "ICO flags urgent oversight gaps in Met Police retrospective facial recognition",
+    "source_url": "https://www.biometricupdate.com/202611/ico-flags-urgent-oversight-gaps-in-met-police-retrospective-facial-recognition",
+    "summary": "London’s Metropolitan Police Service is falling short of its governance and oversight responsibilities for retrospective facial recognition, according to the UK Information Commissioner’s Office (ICO).\nThe audit addresses the Met Police’s use of retrospective and live facial recognition, but not operator-initiated facial recognition (OIFR), which was in development while the audit was taking place but not yet in operation.\nThe ICO has 11 recommendations related to the use of LFR, and 18 for the use of retrospective facial recognition.\nWhile live facial recognition has attracted greater public controversy, the ICO’s findings highlight significant governance challenges in retrospective searches, including the use of existing police image databases.\nLive facial recognition training is not being refreshed, and completion rates for training are not officially recorded.",
+    "category": "Image Recognition",
+    "published_date": "2026-11-23T15:01:42-05:00",
+    "slug": "ico-flags-urgent-oversight-gaps-in-met-police-retrospective-facial-recognition-biometric-update",
+    "extraction_method": "newspaper4k",
+    "source_name": "biometricupdate.com"
+  },
+  {
+    "id": 21400,
+    "title": "Roy Hill’s autonomous trucks haul 500 Mt: productivity lessons for mine planners",
+    "source_url": "https://www.geomechanics.io/news/article/roy-hills-autonomous-trucks-haul-500-mt-productivity-lessons-for-mine-planners",
+    "summary": "Autonomous haul trucks at Hancock Iron Ore’s Roy Hill mine in Western Australia have hauled more than 500 million tonnes of material after Epiroc converted 78 conventional units to driverless operation using its LinkOA automation platform.\nThe mixed fleet has travelled over 12.1 million kilometres autonomously, with LinkOA coordinating different truck makes and models within a single network.\nHaulage productivity has accelerated sharply, with the first 100 million tonnes taking more than three years and the most recent 100 million moved in just five months, signalling rapid scalability of large-pit autonomy.\nEpiroc features in multiple recent items in our database, from this Roy Hill iron ore automation milestone in Western Australia to SmartROC D65 deployments at the Vicuña copper JV in Argentina, signalling a push to prove automation performance across both bulk open-pit iron ore and high-altitude copper projects.\nMoving more than 500 million tonnes autonomously at the Roy Hill iron ore mine gives Hancock Iron Ore a rare, production-scale data set on tyre wear, fuel burn and cycle times for a 78‑truck fleet, which operators at other Pilbara iron ore sites are likely to scrutinise when justifying retrofit versus greenfield autonomous haulage investments.",
+    "category": "Autonomous Trucks",
+    "published_date": "2026-11-23T14:58:00+00:00",
+    "slug": "roy-hills-autonomous-trucks-haul-500-mt-productivity-lessons-for-mine-planners-geomechanicsio",
+    "extraction_method": "newspaper4k",
+    "source_name": "geomechanics.io"
   },
   {
     "id": 21387,
@@ -240,6 +834,17 @@
     "slug": "mercedes-benz-to-bring-hands-free-highway-driving-point-to-point-driving-assistance-to-us-body-shop",
     "extraction_method": "newspaper4k",
     "source_name": "bodyshopbusiness.com"
+  },
+  {
+    "id": 21423,
+    "title": "Wasps recognize each other’s faces using brain cells like ours: study",
+    "source_url": "https://www.suncommercial.com/news/national/article_a01c11a3-5eb9-5691-aa02-a515da2e6df5.html",
+    "summary": "By Stephen Beech Wasps can recognize one another's faces thanks to specialized brain cells, reveals new research.\nA new American study, published in the journal Cell, shows how the wasp brain is able to make those distinctions.\nHe said the study is the first to describe the group of brain cells, or neurons, that respond to images of other wasps.\nHe said their small size and simpler circuitry make it easier to trace the neural connections involved in facial recognition.\nHowever, the new findings suggest that the wasps and primates, including humans, might use a similar method for facial recognition, despite evolving independently.",
+    "category": "Image Recognition",
+    "published_date": "2026-11-23T12:15:43-05:00",
+    "slug": "wasps-recognize-each-others-faces-using-brain-cells-like-ours-study-suncommercialcom",
+    "extraction_method": "newspaper4k",
+    "source_name": "suncommercial.com"
   },
   {
     "id": 21382,
@@ -451,6 +1056,17 @@
     "source_name": "edtechinnovationhub.com"
   },
   {
+    "id": 21416,
+    "title": "FCA Cybersecurity Settlements 2026: CMMC Basics, MFA Gaps & False Claims Act Liability for Government Contractors",
+    "source_url": "https://www.crowell.com/en/insights/client-alerts/two-new-fca-cybersecurity-settlements-highlight-the-importance-of-mastering-the-basics",
+    "summary": "Additionally, on November 13, 2026, DOJ announced that Johnson Controls, Inc., and two subsidiaries (collectively, Johnson Controls) agreed to pay $5 million to resolve cybersecurity-related FCA allegations related to Johnson Controls’ contracts and subcontracts with the National Aeronautics and Space Administration (NASA) and the U.S.\nThroughout the covered period, ILC allegedly failed to fully implement NIST SP 800-171 and NIST SP 800-53 controls.\nJohnson Controls Background and Allegations Johnson Controls’ alleged noncompliance spanned January 2018 to August 2025 and involved 25 contracts or subcontracts with NASA and the Departments of Defense, Energy, and Justice for HVAC and related building products and services.\nLike ILC, Johnson Controls allegedly failed to properly maintain an SSP that fully complied with its contractual requirements under DFARS 252.204-7008 or 252.204-7012.\nJohnson Controls also allegedly failed to adequately document, fully develop, or fully implement POA&Ms as required by contract.",
+    "category": "Cybersecurity",
+    "published_date": "2026-11-23T00:00:00+00:00",
+    "slug": "fca-cybersecurity-settlements-2026-cmmc-basics-mfa-gaps-false-claims-act-liability-for-government",
+    "extraction_method": "newspaper4k",
+    "source_name": "crowell.com"
+  },
+  {
     "id": 21345,
     "title": "Self-driving vehicles are being tested on Tri-State roads",
     "source_url": "https://www.wvxu.org/show/cincinnati-edition/2026-11-23/self-driving-vehicles-are-being-tested-on-tri-state-roads",
@@ -559,6 +1175,17 @@
     "slug": "hyundai-n-virtual-cup-brings-racing-action-to-g-star-on-giant-screens-머니투데이",
     "extraction_method": "newspaper4k",
     "source_name": "mt.co.kr"
+  },
+  {
+    "id": 21433,
+    "title": "FCC Proposes Three-Year Renewal for Cyber Trust Mark",
+    "source_url": "https://wisevoter.com/world/us/2026/11/23/fcc-proposes-three-year-cyber-trust-mark-renewal",
+    "summary": "The Federal Communications Commission proposed requiring manufacturers to renew Cyber Trust Mark security certifications every three years.\nBrendan Carr The FCC chairman who leads the agency overseeing the Cyber Trust Mark program.\nioXt Alliance An industry group selected in April by the FCC as lead administrator of the Cyber Trust Mark program.\nTimeline April: FCC selected ioXt Alliance as lead administrator of the Cyber Trust Mark program.\nSeasonal Patterns The proposal extends the voluntary Cyber Trust Mark program, which was developed during the Biden administration, by adding periodic recertification.",
+    "category": "IoT Cyber",
+    "published_date": "2026-11-23T00:00:00",
+    "slug": "fcc-proposes-three-year-renewal-for-cyber-trust-mark-wisevoter",
+    "extraction_method": "newspaper4k",
+    "source_name": "wisevoter.com"
   },
   {
     "id": 21337,
